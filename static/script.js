@@ -350,9 +350,18 @@ async function init(){
     fetchJSON(getEP('report','/api/report')),
     fetchJSON(getEP('transcript','/api/transcript')),
   ]);
-  // Load Part 2 report in parallel (may be empty on first run)
+  // Load Part 2 report using rid/call-specific endpoint first
   let report2 = {};
-  try{ report2 = await fetchJSON(getEP('report2','/api/report2')); }catch{}
+  try{
+    const url = new URL(window.location.href);
+    const rid = url.searchParams.get('rid');
+    const call = url.searchParams.get('call') || '1';
+    if(rid){
+      report2 = await fetchJSON(`/api/records/${encodeURIComponent(rid)}/calls/${encodeURIComponent(call)}/report2`);
+    } else {
+      report2 = await fetchJSON(getEP('report2','/api/report2'));
+    }
+  }catch{}
   // Fallback: if Part 2 missing, pull from merged record endpoint
   try{
     if(!report2 || !report2.qc_parameters){
@@ -366,6 +375,7 @@ async function init(){
       }
     }
   }catch{}
+
   renderTop(meta);
   renderSpeakerStats(meta.speaker||{});
   renderOverview(meta, report);
