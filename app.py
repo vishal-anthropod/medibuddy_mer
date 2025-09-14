@@ -17,6 +17,8 @@ from datetime import datetime
 
 
 # -------- Configuration --------
+# Resolve repo root so defaults work on Vercel (read-only) and locally
+BASE_DIR = Path(__file__).resolve().parent
 TRANSCRIPT_PATH = os.environ.get(
     "TRANSCRIPT_PATH",
     "/Users/vishalsharma/Downloads/medibuddy/transcript.json",
@@ -35,7 +37,7 @@ AUDIO_PATH = os.environ.get(
 )
 RECORDS_DIR = os.environ.get(
     "RECORDS_DIR",
-    "/Users/vishalsharma/Downloads/medibuddy/reports and recordings",
+    str(BASE_DIR / "reports and recordings"),
 )
 
 
