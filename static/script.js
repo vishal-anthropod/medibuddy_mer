@@ -353,6 +353,19 @@ async function init(){
   // Load Part 2 report in parallel (may be empty on first run)
   let report2 = {};
   try{ report2 = await fetchJSON(getEP('report2','/api/report2')); }catch{}
+  // Fallback: if Part 2 missing, pull from merged record endpoint
+  try{
+    if(!report2 || !report2.qc_parameters){
+      const u = new URL(window.location.href);
+      const rid = u.searchParams.get('rid');
+      if(rid){
+        const rec = await fetchJSON(`/api/records/${encodeURIComponent(rid)}`);
+        if(rec && rec.merged && rec.merged.qc && rec.merged.qc.qc_parameters){
+          report2 = rec.merged.qc;
+        }
+      }
+    }
+  }catch{}
   renderTop(meta);
   renderSpeakerStats(meta.speaker||{});
   renderOverview(meta, report);
