@@ -482,7 +482,18 @@ function renderQCPart2(qc){
       row("Call Closure", p.call_closure)
     ].join('');
   // Append QC overall fixed score + inline badges + derived parameter rows
-  fetchJSON('/api/qcscore').then(sc=>{
+  (async () => {
+    let sc = {};
+    try{
+      const u = new URL(window.location.href);
+      const rid = u.searchParams.get('rid');
+      if(rid){
+        sc = await fetchJSON(`/api/records/${encodeURIComponent(rid)}/qcscore`);
+      } else {
+        sc = await fetchJSON('/api/qcscore'); // fallback for local preview
+      }
+    }catch{}
+    sc = sc || {};
     const br = sc.breakdown || {};
     const dv = sc.derived || {};
     const cmPct = (dv.complete_mer_pct ?? 0).toFixed(1);
@@ -515,7 +526,7 @@ function renderQCPart2(qc){
       row('Visual Presentation', {value: `${br.visual_presentation ?? 100}/100`, explanation: `Can't be obtained, marking 100 by default`, timestamps: []})
     ].join('');
     card.insertAdjacentHTML('afterend', derivedRows);
-  }).catch(()=>{});
+  })().catch(()=>{});
 }
 
 function setupTabs(report2){
