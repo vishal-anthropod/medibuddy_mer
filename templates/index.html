@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MediBuddy QA Dashboard</title>
-  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="stylesheet" href="/static/styles.css?v={{ asset_v|default('0') }}" />
 </head>
 <body>
   <div id="app">
@@ -82,7 +82,7 @@
     </main>
   </div>
 
-  <script src="/static/script.js"></script>
+  <script src="/static/script.js?v={{ asset_v|default('0') }}"></script>
   <script>
     window.DASHBOARD_CONFIG = {
       skipInterval: 10,

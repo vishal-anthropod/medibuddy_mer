@@ -39,6 +39,26 @@ RECORDS_DIR = os.environ.get(
     "RECORDS_DIR",
     str(BASE_DIR / "reports and recordings"),
 )
+app = Flask(__name__)
+
+# Cache-busting for static assets; change per deployment unless overridden
+ASSET_VERSION = os.environ.get("ASSET_VERSION", datetime.utcnow().strftime('%Y%m%d%H%M%S'))
+
+@app.context_processor
+def inject_asset_version():
+    return {"asset_v": ASSET_VERSION}
+
+@app.after_request
+def disable_cache_for_html_and_json(resp: Response):
+    try:
+        ct = resp.headers.get('Content-Type', '')
+        if ('text/html' in ct) or ('application/json' in ct):
+            resp.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+            resp.headers['Pragma'] = 'no-cache'
+            resp.headers['Expires'] = '0'
+    except Exception:
+        pass
+    return resp
 
 
 def get_audio_duration_seconds(wav_path: str) -> Optional[float]:
