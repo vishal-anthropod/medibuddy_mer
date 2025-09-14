@@ -91,24 +91,33 @@ def scan_records() -> Dict[str, Dict[str, Any]]:
     records: Dict[str, Dict[str, Any]] = {}
     if not base.exists():
         return records
-    files = list(base.iterdir())
-    # Index MERs
-    for f in files:
+
+    entries = list(base.iterdir())
+
+    # 1) Discover records by presence of per-record directories with _processed outputs
+    for d in entries:
+        if d.is_dir() and (d / "_processed").exists():
+            rid = d.name
+            mer_candidate = base / f"{rid}_MER.pdf"
+            records.setdefault(rid, {"mer_pdf": str(mer_candidate) if mer_candidate.exists() else None, "calls": []})
+
+    # 2) Also index MER PDFs at the root if present (locally they may exist; in Vercel they are ignored)
+    for f in entries:
         if f.is_file() and f.suffix.lower() == ".pdf" and f.name.lower().endswith("_mer.pdf"):
             rid = _record_id_from_mer(f)
             if rid:
                 records.setdefault(rid, {"mer_pdf": str(f), "calls": []})
-    # Attach audio/video
-    for f in files:
+
+    # 3) Attach any root-level audio/video that match a record prefix (optional)
+    for f in entries:
         if f.is_file() and _is_audio(f):
-            # match by prefix until first underscore or entire stem up to non-alnum
             for rid in list(records.keys()):
                 if f.name.startswith(rid):
                     records[rid]["calls"].append({"path": str(f), "name": f.name})
-    # Sort calls consistently
+
+    # Normalize call indices
     for rid, rec in records.items():
         rec["calls"].sort(key=lambda x: x["name"])  # deterministic
-        # Assign indices
         for i, c in enumerate(rec["calls"], start=1):
             c["index"] = i
     return records
