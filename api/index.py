@@ -1,8 +1,6 @@
-from vercel_wsgi import handle
-from app import app as flask_app
+from app import app
 
-
-def handler(event, context):
-	return handle(event, context, flask_app)
+# Vercel Python detects `app` as the WSGI/ASGI application entrypoint
+# No custom handler needed when using vercel-python runtime
 
 
