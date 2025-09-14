@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.11",
-      "maxDuration": 60
-    }
-  },
   "rewrites": [
     { "source": "/static/(.*)", "destination": "/static/$1" },
     { "source": "/favicon.ico", "destination": "/static/favicon.ico" },
