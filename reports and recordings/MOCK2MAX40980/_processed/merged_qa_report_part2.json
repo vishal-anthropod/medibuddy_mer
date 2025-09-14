@@ -1,0 +1,99 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent greeted the customer multiple times at the beginning of the call.",
+      "timestamps": [
+        "00:00:02",
+        "00:00:08",
+        "00:02:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "After resolving technical issues, the agent properly introduced themselves, stated the insurer's name, and asked for the client.",
+      "timestamps": {
+        "self_intro": "00:02:04",
+        "client_name": "00:02:04",
+        "insurer_name": "00:02:04"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The agent asked the customer if they were comfortable with English.",
+      "timestamp": "00:02:35"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The agent confirmed the customer's name, date of birth, PAN, nominee details, height, and weight.",
+      "timestamps": [
+        "00:02:41",
+        "00:02:54",
+        "00:03:05",
+        "00:03:14",
+        "00:03:20",
+        "00:14:45",
+        "00:14:55"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The agent informed the customer that the call was being recorded for quality and audit purposes.",
+      "timestamp": "00:02:29"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent consistently used polite language, including 'ma'am' and 'please,' throughout the call.",
+      "timestamps": [
+        "00:02:04",
+        "00:03:05",
+        "00:04:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The agent acknowledged the customer's health conditions (thyroid, COPD) and asked relevant follow-up questions. The conditions were not described as severe.",
+      "timestamps": [
+        "00:04:49",
+        "00:08:29"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The agent communicated clearly, asked clarifying questions, and effectively summarized information. Initial technical issues were not communication-related.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:04",
+          "00:08:21",
+          "00:15:15"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent asked detailed follow-up questions regarding the customer's thyroid condition, COPD, smoking habits, and travel plans.",
+      "timestamps": [
+        "00:04:52",
+        "00:08:44",
+        "00:12:48",
+        "00:14:21"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The agent provided a comprehensive summary of the customer's disclosed medical conditions and habits before closing the call.",
+      "timestamps": [
+        "00:15:15"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The agent took a declaration from the customer and thanked them at the end of the call.",
+      "timestamps": {
+        "declaration": "00:16:10",
+        "thank_you": "00:17:16"
+      }
+    }
+  }
+}

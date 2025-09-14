@@ -1,0 +1,169 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.ID.Other",
+          "text": "Identity Proof Other"
+        },
+        {
+          "id": "PP.DOB",
+          "text": "Member Date of Birth"
+        },
+        {
+          "id": "A.Gender",
+          "text": "Gender"
+        },
+        {
+          "id": "A.OlderThanAge",
+          "text": "Does the Examinee look older than age stated?"
+        },
+        {
+          "id": "B.Height",
+          "text": "Height (cms)"
+        },
+        {
+          "id": "E.Mother.HeartDisease",
+          "text": "Mother Heart disease"
+        },
+        {
+          "id": "E.Mother.Cancer",
+          "text": "Mother Cancer"
+        },
+        {
+          "id": "E.Mother.Hypertension",
+          "text": "Mother Hypertension"
+        },
+        {
+          "id": "E.Mother.Stroke",
+          "text": "Mother Stroke"
+        },
+        {
+          "id": "E.Mother.Others",
+          "text": "Mother Others (Impairment)"
+        },
+        {
+          "id": "F.6.2.CentralPeripheralNervousSystemDisorder",
+          "text": "Any disease/disorder of Central or Peripheral nervous system, history/evidence of aneurysm,hydrocephalus etc.?"
+        },
+        {
+          "id": "F.6.5.RenalReproductiveSystemDisorder",
+          "text": "Any disease / disorder of renal or reproductive system like nephritis. hydronephrosis. prostate enlargement, hydrocele etc.?"
+        },
+        {
+          "id": "F.6.12.EndocrineAutoimmuneDisease",
+          "text": "Any disease / disorder of Endocrine system or any autoimmune disease like thyroid disorder, Crohn's disease SLE etc.?"
+        },
+        {
+          "id": "F.7.1.CurrentlyPregnant",
+          "text": "Is the examinee currently pregnant? If yes. how many weeks?"
+        },
+        {
+          "id": "F.7.3.GestationalDiabetesPregnancyComplications",
+          "text": "Has the examinee ever suffered / suffering from Gestational diabetes, preeclampsia or any other pregnancy related complications?"
+        },
+        {
+          "id": "COVID.3.HealthcareProfessional",
+          "text": "Are you a Healthcare professional (Includes Doctors, Nurses, Pathologist, Paramedics, Pharmacist, Ward helpers, Individuals working in Hospitals/Clinics having a COVID-19 Ward)?"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Ms. Tanaji Akhtar",
+        "expected": "BENAJIR AKTAR"
+      }
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.Other",
+          "expected": "XX78"
+        }
+      ]
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 13
+      }
+    },
+    {
+      "issue": "Disclaimer missing",
+      "details": {}
+    },
+    {
+      "issue": "Doctor self-introduction missing",
+      "details": {}
+    },
+    {
+      "issue": "Major agent-led prompting detected",
+      "details": {
+        "examples": [
+          "Okay, weight... weight 60 kg, right?",
+          "30, right?",
+          "You don't have stroke, paralysis or anything, which I saw in your physical exam.",
+          "Okay, you don't have any mood disorders, just anxiety, right?",
+          "You don't have any problem with your lungs. Lungs, are there any problems with your lungs?",
+          "No problem with your liver, right?",
+          "Okay, you said you don't have any polio problems, right? In your spinal or anything?",
+          "No tuberculosis, syphilis, AIDS, right?",
+          "Okay, you have no problems with breast, uterus, cervix, ovaries.",
+          "No fasting, non-fasting, both have been taken, right?"
+        ],
+        "timestamps": [
+          "00:00:09",
+          "00:00:19",
+          "00:09:16",
+          "00:21:26",
+          "00:21:45",
+          "00:22:14",
+          "00:22:50",
+          "00:32:42",
+          "00:32:54",
+          "00:33:47"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 70
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "No tobacco, no. I smoke cigarettes sometimes.",
+          "No. Kidney stone, doctor, I had.",
+          "Yes, actually, thyroid.",
+          "No, no, nothing. I only take these two medicines. ... No, no, nothing, nothing.",
+          "My last counseling was a month, no, I think I said two months ago, two months ago."
+        ],
+        "timestamps": [
+          "00:01:03",
+          "00:12:20",
+          "00:17:11",
+          "00:20:46",
+          "00:27:01"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

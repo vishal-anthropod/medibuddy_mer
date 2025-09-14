@@ -1,0 +1,278 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.DOB",
+          "text": "Member Date of Birth"
+        },
+        {
+          "id": "PP.ID.Generic",
+          "text": "ID Proof Generic"
+        },
+        {
+          "id": "PP.NomineeName",
+          "text": "Nominee Name"
+        },
+        {
+          "id": "PP.NomineeDOB",
+          "text": "Nominee Date of Birth"
+        },
+        {
+          "id": "1",
+          "text": "Education Qualification"
+        },
+        {
+          "id": "2",
+          "text": "[For Women] Are you pregnant?"
+        },
+        {
+          "id": "3",
+          "text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?"
+        },
+        {
+          "id": "4",
+          "text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?"
+        },
+        {
+          "id": "5",
+          "text": "Hypertension or high blood pressure/high cholesterol?"
+        },
+        {
+          "id": "5.1",
+          "text": "Taking medicines for hypertension and is under control"
+        },
+        {
+          "id": "5.2",
+          "text": "Taking medicines for high cholesterols and is under control"
+        },
+        {
+          "id": "5.3",
+          "text": "In case of uncontrolled BP or cholesterol, provide details"
+        },
+        {
+          "id": "5.4",
+          "text": "When was high blood pressure first diagnosed?"
+        },
+        {
+          "id": "5.5",
+          "text": "Why was high blood pressure measured at that particular Time? e.g. Routine Examination, due to symptoms, etc."
+        },
+        {
+          "id": "5.6",
+          "text": "Do you know what your blood pressure readings were at of diagnosis? If Yes please give details."
+        },
+        {
+          "id": "5.7",
+          "text": "Have you had on E.C.G, X-Ray, blood lipid test or other investigations If Yes, please give details including dates of investigations and results. If yes please add the details Date, Type of Investigation and Result"
+        },
+        {
+          "id": "5.8",
+          "text": "Please give details of your treatment. Include names of medications (eg. Moduretic, Nvidrex, Aldomet, inderal, Tenoretic, Tenormin, Trasicor etc), dosage and how often taken. Currently and In the Past"
+        },
+        {
+          "id": "5.9a",
+          "text": "[Regarding the monitoring of your condition] a) Who is in charge of your follow up?"
+        },
+        {
+          "id": "5.9b",
+          "text": "[Regarding the monitoring of your condition] b) How often do you attend for follow up?"
+        },
+        {
+          "id": "5.9c",
+          "text": "[Regarding the monitoring of your condition] c) When was your last consultation? Please give details of Your blood pressure readings at that time, if known"
+        },
+        {
+          "id": "5.10",
+          "text": "Have any abnormalities (e.g. protein, blood) ever been found in your urine? If Yes. please give dates and full details"
+        },
+        {
+          "id": "5.11",
+          "text": "Do you smoke cigarettes or biddies? If Yes, state the number smoked per day."
+        },
+        {
+          "id": "5.12",
+          "text": "Have you lost time off work due to hypertension condition If Yes, please give details including date and duration of time off work."
+        },
+        {
+          "id": "5.13",
+          "text": "Please give my any additional information on your condition, which you feel will be helpful in processing the application."
+        },
+        {
+          "id": "6",
+          "text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders"
+        },
+        {
+          "id": "7",
+          "text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?"
+        },
+        {
+          "id": "8",
+          "text": "Blood disorder like anemia, leukemia or any circulatory disorder?"
+        },
+        {
+          "id": "9",
+          "text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?"
+        },
+        {
+          "id": "10",
+          "text": "Any physical or mental disability or any congenital disease?"
+        },
+        {
+          "id": "11",
+          "text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?"
+        },
+        {
+          "id": "12",
+          "text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?"
+        },
+        {
+          "id": "12.1",
+          "text": "History of surgery of kidney/Ureteric stone, no complications now."
+        },
+        {
+          "id": "12.2",
+          "text": "History of stone in kidney, surgery not done, flushed out or still there but no problem."
+        },
+        {
+          "id": "12.3",
+          "text": "History of UTI (Urinary tract Infection), recovered."
+        },
+        {
+          "id": "12.4",
+          "text": "History of Ovarian cyst, no complications now"
+        },
+        {
+          "id": "12.5",
+          "text": "Any other give details"
+        },
+        {
+          "id": "13",
+          "text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?"
+        },
+        {
+          "id": "14",
+          "text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?"
+        },
+        {
+          "id": "15",
+          "text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout"
+        },
+        {
+          "id": "16",
+          "text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?"
+        },
+        {
+          "id": "17",
+          "text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?"
+        },
+        {
+          "id": "18",
+          "text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?"
+        },
+        {
+          "id": "19",
+          "text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?"
+        },
+        {
+          "id": "20",
+          "text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?"
+        },
+        {
+          "id": "21",
+          "text": "Do you intend to travel outside India within next 3 months ?"
+        },
+        {
+          "id": "22",
+          "text": "Height (in cm)"
+        },
+        {
+          "id": "23",
+          "text": "Weight (in kgs)"
+        },
+        {
+          "id": "24",
+          "text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs."
+        },
+        {
+          "id": "24.1",
+          "text": "Are you Smoking currently or even occasionally in the last 2 year?"
+        },
+        {
+          "id": "24.2",
+          "text": "Please specify the number of cigarettes per day"
+        },
+        {
+          "id": "24.3",
+          "text": "Chewing Tobacco currently or even occasionally in the last 2 year?"
+        },
+        {
+          "id": "24.4",
+          "text": "Please specify the number of sachets per day"
+        },
+        {
+          "id": "24.5",
+          "text": "Alcohol (Beer/Wine/Hard Liquor)"
+        },
+        {
+          "id": "24.6",
+          "text": "Please specify the per day quantity"
+        },
+        {
+          "id": "24.7",
+          "text": "Are you taking drugs like cannabis/Marijuana,Ecstacy,Heroin,LSD,Amphetamines or any other illegal drugs?"
+        },
+        {
+          "id": "24.8",
+          "text": "Details if any"
+        },
+        {
+          "id": "25",
+          "text": "Existing Cover/Existing Insurance Cover"
+        },
+        {
+          "id": "26",
+          "text": "Doctor Remarks"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Naveena Prasanna",
+        "expected": "Adheena Prasanna"
+      }
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.Generic",
+          "expected": "BYYPT4747H"
+        }
+      ]
+    },
+    {
+      "issue": "Disclaimer missing",
+      "details": {}
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 49
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

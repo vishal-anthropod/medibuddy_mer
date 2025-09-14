@@ -1,0 +1,91 @@
+:root{
+  --blue:#3B82F6; --green:#10B981; --yellow:#F59E0B; --red:#EF4444;
+  --gray50:#F9FAFB; --gray100:#F3F4F6; --gray200:#E5E7EB; --gray400:#9CA3AF; --gray600:#6B7280;
+}
+*{box-sizing:border-box}
+body{background:var(--gray50)}
+.topbar{position:sticky;top:0;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:12px 24px;border-bottom:1px solid var(--gray200);z-index:10}
+.btn{background:var(--blue);color:#fff;border:none;border-radius:6px;padding:8px 12px;cursor:pointer}
+.btn:hover{filter:brightness(0.95)}
+.tabs{display:flex;gap:8px;border-bottom:1px solid var(--gray200);background:#fff;padding:8px 24px}
+.tab{background:#f3f4f6;border:1px solid var(--gray200);padding:6px 10px;border-radius:6px;cursor:pointer}
+.tab.active{background:#e0e7ff;border-color:#c7d2fe}
+.topbar .metrics{display:flex;gap:16px;flex-wrap:wrap}
+.metric{display:flex;gap:8px;align-items:baseline;color:var(--gray600)}
+.metric .value{font-weight:700;font-size:20px}
+.metric .label{font-size:12px}
+.topbar .meta{color:var(--gray600);font-size:14px}
+.layout{display:grid;grid-template-columns:minmax(360px, 1fr) 6px minmax(360px, 1fr);gap:0;align-items:stretch}
+.left-panel{padding:24px;overflow:auto;max-height:calc(100vh - 60px)}
+.right-panel{min-width:360px;border-left:1px solid var(--gray200);background:#fff;display:flex;flex-direction:column;max-height:calc(100vh - 60px)}
+.divider{width:6px;cursor:col-resize;background:transparent;position:relative}
+.divider::before{content:"";position:absolute;left:2px;top:0;bottom:0;width:2px;background:var(--gray200)}
+.divider:hover::before{background:var(--gray400)}
+.right-panel .player{flex:0 0 auto}
+.right-panel .transcript{flex:1 1 auto;overflow:auto}
+.card{background:#fff;border:1px solid var(--gray200);border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:16px;margin-bottom:16px}
+.critical{background:#fee2e2;border-color:#fecaca}
+.recs{background:#dbeafe;border-color:#bfdbfe}
+.question-card{border:1px solid var(--gray200);border-radius:8px;padding:12px;margin-bottom:12px}
+.matrix{scroll-margin-top:80px}
+.q-header{display:grid;grid-template-columns:160px minmax(0,1fr);grid-template-rows:auto auto;gap:8px 12px;align-items:start;margin-bottom:8px}
+.q-text{min-width:0;overflow-wrap:anywhere}
+.q-id{font-weight:600;color:#111827;word-break:break-word}
+.q-header .badge,.q-header .timestamp{align-self:start}
+@media (min-width: 1200px){
+  .q-header{grid-template-columns:160px minmax(0,1fr) auto auto;grid-template-rows:auto;align-items:center}
+}
+.q-text{color:#111827}
+.badge{padding:2px 8px;border-radius:999px;font-size:12px}
+.badge.correct{background:#d1fae5;color:#065f46}
+.badge.incorrect{background:#fee2e2;color:#991b1b}
+.badge.missing{background:#fef3c7;color:#92400e}
+.badge.paraphrased{background:#dbeafe;color:#1e40af}
+.timestamp{background:var(--blue);color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer}
+.timestamp{white-space:nowrap}
+.player .controls{display:flex;gap:8px;align-items:center}
+.speaker-stats{display:flex;gap:8px;align-items:center;margin-top:8px}
+.speaker-bar{display:flex;height:8px;width:100%;background:var(--gray200);border-radius:4px;overflow:hidden}
+.speaker-bar .agent{background:var(--blue)}
+.speaker-bar .customer{background:var(--green)}
+.speaker-bar .dead{background:var(--yellow)}
+.transcript .entry{padding:12px;border-radius:12px;margin-bottom:12px;border:1px solid var(--gray200);background:#fff}
+.transcript .agent{background:#eef2ff;border-color:#c7d2fe}
+.transcript .customer{background:#f3f4f6;border-color:#e5e7eb}
+.transcript .active{background:#fef3c7;outline:2px solid #f59e0b}
+.transcript .meta{display:flex;justify-content:space-between;color:#6B7280;font-size:12px;margin-bottom:6px}
+.transcript .speaker{font-weight:600}
+.transcript .time{font-variant-numeric: tabular-nums}
+/* Prevent text overlap and ensure wrapping */
+.transcript{overflow:auto}
+.transcript .entry > div:last-child{white-space:normal;word-break:break-word;overflow-wrap:anywhere}
+
+/* Two-column content inside question card */
+.two-col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.two-col > div{min-width:0}
+@media (max-width: 1280px){
+  .layout{grid-template-columns:1fr}
+  .divider,.right-panel{display:none}
+}
+
+/* Heights for player and transcript to avoid overlap */
+.player{position:sticky;top:60px;z-index:1}
+.player-header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.player-header a.btn{margin-left:auto}
+
+/* Print styles: stack sections and set landscape */
+@media print{
+  @page{size: A4 landscape;margin:12mm}
+  body{background:#fff}
+  .topbar{position:static;border:none;padding:0 0 8px 0}
+  .btn{display:none}
+  .layout{display:block}
+  .left-panel,.right-panel{max-height:none;overflow:visible;border:none;padding:0}
+  .divider{display:none}
+  .card{break-inside:avoid-page;page-break-inside:avoid;margin-bottom:12px}
+  .player{position:static}
+}
+
+/* QA Part 2 compact badges */
+.qc-badges .badge{background:#eef2ff;color:#1e40af}
+

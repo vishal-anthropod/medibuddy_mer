@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediBuddy QA Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Top Metrics Bar -->
+    <header class="topbar">
+      <div class="metrics" id="metrics"></div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="meta" id="meta"></div>
+        <button id="export-pdf" class="btn">Export PDF</button>
+        <a href="/records" class="btn" style="text-decoration:none;display:inline-block">All Records</a>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="part1">QA Part 1</button>
+      <button class="tab" data-tab="part2">QA Part 2</button>
+    </div>
+
+    <main class="layout" data-view="part1">
+      <!-- Left Panel -->
+      <section class="left-panel">
+        <div id="overview" class="card"></div>
+        <div id="critical" class="card critical"></div>
+        <div id="personal" class="card"></div>
+        <div id="process" class="card"></div>
+        <div id="matrix" class="card matrix"></div>
+        <div id="recs" class="card recs"></div>
+      </section>
+
+      <!-- Drag Divider -->
+      <div id="divider" class="divider" role="separator" aria-orientation="vertical" aria-label="Resize panels"></div>
+
+      <!-- Right Panel -->
+      <aside class="right-panel">
+        <div class="player card">
+          <div class="player-header">
+            <div>Call Recording</div>
+            <div id="time-display">0:00 / 0:00</div>
+          </div>
+          <audio id="audio" controls preload="metadata" src="/audio"></audio>
+          <div class="speaker-stats" id="speaker-stats"></div>
+          <div class="controls">
+            <button id="back10">⏮ -10s</button>
+            <button id="playpause">▶️</button>
+            <button id="fwd10">⏭ +10s</button>
+            <input id="volume" type="range" min="0" max="1" step="0.05" />
+          </div>
+        </div>
+        <div class="transcript card" id="transcript"></div>
+      </aside>
+    </main>
+
+    <!-- Part 2 View -->
+    <main class="layout" data-view="part2" style="display:none">
+      <section class="left-panel">
+        <div id="qc2" class="card"></div>
+      </section>
+      <aside class="right-panel">
+        <div class="player card">
+          <div class="player-header">
+            <div>Call Recording</div>
+            <div id="time-display-2">0:00 / 0:00</div>
+          </div>
+          <audio id="audio2" controls preload="metadata" src="/audio"></audio>
+          <div class="speaker-stats" id="speaker-stats-2"></div>
+          <div class="controls">
+            <button id="back10-2">⏮ -10s</button>
+            <button id="playpause-2">▶️</button>
+            <button id="fwd10-2">⏭ +10s</button>
+            <input id="volume-2" type="range" min="0" max="1" step="0.05" />
+          </div>
+        </div>
+        <div class="transcript card" id="transcript2"></div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/static/script.js"></script>
+  <script>
+    window.DASHBOARD_CONFIG = {
+      skipInterval: 10,
+      highlightDuration: 2000,
+    };
+  </script>
+</body>
+<style>
+/* simple fallback if styles not loaded */
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+</style>
+</html>
+
+

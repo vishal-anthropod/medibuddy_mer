@@ -1,0 +1,108 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Agent greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "Agent introduced themselves, stated the company name, and confirmed the customer's name.",
+      "timestamps": {
+        "self_intro": "00:00:04",
+        "client_name": "00:00:12",
+        "insurer_name": "00:00:04"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Agent asked the customer if they were comfortable with the language.",
+      "timestamp": "00:00:33"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Agent confirmed customer's full name, date of birth, nominee name, and nominee's date of birth.",
+      "timestamps": [
+        "00:01:31",
+        "00:01:45",
+        "00:01:54",
+        "00:01:57"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Agent informed the customer about call recording, confidentiality, and the consequence of providing incorrect information.",
+      "timestamps": [
+        "00:01:10",
+        "00:01:20"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Agent consistently used polite language, 'ma'am', 'thank you', and apologized for delays.",
+      "timestamps": [
+        "00:00:04",
+        "00:00:41",
+        "00:02:02",
+        "00:29:18"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that required specific empathy. Agent maintained a professional tone.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Agent demonstrated good active listening and clarification, but repeated a question about PCOD and had one unclear phrase.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:31",
+          "00:05:17",
+          "00:09:22",
+          "00:09:54"
+        ],
+        "poor_examples": [
+          "00:10:15",
+          "00:24:57"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "Agent asked detailed follow-up questions regarding PCOD, pre-diabetes, alcohol consumption, and vaccine details.",
+      "timestamps": [
+        "00:04:02",
+        "00:04:28",
+        "00:05:00",
+        "00:08:25",
+        "00:09:44",
+        "00:10:00",
+        "00:10:57",
+        "00:17:01",
+        "00:17:15",
+        "00:20:47",
+        "00:21:17",
+        "00:22:27"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "Customer hesitated when asked for specific blood sugar values and a third party prompted the customer on how to advise the agent.",
+      "timestamps": [
+        "00:11:02",
+        "00:29:40"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Agent declared the submission of the form and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:29:35",
+        "thank_you": "00:29:18"
+      }
+    }
+  }
+}

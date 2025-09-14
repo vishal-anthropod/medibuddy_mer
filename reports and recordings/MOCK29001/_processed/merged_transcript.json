@@ -1,0 +1,1220 @@
+{
+  "segments": [
+    {
+      "segment_id": "call1_seg0",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "0:00",
+      "end_timestamp": "0:01",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg1",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "0:01",
+      "end_timestamp": "0:02",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg2",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "0:02",
+      "end_timestamp": "0:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg3",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "0:03",
+      "end_timestamp": "0:04",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg4",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "0:05",
+      "end_timestamp": "0:06",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg5",
+      "text": "Are you vetting me?",
+      "speaker": "doctor",
+      "start_timestamp": "0:06",
+      "end_timestamp": "0:07",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg6",
+      "text": "Yes, doctor. Who is this?",
+      "speaker": "customer",
+      "start_timestamp": "0:08",
+      "end_timestamp": "0:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg7",
+      "text": "Are you comfortable with my language, English?",
+      "speaker": "doctor",
+      "start_timestamp": "0:10",
+      "end_timestamp": "0:13",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg8",
+      "text": "Yes, may I know who is this?",
+      "speaker": "customer",
+      "start_timestamp": "0:13",
+      "end_timestamp": "0:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg9",
+      "text": "Yeah, myself Dr. Rajiv Pandey.",
+      "speaker": "doctor",
+      "start_timestamp": "0:15",
+      "end_timestamp": "0:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg10",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:18",
+      "end_timestamp": "0:19",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg11",
+      "text": "Calling on behalf of Bajaj Allianz.",
+      "speaker": "doctor",
+      "start_timestamp": "0:19",
+      "end_timestamp": "0:23",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg12",
+      "text": "Okay, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:24",
+      "end_timestamp": "0:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg13",
+      "text": "Yeah. And I have to ask some certain things, some questions regarding yourself.",
+      "speaker": "doctor",
+      "start_timestamp": "0:25",
+      "end_timestamp": "0:32",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg14",
+      "text": "Okay, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:33",
+      "end_timestamp": "0:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg15",
+      "text": "So shall we proceed, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "0:34",
+      "end_timestamp": "0:35",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg16",
+      "text": "Yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:36",
+      "end_timestamp": "0:37",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg17",
+      "text": "Okay, so first I will tell you that this call will be recorded for quality and audit purposes, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "0:38",
+      "end_timestamp": "0:44",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg18",
+      "text": "Okay, sure, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:45",
+      "end_timestamp": "0:46",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg19",
+      "text": "Okay. So, may I know your date of birth, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "0:46",
+      "end_timestamp": "0:49",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg20",
+      "text": "1st June 1991.",
+      "speaker": "customer",
+      "start_timestamp": "0:50",
+      "end_timestamp": "0:51",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg21",
+      "text": "1st June 1991. Your PAN card name, ma'am, number?",
+      "speaker": "doctor",
+      "start_timestamp": "0:52",
+      "end_timestamp": "0:56",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg22",
+      "text": "PAN card number B.",
+      "speaker": "customer",
+      "start_timestamp": "0:57",
+      "end_timestamp": "1:01",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg23",
+      "text": "Yeah.",
+      "speaker": "doctor",
+      "start_timestamp": "1:02",
+      "end_timestamp": "1:02",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg24",
+      "text": "Y",
+      "speaker": "customer",
+      "start_timestamp": "1:03",
+      "end_timestamp": "1:04",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg25",
+      "text": "Yeah, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "1:04",
+      "end_timestamp": "1:05",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg26",
+      "text": "P, P.",
+      "speaker": "customer",
+      "start_timestamp": "1:05",
+      "end_timestamp": "1:06",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg27",
+      "text": "Yeah, ma'am. 4747 H.",
+      "speaker": "doctor",
+      "start_timestamp": "1:07",
+      "end_timestamp": "1:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg28",
+      "text": "Okay, ma'am. Ma'am, can I know your nominee name, please?",
+      "speaker": "doctor",
+      "start_timestamp": "1:10",
+      "end_timestamp": "1:14",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg29",
+      "text": "Saiyath.",
+      "speaker": "customer",
+      "start_timestamp": "1:15",
+      "end_timestamp": "1:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg30",
+      "text": "Okay. And then, the date of birth, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "1:17",
+      "end_timestamp": "1:19",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg31",
+      "text": "1st Jan 1993.",
+      "speaker": "customer",
+      "start_timestamp": "1:19",
+      "end_timestamp": "1:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg32",
+      "text": "And you are from Bengaluru, ma'am, right?",
+      "speaker": "doctor",
+      "start_timestamp": "1:23",
+      "end_timestamp": "1:25",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg33",
+      "text": "Yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "1:25",
+      "end_timestamp": "1:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg34",
+      "text": "Okay. So, ma'am, can I take some medical history regarding this in you?",
+      "speaker": "doctor",
+      "start_timestamp": "1:27",
+      "end_timestamp": "1:33",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg35",
+      "text": "Yes, sure, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "1:33",
+      "end_timestamp": "1:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg36",
+      "text": "Okay, ma'am. So, can you please tell me, ma'am, your educational qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "1:35",
+      "end_timestamp": "1:39",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg37",
+      "text": "Uh, I'm doing my post-graduation.",
+      "speaker": "customer",
+      "start_timestamp": "1:40",
+      "end_timestamp": "1:43",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg38",
+      "text": "Post-graduation. Okay, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "1:44",
+      "end_timestamp": "1:45",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg39",
+      "text": "So currently you are undergraduate, right, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "1:49",
+      "end_timestamp": "1:51",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg40",
+      "text": "No, I have finished my graduation, doing my post-graduation.",
+      "speaker": "customer",
+      "start_timestamp": "1:52",
+      "end_timestamp": "1:54",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg41",
+      "text": "No, yeah, yeah, ma'am, I just want to say that you finished your graduation and now you're pursuing your post-graduation, right?",
+      "speaker": "doctor",
+      "start_timestamp": "1:54",
+      "end_timestamp": "2:02",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg42",
+      "text": "Yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "2:02",
+      "end_timestamp": "2:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg43",
+      "text": "Okay, ma'am. Okay, ma'am. And your occupation is a student as you are still studying, right, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "2:03",
+      "end_timestamp": "2:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg44",
+      "text": "No, I am working also.",
+      "speaker": "customer",
+      "start_timestamp": "2:11",
+      "end_timestamp": "2:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg45",
+      "text": "You're working, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "2:12",
+      "end_timestamp": "2:13",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg46",
+      "text": "And where are you working, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "2:14",
+      "end_timestamp": "2:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg47",
+      "text": "Uh, I'm working in a company. I'm salaried.",
+      "speaker": "customer",
+      "start_timestamp": "2:15",
+      "end_timestamp": "2:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg48",
+      "text": "Okay, okay, okay. You are salaried and working in a company, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "2:18",
+      "end_timestamp": "2:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg49",
+      "text": "Okay, okay, okay. Okay, ma'am. And, have you any other application with Bajaj, right?",
+      "speaker": "doctor",
+      "start_timestamp": "2:22",
+      "end_timestamp": "2:30",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg50",
+      "text": "Uh, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "2:31",
+      "end_timestamp": "2:32",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg51",
+      "text": "Okay, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "2:33",
+      "end_timestamp": "2:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg52",
+      "text": "Application? Are you asking about any applications?",
+      "speaker": "customer",
+      "start_timestamp": "2:36",
+      "end_timestamp": "2:38",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg53",
+      "text": "Like, ma'am, you have taken some other policies of Bajaj Allianz.",
+      "speaker": "doctor",
+      "start_timestamp": "2:40",
+      "end_timestamp": "2:43",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg54",
+      "text": "Uh, no, no, no.",
+      "speaker": "customer",
+      "start_timestamp": "2:43",
+      "end_timestamp": "2:44",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg55",
+      "text": "No. Ma'am, your height, please, in centimeters or in feet.",
+      "speaker": "doctor",
+      "start_timestamp": "2:45",
+      "end_timestamp": "2:48",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg56",
+      "text": "136 centimeters.",
+      "speaker": "customer",
+      "start_timestamp": "2:48",
+      "end_timestamp": "2:50",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg57",
+      "text": "136. Okay, ma'am, 136. Thank you, ma'am. And your weight, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "2:50",
+      "end_timestamp": "2:58",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg58",
+      "text": "73.",
+      "speaker": "customer",
+      "start_timestamp": "2:59",
+      "end_timestamp": "3:00",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg59",
+      "text": "73. Okay, ma'am, thank you. Ma'am, any health complaint, present or past?",
+      "speaker": "doctor",
+      "start_timestamp": "3:01",
+      "end_timestamp": "3:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg60",
+      "text": "Hello, ma'am, can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "3:14",
+      "end_timestamp": "3:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg61",
+      "text": "Yes, yes, yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "3:15",
+      "end_timestamp": "3:16",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg62",
+      "text": "One second.",
+      "speaker": "customer",
+      "start_timestamp": "3:17",
+      "end_timestamp": "3:17",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg63",
+      "text": "Ji, ma'am, please.",
+      "speaker": "doctor",
+      "start_timestamp": "3:18",
+      "end_timestamp": "3:19",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg64",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "3:24",
+      "end_timestamp": "3:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg65",
+      "text": "Yeah, ma'am. Do you have any health complaint, ma'am, in present or past?",
+      "speaker": "doctor",
+      "start_timestamp": "3:25",
+      "end_timestamp": "3:29",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg66",
+      "text": "Uh, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "3:30",
+      "end_timestamp": "3:31",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg67",
+      "text": "Okay, ma'am, thank you. Currently, ma'am, you're taking any medicine or pills or drug, any treatment?",
+      "speaker": "doctor",
+      "start_timestamp": "3:32",
+      "end_timestamp": "3:39",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg68",
+      "text": "Yeah, I'm taking Thyronorm tablet for my thyroid.",
+      "speaker": "customer",
+      "start_timestamp": "3:40",
+      "end_timestamp": "3:42",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg69",
+      "text": "Okay, okay, okay. Thyronorm. Yes, ma'am. Thyronorm taking for thyroid. So, ma'am, you're suffering from hypothyroidism and it started when, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "3:43",
+      "end_timestamp": "3:52",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg70",
+      "text": "Sorry?",
+      "speaker": "customer",
+      "start_timestamp": "3:53",
+      "end_timestamp": "3:53",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg71",
+      "text": "It started from when? You started the treatment from when?",
+      "speaker": "doctor",
+      "start_timestamp": "3:54",
+      "end_timestamp": "3:57",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg72",
+      "text": "From past two years.",
+      "speaker": "customer",
+      "start_timestamp": "3:59",
+      "end_timestamp": "3:59",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg73",
+      "text": "From past two years. Okay, ma'am. And how do you come to know that you're having any problem like thyroid? Through which you are going to diagnose it?",
+      "speaker": "doctor",
+      "start_timestamp": "4:00",
+      "end_timestamp": "4:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg74",
+      "text": "Sorry? I didn't get you, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "4:11",
+      "end_timestamp": "4:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg75",
+      "text": "Ma'am, I just want to say that you are currently taking Thyronorm. So, probably you are having hypothyroidism, right, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "4:13",
+      "end_timestamp": "4:20",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg76",
+      "text": "Yes, yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "4:21",
+      "end_timestamp": "4:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg77",
+      "text": "So, first time, where you diagnosed it? One year back, two year back?",
+      "speaker": "doctor",
+      "start_timestamp": "4:22",
+      "end_timestamp": "4:27",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg78",
+      "text": "Uh, I think two years back when I done my normal blood checkup, in that my thyroid radiations were there, that's why I come to know.",
+      "speaker": "customer",
+      "start_timestamp": "4:29",
+      "end_timestamp": "4:36",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg79",
+      "text": "Okay, okay. Thyroid was high then you got to know.",
+      "speaker": "doctor",
+      "start_timestamp": "4:36",
+      "end_timestamp": "4:40",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg80",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "4:40",
+      "end_timestamp": "4:41",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg81",
+      "text": "Okay, ma'am. Anyone else in your family having this? Mother or anyone?",
+      "speaker": "doctor",
+      "start_timestamp": "4:42",
+      "end_timestamp": "4:45",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg82",
+      "text": "No, no. They have diabetes.",
+      "speaker": "customer",
+      "start_timestamp": "4:46",
+      "end_timestamp": "4:48",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg83",
+      "text": "Yeah.",
+      "speaker": "doctor",
+      "start_timestamp": "4:49",
+      "end_timestamp": "4:49",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg84",
+      "text": "My parents have diabetes but not thyroid.",
+      "speaker": "customer",
+      "start_timestamp": "4:50",
+      "end_timestamp": "4:54",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg85",
+      "text": "Okay, ma'am. Okay, thank you, ma'am. Something like ECG, urine test, CT, MRI had done before?",
+      "speaker": "doctor",
+      "start_timestamp": "4:55",
+      "end_timestamp": "5:04",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg86",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "5:04",
+      "end_timestamp": "5:04",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg87",
+      "text": "No. Okay, ma'am. Have you been hospitalized or had to take any leave, ma'am, from illness, sickness, disease, any other thing also?",
+      "speaker": "doctor",
+      "start_timestamp": "5:06",
+      "end_timestamp": "5:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg88",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "5:14",
+      "end_timestamp": "5:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg89",
+      "text": "Okay, ma'am. And any type of weight loss or weight gain recently, ma'am, in your life?",
+      "speaker": "doctor",
+      "start_timestamp": "5:16",
+      "end_timestamp": "5:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg90",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "5:21",
+      "end_timestamp": "5:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg91",
+      "text": "Okay, ma'am. If you feel comfortable, ma'am, have any addiction?",
+      "speaker": "doctor",
+      "start_timestamp": "5:24",
+      "end_timestamp": "5:29",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg92",
+      "text": "It's important for our information. Yeah, I quit drinking. I used to drink alcohol.",
+      "speaker": "customer",
+      "start_timestamp": "5:31",
+      "end_timestamp": "5:37",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg93",
+      "text": "Drink. Yeah, yeah, ma'am. Can I know frequency? Weekly, monthly?",
+      "speaker": "doctor",
+      "start_timestamp": "5:37",
+      "end_timestamp": "5:42",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg94",
+      "text": "No, I quit it, ma'am. Presently, I'm not drinking.",
+      "speaker": "customer",
+      "start_timestamp": "5:43",
+      "end_timestamp": "5:45",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg95",
+      "text": "Yeah, yeah. Okay, okay, ma'am. Okay, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "5:46",
+      "end_timestamp": "5:51",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg96",
+      "text": "And uh, any of your natural siblings or other spouse or parents had anyone have some diseases like uh, hepatitis, either it could be HIV, either cancer, such things, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "5:54",
+      "end_timestamp": "6:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg97",
+      "text": "No, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "6:15",
+      "end_timestamp": "6:16",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg98",
+      "text": "Okay, okay, okay, okay. So your family diabetes is present, as you tell earlier?",
+      "speaker": "doctor",
+      "start_timestamp": "6:17",
+      "end_timestamp": "6:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg99",
+      "text": "Yeah, my parents are diabetics.",
+      "speaker": "customer",
+      "start_timestamp": "6:23",
+      "end_timestamp": "6:25",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg100",
+      "text": "Yeah, yeah. Okay, okay, ma'am. And any surgery you have gone through, ma'am, earlier?",
+      "speaker": "doctor",
+      "start_timestamp": "6:26",
+      "end_timestamp": "6:33",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg101",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "6:33",
+      "end_timestamp": "6:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg102",
+      "text": "No. Any chest related problem like ma'am chest pain, lung pain, palpitations, restlessness?",
+      "speaker": "doctor",
+      "start_timestamp": "6:34",
+      "end_timestamp": "6:41",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg103",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "6:43",
+      "end_timestamp": "6:43",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg104",
+      "text": "Okay, okay, ma'am. Okay, okay, okay, ma'am. Okay, something like tuberculosis, bronchitis, nothing?",
+      "speaker": "doctor",
+      "start_timestamp": "6:44",
+      "end_timestamp": "6:53",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg105",
+      "text": "Nothing, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "6:53",
+      "end_timestamp": "6:54",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg106",
+      "text": "Okay. Any digestive system related problem, ma'am, or stress related problem?",
+      "speaker": "doctor",
+      "start_timestamp": "6:56",
+      "end_timestamp": "7:01",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg107",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "7:02",
+      "end_timestamp": "7:02",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg108",
+      "text": "Okay, okay. Okay, ma'am. Ma'am, some more things like ear, nose, throat related problem or kidney related problem that you earlier suffer or currently suffer.",
+      "speaker": "doctor",
+      "start_timestamp": "7:04",
+      "end_timestamp": "7:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg109",
+      "text": "I had kidney stone, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "7:16",
+      "end_timestamp": "7:17",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg110",
+      "text": "Kidney stone. Okay, okay, okay, okay. Okay, ma'am, kidney stone. Okay, ma'am. Since when, ma'am, you came to know?",
+      "speaker": "doctor",
+      "start_timestamp": "7:17",
+      "end_timestamp": "7:25",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg111",
+      "text": "No, it's presently not there. Like, I think six, seven months back I had a kidney stone attack. So, I used to.",
+      "speaker": "customer",
+      "start_timestamp": "7:27",
+      "end_timestamp": "7:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg112",
+      "text": "Okay, okay. You take medication for that?",
+      "speaker": "doctor",
+      "start_timestamp": "7:34",
+      "end_timestamp": "7:36",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg113",
+      "text": "No, that time I was not knowing it was kidney stone. So I got a severe stomach ache and backache, I went to hospital. So they took a scan and I diagnosed with a multiple minute stones. They gave, yeah, they'd given me a like medications which to flush out.",
+      "speaker": "customer",
+      "start_timestamp": "7:37",
+      "end_timestamp": "7:53",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg114",
+      "text": "Okay, okay. So it will be around less than 5 mm, multiple stones, right?",
+      "speaker": "doctor",
+      "start_timestamp": "7:54",
+      "end_timestamp": "7:58",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg115",
+      "text": "Yeah, yeah, very small two, three were there.",
+      "speaker": "customer",
+      "start_timestamp": "7:58",
+      "end_timestamp": "8:01",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg116",
+      "text": "Okay, ma'am. Okay. Any problem with regarding your vision problem, ma'am, vision or hearing problem?",
+      "speaker": "doctor",
+      "start_timestamp": "8:05",
+      "end_timestamp": "8:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg117",
+      "text": "No, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "8:11",
+      "end_timestamp": "8:14",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg118",
+      "text": "Okay, ma'am. Any problem with joint pain, weakness, such type of thing, any physical disability, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "8:15",
+      "end_timestamp": "8:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg119",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "8:22",
+      "end_timestamp": "8:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg120",
+      "text": "Are you comfortable, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "8:25",
+      "end_timestamp": "8:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg121",
+      "text": "Sorry?",
+      "speaker": "customer",
+      "start_timestamp": "8:27",
+      "end_timestamp": "8:27",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg122",
+      "text": "Have you ever suffered that blood sugar like problem? That you tell that your parents have diabetes.",
+      "speaker": "doctor",
+      "start_timestamp": "8:28",
+      "end_timestamp": "8:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg123",
+      "text": "No, I don't have. I have only thyroid.",
+      "speaker": "customer",
+      "start_timestamp": "8:34",
+      "end_timestamp": "8:36",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg124",
+      "text": "Thyroid, thyroid. Okay, okay, okay. So, what problem, ma'am, in thyroid? Like weakness, exertion, as you say that you're taking tablets from two years, no? So, some problem like exertion or intolerance to cold?",
+      "speaker": "doctor",
+      "start_timestamp": "8:36",
+      "end_timestamp": "8:52",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg125",
+      "text": "No, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "8:52",
+      "end_timestamp": "8:53",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg126",
+      "text": "Nothing like it was a routine examination and you got to know, right?",
+      "speaker": "doctor",
+      "start_timestamp": "8:54",
+      "end_timestamp": "8:56",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg127",
+      "text": "Yes, yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "8:57",
+      "end_timestamp": "8:58",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg128",
+      "text": "Okay, ma'am. Any blood transfusion history, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "9:01",
+      "end_timestamp": "9:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg129",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "9:04",
+      "end_timestamp": "9:05",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg130",
+      "text": "Okay, ma'am. And you are married, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "9:07",
+      "end_timestamp": "9:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg131",
+      "text": "Uh, yes, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "9:11",
+      "end_timestamp": "9:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg132",
+      "text": "Okay, ma'am. Okay, any children?",
+      "speaker": "doctor",
+      "start_timestamp": "9:14",
+      "end_timestamp": "9:16",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg133",
+      "text": "Uh, not yet.",
+      "speaker": "customer",
+      "start_timestamp": "9:17",
+      "end_timestamp": "9:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg134",
+      "text": "Not yet. Okay, okay, okay, ma'am. Any miscarriage or abortion, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "9:19",
+      "end_timestamp": "9:25",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg135",
+      "text": "No, no, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "9:25",
+      "end_timestamp": "9:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg136",
+      "text": "Okay, okay, okay, okay. Have you gone through any ultrasounds for this?",
+      "speaker": "doctor",
+      "start_timestamp": "9:27",
+      "end_timestamp": "9:33",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg137",
+      "text": "Sorry, doctor?",
+      "speaker": "customer",
+      "start_timestamp": "9:35",
+      "end_timestamp": "9:35",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg138",
+      "text": "Have you gone through ultrasound or mammography for any problem earlier, ma'am, for this?",
+      "speaker": "doctor",
+      "start_timestamp": "9:36",
+      "end_timestamp": "9:40",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg139",
+      "text": "No, not yet.",
+      "speaker": "customer",
+      "start_timestamp": "9:39",
+      "end_timestamp": "9:40",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg140",
+      "text": "No. Okay, ma'am. Okay, ma'am. Have you travelled, ma'am, from somewhere in the last 14, 15 days?",
+      "speaker": "doctor",
+      "start_timestamp": "9:41",
+      "end_timestamp": "9:48",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg141",
+      "text": "No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "9:49",
+      "end_timestamp": "9:50",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg142",
+      "text": "Okay. And one last thing about COVID that ma'am, I know it's a very sensitive topic. So, have you ever COVID positive during COVID time in 2020?",
+      "speaker": "doctor",
+      "start_timestamp": "9:51",
+      "end_timestamp": "10:02",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg143",
+      "text": "No, doctor. No, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "10:02",
+      "end_timestamp": "10:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg144",
+      "text": "Okay, ma'am. Thanks a lot for all these, ma'am. It was just very necessary for our MIR form filling. Thank you, ma'am. Thank you so much.",
+      "speaker": "doctor",
+      "start_timestamp": "10:04",
+      "end_timestamp": "10:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg145",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "10:12",
+      "end_timestamp": "10:13",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg146",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "10:19",
+      "end_timestamp": "10:19",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg147",
+      "text": "Yeah, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "10:20",
+      "end_timestamp": "10:20",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg148",
+      "text": "Is it done?",
+      "speaker": "customer",
+      "start_timestamp": "10:21",
+      "end_timestamp": "10:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg149",
+      "text": "Yeah, ma'am. Can I close the call, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "10:22",
+      "end_timestamp": "10:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg150",
+      "text": "Yeah, if it is done, you can close the call.",
+      "speaker": "customer",
+      "start_timestamp": "10:25",
+      "end_timestamp": "10:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_seg151",
+      "text": "Thank you. Thank you so much, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "10:27",
+      "end_timestamp": "10:28",
+      "call_index": 1
+    }
+  ]
+}

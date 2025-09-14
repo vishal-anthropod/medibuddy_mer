@@ -1,0 +1,1100 @@
+{
+  "personal_particulars": {
+    "name": "Bhavana",
+    "dob": "01/01/1991",
+    "id_proofs": [
+      {
+        "type": "PAN",
+        "value": "BYPT4747S",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": "Sai",
+    "nominee_dob": "01/01/1993"
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Max Life Insurance",
+      "timestamp": "00:58"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "00:30"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Bhavana",
+      "expected_response": "BHAVANA",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "01/01/1991",
+      "expected_response": "01-Jan-1991",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.PAN",
+      "question_text": "ID Proof PAN",
+      "captured_response": "BYPT4747S",
+      "expected_response": "BYYPT4747H",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "BYYPT4747H",
+      "timestamp": "01:31",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.NomineeName",
+      "question_text": "Nominee Name",
+      "captured_response": "Sai",
+      "expected_response": "SAYED",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "SAYED",
+      "timestamp": "01:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.NomineeDOB",
+      "question_text": "Nominee Date of Birth",
+      "captured_response": "01/01/1993",
+      "expected_response": "01-Jan-1993",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:52",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Education Qualiﬁcation",
+      "captured_response": "Plus two.",
+      "expected_response": "YesEducation - Senior School Others -",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "[For Women] Are you pregnant?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?",
+      "captured_response": "No.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes",
+      "timestamp": "02:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.1",
+      "question_text": "Were the results normal?",
+      "captured_response": "Yeah, reports are normal.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "No",
+      "timestamp": "10:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.2",
+      "question_text": "Details of the problem",
+      "captured_response": "Stomach pain and stomach pain as well as I have pain during the urination time.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "LA had pain abdomen and burning micturition,consulted doctor and got usg-abd done and diagnosed with renal stone,don’t remember which kidney and size of stone,made lifestyle changes renal stone passed out via urine",
+      "timestamp": "07:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.3",
+      "question_text": "Ultrasound done due to pregnancy only",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.4",
+      "question_text": "Ultrasound done for any other purpose apart from pregnancy",
+      "captured_response": "Yeah, I done the USG, I think so, yeah, USG.",
+      "expected_response": "Yes Use-abd and diagnosed with renal stones",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.5",
+      "question_text": "Mammogram, PAP Smear and other test",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?",
+      "captured_response": "Uh, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Hypertension or high blood pressure/high cholesterol?",
+      "captured_response": "Uh, yes.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.1",
+      "question_text": "Taking medicines for hypertension and is under control",
+      "captured_response": "Uh, yes, yes. / Yeah, when I done the last check up, yeah, it's control. I think so, I don't remember.",
+      "expected_response": "Yes true",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.2",
+      "question_text": "Taking medicines for high cholesterols and is under control",
+      "captured_response": "No, no, no.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.3",
+      "question_text": "In case of uncontrolled BP or cholesterol, provide details",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.4",
+      "question_text": "When was high blood pressure first diagnosed?",
+      "captured_response": "Uh, five years back.",
+      "expected_response": "Yes 5years back",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.5",
+      "question_text": "Why was high blood pressure measured at that particular Time? e.g. Routine Examination, due to symptoms, etc.",
+      "captured_response": "No, routine health check up.",
+      "expected_response": "Yes On Routine examination",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.6",
+      "question_text": "Do you know what your blood pressure readings were at of diagnosis? If Yes please give details.",
+      "captured_response": "No, no, no, I don't remember that.",
+      "expected_response": "Yes No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.7",
+      "question_text": "Have you had on E.C.G, X-Ray, blood lipid test or other investigations If Yes, please give details including dates of investigations and results. If yes please add the details Date, Type of Investigation and Result",
+      "captured_response": null,
+      "expected_response": "Yes No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question specifically for hypertension.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.8",
+      "question_text": "Please give details of your treatment. Include names of medications (eg. Moduretic, Nvidrex, Aldomet, inderal, Tenoretic, Tenormin, Trasicor etc), dosage and how often taken. Currently and In the Past",
+      "captured_response": "Uh, medications, I don't remember it. I don't remember it. Like, I don't remember it, doctor.",
+      "expected_response": "Yes LA don’t remember names of medicines she’s taking",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.9",
+      "question_text": "[Regarding the monitoring of your condition] a) Who is in charge of your follow up?",
+      "captured_response": "Doctor.",
+      "expected_response": "Yes Doctor",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.10",
+      "question_text": "[Regarding the monitoring of your condition] b) How often do you attend for follow up?",
+      "captured_response": "Three months, I think so.",
+      "expected_response": "Yes 3months",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.11",
+      "question_text": "[Regarding the monitoring of your condition] c) When was your last consultation? Please give details of Your blood pressure readings at that time, if known",
+      "captured_response": "Six months back. / Yeah.",
+      "expected_response": "Yes 6months ago and 120/80mmhg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.12",
+      "question_text": "Have any abnormalities (e.g. protein, blood) ever been found in your urine? If Yes. please give dates and full details",
+      "captured_response": "No.",
+      "expected_response": "Yes No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.13",
+      "question_text": "Do you smoke cigarettes or biddies? If Yes, state the number smoked per day.",
+      "captured_response": "Yes. / Uh, two cigarettes.",
+      "expected_response": "Yes Yes,2cigarettes a day",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.14",
+      "question_text": "Have you lost time off work due to hypertension condition If Yes, please give details including date and duration of time off work.",
+      "captured_response": "No.",
+      "expected_response": "Yes No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5.15",
+      "question_text": "Please give my any additional information on your condition, which you feel will be helpful in processing the application.",
+      "captured_response": "No.",
+      "expected_response": "Yes No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:30",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "7",
+      "question_text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?",
+      "captured_response": "No, no, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:39",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "8",
+      "question_text": "Blood disorder like anemia, leukemia or any circulatory disorder?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "9",
+      "question_text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?",
+      "captured_response": "Uh, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "10",
+      "question_text": "Any physical or mental disability or any congenital disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "11",
+      "question_text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12",
+      "question_text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?",
+      "captured_response": "Kidney stone.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12.1",
+      "question_text": "History of surgery of kidney/Ureteric stone, no complications now.",
+      "captured_response": "No, no, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12.2",
+      "question_text": "History of stone in kidney, surgery not done, flushed out or still there but no problem.",
+      "captured_response": "Yeah, when I consulted the doctor, he gave me some medication, but yeah, I didn't take it the medication, like I drank so much water, so naturally it moved from my body.",
+      "expected_response": "Yes true",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12.3",
+      "question_text": "History of UTI (Urinary tract Infection), recovered.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12.4",
+      "question_text": "History of Ovarian cyst, no complications now",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12.5",
+      "question_text": "Any other give details",
+      "captured_response": "Uh, eight months back. / Stomach pain and stomach pain as well as I have pain during the urination time. And that is the symptoms. / I don't remember which kidney. / Yeah, I done the USG, I think so, yeah, USG. / Yeah, when I consulted the doctor, he gave me some medication, but yeah, I didn't take it the medication, like I drank so much water, so naturally it moved from my body. / No, no, no.",
+      "expected_response": "Yes LA had pain abdomen and burning micturition,consulted doctor and got usg-abd done and diagnosed with renal stone,don’t remember which kidney and size of stone,made lifestyle changes renal stone passed out via urine",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "13",
+      "question_text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have waited for customer's answer or rephrased.",
+      "timestamp": "09:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "14",
+      "question_text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?",
+      "captured_response": "No, I specs.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "15",
+      "question_text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "16",
+      "question_text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?",
+      "captured_response": "Yeah, I done blood test for, yeah, sorry, I had blood test for skin related problem, I done, then a normal USG for kidney stone, ma'am.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, blood test for skin problem and USG for kidney stone.",
+      "timestamp": "09:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "17",
+      "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18",
+      "question_text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?",
+      "captured_response": "No.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, for hypertension.",
+      "timestamp": "10:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.1",
+      "question_text": "hospitalization for any fever and now normal",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.2",
+      "question_text": "hospitalization of food poisoning and now normal",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.3",
+      "question_text": "hospitalization after an accident and now alright",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.4",
+      "question_text": "hospitalized for C-section, stone removal, appendicectomy, Piles, Hernia.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.5",
+      "question_text": "hospitalized for treatment of malaria/typhoid/dengue/gastroenteritis/dehydration and now normal.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Agent should have asked this question.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18.6",
+      "question_text": "Any other furnish details",
+      "captured_response": "Like, you are taking medication for hypertension, ma'am. Apart from that, you're not taking any other medication? / No, no, no.",
+      "expected_response": "Yes LA is hypertensive and is on regular medications",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:02",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "19",
+      "question_text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?",
+      "captured_response": "Uh, no, no, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "20",
+      "question_text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "21",
+      "question_text": "Do you intend to travel outside India within next 3 months ?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "22",
+      "question_text": "Height (in cm)",
+      "captured_response": "157.",
+      "expected_response": "Yes 157",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "23",
+      "question_text": "Weight (in kgs)",
+      "captured_response": "51.",
+      "expected_response": "Yes 51",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24",
+      "question_text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs.",
+      "captured_response": "Yeah, alcohol and cigarette habits.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:04",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.1",
+      "question_text": "Are you Smoking currently or even occasionally in the last 2 year?",
+      "captured_response": "Yes. / Like two years back.",
+      "expected_response": "Yes true",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.2",
+      "question_text": "Plesae specify the number of cigarettes per day",
+      "captured_response": "Uh, two cigarettes.",
+      "expected_response": "Yes 2",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:00",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Please specify the number of cigarettes per day"
+      }
+    },
+    {
+      "question_id": "24.3",
+      "question_text": "Chewing Tobacco currently or even occasionally in the last 2 year?",
+      "captured_response": "No, no, no, I don't have.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "13:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.4",
+      "question_text": "Plesae specify the number of sachets per day",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Please specify the number of sachets per day"
+      }
+    },
+    {
+      "question_id": "24.5",
+      "question_text": "Alcohol (Beer/Wine/Hard Liquor)",
+      "captured_response": "Yeah, alcohol and cigarette habits. / It's like, like yeah, occasionally.",
+      "expected_response": "Yes true",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:04",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.6",
+      "question_text": "Please specify the per day quantity",
+      "captured_response": "Quantity means in like, whiskey, I consume two or three pegs, beer, I think so, two or three bottles.",
+      "expected_response": "Yes LA consumes alcohol occasionally 2-3 pegs(whiskey) and beer 2-3beer bottles occasionally",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:52",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.7",
+      "question_text": "Are you taking drugs like cannabis/Marijuana,Ecstacy,Heroin,LSD,Amphetamines or any other illegal drugs?",
+      "captured_response": "No, no, no, I don't have.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "13:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24.8",
+      "question_text": "Details if any",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "25",
+      "question_text": "Existing Cover/Existing Insurance Cover",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "13:39",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "26",
+      "question_text": "Doctor Remarks",
+      "captured_response": null,
+      "expected_response": "Yes LA is hypertensive diagnosed 5years back and is on regular medications,also had history of renal stone passed via urine 6months back and is occasional alcoholic and smoker",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "I hereby declare that the Life to be assured has understood and provided details to the above mentioned questions.",
+      "captured_response": "Yes.",
+      "expected_response": "I hereby declar e that the Life to be assur ed has understood and pr ovided details to the above mentioned questions.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "14:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Discrepancies in Personal Particulars (PAN, Nominee Name) between transcript and MER.",
+      "Significant discrepancies in medical history: Customer initially denied having undergone tests (Q3) but MER states 'Yes' and customer later confirmed USG for kidney stone. MER states test results were 'No' (not normal) but customer stated 'reports are normal' for USG.",
+      "Discrepancy in Q16 regarding investigations: MER states 'No' but customer confirmed blood test and USG.",
+      "Discrepancy in Q18 regarding treatment/medication: Customer initially stated 'No' but MER states 'Yes' and customer is on hypertension medication.",
+      "Several sub-questions were missed by the agent (Q3.3, Q5.7, Q12.3, Q12.4, Q18.1-18.5).",
+      "Question 13 was incomplete as the agent moved on before the customer could answer."
+    ],
+    "recommendations": [
+      "Agent must ensure all personal particulars are accurately verified against the application and MER.",
+      "Agent needs to ask all sub-questions as per the MER template to ensure a complete medical history is captured.",
+      "Agent should clarify inconsistencies in customer's responses, especially when an initial 'No' contradicts later information or MER data.",
+      "Agent should probe further when the customer states 'I don't remember' for critical information like medication names or specific medical details."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and answers questions.",
+      "Customer provides detailed responses when prompted for medical history."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "157",
+    "weight_kg": "51",
+    "dates_mentioned": [
+      "01/01/1991",
+      "01/01/1993",
+      "five years back",
+      "six months back",
+      "eight months back",
+      "two years back",
+      "three to four years back"
+    ],
+    "medications": [
+      "unnamed medication for hypertension"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "MOCA2MAS14152",
+    "doctor_name": "Dr. Mohammed Wasi",
+    "customer_name": "Bhavana",
+    "insurance_company": "Max Life Insurance",
+    "doctor_wpm": 204.19,
+    "customer_wpm": 163.85
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -17.96
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "personal_particulars": {
+    "name": null,
+    "dob": null,
+    "id_proofs": [
+      {
+        "type": "ID Details",
+        "value": null,
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": false,
+      "insurer_name": null,
+      "timestamp": null
+    },
+    "language_preference": {
+      "asked": false,
+      "selected_language": null,
+      "timestamp": null
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": null,
+      "expected_response": "KRISHNANJANA",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Member Name should have been confirmed as KRISHNANJANA.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": null,
+      "expected_response": "01-Jan-1991",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Member Date of Birth should have been confirmed as 01-Jan-1991.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Details",
+      "question_text": "ID Proof Details",
+      "captured_response": null,
+      "expected_response": "BYYPT4747H",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "ID Proof Details should have been confirmed as BYYPT4747H.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.NomineeName",
+      "question_text": "Nominee Name",
+      "captured_response": null,
+      "expected_response": "SAYED",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Nominee Name should have been confirmed as SAYED.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.NomineeDOB",
+      "question_text": "Nominee Date of Birth",
+      "captured_response": null,
+      "expected_response": "01-Jan-1993",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Nominee Date of Birth should have been confirmed as 01-Jan-1993.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.1",
+      "question_text": "Educational Qualification",
+      "captured_response": null,
+      "expected_response": "Post graduated",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Educational Qualification' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.2",
+      "question_text": "Occupation",
+      "captured_response": null,
+      "expected_response": "Business",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Occupation' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.3",
+      "question_text": "Height (ft. / inch-cm):",
+      "captured_response": null,
+      "expected_response": "157.48",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Height (ft. / inch-cm):' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.4",
+      "question_text": "Weight (Kg / pound):",
+      "captured_response": null,
+      "expected_response": "55 kg",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Weight (Kg / pound):' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.5",
+      "question_text": "Do you have currently any health complaints or under any treatment/medication?",
+      "captured_response": null,
+      "expected_response": "LA is cur rently having Thyr oid issue",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have currently any health complaints or under any treatment/medication?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA is currently having Thyroid issue"
+      }
+    },
+    {
+      "question_id": "1.6",
+      "question_text": "Have you been hospitalized or undergone any surgery till date?",
+      "captured_response": null,
+      "expected_response": "LA had Kidney stone back in the year - 2021",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you been hospitalized or undergone any surgery till date?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.7",
+      "question_text": "Have you undergone any investigations lik e blood test, ECG or special test lik e CT/MRI,Angiography etc.(F emale life:Mammography ,PAP smear)?",
+      "captured_response": null,
+      "expected_response": "LA had gone for ultrasound during kidney stone sur gery in the year 2021",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you undergone any investigations like blood test, ECG or special test like CT/MRI,Angiography etc.(Female life:Mammography,PAP smear)?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA had gone for ultrasound during kidney stone surgery in the year 2021"
+      }
+    },
+    {
+      "question_id": "1.8",
+      "question_text": "Do you have any history of Diabetes, High Blood pressure, Heart attack or any other heart related disorder or cancer?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have any history of Diabetes, High Blood pressure, Heart attack or any other heart related disorder or cancer?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1.9",
+      "question_text": "Do you have any history of Blood disorder (low Haemoglobin, thalassaemia etc.), Thyroid disorder or Respiratory disorder (e.g. Asthma, TB etc.) or Digestive system related disorder (Jaundice, Cirrhosis, pancreatitis, Colitis etc.)?",
+      "captured_response": null,
+      "expected_response": "LA has Hypothyr oidism since 4 months , she had symptoms lik e tiredness, sweating , throat pain while swallowing, weight gain, so LA underwent investigation lik e TSH blood test, L A is taking thyr onom 50mcg once a day early in the mor ning befor e breakfast, L A maintaining her thyr oid issue",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have any history of Blood disorder (low Haemoglobin, thalassaemia etc.), Thyroid disorder or Respiratory disorder (e.g. Asthma, TB etc.) or Digestive system related disorder (Jaundice, Cirrhosis, pancreatitis, Colitis etc.)?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA has Hypothyroidism since 4 months, she had symptoms like tiredness, sweating, throat pain while swallowing, weight gain, so LA underwent investigation like TSH blood test, LA is taking thyronorm 50mcg once a day early in the morning before breakfast, LA maintaining her thyroid issue"
+      }
+    },
+    {
+      "question_id": "1.10",
+      "question_text": "Do you have any history of Kidney disorder lik e protein/blood in urine, or disorders of joints, muscles, bones lik e Arthritis or any physical deformity or defect since birth?",
+      "captured_response": null,
+      "expected_response": "During her kidney stone sur gery L A had symptoms lik e Stomach/abdominal pain , painful urination , back/ﬂank pain , hospitalized for 6 days then got r ecover ed after 2 weeks while r ecovery L A had investigations lik e blood test and ultrasound",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have any history of Kidney disorder like protein/blood in urine, or disorders of joints, muscles, bones like Arthritis or any physical deformity or defect since birth?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "During her kidney stone surgery LA had symptoms like Stomach/abdominal pain, painful urination, back/flank pain, hospitalized for 6 days then got recovered after 2 weeks while recovery LA had investigations like blood test and ultrasound"
+      }
+    },
+    {
+      "question_id": "1.11",
+      "question_text": "Do you have any history of Brain disorder lik e seizures, paralysis ,strok e or any mental /psychiatric illness or tested positive for HIV /HCV /HbsAg?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have any history of Brain disorder like seizures, paralysis, stroke or any mental /psychiatric illness or tested positive for HIV /HCV /HbsAg?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Do you have any history of Brain disorder like seizures, paralysis, stroke or any mental /psychiatric illness or tested positive for HIV /HCV /HbsAg?"
+      }
+    },
+    {
+      "question_id": "2.1",
+      "question_text": "Are you currently in good health?",
+      "captured_response": null,
+      "expected_response": "LA is in Good health",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Are you currently in good health?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.2",
+      "question_text": "Have you experienced any of the following symptoms within the last 2 months? Any fever / Cough / Shortness of breath /Malaise (flu-like tiredness) /Rhinorrhea (mucus discharge from the nose) /Sore throat. Gastro-intestinal symptoms such as nausea, vomiting and/or diarrhea If yes, to any of these, please provide below full information.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you experienced any of the following symptoms within the last 2 months? Any fever / Cough / Shortness of breath /Malaise (flu-like tiredness) /Rhinorrhea (mucus discharge from the nose) /Sore throat. Gastro-intestinal symptoms such as nausea, vomiting and/or diarrhea If yes, to any of these, please provide below full information.' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.3",
+      "question_text": "Have you or our family members travelled overseas post 1st Jan 2020 ? If yes, please provide below full information.",
+      "captured_response": null,
+      "expected_response": "Yes",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you or our family members travelled overseas post 1st Jan 2020 ? If yes, please provide below full information.' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.3.a",
+      "question_text": "a) Name of the country",
+      "captured_response": null,
+      "expected_response": "USA",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'a) Name of the country' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.3.b",
+      "question_text": "b) Date of r eturn to India",
+      "captured_response": null,
+      "expected_response": "LA went on December 2024 and came back on January 2025 , no speciﬁc date mentioned",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'b) Date of return to India' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA went on December 2024 and came back on January 2025, no specific date mentioned"
+      }
+    },
+    {
+      "question_id": "2.3.c",
+      "question_text": "c) On your r eturn to India wer e you advised to be Quarantined / isolated for CO VID 19",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'c) On your return to India were you advised to be Quarantined / isolated for COVID 19' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "c) On your return to India were you advised to be Quarantined / isolated for COVID 19"
+      }
+    },
+    {
+      "question_id": "2.4",
+      "question_text": "Do you have any plan to travel overseas during the next 6 months ?If yes, please provide below full information.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Do you have any plan to travel overseas during the next 6 months ?If yes, please provide below full information.' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.5",
+      "question_text": "Have you or your family members ever tested positive for the novel coronavirus (SARS-CoV-2/CO VID-19)? If yes, provide the date of positive diagnosis.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you or your family members ever tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)? If yes, provide the date of positive diagnosis.' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Have you or your family members ever tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)? If yes, provide the date of positive diagnosis."
+      }
+    },
+    {
+      "question_id": "2.6",
+      "question_text": "Have any of your immediate family members (mother ,father ,brother ,sister) been diagnosed with or died from Heart Attack, Coronary artery disaese,Cancer ,Diabetes,strok e,before age 60yr?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have any of your immediate family members (mother,father,brother,sister) been diagnosed with or died from Heart Attack, Coronary artery disease,Cancer,Diabetes,stroke,before age 60yr?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Have any of your immediate family members (mother,father,brother,sister) been diagnosed with or died from Heart Attack, Coronary artery disease,Cancer,Diabetes,stroke,before age 60yr?"
+      }
+    },
+    {
+      "question_id": "2.7",
+      "question_text": "Have you consumed T obacco in any form (Cigarettes / Bidi /Gutkha /P an / Snuﬀ)?",
+      "captured_response": null,
+      "expected_response": "LA tak es 2 Cigar ettes daily since 4 years ago",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you consumed Tobacco in any form (Cigarettes / Bidi /Gutkha /Pan / Snuff)?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA takes 2 Cigarettes daily since 4 years ago"
+      }
+    },
+    {
+      "question_id": "2.8",
+      "question_text": "Have you consumed Alcohol in any form (Wine /Beer /Hard Liquor)?",
+      "captured_response": null,
+      "expected_response": "LA Occasionally tak es wine yearly 2-3 times 120ml",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you consumed Alcohol in any form (Wine /Beer /Hard Liquor)?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "LA Occasionally takes wine yearly 2-3 times 120ml"
+      }
+    },
+    {
+      "question_id": "2.9",
+      "question_text": "[For female lives] Have you suﬀered from any gynecological problem related to Breast ,Uterus, cervix?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question '[For female lives] Have you suffered from any gynecological problem related to Breast,Uterus, cervix?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "[For female lives] Have you suffered from any gynecological problem related to Breast,Uterus, cervix?"
+      }
+    },
+    {
+      "question_id": "2.10",
+      "question_text": "[For female lives] Are you pregnant?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question '[For female lives] Are you pregnant?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.11",
+      "question_text": "Have you received a CO VID-19 vaccine?",
+      "captured_response": null,
+      "expected_response": "Yes",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Have you received a COVID-19 vaccine?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Have you received a COVID-19 vaccine?"
+      }
+    },
+    {
+      "question_id": "2.11.a",
+      "question_text": "Dose 1. Date of V accination",
+      "captured_response": null,
+      "expected_response": "Covaxin 3-4 years back",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Dose 1. Date of Vaccination' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Dose 1. Date of Vaccination"
+      }
+    },
+    {
+      "question_id": "2.11.b",
+      "question_text": "Dose 2. Date of V accination",
+      "captured_response": null,
+      "expected_response": "Covaxin af ter 3-4 month of taking dose 1",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Dose 2. Date of Vaccination' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Covaxin after 3-4 month of taking dose 1"
+      }
+    },
+    {
+      "question_id": "2.12",
+      "question_text": "Is there anything else not covered above, you would like to share with us with respect to your health?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Question 'Is there anything else not covered above, you would like to share with us with respect to your health?' should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2.13",
+      "question_text": "Are you in agreement with the declaration that I have read out to you.",
+      "captured_response": null,
+      "expected_response": "Yes",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "The declaration agreement question should have been asked.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "No conversation transcript provided, all questions are missing."
+    ],
+    "recommendations": [
+      "Ensure a conversation transcript is provided for auditing."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": false,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": []
+  },
+  "data_validation": {
+    "height_cm": null,
+    "weight_kg": null,
+    "dates_mentioned": [],
+    "medications": [],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "MOCK2K OTAK40937",
+    "doctor_name": "Dr. Mohammed Khurram C",
+    "customer_name": "KRISHNANJANA",
+    "insurance_company": "Kotak Life Insurance",
+    "doctor_wpm": 204.19,
+    "customer_wpm": 163.85
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "unknown",
+    "avg_dbfs": null
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

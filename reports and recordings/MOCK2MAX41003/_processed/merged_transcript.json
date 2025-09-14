@@ -1,0 +1,84 @@
+{
+  "segments": [
+    {
+      "segment_id": "call1_0",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "0:02",
+      "end_timestamp": "0:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_1",
+      "text": "Hello, hi, this is Dr. Krishna speaking.",
+      "speaker": "doctor",
+      "start_timestamp": "0:03",
+      "end_timestamp": "0:05",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_2",
+      "text": "I'm ready to begin. I'll be sending you the link.",
+      "speaker": "doctor",
+      "start_timestamp": "0:06",
+      "end_timestamp": "0:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_3",
+      "text": "Okay, sure.",
+      "speaker": "customer",
+      "start_timestamp": "0:11",
+      "end_timestamp": "0:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_4",
+      "text": "I'll um the you said you sent on the Zoom, right?",
+      "speaker": "customer",
+      "start_timestamp": "0:12",
+      "end_timestamp": "0:16",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_5",
+      "text": "Sorry?",
+      "speaker": "doctor",
+      "start_timestamp": "0:17",
+      "end_timestamp": "0:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_6",
+      "text": "You sent on the Zoom, right?",
+      "speaker": "customer",
+      "start_timestamp": "0:19",
+      "end_timestamp": "0:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_7",
+      "text": "I'll send it to you on a text.",
+      "speaker": "doctor",
+      "start_timestamp": "0:23",
+      "end_timestamp": "0:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_8",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:27",
+      "end_timestamp": "0:28",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_9",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "0:29",
+      "end_timestamp": "0:30",
+      "call_index": 1
+    }
+  ]
+}

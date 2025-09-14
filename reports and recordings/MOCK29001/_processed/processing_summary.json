@@ -1,0 +1,1601 @@
+{
+  "record_id": "MOCK29001",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/MOCK29001_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 628.76,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "duration": 628.76,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/_processed/call1/transcript.json",
+      "segments_count": 152,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -16.87
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/_processed/merged_transcript.json",
+    "total_segments": 152,
+    "total_duration": 628.76
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Parvati",
+      "dob": "1st June 1991",
+      "id_proofs": [
+        {
+          "type": "PAN",
+          "value": "BYYPP4747H",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": "Saiyath",
+      "nominee_dob": "1st Jan 1993"
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Bajaj Allianz",
+        "timestamp": "00:38"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "English",
+        "timestamp": "00:10"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Parvati",
+        "expected_response": "parvati",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.PAN",
+        "question_text": "ID Proof PAN",
+        "captured_response": "BYYPP4747H",
+        "expected_response": "BYYPT4747H",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "BYYPP4747H",
+        "timestamp": "00:00:57",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": "1st June 1991",
+        "expected_response": "01-Jan-1991",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "01-June-1991",
+        "timestamp": "00:00:50",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": "Saiyath",
+        "expected_response": "SAYED",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Saiyath",
+        "timestamp": "00:01:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": "1st Jan 1993",
+        "expected_response": "01-Jan-1993",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.1",
+        "question_text": "EDUCATION",
+        "captured_response": "I'm doing my post-graduation. ... finished my graduation, doing my post-graduation.",
+        "expected_response": "Graduation & Higher",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.2",
+        "question_text": "OCCUPATION",
+        "captured_response": "No, I am working also. ... I'm working in a company. I'm salaried.",
+        "expected_response": "Salaried (other Than Govt. Employee)",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:11",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.3",
+        "question_text": "Existing Policy/Simultaneous application with Bajaj Life",
+        "captured_response": "And, have you any other application with Bajaj, right? ... Like, ma'am, you have taken some other policies of Bajaj Allianz. ... Uh, no, no, no.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:22",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.4",
+        "question_text": "Height",
+        "captured_response": "136 centimeters.",
+        "expected_response": "156",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "136",
+        "timestamp": "00:02:48",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.5",
+        "question_text": "Weight",
+        "captured_response": "73.",
+        "expected_response": "79",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "73",
+        "timestamp": "00:02:59",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6",
+        "question_text": "Do you have any health complaints, either present or past?",
+        "captured_response": "Do you have any health complaint, ma'am, in present or past? ... Uh, no, doctor.",
+        "expected_response": "Yes",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer initially said 'No', but later revealed conditions. MER should reflect 'Yes' based on overall findings.",
+        "timestamp": "00:03:25",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.1",
+        "question_text": "DM",
+        "captured_response": "No, I don't have. I have only thyroid.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.2",
+        "question_text": "HTN",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about hypertension.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.3",
+        "question_text": "Thyroid",
+        "captured_response": "Yeah, I'm taking Thyronorm tablet for my thyroid. ... you're suffering from hypothyroidism and it started when, ma'am? ... From past two years.",
+        "expected_response": "Yes Hypothyroidism, diagnosed 2 yr back",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.4",
+        "question_text": "Digestive",
+        "captured_response": "Any digestive system related problem, ma'am, or stress related problem? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.5",
+        "question_text": "Cholesterol Problem",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about cholesterol problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.6",
+        "question_text": "Routine Check-up",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Clarify what 'Routine Check-up' as a health complaint means, or ask if any issues were found during one.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.7",
+        "question_text": "Depression",
+        "captured_response": "Any digestive system related problem, ma'am, or stress related problem? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.8",
+        "question_text": "Cold/Cough",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about cold/cough.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.9",
+        "question_text": "Arthritis",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about arthritis.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6.10",
+        "question_text": "Other Details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7",
+        "question_text": "Are you currently under treatment or have you been taking any medicines/pills/drugs etc.?",
+        "captured_response": "Currently, ma'am, you're taking any medicine or pills or drug, any treatment? ... Yeah, I'm taking Thyronorm tablet for my thyroid.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:32",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.1",
+        "question_text": "Name (of medicine)",
+        "captured_response": "Thyronorm tablet",
+        "expected_response": "Thyronorm",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.2",
+        "question_text": "Reason (for medicine)",
+        "captured_response": "for my thyroid. ... you're suffering from hypothyroidism and it started when, ma'am? ... From past two years.",
+        "expected_response": "Hypothyroidism since 2years",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.3",
+        "question_text": "DM (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for DM.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.4",
+        "question_text": "HTN (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for HTN.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.5",
+        "question_text": "Drug (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for drug addiction/abuse.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.6",
+        "question_text": "Routine Check-up (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.7",
+        "question_text": "Cholesterol (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for cholesterol.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.8",
+        "question_text": "Depression (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for depression.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.9",
+        "question_text": "Cold/Cough (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for cold/cough.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.10",
+        "question_text": "Arthritis (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if taking medicine for arthritis.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7.11",
+        "question_text": "Other Details (medicine for)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.1",
+        "question_text": "Have you undergone any investigation like blood test/Urine test/ Xray/ ECG OR any special test like CTMT/ MRI Scans etc.?",
+        "captured_response": "Something like ECG, urine test, CT, MRI had done before? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:04:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.2",
+        "question_text": "Have you ever been hospitalized or remained absent from work for any illness, sickness, disease, injury, accident or disorder for more than 7 days?",
+        "captured_response": "Have you been hospitalized or had to take any leave, ma'am, from illness, sickness, disease, any other thing also? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:06",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.3",
+        "question_text": "Has there been any recent weight loss or weight gain?",
+        "captured_response": "And any type of weight loss or weight gain recently, ma'am, in your life? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4",
+        "question_text": "Have you ever in the past or are you currently consuming any of the following? Cigarette/ Beedi/ Pan/ Gutkha/ Alcohol?",
+        "captured_response": "If you feel comfortable, ma'am, have any addiction? ... Yeah, I quit drinking. I used to drink alcohol.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:24",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4.1",
+        "question_text": "Cigarette",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about cigarette consumption.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4.2",
+        "question_text": "Beedi",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about beedi consumption.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4.3",
+        "question_text": "Paan",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about paan consumption.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4.4",
+        "question_text": "Gutkha",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about gutkha consumption.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.4.5",
+        "question_text": "Alcohol",
+        "captured_response": "Yeah, I quit drinking. I used to drink alcohol. ... No, I quit it, ma'am. Presently, I'm not drinking.",
+        "expected_response": "Yes 120ml twice weekly",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer quit drinking, no current frequency.",
+        "timestamp": "00:05:31",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5",
+        "question_text": "Have either of your natural parents or any siblings or spouse suffered from or are suffering from any medical condition like Cancer, Heart related problems, Diabetes, Blood Pressure, Hepatiits, HIV/AIDS Etc.?",
+        "captured_response": "Anyone else in your family having this? Mother or anyone? ... No, no. They have diabetes. ... My parents have diabetes but not thyroid. ... any of your natural siblings or other spouse or parents had anyone have some diseases like uh, hepatitis, either it could be HIV, either cancer, such things, ma'am? ... No, no, doctor. ... So your family diabetes is present, as you tell earlier? ... Yeah, my parents are diabetics.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:04:42",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Hepatitis"
+        }
+      },
+      {
+        "question_id": "2.5.1",
+        "question_text": "Date of diagnosis (family history)",
+        "captured_response": null,
+        "expected_response": "2015",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask for the date of diagnosis for parents' diabetes.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.2",
+        "question_text": "Current health status (family history)",
+        "captured_response": null,
+        "expected_response": "Satisfactory",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about the current health status of parents' diabetes.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.3",
+        "question_text": "Father (medical condition)",
+        "captured_response": "My parents have diabetes",
+        "expected_response": "Diabetes in 2015",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Ask for date of diagnosis for father's diabetes.",
+        "timestamp": "00:04:50",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.4",
+        "question_text": "Mother (medical condition)",
+        "captured_response": "My parents have diabetes",
+        "expected_response": "Diabetes in 2015",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Ask for date of diagnosis for mother's diabetes.",
+        "timestamp": "00:04:50",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.5",
+        "question_text": "Siblings (medical condition)",
+        "captured_response": "No, no, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.6",
+        "question_text": "Spouse (medical condition)",
+        "captured_response": "No, no, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5.7",
+        "question_text": "Disease (family history)",
+        "captured_response": "They have diabetes. ... My parents have diabetes",
+        "expected_response": "Diabetes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:04:46",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.6",
+        "question_text": "Surgery",
+        "captured_response": "And any surgery you have gone through, ma'am, earlier? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.7",
+        "question_text": "Have you ever had any complaints of chest pain, fainting, palpitation, breathlessness? Was it diagnosed to relate with any heart disease?",
+        "captured_response": "Any chest related problem like ma'am chest pain, lung pain, palpitations, restlessness? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.8",
+        "question_text": "Have you ever suffered from any heart disease or disorder, heart valve problems, raised blood pressure or cholesterol problems?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about heart disease, heart valve problems, raised blood pressure, or cholesterol problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.9",
+        "question_text": "Have you ever suffered from asthma, bronchitis, tuberculosis (TB) or coughing with blood or any other lung infection or any problem leading to breathing difficulties?",
+        "captured_response": "Something like tuberculosis, bronchitis, nothing? ... Nothing, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about asthma, coughing with blood, lung infection, and breathing difficulties.",
+        "timestamp": "00:06:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.10",
+        "question_text": "Have you ever had any disease or disorder of the digestive system including infections of the stomach, stomach ulcer, gall stones, jaundice, hepatitis or any other digestive problems?",
+        "captured_response": "Any digestive system related problem, ma'am, or stress related problem? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about specific digestive conditions mentioned in the MER.",
+        "timestamp": "00:07:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.11",
+        "question_text": "Have you ever suffered from any illness because of stress, depression, anxiety or neurological symptoms like fits, black outs, convulsions, epilepsy?",
+        "captured_response": "Any digestive system related problem, ma'am, or stress related problem? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about anxiety and neurological symptoms like fits, blackouts, convulsions, epilepsy.",
+        "timestamp": "00:07:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12",
+        "question_text": "Do you have any history of any problems related to kidney, ureter, bladder, prostate or reproductive organs or have had blood, protein or sugar in the urine?",
+        "captured_response": "Ma'am, some more things like ear, nose, throat related problem or kidney related problem that you earlier suffer or currently suffer. ... I had kidney stone, doctor.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.1",
+        "question_text": "Date of diagnosis (kidney problem)",
+        "captured_response": "I think six, seven months back I had a kidney stone attack.",
+        "expected_response": "6month earlier",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.2",
+        "question_text": "Current health status (kidney problem)",
+        "captured_response": "No, it's presently not there.",
+        "expected_response": "Normal",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.3",
+        "question_text": "Availability of reports (kidney problem)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about availability of reports for kidney stones.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.4",
+        "question_text": "Any problems related to kidney",
+        "captured_response": "I had kidney stone, doctor. ... multiple minute stones. ... very small two, three were there.",
+        "expected_response": "Multiple kidney stone of less than 5mm size",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:17",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.5",
+        "question_text": "Ureter (problem)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about ureter problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.6",
+        "question_text": "Bladder (problem)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about bladder problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.7",
+        "question_text": "Prostate/ Reproductive Organs/ had blood",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about prostate/reproductive organ problems or blood in urine.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.8",
+        "question_text": "Protein or sugar in the urine",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about protein or sugar in urine.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.9",
+        "question_text": "Surgery (for kidney problem)",
+        "captured_response": "They gave, yeah, they'd given me a like medications which to flush out.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:53",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.10",
+        "question_text": "Renal Problems",
+        "captured_response": "I had kidney stone, doctor.",
+        "expected_response": "No",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Yes, due to kidney stones.",
+        "timestamp": "00:07:17",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.11",
+        "question_text": "Routine Check-up (for kidney problem)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about routine check-ups for kidney problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12.12",
+        "question_text": "Other Details (for kidney problem)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.1",
+        "question_text": "Do you have any problems affecting your vision, hearing or any other eye, ear, nose or throat problems?",
+        "captured_response": "Any problem with regarding your vision problem, ma'am, vision or hearing problem? ... No, no, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:05",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.2",
+        "question_text": "Have you ever had any problem with your joints or muscle, including pain, weakness, swelling or stiffness or any physical disability?",
+        "captured_response": "Any problem with joint pain, weakness, such type of thing, any physical disability, ma'am? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.3",
+        "question_text": "Have you ever suffered from diabetes or blood sugar problems?",
+        "captured_response": "Have you ever suffered that blood sugar like problem? That you tell that your parents have diabetes. ... No, I don't have. I have only thyroid.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:28",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4",
+        "question_text": "Have you ever suffered from Thyroid Problems?",
+        "captured_response": "I have only thyroid.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4.1",
+        "question_text": "Date of diagnosis (Thyroid)",
+        "captured_response": "two years back",
+        "expected_response": "2yr earlier",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:59",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4.2",
+        "question_text": "Current health status (Thyroid)",
+        "captured_response": "No, no, doctor.",
+        "expected_response": "Satisfactory",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4.3",
+        "question_text": "Availability of reports (Thyroid)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about availability of thyroid reports.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4.4",
+        "question_text": "Hyperthyroid",
+        "captured_response": "you're suffering from hypothyroidism",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:43",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4.5",
+        "question_text": "Hypothyroid",
+        "captured_response": "you're suffering from hypothyroidism",
+        "expected_response": "Yes Yes...TSH 6",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask for TSH level.",
+        "timestamp": "00:03:43",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.5",
+        "question_text": "Have you ever had or been told to have or been treated for cancer, tumour, cyst, or growth of any kind?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about cancer, tumor, cyst, or growth for the customer.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.6",
+        "question_text": "Have you ever had a blood disorder or received any blood transfusion?",
+        "captured_response": "Any blood transfusion history, ma'am? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about blood disorders.",
+        "timestamp": "00:09:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.7",
+        "question_text": "Have you ever been tested for HIV/VDRL or another sexually transmitted disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about HIV/VDRL or other STDs for the customer.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.8",
+        "question_text": "Are you a married woman?",
+        "captured_response": "And you are married, ma'am? ... Uh, yes, doctor.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.9",
+        "question_text": "Do you have any children?",
+        "captured_response": "Okay, any children? ... Uh, not yet.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.9.1",
+        "question_text": "Current health status (children)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.9.2",
+        "question_text": "When was the last pregnancy?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.9.3",
+        "question_text": "Pregnancy details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.10",
+        "question_text": "Do you have any history of miscarriage or abortion?",
+        "captured_response": "Any miscarriage or abortion, ma'am? ... No, no, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:25",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.11",
+        "question_text": "Have you ever visited a medical practitioner for any problems of breast/ Uterus/ Cervix etc?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about problems of breast/uterus/cervix.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.12",
+        "question_text": "Have you undergone any tests like mammogram, ultrasound, pap smear etc.?",
+        "captured_response": "Have you gone through any ultrasounds for this? ... Have you gone through ultrasound or mammography for any problem earlier, ma'am, for this? ... No, not yet.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about pap smear.",
+        "timestamp": "00:09:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.13",
+        "question_text": "Is there anything else you would like to share with us with respect to your health or habits?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask if there's anything else to share.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.14",
+        "question_text": "DO YOU HAVE SYMPTOMS LIKE FEVER/COUGH/BREATHLESS OR ARE/WERE YOU IN CONTACT WITH ANY CORONA VIRUS POSITIVE PERSON. and RETURNED FROM ABROAD , HAVE YOU - TESTED POSITIVE for covid-19 (IF ANY ANSWER YES, details)",
+        "captured_response": "Have you travelled, ma'am, from somewhere in the last 14, 15 days? ... No, doctor. ... Have you ever COVID positive during COVID time in 2020? ... No, doctor. No, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about COVID symptoms and contact with positive persons.",
+        "timestamp": "00:09:41",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.1",
+        "question_text": "Are you, or have you been in close contact with anyone who has been quarantined or who has been diagnosed with novel coronavirus (SARS-CoV-2/COVID-19)? If yes, please provide details.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about close contact with quarantined/diagnosed COVID-19 persons.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.2",
+        "question_text": "Have you been advised to be tested to rule in, or rule out, a diagnosis of novel coronavirus (SARSCoV-2/COVID-19)? Or, are you awaiting the result of a test or have been tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)?",
+        "captured_response": "Have you ever COVID positive during COVID time in 2020? ... No, doctor. No, doctor.",
+        "expected_response": "No",
+        "status": "Incomplete",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should ask about being advised for testing or awaiting test results for COVID-19.",
+        "timestamp": "00:09:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.3",
+        "question_text": "Please provide your travel patterns over the past 14 days:",
+        "captured_response": "Have you travelled, ma'am, from somewhere in the last 14, 15 days? ... No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:41",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.4",
+        "question_text": "Please detail your intended future travel plans for the next 30 days:",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should ask about future travel plans.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.5",
+        "question_text": "Geo Tagging Data",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4.6",
+        "question_text": "DECLARATION",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should read out the full declaration and seek customer's agreement.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Multiple discrepancies in personal particulars (DOB, PAN, Nominee Name).",
+        "Significant number of missing questions from the MER template.",
+        "Several questions were asked incompletely, missing critical details or sub-questions.",
+        "The full MER declaration was not read out to the customer for agreement."
+      ],
+      "recommendations": [
+        "Agent must ensure all personal particulars are accurately captured and verified against the MER.",
+        "Agent needs to follow the MER template strictly to ask all required questions.",
+        "Agent should ensure all sub-questions and specific details within broader questions are covered.",
+        "The full disclaimer and declaration, including insurer name and recording statement, should be read out at the beginning and end of the call, respectively, and customer agreement obtained.",
+        "Agent should clarify any initial 'No' responses to health complaints with further probing, as customer later revealed conditions."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and responsive throughout the call.",
+        "Customer provides direct answers to most questions."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "136",
+      "weight_kg": "73",
+      "dates_mentioned": [
+        "1st June 1991",
+        "1st Jan 1993",
+        "past two years",
+        "two years back",
+        "six, seven months back",
+        "2020"
+      ],
+      "medications": [
+        "Thyronorm"
+      ],
+      "validation_errors": [
+        "Customer's Date of Birth (1st June 1991) differs from MER (01-Jan-1991).",
+        "Customer's PAN card number (BYYPP4747H) differs from MER (BYYPT4747H).",
+        "Nominee Name (Saiyath) differs from MER (SAYED).",
+        "Customer's Height (136 cm) differs from MER (156 cm).",
+        "Customer's Weight (73 kg) differs from MER (79 kg).",
+        "Customer states they quit alcohol, while MER indicates current consumption (120ml twice weekly).",
+        "MER states 'Renal Problems No' while customer reported having kidney stones, which is a renal problem."
+      ]
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 1,
+      "typos_found": [
+        "Hepatiits"
+      ],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "MOCK29001",
+      "doctor_name": "Dr. Rajiv Pandey",
+      "customer_name": "Parvati",
+      "insurance_company": "Bajaj Allianz Life Insurance Co. Ltd.",
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -16.87
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Agent initiated the call with greetings.",
+        "timestamps": [
+          "00:00:01"
+        ]
+      },
+      "call_opening": {
+        "value": "Partial",
+        "explanation": "Agent introduced himself and the company but did not explicitly ask for the customer's name for verification.",
+        "timestamps": {
+          "self_intro": "00:00:15",
+          "client_name": "",
+          "insurer_name": "00:00:19"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Agent confirmed language preference with the customer.",
+        "timestamp": "00:00:10"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "Agent validated customer's date of birth, PAN, nominee name, and nominee date of birth.",
+        "timestamps": [
+          "00:00:46",
+          "00:00:52",
+          "00:01:10",
+          "00:01:19"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "Agent informed the customer that the call would be recorded for quality and audit purposes.",
+        "timestamp": "00:00:38"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Agent used polite language and addressed the customer respectfully throughout the call.",
+        "timestamps": [
+          "00:00:34",
+          "00:05:24"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "Customer mentioned thyroid and kidney stones, but no severe illness, accident, or operation was indicated. As per the rule, empathy is marked Yes by default.",
+        "timestamps": [
+          "00:03:40",
+          "00:07:17"
+        ]
+      },
+      "communication_skills": {
+        "value": "Partial",
+        "explanation": "Agent's communication was mostly clear, but some questions were phrased awkwardly, requiring customer clarification.",
+        "timestamps": {
+          "good_examples": [
+            "00:04:13"
+          ],
+          "poor_examples": [
+            "00:02:22",
+            "00:02:36"
+          ]
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Agent asked detailed follow-up questions regarding medical history (thyroid, kidney stones, alcohol consumption).",
+        "timestamps": [
+          "00:03:43",
+          "00:04:00",
+          "00:05:37",
+          "00:07:25"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Agent made relevant observations and connected information from previous answers.",
+        "timestamps": [
+          "00:04:13",
+          "00:06:17",
+          "00:08:36"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "Agent clearly declared the call completion and thanked the customer multiple times.",
+        "timestamps": {
+          "declaration": "00:10:22",
+          "thank_you": "00:10:04"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK29001/_processed"
+}

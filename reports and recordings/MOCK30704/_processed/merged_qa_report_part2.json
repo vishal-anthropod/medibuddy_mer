@@ -1,0 +1,92 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:03"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The agent introduced herself, stated the insurer's name, and asked for the client by name.",
+      "timestamps": {
+        "self_intro": "00:00:03",
+        "client_name": "00:00:10",
+        "insurer_name": "00:00:07"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The agent asked the customer about their preferred language for the call.",
+      "timestamp": "00:00:49"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The agent verified the customer's full name, date of birth, PAN card number, nominee details, and address.",
+      "timestamps": [
+        "00:01:13",
+        "00:01:46",
+        "00:01:56",
+        "00:02:24",
+        "00:02:43"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The agent informed the customer that the call was being recorded for quality and audit purposes.",
+      "timestamp": "00:00:44"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent maintained a polite and respectful tone throughout the conversation, using 'ma'am' and 'doctor'.",
+      "timestamps": [
+        "00:00:03",
+        "00:18:23"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer's health concerns (cough, anemia, kidney stone history, migraine) are not classified as serious health concerns requiring explicit empathy per the guidelines. The agent maintained a professional and non-dismissive tone.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The agent communicated clearly, asked precise questions, and effectively summarized the medical history at the end.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:19",
+          "00:05:05",
+          "00:17:07"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent effectively probed into all disclosed medical conditions (cough/throat pain, anemia, kidney stone, migraine) for details like duration, medication, and follow-ups.",
+      "timestamps": [
+        "00:05:05",
+        "00:07:21",
+        "00:09:15",
+        "00:13:36",
+        "00:16:10"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The agent provided a comprehensive summary of the customer's medical history and current conditions towards the end of the call.",
+      "timestamps": [
+        "00:17:07"
+      ]
+    },
+    "call_closure": {
+      "value": "Partial",
+      "explanation": "The agent thanked the customer, but did not explicitly declare the call complete; the customer had to ask if they could disconnect.",
+      "timestamps": {
+        "declaration": "00:18:45",
+        "thank_you": "00:18:23"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:02"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello. Good afternoon. I'm Dr. Shubrajyoti Paul calling on behalf of Tata AIG. My name is Shubrajyoti Paul. Am I speaking to Muktaza Nadim Akhtar?",
+      "speaker": "doctor",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:09"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yeah.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "4",
+      "text": "Actually, this call is relating to pending video call verification. Are you available for it?",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:17"
+    },
+    {
+      "segment_id": "5",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "6",
+      "text": "I'm checking the ID. Okay, okay. Wait, just share the link as SMS, okay, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "00:19",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "7",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:25",
+      "end_timestamp": "00:25"
+    }
+  ]
+}

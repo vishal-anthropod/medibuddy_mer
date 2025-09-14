@@ -1,0 +1,125 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "2",
+          "text": "[For Women] Are you pregnant?"
+        },
+        {
+          "id": "7.1",
+          "text": "Takes Inhaler frequently for Asthma, bronchitis."
+        },
+        {
+          "id": "7.2",
+          "text": "Within 2 years"
+        },
+        {
+          "id": "7.3",
+          "text": "History of Asthma with night symptoms and hospitalization sometimes"
+        },
+        {
+          "id": "7.4",
+          "text": "Allergic bronchitis with use of inhaler sometimes"
+        },
+        {
+          "id": "7.5",
+          "text": "History of Asthma with symptom sometimes"
+        },
+        {
+          "id": "7.6",
+          "text": "History of any tuberculosis prior to 2 yrs with no relapse"
+        },
+        {
+          "id": "8.1",
+          "text": "History of iron deficiency anemia and now normal?"
+        },
+        {
+          "id": "12.3",
+          "text": "History of UTI (Urinary tract Infection), recovered."
+        },
+        {
+          "id": "12.4",
+          "text": "History of Ovarian cyst, no complications now"
+        },
+        {
+          "id": "24.1",
+          "text": "Are you Smoking currently or even occasionally in the last 2 year?"
+        },
+        {
+          "id": "24.3",
+          "text": "Chewing Tobacco currently or even occasionally in the last 2 year?"
+        },
+        {
+          "id": "24.7",
+          "text": "Are you taking drugs like cannabis/Marijuana,Ecstacy,Heroin,LSD,Amphetamines or any other illegal drugs?"
+        },
+        {
+          "id": "25.1",
+          "text": "ALL LIFE COVER TOGETHER - Enter value in numericals (like 100000 for 1 Lakh, 1000000 for 10 lakhs etc)"
+        },
+        {
+          "id": "25.2",
+          "text": "ALL CI (Critical Illness Cover)"
+        },
+        {
+          "id": "25.3",
+          "text": "Type of cover"
+        },
+        {
+          "id": "25.4",
+          "text": "Sum assured details"
+        },
+        {
+          "id": "25.5",
+          "text": "Name of the company"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 30
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Minor prompting detected",
+      "details": {
+        "examples": [
+          "Agent: Okay, so renal stone surgery, you're undergone a renal stone surgery. Right? Customer: Right?"
+        ],
+        "timestamps": [
+          "00:09:54"
+        ]
+      }
+    },
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Nominee is uh, Shreyad, I guess.",
+          "I've taken consultation so after seven days one more like a follow-up is there. So I will do follow-up.",
+          "No, I don't think so."
+        ],
+        "timestamps": [
+          "00:02:29",
+          "00:06:18",
+          "00:13:16"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

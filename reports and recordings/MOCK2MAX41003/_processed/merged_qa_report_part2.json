@@ -1,0 +1,79 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:03"
+      ]
+    },
+    "call_opening": {
+      "value": "Partial",
+      "explanation": "The agent introduced themselves but did not confirm the client's name or mention the insurer.",
+      "timestamps": {
+        "self_intro": "00:00:04",
+        "client_name": "",
+        "insurer_name": ""
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The agent did not ask or confirm the customer's language preference.",
+      "timestamp": ""
+    },
+    "id_validation": {
+      "value": "No",
+      "explanation": "The agent did not perform any ID validation.",
+      "timestamps": []
+    },
+    "disclaimer": {
+      "value": "No",
+      "explanation": "The agent did not provide any disclaimer.",
+      "timestamp": ""
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent maintained a polite tone throughout the interaction.",
+      "timestamps": [
+        "00:00:03",
+        "00:00:17"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed, so empathy is marked as Yes by default.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The agent communicated clearly and effectively, providing necessary information.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:04",
+          "00:00:23"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent asked for clarification when the customer's statement was unclear.",
+      "timestamps": [
+        "00:00:17"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "The call transcript does not contain any medical observations.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "No",
+      "explanation": "The agent did not provide a clear call closure, such as a declaration or thank you.",
+      "timestamps": {
+        "declaration": "",
+        "thank_you": ""
+      }
+    }
+  }
+}

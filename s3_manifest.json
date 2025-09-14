@@ -1,0 +1,401 @@
+{
+  "bucket": "anthropod",
+  "key_prefix": "temp/medibuddy",
+  "total_files": 49,
+  "total_bytes": 338427113,
+  "elapsed_seconds": 24.65,
+  "items": [
+    {
+      "local_path": "medibuddy_sample_call_1 (2) (1).wav",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/medibuddy_sample_call_1 (2) (1).wav",
+      "content_type": "audio/x-wav",
+      "size_bytes": 826391,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/medibuddy_sample_call_1%20%282%29%20%281%29.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131643Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8c1c2a0552a23cdc134a240748466e1749bb59ab4d9bfba857155b3a78e42529"
+    },
+    {
+      "local_path": "mer_document.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/mer_document.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 161563,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/mer_document.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131643Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e5abbe744d0abab5f817fb1b62eeeb1ab55fb2489861c0dd98edd0fa995c1b62"
+    },
+    {
+      "local_path": "POC Requirement.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/POC Requirement.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 571929,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/POC%20Requirement.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131643Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7dad0538743537eaf43f7d105a198882bfc6809a501b66122293ec0c718cf717"
+    },
+    {
+      "local_path": "reports and recordings/MOCK30704_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK30704_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 140794,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131644Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=854a3b1a16207f455008fa082d1ab6c3e0ddd1b5bb3e24fbcb9f06a8374bf458"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 6383631,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f89f04faf5816e1a5ca722d4462c7d4ae9854174b454b3e1de37b8a616940a45"
+    },
+    {
+      "local_path": "reports and recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 628895,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=28217aecbf37d0bc5eed5861b6fe6cd5f0a5d487dfc99298a3d544baccf2bdaa"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX41003_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 198624,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1d7515f534d92f1d356e47d62a226f384ef0380b028633459f4b14f5a4bd8a54"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 30646,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ab6d0adcdf6756272d1129f32cdce2fe4fc9ba94a4377dc80bfa48fbcb8a760c"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40937_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 88662,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a098952d1765f059c2ae37339c0b9efcecd7305ce718c4d9ba6e5d5e84a95d62"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX34152_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 182402,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9cd4526803a2ef257f6eb0b82710561f9e12b3d835ab2f50682c59d9e472a16e"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1041312,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=098e45a988b8e5b9f40123b665467236aa6c95e687f68ca7e91a0786c1506ba2"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131645Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8ed6af174ec64b46e94bc901222eb680abfc9b5e9d755ffe67833fed25e35d4b"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 679261,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131646Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=13e120aaf35cca5bd8cb4e21399e1eef9133dcd4954bc0eff34f715c958dc65b"
+    },
+    {
+      "local_path": "reports and recordings/MOCK29001_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK29001_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 176192,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131646Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=10f261d540c264741bed881ba2516badaba832382da16f6796d7276f00dad6a9"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1845120,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131646Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fb72614a21e5dba96173558c1a4096fa3a834b51b5daf715b0ef80ba67d592dd"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 671879,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131646Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aed432bb5a65e0989137aa747819d106fe113e1863f121ef38033412e87da21d"
+    },
+    {
+      "local_path": "reports and recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1135344,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131647Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=879a5d59b8ce31a86bb7d093272277b6373e8ad777aedb5f7f65bb04e27288bd"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40976_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 83650,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131647Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=90419e0a57da90e8eae20ae1746897b25db642d60811ecf27a6e9a9316383c9b"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2BAJAJ40933_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 166403,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131647Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fc0683a1b8794eaa70191f3b0623af03fdf1f8c77bf3f1d884f6762d29fb4870"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 27334,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131647Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=62cc781ff637764cf05356e6a30d83f3d86029a5a3f10b133da5c9a1940fd3af"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata.mp4",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 142356145,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131654Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a74033e8341b51feb79ffb38f07adc23c91728c605785cb63319570825ed87e8"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX40980_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 158752,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131654Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=112f6ed6958362f000df891a6668c35f8ffc3a42ba02fba592f3aaf145c9f17c"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 880031,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131654Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=887a9c246d066bba91eb65788ca85df3c80b8d594521cf68471d363d704ad5a5"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX38781_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 147797,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131654Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=26968f2dea9e1678cf0b6e61dc896071ebfaceeb41cf9846f47792332d39bbe9"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 28342,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131654Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0fc66e3dda088c27a5b41ade1d24fa3ca7e1c4faf9e22b9c6d53c96b97902bd5"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 27334,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cce3f619c7ba0d4103ae89c6f4dfdfdad827d1bda7e8dd8057a02c44376168a9"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 147797,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5f5f81412590b67b7b64617bb39f33c6e5de2a760c19f9f7d0e1fa7be677da90"
+    },
+    {
+      "local_path": "reports and recordings/MOCK30704/MOCK30704_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK30704/MOCK30704_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 140794,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704/MOCK30704_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=999edead086f2115ca420950b2d1ff4d6cc576dd0bb89af371df235252cb7084"
+    },
+    {
+      "local_path": "reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1135344,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2e3b9e00d9bff9fdbbc67e4c1166b8617e071a91b50b964a1f1640605aa5eee"
+    },
+    {
+      "local_path": "reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 628895,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2086b0547f09ebb495bdcc916c04d175f72ebf4e5f808f3c9aed80066bcb6521"
+    },
+    {
+      "local_path": "reports and recordings/MOCK29001/MOCK29001_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK29001/MOCK29001_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 176192,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001/MOCK29001_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4ff18af68205d5bd4e57cf898d8de5a4253b98bc526524b9058557258fb8f8eb"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 671879,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131655Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ec686ffaba17b51fd73ebafe5383845e362801db933335800285b3d754612ff"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 166403,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131656Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=569271d16a42bd9d0e813b177ad40a3a671b2efd168d77e1d2148bf959c3eea6"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 6383631,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131656Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c8a74399e5d4a950cd506e286b3eb7a5265232909e065548b1b00d24cb106e66"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 679261,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131657Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=99675ea71e87ce3004780013df43ce47b77b3f23cc7bd53edb16a772bc8fd102"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/Mock123Tata.mp4",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 142356145,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131703Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=de4b5b495425999c9e43d88cd53927d62019fa3171b284c3961dad61117eb610"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 28342,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131703Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7fa256fab719d74bae9053dcab0579103b2c39376a4f803619f06bf4e0aea233"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/_processed/call1/audio.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/_processed/call1/audio.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 21759521,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/_processed/call1/audio.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=267776d2d6b4dc653df521a2dde0c6f3fa87624ad55aec3fc111d63b554efdcd"
+    },
+    {
+      "local_path": "reports and recordings/Mock123Tata/_processed/call3/audio.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/Mock123Tata/_processed/call3/audio.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1005257,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/_processed/call3/audio.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9b7c9831954ce8208bcc01a1b5b1bd1123d7f4d99f1e54a8ad7a913ddf903c5d"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 88662,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5d97acc9adab73b207627cc71c7e7e57bbf2fb9a07001562aba9bd3a3e5d334b"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=706cdf016a1c90dac1d6ac8fa6e0f15e123ec76c28e3627b2ad02a2de3263104"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1041312,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7fe0b0f6cd77e41cff3001f109dfe15def3ca4c99c74f2690b625cb370836083"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 158752,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d2f4db99ae715dffdf36501811c0055c5f95e79bbc661eb45a701bf7469eef7c"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 198624,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5dff63bd8d666cfa42545f6f2f0644bf25a6037ae3bb98a810b0e0566e82e6b6"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 30646,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5ac4eb1ac03d3790fea590bab1b2a4076c360efd1454524973b49ae75f3b87c4"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1845120,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131707Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=21622e0cab26c9556b84d0bdd3c4b4c0e6ab493f61052484a5a785eb1ed1c987"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 83650,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131707Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9f19f173eb352f7d4993c8c383eed9605351350340a5333a7d6da7de13d83f32"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 182402,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131707Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=98d44e7d00792c256f593fe9264e82c5894be201832f0580defb2aaade4736c9"
+    },
+    {
+      "local_path": "reports and recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "bucket": "anthropod",
+      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 880031,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20250914%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250914T131707Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e15556361053a617134d01b1570c68a121259cf91248f212a589b6d9f65d1f1e"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.Name",
+          "text": "Member Name"
+        },
+        {
+          "id": "PP.DOB",
+          "text": "Member Date of Birth"
+        },
+        {
+          "id": "PP.ID.Other",
+          "text": "ID Proof Other"
+        },
+        {
+          "id": "PP.NomineeName",
+          "text": "Nominee Name"
+        },
+        {
+          "id": "PP.NomineeDOB",
+          "text": "Nominee Date of Birth"
+        },
+        {
+          "id": "1",
+          "text": "Education Qualification"
+        },
+        {
+          "id": "2",
+          "text": "[For Women] Are you pregnant?"
+        },
+        {
+          "id": "3",
+          "text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?"
+        },
+        {
+          "id": "3.1",
+          "text": "Were the results normal?"
+        },
+        {
+          "id": "3.2",
+          "text": "Details of the problem"
+        },
+        {
+          "id": "3.3",
+          "text": "Ultrasound done due to pregnancy only"
+        },
+        {
+          "id": "3.4",
+          "text": "Ultrasound done for any other purpose apart from pregnancy"
+        },
+        {
+          "id": "3.5",
+          "text": "Mammogram, PAP Smear and other test"
+        },
+        {
+          "id": "4",
+          "text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?"
+        },
+        {
+          "id": "5",
+          "text": "Hypertension or high blood pressure/high cholesterol?"
+        },
+        {
+          "id": "6",
+          "text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders"
+        },
+        {
+          "id": "6.1",
+          "text": "Diabetic on treatment?"
+        },
+        {
+          "id": "6.2",
+          "text": "On treatment for thyroid disorder and under control?"
+        },
+        {
+          "id": "6.3",
+          "text": "Any Other Disorder"
+        },
+        {
+          "id": "6.4",
+          "text": "When was diabetes first diagnosed?"
+        },
+        {
+          "id": "6.5",
+          "text": "[Please give details regarding your treatment] a) Do you take tablets? If Yes, please give the name of the tablets"
+        },
+        {
+          "id": "6.6",
+          "text": "[Please give details regarding your treatment] b) Do you take insulin? If Yes, please give the type of insulin & dosage (morning and evening)."
+        },
+        {
+          "id": "6.7",
+          "text": "[Please give details regarding your treatment] c) Has your treatment changed in the last two years? If Yes,please give details"
+        },
+        {
+          "id": "6.8",
+          "text": "Do you follow a strict diet?"
+        },
+        {
+          "id": "6.9",
+          "text": "[Regarding the monitoring of your conditions] a) Please provide the name and address of the doctor or clinic supervising your treatment"
+        },
+        {
+          "id": "6.10",
+          "text": "[Regarding the monitoring of your conditions] b) How often do you attend the monitoring sessions?"
+        },
+        {
+          "id": "6.11",
+          "text": "[Regarding the monitoring of your conditions] c) When was your last consultation?"
+        },
+        {
+          "id": "6.12",
+          "text": "[Regarding the monitoring of your conditions] d) How often do you test your blood or urine for Glucose? Daily,Weekly,None"
+        },
+        {
+          "id": "6.13",
+          "text": "[Regarding the monitoring of your conditions] e) Please indicate your usual test results by circling as appropriate. Blood glucose Below 140 / 140 to 180 / 181 or more. Urine glucose - Negative / + / +++ or more"
+        },
+        {
+          "id": "6.14",
+          "text": "[Regarding the monitoring of your conditions] f) Please give dates and results of your last two HbA1c (Glycoslated Hemoglobin) tests, if known"
+        },
+        {
+          "id": "6.15",
+          "text": "Since your treatment began, have your ever had a diabetic (Hyper glycemic) or insulin (Hypoglycemic) coma. If yes, please give complete details including dates."
+        },
+        {
+          "id": "6.16",
+          "text": "[Have you ever had any of the following] a) Problems with your eyes"
+        },
+        {
+          "id": "6.17",
+          "text": "[Have you ever had any of the following] b) High blood pressure."
+        },
+        {
+          "id": "6.18",
+          "text": "[Have you ever had any of the following] c) Heart or circulatory trouble."
+        },
+        {
+          "id": "6.19",
+          "text": "[Have you ever had any of the following] d) Albumin or protein in urine."
+        },
+        {
+          "id": "6.20",
+          "text": "[Have you ever had any of the following] e) Numbness or tingling in your feet or legs."
+        },
+        {
+          "id": "6.21",
+          "text": "Have you lost time off work with diabetes or associatedconditions? if Yes please give details including date are duration of time off work."
+        },
+        {
+          "id": "6.22",
+          "text": "Please provide any additional information on your condition, which you feel will be in processing the application."
+        },
+        {
+          "id": "7",
+          "text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?"
+        },
+        {
+          "id": "7.1",
+          "text": "Takes Inhaler frequently for Asthma, bronchitis."
+        },
+        {
+          "id": "7.2",
+          "text": "Within 2 years"
+        },
+        {
+          "id": "7.3",
+          "text": "History of Asthma with night symptoms and hospitalization sometimes"
+        },
+        {
+          "id": "7.4",
+          "text": "Allergic bronchitis with use of inhaler sometimes"
+        },
+        {
+          "id": "7.5",
+          "text": "History of Asthma with symptom sometimes"
+        },
+        {
+          "id": "7.6",
+          "text": "History of any tuberculosis prior to 2 yrs with no relapse"
+        },
+        {
+          "id": "7.7",
+          "text": "Any other details thereof"
+        },
+        {
+          "id": "8",
+          "text": "Blood disorder like anemia, leukemia or any circulatory disorder?"
+        },
+        {
+          "id": "8.1",
+          "text": "History of iron deficiency anemia and now normal?"
+        },
+        {
+          "id": "8.2",
+          "text": "Any other problem then details"
+        },
+        {
+          "id": "9",
+          "text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?"
+        },
+        {
+          "id": "10",
+          "text": "Any physical or mental disability or any congenital disease?"
+        },
+        {
+          "id": "11",
+          "text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?"
+        },
+        {
+          "id": "12",
+          "text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?"
+        },
+        {
+          "id": "13",
+          "text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?"
+        },
+        {
+          "id": "14",
+          "text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?"
+        },
+        {
+          "id": "15",
+          "text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout"
+        },
+        {
+          "id": "15.1",
+          "text": "Back pain due to slip disc, operated no complication"
+        },
+        {
+          "id": "15.2",
+          "text": "Back pain/any sprain suggested physiotherapy / exercise."
+        },
+        {
+          "id": "15.3",
+          "text": "History of hairline fracture / any ligament tear, now no problem."
+        },
+        {
+          "id": "15.4",
+          "text": "History/currently having Osteoarthritis/gout on Rx, no problem as such."
+        },
+        {
+          "id": "15.5",
+          "text": "History/currently having normal joint pain."
+        },
+        {
+          "id": "15.6",
+          "text": "History of any fracture but recovered now."
+        },
+        {
+          "id": "15.7",
+          "text": "Any other give details"
+        },
+        {
+          "id": "16",
+          "text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?"
+        },
+        {
+          "id": "16.1",
+          "text": "History of X-ray after accident and now normal"
+        },
+        {
+          "id": "16.2",
+          "text": "History of surgery after accident and now normal"
+        },
+        {
+          "id": "16.3",
+          "text": "Fully recovered, no complications > 6 months"
+        },
+        {
+          "id": "16.4",
+          "text": "History of Appendix surgery"
+        },
+        {
+          "id": "16.5",
+          "text": "Fully recovered within 6 months"
+        },
+        {
+          "id": "16.6",
+          "text": "Fully recovered after 6 months"
+        },
+        {
+          "id": "16.7",
+          "text": "Not recovered within 6 months"
+        },
+        {
+          "id": "16.8",
+          "text": "Not recovered after 6 months"
+        },
+        {
+          "id": "16.9",
+          "text": "History of surgery for piles or haemorrhoids"
+        },
+        {
+          "id": "16.10",
+          "text": "Fully recovered within 6 months"
+        },
+        {
+          "id": "16.11",
+          "text": "Fully recovered > 6 months"
+        },
+        {
+          "id": "16.12",
+          "text": "History of MRI scan for back pain"
+        },
+        {
+          "id": "16.13",
+          "text": "History of surgery for gall stone/ kidney stone"
+        },
+        {
+          "id": "16.14",
+          "text": "Fully recovered within 6 months"
+        },
+        {
+          "id": "16.15",
+          "text": "Fully recovered after 6 months"
+        },
+        {
+          "id": "16.16",
+          "text": "Not recovered within 6 months"
+        },
+        {
+          "id": "16.17",
+          "text": "Not recovered after 6 months"
+        },
+        {
+          "id": "16.18",
+          "text": "Hernia surgery"
+        },
+        {
+          "id": "16.19",
+          "text": "Fully recovered within 6 months"
+        },
+        {
+          "id": "16.20",
+          "text": "Blood investigations for fever/FLU/Viral fever/Malaria/Typhoid/Dengue, now no complication."
+        },
+        {
+          "id": "16.21",
+          "text": "Fully recovered > 6 months"
+        },
+        {
+          "id": "16.22",
+          "text": "Fully recovered within 6 months"
+        },
+        {
+          "id": "16.23",
+          "text": "Fully recovered after 6 months"
+        },
+        {
+          "id": "16.24",
+          "text": "Not recovered within 6 months"
+        },
+        {
+          "id": "16.25",
+          "text": "Not recovered after 6 months"
+        },
+        {
+          "id": "16.26",
+          "text": "Blood test / USG during pregnancy"
+        },
+        {
+          "id": "16.27",
+          "text": "History of blood test for blood donation"
+        },
+        {
+          "id": "16.28",
+          "text": "Surgery for insertion/removal of rods/screws"
+        },
+        {
+          "id": "16.29",
+          "text": "Tests done during annual preventive health check-up, reports were normal"
+        },
+        {
+          "id": "16.30",
+          "text": "Done within 3 months"
+        },
+        {
+          "id": "16.31",
+          "text": "More Than 3 months"
+        },
+        {
+          "id": "16.32",
+          "text": "Tests done during annual preventive health check-up, reports were not normal."
+        },
+        {
+          "id": "16.33",
+          "text": "Details of Abnormality."
+        },
+        {
+          "id": "16.34",
+          "text": "Any other furnish details"
+        },
+        {
+          "id": "17",
+          "text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?"
+        },
+        {
+          "id": "18",
+          "text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?"
+        },
+        {
+          "id": "18.1",
+          "text": "hospitalization for any fever and now normal"
+        },
+        {
+          "id": "18.2",
+          "text": "hospitalization of food poisoning and now normal"
+        },
+        {
+          "id": "18.3",
+          "text": "hospitalization after an accident and now alright"
+        },
+        {
+          "id": "18.4",
+          "text": "hospitalized for C-section, stone removal, appendicectomy, Piles, Hernia."
+        },
+        {
+          "id": "18.5",
+          "text": "hospitalized for treatment of malaria/typhoid/dengue/gastroenteritis/dehydration and now normal."
+        },
+        {
+          "id": "18.6",
+          "text": "Any other furnish details"
+        },
+        {
+          "id": "19",
+          "text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?"
+        },
+        {
+          "id": "19.1",
+          "text": "History of surgery due to accident"
+        },
+        {
+          "id": "19.2",
+          "text": "For treatment of tuberculosis more than 2 years ago."
+        },
+        {
+          "id": "19.3",
+          "text": "Cesarean section"
+        },
+        {
+          "id": "19.4",
+          "text": "Back pain / Slip disc"
+        },
+        {
+          "id": "19.5",
+          "text": "Joints Pain"
+        },
+        {
+          "id": "19.6",
+          "text": "For treatment of Malaria/Typhoid/Dengue and recovered."
+        },
+        {
+          "id": "19.7",
+          "text": "Any other furnish details"
+        },
+        {
+          "id": "20",
+          "text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?"
+        },
+        {
+          "id": "21",
+          "text": "Do you intend to travel outside India within next 3 months ?"
+        },
+        {
+          "id": "22",
+          "text": "Height (in cm)"
+        },
+        {
+          "id": "23",
+          "text": "Weight (in kgs)"
+        },
+        {
+          "id": "24",
+          "text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs."
+        },
+        {
+          "id": "25",
+          "text": "Existing Cover/Existing Insurance Cover"
+        },
+        {
+          "id": "25.1",
+          "text": "ALL LIFE COVER TOGETHER - Enter value in numericals (like 100000 for 1 Lakh, 1000000 for 10 lakhs etc)"
+        },
+        {
+          "id": "25.2",
+          "text": "ALL CI (Critical Illness Cover)"
+        },
+        {
+          "id": "25.3",
+          "text": "Type of cover"
+        },
+        {
+          "id": "25.4",
+          "text": "Sum assured details"
+        },
+        {
+          "id": "25.5",
+          "text": "Name of the company"
+        },
+        {
+          "id": "26",
+          "text": "Doctor Remarks"
+        },
+        {
+          "id": "26.1",
+          "text": "Education Qualification"
+        }
+      ]
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.Other",
+          "expected": "BYYPT4747H"
+        }
+      ]
+    },
+    {
+      "issue": "Disclaimer missing",
+      "details": {}
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 95
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

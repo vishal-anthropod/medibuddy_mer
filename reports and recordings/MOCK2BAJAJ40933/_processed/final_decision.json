@@ -1,0 +1,97 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.ID.ID",
+          "text": "ID Proof ID"
+        },
+        {
+          "id": "2.18",
+          "text": "Beedi"
+        },
+        {
+          "id": "2.19",
+          "text": "Paan"
+        },
+        {
+          "id": "2.20",
+          "text": "Gutkha"
+        },
+        {
+          "id": "3.8",
+          "text": "Protein or sugar in the urine"
+        },
+        {
+          "id": "3.19",
+          "text": "Have you ever been tested for HIV/VDRL or another sexually transmitted disease?"
+        },
+        {
+          "id": "3.21",
+          "text": "Do you have any history of miscarriage or abortion?"
+        },
+        {
+          "id": "3.26",
+          "text": "Are you, or have you been in close contact with anyone who has been quarantined or who has been diagnosed with novel coronavirus (SARS-CoV-2/COVID-19) ?"
+        },
+        {
+          "id": "3.27",
+          "text": "Have you been advised to be tested to rule in, or rule out, a diagnosis of novel coronavirus (SARSCoV-2/COVID-19)? Or, are you awaiting the result of a test or have been tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)?"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Miss Shruti",
+        "expected": "DRUTHI"
+      }
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.ID",
+          "expected": "BYYPT4747H"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 14
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 12
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 25
+      }
+    },
+    {
+      "issue": "Incorrect occupation (1.4)",
+      "details": {
+        "captured": "5.6 inches.",
+        "expected": "Yes 120"
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1036 @@
+{
+  "record_id": "MOCK2MAX38781",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 27.2,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
+      "duration": 27.2,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/_processed/call1/transcript.json",
+      "segments_count": 12,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -29.61
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/_processed/merged_transcript.json",
+    "total_segments": 12,
+    "total_duration": 27.2
+  },
+  "qa_part1": {
+    "meta": {
+      "proposal_number": "MOCK2MAX38781",
+      "doctor_name": "Dr. Mohammed Farhana",
+      "customer_name": "Naveena Prasanna",
+      "insurance_company": "Max Health Insurance",
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    },
+    "personal_particulars": {
+      "name": "Naveena Prasanna",
+      "dob": null,
+      "id_proofs": [
+        {
+          "type": "Other",
+          "value": "BYYPT4747H",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Max Health Insurance",
+        "timestamp": "00:01"
+      },
+      "language_preference": {
+        "asked": false,
+        "selected_language": null,
+        "timestamp": null
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Naveena Prasanna",
+        "expected_response": "Adheena Prasanna",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer name in call 'Naveena Prasanna' does not match MER 'Adheena Prasanna'.",
+        "timestamp": "00:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": null,
+        "expected_response": "01-Jan-1991",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Member Date of Birth was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Other",
+        "question_text": "ID Proof Details",
+        "captured_response": null,
+        "expected_response": "BYYPT4747H",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "ID Proof Details were not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": null,
+        "expected_response": "Syed Nominee",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Nominee Name was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": null,
+        "expected_response": "01-Jan-1993",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Nominee Date of Birth was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Education Quali\ufb01cation",
+        "captured_response": null,
+        "expected_response": "YesEducation - Graduate Others -",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 1 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "[For Women] Are you pregnant?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 2 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "[For Women] Have you undergone any of these tests lik e mammogram, ultrasound, pap smear etc.?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 3 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 4 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Hypertension or high blood pressure/high cholesterol?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 5 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.1",
+        "question_text": "Taking medicines for hypertension and is under contr ol",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.1 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.2",
+        "question_text": "Taking medicines for high cholester ols and is under contr ol",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.2 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.3",
+        "question_text": "In case of uncontr olled BP or cholester ol, pr ovide details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.3 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.4",
+        "question_text": "When was high blood pr essur e \ufb01rst diagnosed ?",
+        "captured_response": null,
+        "expected_response": "Yes 2 YEARS A GO",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.4 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.5",
+        "question_text": "Why was high blood pr essur e measur ed at that particular T ime? e.g. R outine Examination, due to symptoms, etc.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.5 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.6",
+        "question_text": "Do you know what your blood pr essur e readings wer e at of diagnosis? If Y es please give details.",
+        "captured_response": null,
+        "expected_response": "Yes la does not r emember the details",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.6 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.7",
+        "question_text": "Have you had on E.C.G, X -Ray, blood lipid test or other investigations If Y es, please give details including dates of investigations and r esults. If yes please add the details Date, T ype of Investigation and R esult",
+        "captured_response": null,
+        "expected_response": "YesROUTINE HEAL TH CHECK UP EVER Y 6 MONTHS",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.7 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.8",
+        "question_text": "Please give details of your tr eatment. Include names of medications (eg. Modur etic, Nvidr ex, Aldomet, inderal, T enoretic, T enormin, T rasicor etc), dosage and how of ten tak en. Cur rently and In the P ast",
+        "captured_response": null,
+        "expected_response": "Yes TELMA 20 MG for hypertension",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.8 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.9",
+        "question_text": "[Regarding the monitoring of your condition] a) Who is in char ge of your follow up?",
+        "captured_response": null,
+        "expected_response": "Yes SELF",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.9 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.10",
+        "question_text": "[Regarding the monitoring of your condition] b) How often do you attend for follow up?",
+        "captured_response": null,
+        "expected_response": "Yes EVER Y 6 MONTHS",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.10 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.11",
+        "question_text": "[Regarding the monitoring of your condition] c) When was your last consultation? Please give details of Y our blood pr essur e readings at that time, if known",
+        "captured_response": null,
+        "expected_response": "Yes JANUAR Y-2025,120/80MMHG",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.11 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.12",
+        "question_text": "Have any abnor malities (e.g. pr otein, blood) ever been found in your urine? If Y es. please give dates and full details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.12 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.13",
+        "question_text": "Do you smok e cigar ettes or biddies? If Y es, state the number smok ed per day .",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.13 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.14",
+        "question_text": "Have you lost time o\ufb00 work due to hypertension condition If Y es, please give details including date and duration of time o\ufb00 work.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.14 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5.15",
+        "question_text": "Please give my any additional infor mation on your condition, which you feel will be helpful in pr ocessing the application.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 5.15 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 6 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Asthma, bronchitis, wheezing, tuberculosis, breathing di\ufb03culties or any other respiratory disorder?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 7 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Blood disorder lik e anemia, leuk emia or any circulatory disorder?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 8 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Liver disorders lik e cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 9 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Any physical or mental disability or any congenital disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 10 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Any form of cancer , tumour , cyst, or growth of any kind or enlarged lymph nodes?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 11 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 12 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12.1",
+        "question_text": "History of sur gery of kidney/Ur eteric stone , no complications now .",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 12.1 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12.2",
+        "question_text": "History of stone in kidney ,sur gery not done, \ufb02ushed out or still ther e but no pr oblem.",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 12.2 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12.3",
+        "question_text": "History of UTI ( Urinary tract Infection ), r ecover ed.",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 12.3 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12.4",
+        "question_text": "History of Ovarian cyst, no complications now",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 12.4 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12.5",
+        "question_text": "Any other give details",
+        "captured_response": null,
+        "expected_response": "Yes2MM RENAL STONE, WITH SYMPTOMS OF ABDOMEN P AIN W AS CONSUL TED WITH DOCTOR WITH MEDICA TIONS AND SUFFICENT W ATER INT AKE IT W AS PASSED DOWN THROUGH URINE",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 12.5 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Epilepsy , nervous disorder , multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 13 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Eye, ear , nose or throat disorder , (Except use of spectacles)?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 14 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Disorder of back, muscle, joints, bone, neck, defor mity , amputation, arthritis or gout",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 15 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "In the last 5 years, have you had or been advised to have or in the next 30 da ys will you have an X -ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 16 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 17 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 18 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you been o\ufb00 work due to illness or for a continuous period of more than 10 da ys during the last one year?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 19 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you su\ufb00ered or su\ufb00ering from any other disease/ailment/habit not mentioned above?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 20 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you intend to travel outside India within next 3 months ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 21 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Height (in cm)",
+        "captured_response": null,
+        "expected_response": "Yes 157",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 22 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Weight (in kgs)",
+        "captured_response": null,
+        "expected_response": "Yes 60",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 23 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snu\ufb00/P aan ; Beer/Wine/Hard Liquor ; Any Drugs.",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 24 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.1",
+        "question_text": "Are you Smoking cur rently or even occasionally in the last 2 year?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.1 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.2",
+        "question_text": "Plesae specif y the number of cigar ettes per day",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.2 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Please specify the number of cigarettes per day"
+        }
+      },
+      {
+        "question_id": "24.3",
+        "question_text": "Chewing T obacco cur rently or even occasionally in the last 2 year?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.3 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Chewing Tobacco currently or even occasionally in the last 2 year?"
+        }
+      },
+      {
+        "question_id": "24.4",
+        "question_text": "Plesae specif y the number of sachets per day",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.4 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Please specify the number of sachets per day"
+        }
+      },
+      {
+        "question_id": "24.5",
+        "question_text": "Alcohol (Beer/W ine/Har d Liquor )",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.5 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Alcohol (Beer/Wine/Hard Liquor)"
+        }
+      },
+      {
+        "question_id": "24.6",
+        "question_text": "Please specif y the per day quantity",
+        "captured_response": null,
+        "expected_response": "Yes WHISK Y-ONCE IN 6 MONTHS,150ML",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.6 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Please specify the per day quantity"
+        }
+      },
+      {
+        "question_id": "24.7",
+        "question_text": "Are you taking drugs lik e cannabis/Marijuana,Ecstacy,Her oin,LSD,Amphetamines or any other illegal drugs?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.7 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Are you taking drugs like cannabis/Marijuana,Ecstasy,Heroin,LSD,Amphetamines or any other illegal drugs?"
+        }
+      },
+      {
+        "question_id": "24.8",
+        "question_text": "Details if any",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Sub-question 24.8 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "Existing Cover/Existing Insurance Cover",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 25 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "Doctor Remarks",
+        "captured_response": null,
+        "expected_response": "YesPATIENT W AS DIA GNOSED WITH SHTN 2 YEARS BA CK AND la was diagnosed with hypertension 2 years back and was taking Medication telma-20, and had r enal stones 5 years ago of size 2mm and was tr eated with medications and was passed down through urine no other complications. Education Quali\ufb01cation Yes Graduate Education Quali\ufb01cation Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question 26 was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes PATIENT WAS DIAGNOSED WITH SHTN 2 YEARS BACK AND la was diagnosed with hypertension 2 years back and was taking Medication telma-20, and had renal stones 5 years ago of size 2mm and was treated with medications and was passed down through urine no other complications. Education Qualification Yes Graduate Education Qualification Yes"
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "The agent did not ask any of the medical examination questions from the MER document.",
+        "Customer's name in the call ('Naveena Prasanna') does not match the name in the MER ('Adheena Prasanna'). This is a critical mismatch for identity verification.",
+        "The full disclaimer was not read.",
+        "Language preference was not asked."
+      ],
+      "recommendations": [
+        "Ensure all MER questions are asked during the medical verification call.",
+        "Verify customer's identity against the MER document at the start of the call, including full name and potentially other identifiers.",
+        "Read the complete legal disclaimer at the beginning of the call.",
+        "Ask for the customer's preferred language at the start of the call."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and responsive."
+      ]
+    },
+    "data_validation": {
+      "height_cm": null,
+      "weight_kg": null,
+      "dates_mentioned": [],
+      "medications": [],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -29.61
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Agent greeted the customer appropriately with 'Hello, good afternoon, ma'am.'",
+        "timestamps": [
+          "00:00:01"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Agent introduced themselves, stated the company, and confirmed the client's name.",
+        "timestamps": {
+          "self_intro": "00:00:03",
+          "client_name": "00:00:06",
+          "insurer_name": "00:00:04"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "Agent did not ask for the customer's language preference.",
+        "timestamp": "00:00:00"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "Agent confirmed the customer's name by asking 'Am I speaking with Naveena Prasanna?'",
+        "timestamps": [
+          "00:00:06"
+        ]
+      },
+      "disclaimer": {
+        "value": "No",
+        "explanation": "Agent did not provide any disclaimer regarding the call.",
+        "timestamp": "00:00:00"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Agent maintained a polite tone and used polite phrases like 'good afternoon, ma'am' and 'Can you please'.",
+        "timestamps": [
+          "00:00:01",
+          "00:00:19"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "No serious health concern was discussed requiring explicit empathy.",
+        "timestamps": [
+          "00:00:00"
+        ]
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Agent communicated clearly and effectively, providing instructions for the video consultation.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:17"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "NA",
+        "explanation": "The call's purpose was to initiate a video consultation, not to probe for medical details.",
+        "timestamps": [
+          "00:00:00"
+        ]
+      },
+      "observations": {
+        "value": "NA",
+        "explanation": "No customer hesitation or third-party prompting was observed.",
+        "timestamps": [
+          "00:00:00"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "Agent said 'Thank you' but did not provide a full closing declaration.",
+        "timestamps": {
+          "declaration": "00:00:00",
+          "thank_you": "00:00:24"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX38781/_processed"
+}

@@ -1,0 +1,1981 @@
+{
+  "record_id": "MOCK2MAX41003",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 30.512,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "duration": 30.512,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/_processed/call1/transcript.json",
+      "segments_count": 10,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -25.36
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/_processed/merged_transcript.json",
+    "total_segments": 10,
+    "total_duration": 30.512
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": null,
+      "dob": null,
+      "id_proofs": [
+        {
+          "type": "Other",
+          "value": null,
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": false,
+        "insurer_name": null,
+        "timestamp": null
+      },
+      "language_preference": {
+        "asked": false,
+        "selected_language": null,
+        "timestamp": null
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": null,
+        "expected_response": "Salwa Ayyubi",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the member's name.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": null,
+        "expected_response": "01-Jan-1991",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the member's date of birth.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Other",
+        "question_text": "ID Proof Other",
+        "captured_response": null,
+        "expected_response": "BYYPT4747H",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the member's ID details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": null,
+        "expected_response": "SAYED",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the nominee's name.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": null,
+        "expected_response": "01-Jan-1993",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the nominee's date of birth.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Education Qualification",
+        "captured_response": null,
+        "expected_response": "YesEducation - Post Graduate Others -",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about education qualification.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "[For Women] Are you pregnant?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about pregnancy status.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about medical tests.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.1",
+        "question_text": "Were the results normal?",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about test results.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.2",
+        "question_text": "Details of the problem",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for details of any problem.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.3",
+        "question_text": "Ultrasound done due to pregnancy only",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about ultrasound reason.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.4",
+        "question_text": "Ultrasound done for any other purpose apart from pregnancy",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about other ultrasound reasons.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.5",
+        "question_text": "Mammogram, PAP Smear and other test",
+        "captured_response": null,
+        "expected_response": "Yes 2022",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about mammogram, PAP smear, and other tests.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about cardiac history.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Hypertension or high blood pressure/high cholesterol?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hypertension or high cholesterol.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about blood sugar, diabetes, or thyroid disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.1",
+        "question_text": "Diabetic on treatment?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about diabetes treatment.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.2",
+        "question_text": "On treatment for thyroid disorder and under control?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about thyroid treatment.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.3",
+        "question_text": "Any Other Disorder",
+        "captured_response": null,
+        "expected_response": "Yes hypothyroid ,not on regular medications",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about other disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.4",
+        "question_text": "When was diabetes first diagnosed ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about diabetes diagnosis date.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5.a",
+        "question_text": "[Please give details regarding your treatment] a) Do you take tablets ? If Yes, please give the name of the tablets",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about tablet medication.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5.b",
+        "question_text": "[Please give details regarding your treatment] b) Do you take insulin ? If Yes, please give the type of insulin & dosage (morning and evening).",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about insulin medication.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5.c",
+        "question_text": "[Please give details regarding your treatment] c) Has your treatment changed in the last two years ? If Yes,please give details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about changes in treatment.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.6",
+        "question_text": "Do you follow a strict diet ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about diet.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.a",
+        "question_text": "[Regarding the monitoring of your conditions] a) Please provide the name and address of the doctor or clinic supervising your treatment",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about supervising doctor/clinic.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.b",
+        "question_text": "[Regarding the monitoring of your conditions] b) How often do you attend the monitoring sessions ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about monitoring session frequency.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.c",
+        "question_text": "[Regarding the monitoring of your conditions] c) When was your last consultation ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about last consultation date.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.d",
+        "question_text": "[Regarding the monitoring of your conditions] d) How often do you test your blood or urine for Glucose ? Daily,Weekly,None",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about glucose testing frequency.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.e",
+        "question_text": "[Regarding the monitoring of your conditions] e) Please indicate your usual test results by circling as appropriate. Blood glucose Below 140 / 140 to 180 / 181 or more. Urine glucose - Negative / + / +++ or more",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about usual test results.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7.f",
+        "question_text": "[Regarding the monitoring of your conditions] f) Please give dates and results of your last two HbA1c (Glycoslated Hemoglobin) tests, if known",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about HbA1c test results.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.8",
+        "question_text": "Since your treatment began, have your ever had a diabetic (Hyper glycemic) or insulin (Hypoglycemic) coma. If yes, please give complete details including dates.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about diabetic/insulin coma.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9.a",
+        "question_text": "[Have you ever had any of the following] a) Problems with your eyes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about eye problems.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9.b",
+        "question_text": "[Have you ever had any of the following] b) High blood pressure.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about high blood pressure.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9.c",
+        "question_text": "[Have you ever had any of the following] c) Heart or circulatory trouble.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about heart/circulatory trouble.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9.d",
+        "question_text": "[Have you ever had any of the following] d) Albumin or protein in urine.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about albumin/protein in urine.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9.e",
+        "question_text": "[Have you ever had any of the following] e) Numbness or tingling in your feet or legs.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about numbness/tingling.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.10",
+        "question_text": "Have you lost time off work with diabetes or associated conditions? if Yes please give details including date are duration of time off work.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off work due to diabetes.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.11",
+        "question_text": "Please provide any additional information on your condition, which you feel will be in processing the application.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for additional information.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about respiratory disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.1",
+        "question_text": "Takes Inhaler frequently for Asthma, bronchitis.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about inhaler use.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.2",
+        "question_text": "Within 2 years",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recent respiratory issues.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.3",
+        "question_text": "History of Asthma with night symptoms and hospitalization sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about severe asthma history.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.4",
+        "question_text": "Allergic bronchitis with use of inhaler sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about allergic bronchitis.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.5",
+        "question_text": "History of Asthma with symptom sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about asthma symptoms.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.6",
+        "question_text": "History of any tuberculosis prior to 2 yrs with no relapse",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about tuberculosis history.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.7",
+        "question_text": "Any other details thereof",
+        "captured_response": null,
+        "expected_response": "Yes allergic to dust , on antihistamines",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other respiratory details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Blood disorder like anemia, leukemia or any circulatory disorder?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about blood disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8.1",
+        "question_text": "History of iron deficiency anemia and now normal?",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about iron deficiency anemia.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8.2",
+        "question_text": "Any other problem then details",
+        "captured_response": null,
+        "expected_response": "Yes anemia,hb-8",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other blood disorder details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about liver/stomach disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Any physical or mental disability or any congenital disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about disability or congenital disease.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about cancer/tumors.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about kidney/gynecological disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about neurological/psychiatric disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about ENT disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about musculoskeletal disorders.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.1",
+        "question_text": "Back pain due to slip disc, operated no complication",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about slip disc.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.2",
+        "question_text": "Back pain/any sprain suggested physiotherapy / exercise.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about back pain/sprain treatment.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.3",
+        "question_text": "History of hairline fracture / any ligament tear, now no problem.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about fractures/ligament tears.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.4",
+        "question_text": "History/currently having Osteoarthritis/gout on Rx, no problem as such.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about Osteoarthritis/gout.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.5",
+        "question_text": "History/currently having normal joint pain.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about joint pain.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.6",
+        "question_text": "History of any fracture but recovered now.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about fracture history.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15.7",
+        "question_text": "Any other give details",
+        "captured_response": null,
+        "expected_response": "Yesback pain- musculoskeletal pain, on physiotherapy treatment",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other musculoskeletal details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recent tests/surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.1",
+        "question_text": "History of X-ray after accident and now normal",
+        "captured_response": null,
+        "expected_response": "Yes true",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about X-ray history.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.2",
+        "question_text": "History of surgery after accident and now normal",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about surgery after accident.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.3",
+        "question_text": "Fully recovered, no complications > 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery status.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.4",
+        "question_text": "History of Appendix surgery",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about appendix surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.5",
+        "question_text": "Fully recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.6",
+        "question_text": "Fully recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.7",
+        "question_text": "Not recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.8",
+        "question_text": "Not recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.9",
+        "question_text": "History of surgery for piles or haemorrhoids",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about piles/haemorrhoids surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.10",
+        "question_text": "Fully recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.11",
+        "question_text": "Fully recovered > 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.12",
+        "question_text": "History of MRI scan for back pain",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about MRI for back pain.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.13",
+        "question_text": "History of surgery for gall stone/ kidney stone",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about gall/kidney stone surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.14",
+        "question_text": "Fully recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.15",
+        "question_text": "Fully recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.16",
+        "question_text": "Not recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.17",
+        "question_text": "Not recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.18",
+        "question_text": "Hernia surgery",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hernia surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.19",
+        "question_text": "Fully recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.20",
+        "question_text": "Blood investigations for fever/FLU/Viral fever/Malaria/Typhoid/Dengue, now no complication.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about blood investigations for fever.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.21",
+        "question_text": "Fully recovered > 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.22",
+        "question_text": "Fully recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.23",
+        "question_text": "Fully recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.24",
+        "question_text": "Not recovered within 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery within 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.25",
+        "question_text": "Not recovered after 6 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about non-recovery after 6 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.26",
+        "question_text": "Blood test / USG during pregnancy",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about blood test/USG during pregnancy.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.27",
+        "question_text": "History of blood test for blood donation",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about blood test for donation.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.28",
+        "question_text": "Surgery for insertion/removal of rods/screws",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about surgery for rods/screws.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.29",
+        "question_text": "Tests done during annual preventive health check-up, reports were normal",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about normal preventive check-up reports.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.30",
+        "question_text": "Done within 3 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about tests within 3 months.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.31",
+        "question_text": "More Than 3 months",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about tests more than 3 months ago.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.32",
+        "question_text": "Tests done during annual preventive health check-up, reports were not normal.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about abnormal preventive check-up reports.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.33",
+        "question_text": "Details of Abnormality.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for abnormality details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16.34",
+        "question_text": "Any other furnish details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other test/surgery details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about HIV/AIDS/STDs.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about current/past treatment/medication/surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.1",
+        "question_text": "hospitalization for any fever and now normal",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hospitalization for fever.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.2",
+        "question_text": "hospitalization of food poisoning and now normal",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hospitalization for food poisoning.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.3",
+        "question_text": "hospitalization after an accident and now alright",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hospitalization after accident.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.4",
+        "question_text": "hospitalized for C-section, stone removal, appendicectomy, Piles, Hernia.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about specific surgeries/hospitalizations.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.5",
+        "question_text": "hospitalized for treatment of malaria/typhoid/dengue/gastroenteritis/dehydration and now normal.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about hospitalization for infectious diseases.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18.6",
+        "question_text": "Any other furnish details",
+        "captured_response": null,
+        "expected_response": "Yes tab biorenew for hair health",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other treatment details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off work due to illness.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.1",
+        "question_text": "History of surgery due to accident",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for accident surgery.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.2",
+        "question_text": "For treatment of tuberculosis more than 2 years ago .",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for tuberculosis.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.3",
+        "question_text": "Cesarean section",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for C-section.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.4",
+        "question_text": "Back pain / Slip disc",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for back pain/slip disc.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.5",
+        "question_text": "Joints Pain",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for joint pain.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.6",
+        "question_text": "For treatment of Malaria/Typhoid/Dengue and recovered.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about time off for infectious diseases.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19.7",
+        "question_text": "Any other furnish details",
+        "captured_response": null,
+        "expected_response": "Yes more than 10 days off for tooth inflammation",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for other reasons for time off.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about other diseases/ailments.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you intend to travel outside India within next 3 months ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about international travel plans.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Height (in cm)",
+        "captured_response": null,
+        "expected_response": "Yes 165",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about height.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Weight (in kgs)",
+        "captured_response": null,
+        "expected_response": "Yes 59",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about weight.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about habits and addictions.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "Existing Cover/Existing Insurance Cover",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about existing insurance cover.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25.1",
+        "question_text": "ALL LIFE COVER TOGETHER - Enter value in numericals (like 100000 for 1 Lakh, 1000000 for 10 lakhs etc)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about total life cover.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25.2",
+        "question_text": "ALL CI (Critical Illness Cover)",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about critical illness cover.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25.3",
+        "question_text": "Type of cover",
+        "captured_response": null,
+        "expected_response": "Yes Health",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about type of cover.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25.4",
+        "question_text": "Sum assured details",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about sum assured details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25.5",
+        "question_text": "Name of the company",
+        "captured_response": null,
+        "expected_response": "Yes not sure",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked about the company name.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "Doctor Remarks",
+        "captured_response": null,
+        "expected_response": "Yes ..",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have provided doctor remarks.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26.1",
+        "question_text": "Education Qualification",
+        "captured_response": null,
+        "expected_response": "Yes Post Graduate Education Qualification Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed education qualification.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "No personal particulars were confirmed with the customer.",
+        "No disclaimer was read at the start of the call.",
+        "No language preference was asked at the start of the call.",
+        "No medical questions from the MER document were asked during the conversation."
+      ],
+      "recommendations": [
+        "The agent must adhere to the full MER script, including initial compliance checks (disclaimer, language preference) and all medical questions.",
+        "Ensure personal particulars are confirmed with the customer at the beginning of the call."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and responsive to agent's instructions."
+      ]
+    },
+    "data_validation": {
+      "height_cm": null,
+      "weight_kg": null,
+      "dates_mentioned": [],
+      "medications": [],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "MOCK2MAX41003",
+      "doctor_name": "Dr. Krishna Shetkar",
+      "customer_name": "Salwa Ayyubi",
+      "insurance_company": "Axis Max Life Insurance Company Ltd.",
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -25.36
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The agent initiated the call with a greeting.",
+        "timestamps": [
+          "00:00:03"
+        ]
+      },
+      "call_opening": {
+        "value": "Partial",
+        "explanation": "The agent introduced themselves but did not confirm the client's name or mention the insurer.",
+        "timestamps": {
+          "self_intro": "00:00:04",
+          "client_name": "",
+          "insurer_name": ""
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "The agent did not ask or confirm the customer's language preference.",
+        "timestamp": ""
+      },
+      "id_validation": {
+        "value": "No",
+        "explanation": "The agent did not perform any ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "No",
+        "explanation": "The agent did not provide any disclaimer.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The agent maintained a polite tone throughout the interaction.",
+        "timestamps": [
+          "00:00:03",
+          "00:00:17"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "No serious health concerns were discussed, so empathy is marked as Yes by default.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "The agent communicated clearly and effectively, providing necessary information.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:04",
+            "00:00:23"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The agent asked for clarification when the customer's statement was unclear.",
+        "timestamps": [
+          "00:00:17"
+        ]
+      },
+      "observations": {
+        "value": "NA",
+        "explanation": "The call transcript does not contain any medical observations.",
+        "timestamps": []
+      },
+      "call_closure": {
+        "value": "No",
+        "explanation": "The agent did not provide a clear call closure, such as a declaration or thank you.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": ""
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX41003/_processed"
+}

@@ -1,0 +1,216 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "6.2",
+          "text": "HTN"
+        },
+        {
+          "id": "6.5",
+          "text": "Cholesterol Problem"
+        },
+        {
+          "id": "6.6",
+          "text": "Routine Check-up"
+        },
+        {
+          "id": "6.8",
+          "text": "Cold/Cough"
+        },
+        {
+          "id": "6.9",
+          "text": "Arthritis"
+        },
+        {
+          "id": "7.3",
+          "text": "DM"
+        },
+        {
+          "id": "7.4",
+          "text": "HTN"
+        },
+        {
+          "id": "7.6",
+          "text": "Routine Check-up"
+        },
+        {
+          "id": "7.7",
+          "text": "Cholesterol"
+        },
+        {
+          "id": "7.8",
+          "text": "Depression"
+        },
+        {
+          "id": "7.9",
+          "text": "Cold/Cough"
+        },
+        {
+          "id": "7.10",
+          "text": "Arthritis"
+        },
+        {
+          "id": "11.1",
+          "text": "Cigarette"
+        },
+        {
+          "id": "11.2",
+          "text": "Beedi"
+        },
+        {
+          "id": "11.3",
+          "text": "Paan"
+        },
+        {
+          "id": "11.4",
+          "text": "Gutkha"
+        },
+        {
+          "id": "12.1",
+          "text": "Date of diagnosis"
+        },
+        {
+          "id": "12.2",
+          "text": "Current health status"
+        },
+        {
+          "id": "15",
+          "text": "Have you ever suffered from any heart disease or disorder, heart valve problems, raised blood pressure or cholesterol problems?"
+        },
+        {
+          "id": "19.3",
+          "text": "Availability of reports"
+        },
+        {
+          "id": "19.5",
+          "text": "Ureter"
+        },
+        {
+          "id": "19.6",
+          "text": "Bladder"
+        },
+        {
+          "id": "19.7",
+          "text": "Prostate/ Reproductive Organs/ had blood"
+        },
+        {
+          "id": "19.8",
+          "text": "Protein or sugar in the urine"
+        },
+        {
+          "id": "19.9",
+          "text": "Surgery"
+        },
+        {
+          "id": "19.11",
+          "text": "Routine Check-up"
+        },
+        {
+          "id": "23.3",
+          "text": "Availability of reports"
+        },
+        {
+          "id": "23.4",
+          "text": "Hyperthyroid"
+        },
+        {
+          "id": "24",
+          "text": "Have you ever had or been told to have or been treated for cancer, tumour, cyst, or growth of any kind?"
+        },
+        {
+          "id": "26",
+          "text": "Have you ever been tested for HIV/VDRL or another sexually transmitted disease?"
+        },
+        {
+          "id": "30",
+          "text": "Have you ever visited a medical practitioner for any problems of breast/ Uterus/ Cervix etc?"
+        },
+        {
+          "id": "32",
+          "text": "Is there anything else you would like to share with us with respect to your health or habits?"
+        },
+        {
+          "id": "34",
+          "text": "Are you, or have you been in close contact with anyone who has been quarantined or who has been diagnosed with novel coronavirus (SARS-CoV-2/COVID-19)?"
+        },
+        {
+          "id": "35",
+          "text": "Have you been advised to be tested to rule in, or rule out, a diagnosis of novel coronavirus (SARSCoV-2/COVID-19)? Or, are you awaiting the result of a test or have been tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)?"
+        },
+        {
+          "id": "37",
+          "text": "Please detail your intended future travel plans for the next 30 days"
+        }
+      ]
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 8
+      }
+    },
+    {
+      "issue": "Major agent-led prompting detected",
+      "details": {
+        "examples": [
+          "Agent: So currently you are undergraduate, right, ma'am? (01:49)",
+          "Agent: And your occupation is a student as you are still studying, right, ma'am? (02:03)",
+          "Agent: So, ma'am, you're suffering from hypothyroidism and it started when, ma'am? (03:43)",
+          "Agent: Ma'am, I just want to say that you are currently taking Thyronorm. So, probably you are having hypothyroidism, right, ma'am? (04:13)",
+          "Agent: Nothing like it was a routine examination and you got to know, right? (08:54)"
+        ],
+        "timestamps": [
+          "01:49",
+          "02:03",
+          "03:43",
+          "04:13",
+          "08:54"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 14
+      }
+    },
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "1st June 1991",
+        "expected": "01-Jan-1991"
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer: One second. (03:17)",
+          "Customer: Sorry? (03:53)",
+          "Customer: Sorry? I didn't get you, doctor. (04:11)",
+          "Customer: Yeah, I quit drinking. I used to drink alcohol. (05:31) - (Slight pause/careful phrasing before revealing sensitive information)"
+        ],
+        "timestamps": [
+          "03:17",
+          "03:53",
+          "04:11",
+          "05:31"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

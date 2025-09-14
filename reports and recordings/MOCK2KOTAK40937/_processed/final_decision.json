@@ -1,0 +1,194 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.Name",
+          "text": "Member Name"
+        },
+        {
+          "id": "PP.DOB",
+          "text": "Member Date of Birth"
+        },
+        {
+          "id": "PP.ID.Details",
+          "text": "ID Proof Details"
+        },
+        {
+          "id": "PP.NomineeName",
+          "text": "Nominee Name"
+        },
+        {
+          "id": "PP.NomineeDOB",
+          "text": "Nominee Date of Birth"
+        },
+        {
+          "id": "1.1",
+          "text": "Educational Qualification"
+        },
+        {
+          "id": "1.2",
+          "text": "Occupation"
+        },
+        {
+          "id": "1.3",
+          "text": "Height (ft. / inch-cm)"
+        },
+        {
+          "id": "1.4",
+          "text": "Weight (Kg / pound)"
+        },
+        {
+          "id": "2",
+          "text": "Do you have currently any health complaints or under any treatment/medication?"
+        },
+        {
+          "id": "3",
+          "text": "Have you been hospitalized or undergone any surgery till date?"
+        },
+        {
+          "id": "4",
+          "text": "Have you undergone any investigations like blood test, ECG or special test like CT/MRI,Angiography etc.(Female life:Mammography,PAP smear)?"
+        },
+        {
+          "id": "5",
+          "text": "Do you have any history of Diabetes, High Blood pressure, Heart attack or any other heart related disorder or cancer?"
+        },
+        {
+          "id": "6",
+          "text": "Do you have any history of Blood disorder (low Haemoglobin, thalassaemia etc.), Thyroid disorder or Respiratory disorder (e.g. Asthma, TB etc.) or Digestive system related disorder (Jaundice, Cirrhosis, pancreatitis, Colitis etc.)?"
+        },
+        {
+          "id": "7",
+          "text": "Do you have any history of Kidney disorder like protein/blood in urine, or disorders of joints, muscles, bones like Arthritis or any physical deformity or defect since birth?"
+        },
+        {
+          "id": "8",
+          "text": "Do you have any history of Brain disorder like seizures, paralysis ,stroke or any mental /psychiatric illness or tested positive for HIV/HCV/HbsAg?"
+        },
+        {
+          "id": "9",
+          "text": "Are you currently in good health?"
+        },
+        {
+          "id": "10",
+          "text": "Have you experienced any of the following symptoms within the last 2 months? Any fever / Cough / Shortness of breath /Malaise (flu-like tiredness) /Rhinorrhea (mucus discharge from the nose) /Sore throat. Gastro-intestinal symptoms such as nausea, vomiting and/or diarrhea If yes, to any of these, please provide below full information."
+        },
+        {
+          "id": "11",
+          "text": "Have you or our family members travelled overseas post 1st Jan 2020 ? If yes, please provide below full information."
+        },
+        {
+          "id": "11.1",
+          "text": "Name of the country"
+        },
+        {
+          "id": "11.2",
+          "text": "Date of return to India"
+        },
+        {
+          "id": "11.3",
+          "text": "On your return to India were you advised to be Quarantined / isolated for COVID 19"
+        },
+        {
+          "id": "12",
+          "text": "Do you have any plan to travel overseas during the next 6 months ?"
+        },
+        {
+          "id": "13",
+          "text": "Have you or your family members ever tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)?"
+        },
+        {
+          "id": "14",
+          "text": "Have any of your immediate family members (mother,father,brother,sister) been diagnosed with or died from Heart Attack, Coronary artery disaese,Cancer,Diabetes,stroke,before age 60yr?"
+        },
+        {
+          "id": "15",
+          "text": "Have you consumed Tobacco in any form (Cigarettes / Bidi /Gutkha /Pan / Snuff)?"
+        },
+        {
+          "id": "16",
+          "text": "Have you consumed Alcohol in any form (Wine /Beer /Hard Liquor)?"
+        },
+        {
+          "id": "17",
+          "text": "[For female lives] Have you suffered from any gynecological problem related to Breast ,Uterus, cervix?"
+        },
+        {
+          "id": "18",
+          "text": "[For female lives] Are you pregnant?"
+        },
+        {
+          "id": "19",
+          "text": "Have you received a COVID-19 vaccine?"
+        },
+        {
+          "id": "19.1",
+          "text": "Dose 1. Date of Vaccination"
+        },
+        {
+          "id": "19.2",
+          "text": "Dose 2. Date of Vaccination"
+        },
+        {
+          "id": "20",
+          "text": "Is there anything else not covered above, you would like to share with us with respect to your health?"
+        },
+        {
+          "id": "21",
+          "text": "DECLARATION: Sir/Mam' are you in agreement with the declaration that I have read out to you."
+        }
+      ]
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.Details",
+          "expected": "BYYPT4747H"
+        }
+      ]
+    },
+    {
+      "issue": "Disclaimer missing",
+      "details": {}
+    },
+    {
+      "issue": "Doctor self-introduction missing",
+      "details": {}
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 30
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Privacy breach in video",
+      "details": {}
+    },
+    {
+      "issue": "Unprofessional behavior (politeness)",
+      "details": {
+        "value": "no"
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Recording file missing",
+      "details": {}
+    },
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

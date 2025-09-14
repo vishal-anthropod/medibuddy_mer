@@ -1,0 +1,734 @@
+{
+  "record_id": "MOCK2KOTAK40976",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 1844.984,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "duration": 1844.984,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/_processed/call1/transcript.json",
+      "segments_count": 209,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -18.74
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/_processed/merged_transcript.json",
+    "total_segments": 209,
+    "total_duration": 1844.984
+  },
+  "qa_part1": {
+    "meta": {
+      "proposal_number": "MOCK2K OTAK40976",
+      "doctor_name": "Dr. Sunil",
+      "customer_name": "Abina",
+      "insurance_company": "Kotak Life Insurance",
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    },
+    "personal_particulars": {
+      "name": "Abina",
+      "dob": "01-Jan-1991",
+      "id_proofs": [
+        {
+          "type": "Other",
+          "value": "BYYPT4747H",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": "Payal",
+      "nominee_dob": "01-Jan-1993"
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "company",
+        "timestamp": "01:10"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "English",
+        "timestamp": "00:33"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "Q.AppNo",
+        "question_text": "Application No.",
+        "captured_response": null,
+        "expected_response": "MOCK2K OTAK40976",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the Application Number.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Q.Date",
+        "question_text": "Date of Medical Verification",
+        "captured_response": null,
+        "expected_response": "22-Feb-2025",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the Date of Medical Verification.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Abina",
+        "expected_response": "Adheena",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer's name should be 'Adheena' as per MER.",
+        "timestamp": "01:31",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Other",
+        "question_text": "ID Proof Other",
+        "captured_response": null,
+        "expected_response": "BYYPT4747H",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the ID details.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": "01/01/1991",
+        "expected_response": "01-Jan-1991",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:45",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": "Payal",
+        "expected_response": "SAYED",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Nominee's name should be 'SAYED' as per MER.",
+        "timestamp": "01:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": "01/01/1993",
+        "expected_response": "01-Jan-1993",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:57",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Q.ContactNo",
+        "question_text": "Contact No.",
+        "captured_response": null,
+        "expected_response": "7736865262",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have confirmed the Contact Number.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.1",
+        "question_text": "Educational Qualification",
+        "captured_response": "diploma",
+        "expected_response": "DIPLOMA",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.2",
+        "question_text": "Occupation",
+        "captured_response": "I have a cafe",
+        "expected_response": "BUSINESS CAFE",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:13",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.3",
+        "question_text": "Height (ft. / inch-cm):",
+        "captured_response": "160 centimeters",
+        "expected_response": "160",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:29",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.4",
+        "question_text": "Weight (Kg / pound):",
+        "captured_response": "60 kgs",
+        "expected_response": "60KG",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:35",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.5",
+        "question_text": "Do you have currently any health complaints or under any treatment/medication?",
+        "captured_response": "Nothing.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:48",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.6",
+        "question_text": "Have you been hospitalized or undergone any surgery till date?",
+        "captured_response": "no, nothing. No, no, no, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:59",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1.7",
+        "question_text": "Have you undergone any investigations like blood test, ECG or special test like CT/MRI,Angiography etc.(Female life:Mammography,PAP smear)?",
+        "captured_response": "I have undergone, uh, USG for my PCOD. I usually do it every three months.",
+        "expected_response": "Yes LA HAS UNDERGONE USG FOR SYMPTOMS LIKE IRREGULAR BLEEDING FOR 2 TO 3 MONTHS,DYSMENORHEA,WEIGHT GAIN AND WAS DIAGNOSED WITH PCOD AND IS NOT ON ANY MEDICATIONS AND WAS ADVISED LIFE STYLE MODIFICATIONS BY TAKING APPROPRIATE DIET BY REDUCING RICE QUANTITY AS SUGGESTED BY THE DIEATICIAN AND EXCERCISE FOR THE WEIGHT LOSS AND NOW THE LA IS NORMAL.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:10",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA HAS UNDERGONE USG FOR SYMPTOMS LIKE IRREGULAR BLEEDING FOR 2 TO 3 MONTHS,DYSMENORRHEA,WEIGHT GAIN AND WAS DIAGNOSED WITH PCOD AND IS NOT ON ANY MEDICATIONS AND WAS ADVISED LIFESTYLE MODIFICATIONS BY TAKING APPROPRIATE DIET BY REDUCING RICE QUANTITY AS SUGGESTED BY THE DIETICIAN AND EXERCISE FOR THE WEIGHT LOSS AND NOW THE LA IS NORMAL."
+        }
+      },
+      {
+        "question_id": "1.8",
+        "question_text": "Do you have any history of Diabetes, High Blood pressure, Heart attack or any other heart related disorder or cancer?",
+        "captured_response": "Actually, three months ago I questioned my doctor and he told me I'm pre-diabetic, nothing else. I'm not taking any medications for this issue.",
+        "expected_response": "Yes LA WAS PRE DIABETIC 3 MONTHS AND LA HAS UNDERGONE ROUTINE BLOOD CHECK UP AND DOESNT REMEMBER THE VALUE . THE LA IS NOT UNDER ANY MEDICATIONS AND WAS ASKED TO CONTROL IT THROUGH DIET CONTROL AND DAILY EXERCISES. THE LA DOESNT RECALL THE LAST SUGAR READING.",
+        "status": "Paraphrased",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should have explicitly asked about Heart attack, other heart related disorder, or cancer for the LA.",
+        "timestamp": "09:07",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA WAS PRE DIABETIC 3 MONTHS AND LA HAS UNDERGONE ROUTINE BLOOD CHECK UP AND DOESN'T REMEMBER THE VALUE. THE LA IS NOT UNDER ANY MEDICATIONS AND WAS ASKED TO CONTROL IT THROUGH DIET CONTROL AND DAILY EXERCISES. THE LA DOESN'T RECALL THE LAST SUGAR READING."
+        }
+      },
+      {
+        "question_id": "1.9",
+        "question_text": "Do you have any history of Blood disorder (low Haemoglobin, thalassaemia etc.), Thyroid disorder or Respiratory disorder (e.g. Asthma, TB etc.) or Digestive system related disorder (Jaundice, Cirrhosis, pancreatitis, Colitis etc.)?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:13",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Do you have any history of Blood disorder (low Haemoglobin, thalassemia etc.), Thyroid disorder or Respiratory disorder (e.g. Asthma, TB etc.) or Digestive system related disorder (Jaundice, Cirrhosis, pancreatitis, Colitis etc.)?"
+        }
+      },
+      {
+        "question_id": "1.10",
+        "question_text": "Do you have any history of Kidney disorder like protein/blood in urine, or disorders of joints, muscles, bones like Arthritis or any physical deformity or defect since birth?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:43",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.1",
+        "question_text": "Do you have any history of Brain disorder like seizures, paralysis, stroke or any mental /psychiatric illness or tested positive for HIV/HCV/HbsAg?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": "Incomplete",
+        "suggested_correction": "Agent should have explicitly asked about mental/psychiatric illness, HIV/HCV/HbsAg.",
+        "timestamp": "15:10",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.2",
+        "question_text": "Are you currently in good health?",
+        "captured_response": "Yes, I am in good health.",
+        "expected_response": "Yes LA IS IN GOOD HEALTH",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:27",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA IS IN GOOD HEALTH"
+        }
+      },
+      {
+        "question_id": "2.3",
+        "question_text": "Have you experienced any of the following symptoms within the last 2 months? Any fever / Cough / Shortness of breath /Malaise (flu-like tiredness) /Rhinorrhea (mucus discharge from the nose) /Sore throat. Gastro-intestinal symptoms such as nausea, vomiting and/or diarrhea If yes, to any of these, please provide below full information.",
+        "captured_response": "No. No, no, no, nothing. Nothing as such.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:36",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Have you experienced any of the following symptoms within the last 2 months? Any fever / Cough / Shortness of breath /Malaise (flu-like tiredness) /Rhinorrhea (mucus discharge from the nose) /Sore throat. Gastro-intestinal symptoms such as nausea, vomiting and/or diarrhea If yes, to any of these, please provide below full information."
+        }
+      },
+      {
+        "question_id": "2.4",
+        "question_text": "Have you or our family members travelled overseas post 1st Jan 2020 ? If yes, please provide below full information.",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.5",
+        "question_text": "Do you have any plan to travel overseas during the next 6 months ?If yes, please provide below full information.",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:05",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.6",
+        "question_text": "Have you or your family members ever tested positive for the novel coronavirus (SARS-CoV-2/COVID-19)? If yes, provide the date of positive diagnosis.",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:12",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.7",
+        "question_text": "Have any of your immediate family members (mother,father,brother,sister) been diagnosed with or died from Heart Attack, Coronary artery disaese,Cancer,Diabetes,stroke,before age 60yr?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:25",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Have any of your immediate family members (mother,father,brother,sister) been diagnosed with or died from Heart Attack, Coronary artery disease,Cancer,Diabetes,stroke,before age 60yr?"
+        }
+      },
+      {
+        "question_id": "2.8",
+        "question_text": "Have you consumed Tobacco in any form (Cigarettes / Bidi /Gutkha /Pan / Snuff)?",
+        "captured_response": "No, no, nothing.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.9",
+        "question_text": "Have you consumed Alcohol in any form (Wine /Beer /Hard Liquor)?",
+        "captured_response": "Yeah, maybe, uh, maybe occasionally I take it. Beer, doctor. Yes, maybe two months, uh, like once in two months, maybe.",
+        "expected_response": "Yes OCCASIONAL DRINKER AND TAKES BEER 1 PINT IN 2 MONTHS AND NO ANY OTHER ALCOHOL INTAKE",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.10",
+        "question_text": "[For female lives] Have you suffered from any gynecological problem related to Breast,Uterus, cervix?",
+        "captured_response": "Uh, no. Presently, I've had nothing.",
+        "expected_response": "Yes THE LA SUFFERS FROM PCOD WHICH WAS DIAGNOSED 5 YRS BACK AND HAS SYMPTOMS OF ABNORMAL WEIGHT GAIN DYSMENORHEA AND HAS BEEN TREATED WITH LIFE STYLE CHANGES AND DIET RESTRICTIONS AND IS NOT UNDER ANY MEDICATION AND THE LA IS IN NORMAL HEALTH NOW . THE LAST LMP 18/2/2025 AND THE PERIODS ARE REGULAR",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer stated 'No' to gynecological problems, but MER indicates 'Yes' with PCOD details. This is a factual discrepancy that needs to be clarified.",
+        "timestamp": "18:20",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes THE LA SUFFERS FROM PCOD WHICH WAS DIAGNOSED 5 YRS BACK AND HAS SYMPTOMS OF ABNORMAL WEIGHT GAIN DYSMENORRHEA AND HAS BEEN TREATED WITH LIFESTYLE CHANGES AND DIET RESTRICTIONS AND IS NOT UNDER ANY MEDICATION AND THE LA IS IN NORMAL HEALTH NOW. THE LAST LMP 18/2/2025 AND THE PERIODS ARE REGULAR"
+        }
+      },
+      {
+        "question_id": "2.11",
+        "question_text": "[For female lives] Are you pregnant?",
+        "captured_response": "Last LMP would be uh three days back.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "20:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.12",
+        "question_text": "Have you received a COVID-19 vaccine?",
+        "captured_response": "Yeah, I've received both the doses.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "22:20",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.13",
+        "question_text": "Dose 1. Date of Vaccination",
+        "captured_response": "2021, 2021.",
+        "expected_response": "Yes 2021",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "22:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.14",
+        "question_text": "Dose 2. Date of Vaccination",
+        "captured_response": "2021, 2021.",
+        "expected_response": "Yes 2021",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "22:20",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2.15",
+        "question_text": "Is there anything else not covered above, you would like to share with us with respect to your health?",
+        "captured_response": "No, doctor. I think I've shared it all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "22:39",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3.1",
+        "question_text": "DECLARATION: You Adheena , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+        "captured_response": "Thank you for being patient, ma'am. I'm gonna I'm gonna submit the form now. Whatever responses you have given, I've entered and I'm gonna submit the form now.",
+        "expected_response": "DECLARATION: You Adheena , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have read the full legal declaration as per the MER document and sought explicit agreement.",
+        "timestamp": "28:56",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Customer Name mismatch (Abina vs Adheena).",
+        "Nominee Name mismatch (Payal vs SAYED).",
+        "Customer explicitly denied gynecological problems ('No') while MER states 'Yes' with PCOD details. This is a significant factual discrepancy.",
+        "Incomplete declaration read by the agent.",
+        "Agent did not ask about all parts of the 'Brain disorder' question (mental/psychiatric illness, HIV/HCV/HbsAg).",
+        "Agent did not ask about all parts of the 'Diabetes, High Blood pressure, Heart attack or any other heart related disorder or cancer' question for the LA herself (Heart attack, other heart related disorder, cancer).",
+        "Missing confirmation of Application Number, Date, and Contact Number."
+      ],
+      "recommendations": [
+        "Agent must confirm customer and nominee details accurately at the start of the call.",
+        "Agent must ensure all parts of multi-part health questions are explicitly asked to gather complete information.",
+        "Agent must re-verify information when there is a discrepancy or potential contradiction (e.g., PCOD mentioned earlier, but denied when asked about gynecological problems).",
+        "Agent must read the full legal declaration as per the MER document and obtain explicit agreement from the customer.",
+        "Agent should confirm application number, date, and contact number with the customer."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and responsive.",
+        "Customer thanks the doctor at the end."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "160",
+      "weight_kg": "60",
+      "dates_mentioned": [
+        "01/01/1991",
+        "01/01/1993",
+        "5 years",
+        "3 months",
+        "3 days back",
+        "2021"
+      ],
+      "medications": [
+        "not taking any medications (for PCOD)",
+        "not taking any medications (for pre-diabetic)"
+      ],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 8,
+      "typos_found": [
+        "EXCERCISE",
+        "DIEATICIAN",
+        "DOESNT",
+        "thalassaemia",
+        "HEAL TH",
+        "\ufb02u-lik e",
+        "disaese",
+        "HEAL TH"
+      ],
+      "notes": "not evaluated in this step"
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -18.74
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Agent greeted the customer at the beginning of the call.",
+        "timestamps": [
+          "00:00:04"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Agent introduced themselves, stated the company name, and confirmed the customer's name.",
+        "timestamps": {
+          "self_intro": "00:00:04",
+          "client_name": "00:00:12",
+          "insurer_name": "00:00:04"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Agent asked the customer if they were comfortable with the language.",
+        "timestamp": "00:00:33"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "Agent confirmed customer's full name, date of birth, nominee name, and nominee's date of birth.",
+        "timestamps": [
+          "00:01:31",
+          "00:01:45",
+          "00:01:54",
+          "00:01:57"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "Agent informed the customer about call recording, confidentiality, and the consequence of providing incorrect information.",
+        "timestamps": [
+          "00:01:10",
+          "00:01:20"
+        ]
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Agent consistently used polite language, 'ma'am', 'thank you', and apologized for delays.",
+        "timestamps": [
+          "00:00:04",
+          "00:00:41",
+          "00:02:02",
+          "00:29:18"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that required specific empathy. Agent maintained a professional tone.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Partial",
+        "explanation": "Agent demonstrated good active listening and clarification, but repeated a question about PCOD and had one unclear phrase.",
+        "timestamps": {
+          "good_examples": [
+            "00:03:31",
+            "00:05:17",
+            "00:09:22",
+            "00:09:54"
+          ],
+          "poor_examples": [
+            "00:10:15",
+            "00:24:57"
+          ]
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Agent asked detailed follow-up questions regarding PCOD, pre-diabetes, alcohol consumption, and vaccine details.",
+        "timestamps": [
+          "00:04:02",
+          "00:04:28",
+          "00:05:00",
+          "00:08:25",
+          "00:09:44",
+          "00:10:00",
+          "00:10:57",
+          "00:17:01",
+          "00:17:15",
+          "00:20:47",
+          "00:21:17",
+          "00:22:27"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer hesitated when asked for specific blood sugar values and a third party prompted the customer on how to advise the agent.",
+        "timestamps": [
+          "00:11:02",
+          "00:29:40"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "Agent declared the submission of the form and thanked the customer for their cooperation.",
+        "timestamps": {
+          "declaration": "00:29:35",
+          "thank_you": "00:29:18"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2KOTAK40976/_processed"
+}

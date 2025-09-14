@@ -1,0 +1,84 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Agent greeted the customer appropriately with 'Hello, good afternoon, ma'am.'",
+      "timestamps": [
+        "00:00:01"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "Agent introduced themselves, stated the company, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:03",
+        "client_name": "00:00:06",
+        "insurer_name": "00:00:04"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "Agent did not ask for the customer's language preference.",
+      "timestamp": "00:00:00"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Agent confirmed the customer's name by asking 'Am I speaking with Naveena Prasanna?'",
+      "timestamps": [
+        "00:00:06"
+      ]
+    },
+    "disclaimer": {
+      "value": "No",
+      "explanation": "Agent did not provide any disclaimer regarding the call.",
+      "timestamp": "00:00:00"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Agent maintained a polite tone and used polite phrases like 'good afternoon, ma'am' and 'Can you please'.",
+      "timestamps": [
+        "00:00:01",
+        "00:00:19"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concern was discussed requiring explicit empathy.",
+      "timestamps": [
+        "00:00:00"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "Agent communicated clearly and effectively, providing instructions for the video consultation.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:17"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The call's purpose was to initiate a video consultation, not to probe for medical details.",
+      "timestamps": [
+        "00:00:00"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation or third-party prompting was observed.",
+      "timestamps": [
+        "00:00:00"
+      ]
+    },
+    "call_closure": {
+      "value": "Partial",
+      "explanation": "Agent said 'Thank you' but did not provide a full closing declaration.",
+      "timestamps": {
+        "declaration": "00:00:00",
+        "thank_you": "00:00:24"
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "6.1",
+          "text": "Diabetic on tr eatment?"
+        },
+        {
+          "id": "6.4",
+          "text": "When was diabetes ﬁrst diagnosed ?"
+        },
+        {
+          "id": "6.6",
+          "text": "[Please give details r egarding your tr eatment] b) Do you tak e insulin ? If Y es, please give the type of insulin & dosage (mor ning and evening)."
+        },
+        {
+          "id": "6.13",
+          "text": "[Regarding the monitoring of your conditions] e) Please indicate your usual test r esults by cir cling as appropriate. Blood glucose Below 140 / 140 to 180 / 181 or mor e. Urine glucose - Negative / + / +++ or more."
+        },
+        {
+          "id": "6.14",
+          "text": "[Regarding the monitoring of your conditions] f) Please give dates and r esults of your last two HbA1c (Glycoslated Hemoglobin) tests, if known"
+        },
+        {
+          "id": "6.15",
+          "text": "Since your tr eatment began, have your ever had a diabetic (Hyper glycemic) or insulin (Hypoglycemic) coma. If yes, please give complete details including dates."
+        },
+        {
+          "id": "6.16",
+          "text": "[Have you ever had any of the following] a) P roblems with your eyes"
+        },
+        {
+          "id": "6.19",
+          "text": "[Have you ever had any of the following] d) Albumin or protein in urine."
+        },
+        {
+          "id": "6.20",
+          "text": "[Have you ever had any of the following] e) Numbness or tingling in your feet or legs."
+        },
+        {
+          "id": "6.21",
+          "text": "Have you lost time oﬀ work with diabetes or associatedconditions? if Y es please give details including date ar e duration of time oﬀ work."
+        },
+        {
+          "id": "7.3",
+          "text": "History of Asthma with night symptoms and hospitalization sometimes"
+        },
+        {
+          "id": "7.4",
+          "text": "Allergic br onchitis with use of inhaler sometimes"
+        },
+        {
+          "id": "7.5",
+          "text": "History of Asthma with symptom sometimes"
+        },
+        {
+          "id": "7.6",
+          "text": "History of any tuber culosis prior to 2 yrs with no relapse"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 2
+      }
+    },
+    {
+      "issue": "Major agent-led prompting detected",
+      "details": {
+        "examples": [
+          "is there any treatment changes last year, like since you are taking this Tyronorm 50 mg?",
+          "When was the last consultation? Four months back only?",
+          "Any uh any other complaint regarding thyroid like any swelling in the neck or any other symptom, breathing difficulty or any weight gain or weight loss? Did you observe anything?",
+          "Regarding your respiratory system now, respiratory disorder like asthma, bronchitis, wheeze, like any breathing any sounds or tuberculosis.",
+          "Uh, like, uh, what do you smoke? Cigars, or Bidi?",
+          "Uh, you smoke currently? Or you have occasionally in the last two years?",
+          "Do you, uh, any doctor advised you to stop you have a problem with that breathing difficulty like COPD or something you mentioned?",
+          "Okay. Alcohol, ma'am? Beer, wine?",
+          "Are you taking any drugs like cannabis, marijuana, ecstasy, heroin, like that? Amphetamines or any other illegal drugs?"
+        ],
+        "timestamps": [
+          "06:01",
+          "07:14",
+          "07:44",
+          "08:21",
+          "12:48",
+          "13:01",
+          "13:22",
+          "13:44",
+          "13:52"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 45
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 6
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "I think it is Aeth.",
+          "Hmm, what you asked? Breathing?",
+          "No, actually now I'm not taking. I had only two episodes, so now I'm not taking. I just completely cured now.",
+          "not remembering doctor.",
+          "No. I also smoke, actually.",
+          "Is it coming three months, right? Yeah. I'm just planning. Canada."
+        ],
+        "timestamps": [
+          "03:18",
+          "08:18",
+          "09:13",
+          "10:00",
+          "12:33",
+          "14:15"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

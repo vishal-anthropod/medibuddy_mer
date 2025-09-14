@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Keep processed JSONs but ignore heavy media
+reports and recordings/**/_processed/**
+!reports and recordings/**/_processed/*.json
+!reports and recordings/**/_processed/**/*.json
+
+# Ignore raw media and PDFs (they are offloaded to S3)
+reports and recordings/**/*.mp3
+reports and recordings/**/*.mp4
+reports and recordings/**/*.mov
+reports and recordings/**/*.mkv
+reports and recordings/**/*.m4a
+reports and recordings/**/*.wav
+reports and recordings/**/*.avi
+reports and recordings/**/*_MER.pdf
+
+# Logs and PIDs
+*.log
+*.pid
+s3_upload.log
+
+# Manifest kept (needed for S3 URLs)
+# s3_manifest.json is committed
+

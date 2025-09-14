@@ -1,0 +1,1181 @@
+{
+  "record_id": "MOCK2MAX40980",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 1041.176,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "duration": 1041.176,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/_processed/call1/transcript.json",
+      "segments_count": 281,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -25.05
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/_processed/merged_transcript.json",
+    "total_segments": 281,
+    "total_duration": 1041.176
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Krishnanjana",
+      "dob": "01-Jan-1991",
+      "id_proofs": [
+        {
+          "type": "PAN",
+          "value": "BYYPT4747H",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": "Aeth",
+      "nominee_dob": "04-Jan-1993"
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Max Life Insurance",
+        "timestamp": "02:04"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "English",
+        "timestamp": "02:29"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Krishnanjana",
+        "expected_response": "KRISHNANJANA",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:41",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": "1st January 1991",
+        "expected_response": "01-Jan-1991",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:00",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.PAN",
+        "question_text": "ID Proof PAN",
+        "captured_response": "BYYPT4747H",
+        "expected_response": "BYYPT4747H",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:08",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": "Aeth",
+        "expected_response": "SAYED",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "SAYED",
+        "timestamp": "03:18",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": "4th January 1993",
+        "expected_response": "01-Jan-1993",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "01-Jan-1993",
+        "timestamp": "03:23",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Education Qualification",
+        "captured_response": "Masters, M. Com.",
+        "expected_response": "Post Graduate MPHARM",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "M. Com.",
+        "timestamp": "03:42",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "[For Women] Are you pregnant?",
+        "captured_response": "No",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:11",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?",
+        "captured_response": "No",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?",
+        "captured_response": "No",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Hypertension or high blood pressure/high cholesterol?",
+        "captured_response": "No",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders",
+        "captured_response": "Yeah, I have thyroid issue.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.1",
+        "question_text": "Diabetic on treatment?",
+        "captured_response": "No (implied, as only thyroid mentioned)",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:49",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.2",
+        "question_text": "On treatment for thyroid disorder and under control?",
+        "captured_response": "Yeah, yeah, I'm taking.",
+        "expected_response": "Yes true",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.3",
+        "question_text": "Any Other Disorder",
+        "captured_response": "Thyronorm 50 mg.",
+        "expected_response": "Yes Thyronorm 50 mg.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:03",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.4",
+        "question_text": "When was diabetes first diagnosed?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5a",
+        "question_text": "[Please give details regarding your treatment] a) Do you take tablets? If Yes, please give the name of the tablets",
+        "captured_response": "Yeah, I'm taking Tyronorm. 50 mg.",
+        "expected_response": "Yes Thyronorm 50 mg.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:03",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5b",
+        "question_text": "[Please give details regarding your treatment] b) Do you take insulin? If Yes, please give the type of insulin & dosage (morning and evening).",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.5c",
+        "question_text": "[Please give details regarding your treatment] c) Has your treatment changed in the last two years? If Yes,please give details",
+        "captured_response": "No, same, I'm just managing my thyroid with that same tablet.",
+        "expected_response": "Yes No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:01",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "No"
+        }
+      },
+      {
+        "question_id": "6.6",
+        "question_text": "Do you follow a strict diet?",
+        "captured_response": "Hmm, no.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:21",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7a",
+        "question_text": "[Regarding the monitoring of your conditions] a) Please provide the name and address of the doctor or clinic supervising your treatment",
+        "captured_response": "Dr. Archana in Aster Medcity in Bangalore.",
+        "expected_response": "Yes Dr Archana bangalore",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7b",
+        "question_text": "[Regarding the monitoring of your conditions] b) How often do you attend the monitoring sessions?",
+        "captured_response": "I have diagnosed only four months before... No (consultation after 3 months).",
+        "expected_response": "Yes No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:49",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Not specified"
+        }
+      },
+      {
+        "question_id": "6.7c",
+        "question_text": "[Regarding the monitoring of your conditions] c) When was your last consultation?",
+        "captured_response": "Four months back only",
+        "expected_response": "Yes 4months",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:14",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7d",
+        "question_text": "[Regarding the monitoring of your conditions] d) How often do you test your blood or urine for Glucose? Daily,Weekly,None",
+        "captured_response": "I have to test after six months, doctor asked me to a follow-up (regarding thyroid levels).",
+        "expected_response": "No",
+        "status": "Mismapped",
+        "error_type": "Mismapped",
+        "suggested_correction": "Agent asked about thyroid levels, not glucose. Customer does not have diabetes.",
+        "timestamp": "07:23",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7e",
+        "question_text": "[Regarding the monitoring of your conditions] e) Please indicate your usual test results by circling as appropriate. Blood glucose Below 140 / 140 to 180 / 181 or more. Urine glucose - Negative / + / +++ or more",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.7f",
+        "question_text": "[Regarding the monitoring of your conditions] f) Please give dates and results of your last two HbA1c (Glycoslated Hemoglobin) tests, if known",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.8",
+        "question_text": "Since your treatment began, have your ever had a diabetic (Hyper glycemic) or insulin (Hypoglycemic) coma. If yes, please give complete details including dates.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9a",
+        "question_text": "[Have you ever had any of the following] a) Problems with your eyes",
+        "captured_response": "No (covered in S.No 14)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:14",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9b",
+        "question_text": "[Have you ever had any of the following] b) High blood pressure.",
+        "captured_response": "No (covered in S.No 5)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9c",
+        "question_text": "[Have you ever had any of the following] c) Heart or circulatory trouble.",
+        "captured_response": "No (covered in S.No 4)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9d",
+        "question_text": "[Have you ever had any of the following] d) Albumin or protein in urine.",
+        "captured_response": "No (covered in S.No 12)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.9e",
+        "question_text": "[Have you ever had any of the following] e) Numbness or tingling in your feet or legs.",
+        "captured_response": "No (covered in S.No 13)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.10",
+        "question_text": "Have you lost time off work with diabetes or associated conditions? if Yes please give details including date are duration of time off work.",
+        "captured_response": "No (covered in S.No 19, and no diabetes)",
+        "expected_response": "No",
+        "status": "Clubbed",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "12:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6.11",
+        "question_text": "Please provide any additional information on your condition, which you feel will be in processing the application.",
+        "captured_response": "Hypothyroidism since 4 months on Thyronorm 50mcg, weight gain was there.",
+        "expected_response": "Yes Hypothyroidism since 4months now on thyronorm 50mcg once a day.",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?",
+        "captured_response": "Oh, I have COPD issue, actually. I have chronic pulmonary disease.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:10",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.1",
+        "question_text": "Takes Inhaler frequently for Asthma, bronchitis.",
+        "captured_response": "No, actually now I'm not taking. I had only two episodes, so now I'm not taking. I just completely cured now.",
+        "expected_response": "Yes true",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "No, not taking medication now, cured.",
+        "timestamp": "08:57",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.2",
+        "question_text": "Within 2 years",
+        "captured_response": "Since two years.",
+        "expected_response": "Yes true",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.3",
+        "question_text": "History of Asthma with night symptoms and hospitalization sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Ask about night symptoms and hospitalization for COPD.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.4",
+        "question_text": "Allergic bronchitis with use of inhaler sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Ask specifically about allergic bronchitis and inhaler use.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.5",
+        "question_text": "History of Asthma with symptom sometimes",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Ask specifically about asthma symptoms.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.6",
+        "question_text": "History of any tuberculosis prior to 2 yrs with no relapse",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Ask specifically about history of tuberculosis prior to 2 years and relapse.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7.7",
+        "question_text": "Any other details thereof",
+        "captured_response": "She had two episodes of breathing difficulties and resolved completely after taking medication like syrup didn\u2019t remember the name now no issues.",
+        "expected_response": "YesShe had two episodes of br eathing di\ufb03culties and r esolved completely af ter taking medication lik e syrup didn\u2019t remember the name now no issues.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:22",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Blood disorder like anemia, leukemia or any circulatory disorder?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:25",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:32",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Any physical or mental disability or any congenital disease?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:45",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:14",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:30",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:46",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Yes, for thyroid (Thyronorm 50mg) and past COPD treatment (syrup/antibiotics).",
+        "timestamp": "12:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "12:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?",
+        "captured_response": "No. I also smoke, actually.",
+        "expected_response": "No",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Yes, smoking.",
+        "timestamp": "12:25",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you intend to travel outside India within next 3 months ?",
+        "captured_response": "Yeah. I'm just planning. Canada.",
+        "expected_response": "Yes Yes going to canada",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Height (in cm)",
+        "captured_response": "five feet",
+        "expected_response": "152.4",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:45",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Weight (in kgs)",
+        "captured_response": "55",
+        "expected_response": "55",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs.",
+        "captured_response": "I also smoke, actually.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "12:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.1",
+        "question_text": "Are you Smoking currently or even occasionally in the last 2 year?",
+        "captured_response": "Daily. I'm daily smoking.",
+        "expected_response": "Yes true",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:01",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.2",
+        "question_text": "Plesae specify the number of cigarettes per day",
+        "captured_response": "Two sticks per day. Some past four years.",
+        "expected_response": "Yes Two per day last 4 years",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.3",
+        "question_text": "Chewing Tobacco currently or even occasionally in the last 2 year?",
+        "captured_response": "Nothing, nothing like that.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.4",
+        "question_text": "Plesae specify the number of sachets per day",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.5",
+        "question_text": "Alcohol (Beer/Wine/Hard Liquor)",
+        "captured_response": "Nothing. Nothing, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.6",
+        "question_text": "Please specify the per day quantity",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.7",
+        "question_text": "Are you taking drugs like cannabis/Marijuana,Ecstacy,Heroin,LSD,Amphetamines or any other illegal drugs?",
+        "captured_response": "No. Nothing, doctor. Nothing.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24.8",
+        "question_text": "Details if any",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "Existing Cover/Existing Insurance Cover",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:06",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Nominee Name and Nominee Date of Birth are incorrect in the MER compared to the customer's verbal disclosure.",
+        "Education Qualification is incorrect in the MER (MPHARM) compared to the customer's verbal disclosure (M. Com.).",
+        "MER states 'Yes true' for 'Takes Inhaler frequently for Asthma, bronchitis', but the customer stated they are not taking medication now and are completely cured for COPD.",
+        "Customer's 'No' response to S.No 18 ('Are you receiving any treatment /medication...') is incorrect, as they disclosed ongoing thyroid treatment and past COPD treatment.",
+        "Customer's 'No' response to S.No 20 ('Have you suffered or suffering from any other disease/ailment/habit not mentioned above?') is incorrect, as they immediately disclosed smoking.",
+        "Several specific sub-questions under S.No 7 (Respiratory disorder) were not asked, leading to missing details in the transcript.",
+        "Question S.No 6.7d (regarding glucose testing) was mismapped, with the agent asking about thyroid levels instead of glucose."
+      ],
+      "recommendations": [
+        "Agent must ensure all personal particulars, especially nominee details, are accurately captured and verified.",
+        "Agent needs to meticulously record customer's education qualification as stated.",
+        "Agent must accurately capture and record all medical history details, including current medication status and past treatments, ensuring MER reflects verbal disclosures.",
+        "Agent should ask all follow-up questions for positive medical conditions as per the MER template to gather complete information.",
+        "Agent should ensure questions are asked as per the MER template, avoiding mismapping of medical conditions.",
+        "The MER template should be reviewed for ambiguous entries like 'Yes No' for expected responses (S.No 6.5c, 6.7b)."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer (acting as trainer) provided positive feedback to the agent at the end of the call: 'Yeah, yeah, you did better, okay.'"
+      ]
+    },
+    "data_validation": {
+      "height_cm": "152.4",
+      "weight_kg": "55",
+      "dates_mentioned": [
+        "1st January 1991",
+        "4th January 1993",
+        "four months before",
+        "last year",
+        "last five years",
+        "next 30 days",
+        "next three months",
+        "last two years",
+        "four years"
+      ],
+      "medications": [
+        "Tyronorm 50 mg",
+        "coral syrup",
+        "antibiotics"
+      ],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 2,
+      "typos_found": [
+        "Bach (should be back) in Doctor Remarks",
+        "Heath (should be health) in Doctor Remarks"
+      ],
+      "notes": "not evaluated in this step"
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -25.05
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    },
+    "meta": {
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The agent greeted the customer multiple times at the beginning of the call.",
+        "timestamps": [
+          "00:00:02",
+          "00:00:08",
+          "00:02:04"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "After resolving technical issues, the agent properly introduced themselves, stated the insurer's name, and asked for the client.",
+        "timestamps": {
+          "self_intro": "00:02:04",
+          "client_name": "00:02:04",
+          "insurer_name": "00:02:04"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "The agent asked the customer if they were comfortable with English.",
+        "timestamp": "00:02:35"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The agent confirmed the customer's name, date of birth, PAN, nominee details, height, and weight.",
+        "timestamps": [
+          "00:02:41",
+          "00:02:54",
+          "00:03:05",
+          "00:03:14",
+          "00:03:20",
+          "00:14:45",
+          "00:14:55"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The agent informed the customer that the call was being recorded for quality and audit purposes.",
+        "timestamp": "00:02:29"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The agent consistently used polite language, including 'ma'am' and 'please,' throughout the call.",
+        "timestamps": [
+          "00:02:04",
+          "00:03:05",
+          "00:04:36"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "The agent acknowledged the customer's health conditions (thyroid, COPD) and asked relevant follow-up questions. The conditions were not described as severe.",
+        "timestamps": [
+          "00:04:49",
+          "00:08:29"
+        ]
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "The agent communicated clearly, asked clarifying questions, and effectively summarized information. Initial technical issues were not communication-related.",
+        "timestamps": {
+          "good_examples": [
+            "00:02:04",
+            "00:08:21",
+            "00:15:15"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The agent asked detailed follow-up questions regarding the customer's thyroid condition, COPD, smoking habits, and travel plans.",
+        "timestamps": [
+          "00:04:52",
+          "00:08:44",
+          "00:12:48",
+          "00:14:21"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "The agent provided a comprehensive summary of the customer's disclosed medical conditions and habits before closing the call.",
+        "timestamps": [
+          "00:15:15"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "The agent took a declaration from the customer and thanked them at the end of the call.",
+        "timestamps": {
+          "declaration": "00:16:10",
+          "thank_you": "00:17:16"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK2MAX40980/_processed"
+}

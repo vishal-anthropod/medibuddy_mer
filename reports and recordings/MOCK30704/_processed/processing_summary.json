@@ -1,0 +1,677 @@
+{
+  "record_id": "MOCK30704",
+  "mer_pdf": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/MOCK30704_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 1135.208,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "audio_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
+      "duration": 1135.208,
+      "transcript_path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/_processed/call1/transcript.json",
+      "segments_count": 211,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -24.53
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/_processed/merged_transcript.json",
+    "total_segments": 211,
+    "total_duration": 1135.208
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Savita",
+      "dob": "01-Jan-1991",
+      "id_proofs": [
+        {
+          "type": "PAN",
+          "value": "BYYPPT4747H",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": "Shreyad",
+      "nominee_dob": "01-Jan-1993"
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Max Life Insurance",
+        "timestamp": "00:19"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "English",
+        "timestamp": "00:54"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Customer stated 'Kavita speaking' (00:16), agent later confirmed 'Savita' from application (00:58) which customer did not explicitly correct.",
+        "expected_response": "Savita",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer's name is 'Kavita' as stated by customer, not 'Savita' as per application/MER.",
+        "timestamp": "00:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": "111991",
+        "expected_response": "01-Jan-1991",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:46",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.PAN",
+        "question_text": "ID Proof PAN",
+        "captured_response": "BYY PPT 4747H",
+        "expected_response": "BYYPT4747H",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:56",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeName",
+        "question_text": "Nominee Name",
+        "captured_response": "Shreyad",
+        "expected_response": "SAYED",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Nominee name should be 'Shreyad' as stated by customer.",
+        "timestamp": "02:24",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.NomineeDOB",
+        "question_text": "Nominee Date of Birth",
+        "captured_response": "111993",
+        "expected_response": "01-Jan-1993",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "02:32",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ContactNo",
+        "question_text": "Contact No.",
+        "captured_response": null,
+        "expected_response": "8127716186",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked for customer's contact number for verification.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Education Qualification",
+        "captured_response": "I have completed graduation, doctor.",
+        "expected_response": "Yes Education - Graduate",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "[For Women] Are you pregnant?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Agent should have asked if the customer is pregnant.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "[For Women] Have you undergone any of these tests like mammogram, ultrasound, pap smear etc.?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Any history of chest pain, heart attack, palpitations, and breathlessness on exertion or irregular heart beat?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Hypertension or high blood pressure/high cholesterol?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:17",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "High blood sugar/ Diabetes, thyroid disorder or any other endocrine disorders",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:28",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Asthma, bronchitis, wheezing, tuberculosis, breathing difficulties or any other respiratory disorder?",
+        "captured_response": "No, currently I am suffering with cough and throat pain since last 5 days. Took consultation two days ago (customer also said 27th), taking Azithromycin two times a day and gargles. Feeling better. Next follow-up day after tomorrow.",
+        "expected_response": "Yes LA has H/o cough and thr oat P ain since last 5 days for that she went to the doctor on 25/2/2025 and she is advised for doing gargles and taking T ab. Azithr omycin BD. Her ne xt follow up is on 2/3/2025.",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer stated consultation on 27th (call date), next follow-up day after tomorrow (29th). MER states consultation on 25/2/2025 and next follow up on 2/3/2025. The dates are inconsistent.",
+        "timestamp": "04:41",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA has H/o cough and throat Pain since last 5 days for that she went to the doctor on 25/2/2025 and she is advised for doing gargles and taking Tab. Azithromycin BD. Her next follow up is on 2/3/2025."
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Blood disorder like anemia, leukemia or any circulatory disorder?",
+        "captured_response": "I am anemic, but I'm not taking any medication for that. Hemoglobin is 9.4. Sometimes weakness and dizziness.",
+        "expected_response": "Yes LA is anemic . Hemoglobin is 9.4 mg/gl. F or that she is not taking any medication but sometimes sL A feels weakness and dizziness.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:03",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA is anemic. Hemoglobin is 9.4 g/dL. For that she is not taking any medication but sometimes LA feels weakness and dizziness."
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Liver disorders like cirrhosis, hepatitis, jaundice, disorder of the stomach, colitis or indigestion?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:57",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Any physical or mental disability or any congenital disease?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:29",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Any form of cancer, tumour, cyst, or growth of any kind or enlarged lymph nodes?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Any diseases related to kidney such as Kidney failure, Kidney or Ureteric stones, blood or pus in urine or prostrate or gynecological disorder?",
+        "captured_response": "I had kidney stone once, 4 years ago. Had blood tests, urine test, ultrasound showing 2 mm renal stone. Underwent surgery. Last follow-up 6 months after surgery. Not taking medication, feeling better.",
+        "expected_response": "Yes LA has history of kidney stone 4 years ago for that she was advised blood and urine investigations and moreover usg showings 2 mm of r enal stone for that she was advised sur gery and af ter that she was feeling better and 6 months af ter the surgery she went for the last follow up currently she is absolutely \ufb01ne and no complaints r egarding That.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:55",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA has history of kidney stone 4 years ago for that she was advised blood and urine investigations and moreover USG showing 2 mm of renal stone for that she was advised surgery and after that she was feeling better and 6 months after the surgery she went for the last follow up currently she is absolutely fine and no complaints regarding that."
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Eye, ear, nose or throat disorder, (Except use of spectacles)?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Disorder of back, muscle, joints, bone, neck, deformity, amputation, arthritis or gout",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "11:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "In the last 5 years, have you had or been advised to have or in the next 30 days will you have an X-ray/ CT Scan / MRI / ECG / TMT / blood test or any other investigatory or diagnostic tests or any type of surgery?",
+        "captured_response": "Yes, kidney stone surgery 4 years ago.",
+        "expected_response": "No",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Expected response should be 'Yes' as customer had kidney stone surgery 4 years ago.",
+        "timestamp": "11:35",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV / AIDS / Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.) ?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "12:16",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Are you receiving any treatment /medication or has in the past received any treatment or undergone surgery/hospitalized for any medical condition /disability? If yes, Reason for medication and name of medicine?",
+        "captured_response": "No, doctor.",
+        "expected_response": "No",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Expected response should be 'Yes' as customer is on medication for cough/throat pain, takes medication for migraine, and had kidney stone surgery.",
+        "timestamp": "12:38",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you been off work due to illness or for a continuous period of more than 10 days during the last one year?",
+        "captured_response": "No, I don't think so.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "13:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you suffered or suffering from any other disease/ailment/habit not mentioned above?",
+        "captured_response": "I have migraine, doctor. Taking Nexdom sometimes, Dono sometimes. Once a day, very rarely. Consulted 6 months ago.",
+        "expected_response": "Yes LA has history f migraine F rom 6 months but not daily sometimes. F or that she is takin medication T ab . Dolo 600 or T ab Naxdome 500. SOS.",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Customer mentioned 'Dono' not 'Dolo 600' for migraine medication.",
+        "timestamp": "13:19",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA has history of migraine From 6 months but not daily sometimes. For that she is taking medication Tab. Dono or Tab Nexdom 500. SOS."
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you intend to travel outside India within next 3 months ?",
+        "captured_response": "Yes, planning to go to Dubai in April.",
+        "expected_response": "Yes LA is planning to travel a Dubai in April 2025.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "14:34",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes LA is planning to travel to Dubai in April 2025."
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Height (in cm)",
+        "captured_response": "5.3 (feet)",
+        "expected_response": "161",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Weight (in kgs)",
+        "captured_response": "60 kg",
+        "expected_response": "60",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Habits & Addictions : Cig/beedi/cigar ; Gutka/Snuff/Paan ; Beer/Wine/Hard Liquor ; Any Drugs.",
+        "captured_response": "Sometimes wine, 60 ml once a month, for 1-2 years.",
+        "expected_response": "Yes Alcohol (Beer/W ine/Har d Liquor ) Yes true Please specif y the per day quantity Yes 60 ml once in a month since last 1-2 years.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:55",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes Alcohol (Beer/Wine/Hard Liquor) Yes true Please specify the per day quantity Yes 60 ml once in a month since last 1-2 years."
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "Existing Cover/Existing Insurance Cover",
+        "captured_response": "Yes, I have other insurances also.",
+        "expected_response": "Yes Max life insurance.",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:48",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Missing mandatory questions (e.g., 'Are you pregnant?', customer's contact number).",
+        "Significant discrepancies in medical history capture (Q16, Q18) where MER states 'No' but customer provided positive history of surgery and ongoing medications.",
+        "Inconsistent dates for respiratory illness consultation and follow-up between transcript and MER.",
+        "Discrepancy in nominee name between transcript and MER.",
+        "Discrepancy in migraine medication name between transcript and MER.",
+        "Discrepancy in customer's name between customer's statement and MER/agent's confirmation."
+      ],
+      "recommendations": [
+        "Ensure all mandatory questions from the MER template are asked during the telephonic verification.",
+        "Agent must accurately capture and document all medical history details, including past surgeries and current medications, to avoid discrepancies with the MER.",
+        "Clarify and confirm all dates (consultation, follow-up) with the customer to ensure consistency.",
+        "Verify and confirm all personal particulars, including nominee name and contact number, with the customer against the application details.",
+        "Ensure medication names are accurately recorded as stated by the customer.",
+        "Agent should explicitly confirm the customer's full name at the beginning of the call, especially if there is any ambiguity."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and provides detailed answers.",
+        "Customer asks clarifying questions (e.g., agent's name, contact number) which indicates engagement."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "161.544",
+      "weight_kg": "60",
+      "dates_mentioned": [
+        "01-Jan-1991 (DOB)",
+        "01-Jan-1993 (Nominee DOB)",
+        "5 days (cough/throat pain duration)",
+        "2 days ago (cough/throat pain consultation)",
+        "27 (cough/throat pain consultation, customer correction)",
+        "day after tomorrow (cough/throat pain next follow-up)",
+        "4 years ago (kidney stone surgery)",
+        "6 months after surgery (kidney stone follow-up)",
+        "6 months ago (migraine consultation)",
+        "April (travel to Dubai)",
+        "1-2 years (wine consumption duration)"
+      ],
+      "medications": [
+        "Azithromycin",
+        "Nexdom",
+        "Dono"
+      ],
+      "validation_errors": [
+        "Customer's consultation date for cough/throat pain is contradictory ('two days ago' vs '27').",
+        "MER's consultation date (25/2/2025) and follow-up date (2/3/2025) for respiratory issue are inconsistent with customer's 'day after tomorrow' if call is 27-Feb-2025.",
+        "MER lists 'Dolo 600' for migraine medication, but customer stated 'Dono'."
+      ]
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "MOCK30704",
+      "doctor_name": "Dr. Khushali Pujara",
+      "customer_name": "Savita",
+      "insurance_company": "Max Life Insurance",
+      "doctor_wpm": 204.19,
+      "customer_wpm": 163.85
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -24.53
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The agent greeted the customer at the beginning of the call.",
+        "timestamps": [
+          "00:00:03"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "The agent introduced herself, stated the insurer's name, and asked for the client by name.",
+        "timestamps": {
+          "self_intro": "00:00:03",
+          "client_name": "00:00:10",
+          "insurer_name": "00:00:07"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "The agent asked the customer about their preferred language for the call.",
+        "timestamp": "00:00:49"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The agent verified the customer's full name, date of birth, PAN card number, nominee details, and address.",
+        "timestamps": [
+          "00:01:13",
+          "00:01:46",
+          "00:01:56",
+          "00:02:24",
+          "00:02:43"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The agent informed the customer that the call was being recorded for quality and audit purposes.",
+        "timestamp": "00:00:44"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The agent maintained a polite and respectful tone throughout the conversation, using 'ma'am' and 'doctor'.",
+        "timestamps": [
+          "00:00:03",
+          "00:18:23"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "The customer's health concerns (cough, anemia, kidney stone history, migraine) are not classified as serious health concerns requiring explicit empathy per the guidelines. The agent maintained a professional and non-dismissive tone.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "The agent communicated clearly, asked precise questions, and effectively summarized the medical history at the end.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:19",
+            "00:05:05",
+            "00:17:07"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The agent effectively probed into all disclosed medical conditions (cough/throat pain, anemia, kidney stone, migraine) for details like duration, medication, and follow-ups.",
+        "timestamps": [
+          "00:05:05",
+          "00:07:21",
+          "00:09:15",
+          "00:13:36",
+          "00:16:10"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "The agent provided a comprehensive summary of the customer's medical history and current conditions towards the end of the call.",
+        "timestamps": [
+          "00:17:07"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "The agent thanked the customer, but did not explicitly declare the call complete; the customer had to ask if they could disconnect.",
+        "timestamps": {
+          "declaration": "00:18:45",
+          "thank_you": "00:18:23"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Downloads/medibuddy/reports and recordings/MOCK30704/_processed"
+}

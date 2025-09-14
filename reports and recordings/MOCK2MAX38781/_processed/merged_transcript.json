@@ -1,0 +1,100 @@
+{
+  "segments": [
+    {
+      "segment_id": "call1_1",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "0:00",
+      "end_timestamp": "0:01",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_2",
+      "text": "Hello, good afternoon, ma'am. I'm Dr. speaking on behalf of Max Health Insurance. Am I speaking with Naveena Prasanna?",
+      "speaker": "doctor",
+      "start_timestamp": "0:01",
+      "end_timestamp": "0:08",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_3",
+      "text": "Good afternoon, doctor. I'm speaking.",
+      "speaker": "customer",
+      "start_timestamp": "0:08",
+      "end_timestamp": "0:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_4",
+      "text": "Ma'am, is this the right time to have a conversation with you?",
+      "speaker": "doctor",
+      "start_timestamp": "0:11",
+      "end_timestamp": "0:14",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_5",
+      "text": "Yeah, sure, sure, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:14",
+      "end_timestamp": "0:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_6",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:16",
+      "end_timestamp": "0:16",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_7",
+      "text": "Ma'am, I'll be sharing you one link. Can you please join through that link for your video consultation?",
+      "speaker": "doctor",
+      "start_timestamp": "0:17",
+      "end_timestamp": "0:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_8",
+      "text": "Yeah, sure, sure, doctor.",
+      "speaker": "customer",
+      "start_timestamp": "0:21",
+      "end_timestamp": "0:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_9",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "0:22",
+      "end_timestamp": "0:23",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_10",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:23",
+      "end_timestamp": "0:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_11",
+      "text": "Thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "0:24",
+      "end_timestamp": "0:25",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_12",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:26",
+      "end_timestamp": "0:26",
+      "call_index": 1
+    }
+  ]
+}

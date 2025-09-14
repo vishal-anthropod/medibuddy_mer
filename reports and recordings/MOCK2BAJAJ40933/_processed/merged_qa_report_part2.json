@@ -1,0 +1,94 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent initiated the call with a clear greeting.",
+      "timestamps": [
+        "00:00:02"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The agent introduced themselves, stated the company name, and confirmed the customer's identity.",
+      "timestamps": {
+        "self_intro": "00:00:05",
+        "client_name": "00:00:15",
+        "insurer_name": "00:00:10"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The agent asked the customer about their language preference.",
+      "timestamp": "00:01:52"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The agent confirmed several personal details for identification, including date of birth, nominee name, educational qualification, and occupation.",
+      "timestamps": [
+        "00:01:03",
+        "00:01:10",
+        "00:01:29",
+        "00:01:39"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The agent informed the customer that the call was being recorded for quality and audit purposes.",
+      "timestamp": "00:00:30"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent consistently used polite language, including greetings, 'thank you,' and asking for convenience.",
+      "timestamps": [
+        "00:00:02",
+        "00:00:27",
+        "00:01:29",
+        "00:11:07"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The agent did not express explicit empathy despite the customer disclosing serious health conditions like anemia requiring iron infusion and kidney stone requiring surgery.",
+      "timestamps": [
+        "00:03:12",
+        "00:03:54",
+        "00:07:39"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The agent's communication was clear, professional, and effective. They rephrased questions when needed and maintained a good flow.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:05",
+          "00:01:52",
+          "00:08:23"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent demonstrated excellent probing skills by asking detailed follow-up questions for all disclosed health conditions and habits (e.g., anemia, smoking, alcohol, kidney stone).",
+      "timestamps": [
+        "00:02:54",
+        "00:05:39",
+        "00:06:00",
+        "00:07:39"
+      ]
+    },
+    "observations": {
+      "value": "No",
+      "explanation": "There was no evidence of customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The agent clearly declared the completion of the verification process and thanked the customer for their time and patience.",
+      "timestamps": {
+        "declaration": "00:10:46",
+        "thank_you": "00:11:07"
+      }
+    }
+  }
+}

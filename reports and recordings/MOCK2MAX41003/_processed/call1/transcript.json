@@ -1,0 +1,74 @@
+{
+  "segments": [
+    {
+      "segment_id": "0",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:03"
+    },
+    {
+      "segment_id": "1",
+      "text": "Hello, hi, this is Dr. Krishna speaking.",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "2",
+      "text": "I'm ready to begin. I'll be sending you the link.",
+      "speaker": "doctor",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "3",
+      "text": "Okay, sure.",
+      "speaker": "customer",
+      "start_timestamp": "00:11",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "4",
+      "text": "I'll um the you said you sent on the Zoom, right?",
+      "speaker": "customer",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "5",
+      "text": "Sorry?",
+      "speaker": "doctor",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "6",
+      "text": "You sent on the Zoom, right?",
+      "speaker": "customer",
+      "start_timestamp": "00:19",
+      "end_timestamp": "00:21"
+    },
+    {
+      "segment_id": "7",
+      "text": "I'll send it to you on a text.",
+      "speaker": "doctor",
+      "start_timestamp": "00:23",
+      "end_timestamp": "00:26"
+    },
+    {
+      "segment_id": "8",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:27",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "9",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:29",
+      "end_timestamp": "00:30"
+    }
+  ]
+}

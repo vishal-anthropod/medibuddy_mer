@@ -1,0 +1,104 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent provided a clear greeting at the start of the re-initiated call.",
+      "timestamps": [
+        "00:34:15"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The agent introduced themselves, stated the insurer's name, and confirmed the client's name during the re-initiated call.",
+      "timestamps": {
+        "self_intro": "00:34:15",
+        "client_name": "00:34:22",
+        "insurer_name": "00:34:17"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The agent did not explicitly ask for the customer's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "No",
+      "explanation": "Only the customer's name was confirmed; no further identity validation (e.g., DOB, policy number) was performed.",
+      "timestamps": [
+        "00:34:22"
+      ]
+    },
+    "disclaimer": {
+      "value": "No",
+      "explanation": "No disclaimer was read at the beginning of the call. A declaration was read at the end.",
+      "timestamp": "NA"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent maintained a polite tone throughout the conversation, using phrases like 'Please tell me' and 'Thank you'.",
+      "timestamps": [
+        "00:00:23",
+        "00:35:44"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The agent did not express empathy for the customer's serious health concerns, including diabetes, anxiety, kidney stone surgery, and recurrent UTIs.",
+      "timestamps": [
+        "00:05:15",
+        "00:08:12",
+        "00:12:23",
+        "00:17:57"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The agent clarified questions and confirmed information effectively, but a system crash led to data loss, requiring the customer to re-state previously provided medical history, impacting efficiency.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:34",
+          "00:06:35",
+          "00:00:56",
+          "00:01:43"
+        ],
+        "poor_examples": [
+          "00:23:32",
+          "00:25:51",
+          "00:26:10",
+          "00:26:14",
+          "00:26:33",
+          "00:28:02",
+          "00:28:45",
+          "00:28:57",
+          "00:29:06"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent consistently asked detailed follow-up questions to gather comprehensive information about the customer's medical history and habits.",
+      "timestamps": [
+        "00:01:10",
+        "00:02:07",
+        "00:04:09",
+        "00:05:26",
+        "00:08:25",
+        "00:13:20",
+        "00:18:26"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No explicit observations were made by the agent regarding the customer's physical state or environment.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The agent read a declaration to the customer and concluded the call with a thank you.",
+      "timestamps": {
+        "declaration": "00:35:23",
+        "thank_you": "00:35:44"
+      }
+    }
+  }
+}

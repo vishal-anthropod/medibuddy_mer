@@ -1,0 +1,84 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.Gender",
+          "text": "Gender"
+        },
+        {
+          "id": "PP.ContactNo",
+          "text": "Contact No."
+        },
+        {
+          "id": "3.1",
+          "text": "Were the results normal?"
+        },
+        {
+          "id": "3.2",
+          "text": "Details of the problem"
+        },
+        {
+          "id": "3.3",
+          "text": "Ultrasound done due to pregnancy only"
+        },
+        {
+          "id": "5.2",
+          "text": "Taking medicines for high cholesterols and is under control"
+        },
+        {
+          "id": "12.3",
+          "text": "History of UTI (Urinary tract Infection), recovered."
+        },
+        {
+          "id": "12.4",
+          "text": "History of Ovarian cyst, no complications now"
+        },
+        {
+          "id": "13",
+          "text": "Epilepsy, nervous disorder, multiple sclerosis, tremors, numbness, paralysis or psychiatric disorder?"
+        },
+        {
+          "id": "24.3",
+          "text": "Chewing Tobacco currently or even occasionally in the last 2 year?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 50
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Minor prompting detected",
+      "details": {
+        "examples": [
+          "Agent: 'And at that time your blood pressure was 120/80.' Customer: 'Yeah.' (Agent states BP reading, customer confirms, after customer previously stated '120 by 90 or something' and 'I don't remember' for diagnosis reading)"
+        ],
+        "timestamps": [
+          "05:33"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "unknown"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Agent initiated the call with greetings.",
+      "timestamps": [
+        "00:00:01"
+      ]
+    },
+    "call_opening": {
+      "value": "Partial",
+      "explanation": "Agent introduced himself and the company but did not explicitly ask for the customer's name for verification.",
+      "timestamps": {
+        "self_intro": "00:00:15",
+        "client_name": "",
+        "insurer_name": "00:00:19"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Agent confirmed language preference with the customer.",
+      "timestamp": "00:00:10"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Agent validated customer's date of birth, PAN, nominee name, and nominee date of birth.",
+      "timestamps": [
+        "00:00:46",
+        "00:00:52",
+        "00:01:10",
+        "00:01:19"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Agent informed the customer that the call would be recorded for quality and audit purposes.",
+      "timestamp": "00:00:38"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Agent used polite language and addressed the customer respectfully throughout the call.",
+      "timestamps": [
+        "00:00:34",
+        "00:05:24"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "Customer mentioned thyroid and kidney stones, but no severe illness, accident, or operation was indicated. As per the rule, empathy is marked Yes by default.",
+      "timestamps": [
+        "00:03:40",
+        "00:07:17"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Agent's communication was mostly clear, but some questions were phrased awkwardly, requiring customer clarification.",
+      "timestamps": {
+        "good_examples": [
+          "00:04:13"
+        ],
+        "poor_examples": [
+          "00:02:22",
+          "00:02:36"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "Agent asked detailed follow-up questions regarding medical history (thyroid, kidney stones, alcohol consumption).",
+      "timestamps": [
+        "00:03:43",
+        "00:04:00",
+        "00:05:37",
+        "00:07:25"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "Agent made relevant observations and connected information from previous answers.",
+      "timestamps": [
+        "00:04:13",
+        "00:06:17",
+        "00:08:36"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Agent clearly declared the call completion and thanked the customer multiple times.",
+      "timestamps": {
+        "declaration": "00:10:22",
+        "thank_you": "00:10:04"
+      }
+    }
+  }
+}
