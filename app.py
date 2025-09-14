@@ -1465,18 +1465,20 @@ def api_record_call_report(rid: str, idx: int):
 
 @app.route('/api/records/<rid>/calls/<int:idx>/report2')
 def api_record_call_report2(rid: str, idx: int):
-    base = Path(RECORDS_DIR) / rid / "_processed" / f"call{idx}"
-    data = load_json_safe(base / 'qa_report_part2.json')
+    # Prefer merged Part 2 (QC) across calls to match dashboard design
+    mbase = Path(RECORDS_DIR) / rid / "_processed"
+    data = load_json_safe(mbase / 'merged_qa_report_part2.json')
     if not data:
-        mbase = Path(RECORDS_DIR) / rid / "_processed"
-        data = load_json_safe(mbase / 'merged_qa_report_part2.json')
-        # Final fallback: medb.py summary structure
-        if not data:
-            summary = load_json_safe(mbase / 'processing_summary.json')
-            if summary:
-                maybe = summary.get('qa_part2') or {}
-                if maybe:
-                    data = maybe
+        # Fallback to per-call file if merged not present
+        base = Path(RECORDS_DIR) / rid / "_processed" / f"call{idx}"
+        data = load_json_safe(base / 'qa_report_part2.json')
+    if not data:
+        # Final fallback: medb.py processing_summary carries merged under qa_part2
+        summary = load_json_safe(mbase / 'processing_summary.json')
+        if summary:
+            maybe = summary.get('qa_part2') or {}
+            if maybe:
+                data = maybe
     return jsonify(data)
 
 @app.route('/api/records/<rid>/calls/<int:idx>/transcript')
