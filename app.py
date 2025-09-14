@@ -1294,6 +1294,36 @@ def api_qcscore():
     return jsonify(compute_qc_score(report, qc2, duration_sec))
 
 
+@app.route('/api/records/<rid>/qcscore')
+def api_record_qcscore(rid: str):
+    """Return QC score for a specific record using merged artifacts.
+
+    This avoids the generic single-file score and ensures the UI shows
+    per-record values on Vercel.
+    """
+    base = Path(RECORDS_DIR) / rid / '_processed'
+    if not base.exists():
+        return jsonify({})
+    qa = load_json_safe(base / 'merged_qa_report.json') or {}
+    qc2 = load_json_safe(base / 'merged_qa_report_part2.json') or {}
+    # Derive duration from merged transcript if audio not present
+    duration_sec: Optional[float] = None
+    try:
+        tr = load_json_safe(base / 'merged_transcript.json') or {}
+        max_end = 0.0
+        for s in (tr.get('segments') or []):
+            try:
+                m, s2 = str(s.get('end_timestamp','0:00')).split(':')
+                t = int(m)*60 + int(s2)
+                if t>max_end: max_end = t
+            except Exception:
+                pass
+        duration_sec = max_end if max_end>0 else None
+    except Exception:
+        duration_sec = None
+    return jsonify(compute_qc_score(qa, qc2, duration_sec))
+
+
 @app.route('/api/records')
 def api_records():
     recs = scan_records()

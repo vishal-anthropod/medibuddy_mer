@@ -527,6 +527,22 @@ function setupTabs(report2){
     t.classList.add('active');
     const name = t.dataset.tab;
     views.forEach(v=> v.style.display = (v.dataset.view === name? 'grid' : 'none'));
+    // When switching to Part 2 tab, refresh QC2 from per-record endpoint
+    if(name === 'part2'){
+      try{
+        const u = new URL(window.location.href);
+        const rid = u.searchParams.get('rid');
+        const call = u.searchParams.get('call') || '1';
+        if(rid){
+          fetchJSON(`/api/records/${encodeURIComponent(rid)}/calls/${encodeURIComponent(call)}/report2`).then(r=>{
+            if(r && r.qc_parameters){ renderQCPart2(r); }
+            else{ return fetchJSON(`/api/records/${encodeURIComponent(rid)}`); }
+          }).then(rec=>{
+            if(rec && rec.merged && rec.merged.qc && rec.merged.qc.qc_parameters){ renderQCPart2(rec.merged.qc); }
+          }).catch(()=>{});
+        }
+      }catch{}
+    }
   }));
   // Clickable timestamps (seek both players)
   document.addEventListener('click', (e)=>{
