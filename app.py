@@ -1470,6 +1470,13 @@ def api_record_call_report2(rid: str, idx: int):
     if not data:
         mbase = Path(RECORDS_DIR) / rid / "_processed"
         data = load_json_safe(mbase / 'merged_qa_report_part2.json')
+        # Final fallback: medb.py summary structure
+        if not data:
+            summary = load_json_safe(mbase / 'processing_summary.json')
+            if summary:
+                maybe = summary.get('qa_part2') or {}
+                if maybe:
+                    data = maybe
     return jsonify(data)
 
 @app.route('/api/records/<rid>/calls/<int:idx>/transcript')
@@ -1557,6 +1564,13 @@ def api_record_call_audio(rid: str, idx: int):
             if url:
                 return redirect(url, code=302)
             return partial_response(cpath)
+    # Fallback: look up S3 URL from manifest for any audio/video under this record
+    try:
+        urls = _s3_manifest_lookup_urls(lambda lp: lp.startswith(f"reports and recordings/{rid}") and (lp.endswith('.mp3') or lp.endswith('.m4a') or lp.endswith('.wav') or lp.endswith('.mp4')))
+        if urls:
+            return redirect(urls[0], code=302)
+    except Exception:
+        pass
     return Response("Audio not found", status=404)
 
 
