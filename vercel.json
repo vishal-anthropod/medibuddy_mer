@@ -1,14 +1,15 @@
 {
+  "version": 2,
   "functions": {
     "api/index.py": {
       "runtime": "python3.11",
       "maxDuration": 60
     }
   },
-  "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
-    { "src": "/favicon.ico", "dest": "/static/favicon.ico" },
-    { "src": "/(.*)", "dest": "/api/index.py" }
+  "rewrites": [
+    { "source": "/static/(.*)", "destination": "/static/$1" },
+    { "source": "/favicon.ico", "destination": "/static/favicon.ico" },
+    { "source": "/(.*)", "destination": "/api/index.py" }
   ]
 }
 
