@@ -1,0 +1,134 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:02"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:04",
+        "client_name": "00:09",
+        "insurer_name": "00:06"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language before proceeding.",
+      "timestamp": "00:20"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor verified the customer's full name, date of birth, government ID, and member ID.",
+      "timestamps": [
+        "00:51",
+        "00:57",
+        "01:01",
+        "01:16"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer that the call was being recorded and that incorrect information could lead to policy cancellation.",
+      "timestamp": "00:32"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, including 'ma'am' and 'please,' and checked for the customer's convenience.",
+      "timestamps": [
+        "00:04",
+        "00:16",
+        "00:20",
+        "00:51",
+        "09:07",
+        "13:29",
+        "13:41"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The doctor maintained a professional and procedural tone, focusing on information gathering without expressing explicit empathy for the customer's health conditions.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor's questions were clear, structured, and comprehensive. She also effectively repeated a question when requested by the customer.",
+      "timestamps": {
+        "good_examples": [
+          "00:20",
+          "01:48",
+          "07:11",
+          "09:17"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor asked numerous detailed follow-up questions for each disclosed medical condition (hypertension, jaundice, anxiety, farsightedness).",
+      "timestamps": [
+        "02:11",
+        "02:17",
+        "02:24",
+        "02:29",
+        "02:35",
+        "02:45",
+        "02:54",
+        "03:02",
+        "03:41",
+        "03:50",
+        "04:00",
+        "05:38",
+        "05:49",
+        "06:11",
+        "06:14",
+        "06:25",
+        "06:32",
+        "06:37",
+        "06:47",
+        "06:54",
+        "08:08",
+        "08:13",
+        "08:23",
+        "08:32",
+        "08:43",
+        "08:49",
+        "10:03",
+        "10:08",
+        "10:14",
+        "10:23",
+        "10:30",
+        "10:50",
+        "11:57",
+        "12:04",
+        "13:11",
+        "13:17",
+        "13:24",
+        "13:29"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The doctor summarized the customer's health conditions and related details multiple times to confirm the information provided.",
+      "timestamps": [
+        "03:28",
+        "07:02",
+        "12:21",
+        "12:45",
+        "12:54"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a declaration of truthfulness and thanked the customer at the end of the call.",
+      "timestamps": {
+        "declaration": "12:12",
+        "thank_you": "13:41"
+      }
+    }
+  }
+}

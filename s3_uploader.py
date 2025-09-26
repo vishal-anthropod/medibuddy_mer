@@ -3,6 +3,8 @@ import sys
 import time
 import json
 import mimetypes
+import argparse
+from datetime import datetime, timezone
 from pathlib import Path
 
 import boto3
@@ -28,13 +30,17 @@ def build_s3_client() -> boto3.client:
     aws_secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY")
     aws_region = os.environ.get("AWS_REGION", "ap-south-1")
 
-    if not aws_access_key or not aws_secret_key:
-        raise RuntimeError("AWS credentials not found in environment variables.")
-
+    # If explicit env vars are provided, use them; otherwise rely on default provider chain (profile/SSO/IMDS)
+    if aws_access_key and aws_secret_key:
+        return boto3.client(
+            "s3",
+            aws_access_key_id=aws_access_key,
+            aws_secret_access_key=aws_secret_key,
+            region_name=aws_region,
+            config=Config(signature_version="s3v4"),
+        )
     return boto3.client(
         "s3",
-        aws_access_key_id=aws_access_key,
-        aws_secret_access_key=aws_secret_key,
         region_name=aws_region,
         config=Config(signature_version="s3v4"),
     )
@@ -134,6 +140,70 @@ def upload_and_replace(
     return manifest, uploaded_bytes
 
 
+def refresh_presigned_urls(
+    s3_client: boto3.client,
+    manifest_path: Path,
+    presign_expires: int = 604800,
+):
+    """Refresh presigned URLs in an existing manifest and update local pointer files.
+
+    This does NOT upload any files again. It regenerates URLs based on each item's bucket/key
+    and overwrites the local file (if present) with the fresh URL pointer.
+    """
+    if not manifest_path.exists():
+        print(f"Manifest not found at {manifest_path}")
+        return 0
+
+    try:
+        with open(manifest_path, "r", encoding="utf-8") as mf:
+            manifest = json.load(mf)
+    except Exception as e:
+        print(f"ERROR: Failed to read manifest: {e}")
+        return 0
+
+    items = manifest.get("items", [])
+    refreshed = 0
+    for item in items:
+        bucket = item.get("bucket") or manifest.get("bucket")
+        key = item.get("key")
+        local_path = item.get("local_path")
+        if not bucket or not key:
+            continue
+        try:
+            url = s3_client.generate_presigned_url(
+                "get_object",
+                Params={"Bucket": bucket, "Key": key},
+                ExpiresIn=presign_expires,
+            )
+            item["presigned_url"] = url
+            refreshed += 1
+        except (BotoCoreError, ClientError) as e:
+            print(f"ERROR: Failed to generate URL for s3://{bucket}/{key}: {e}")
+            continue
+
+        # Update local pointer file if it still exists
+        try:
+            if local_path:
+                lp = WORKSPACE_ROOT / local_path
+                if lp.exists():
+                    with open(lp, "w", encoding="utf-8") as wf:
+                        wf.write(url)
+                        wf.write("\n")
+        except Exception as e:
+            print(f"WARN: Failed to update local pointer {local_path}: {e}")
+
+    manifest["refreshed_at"] = datetime.now(timezone.utc).isoformat()
+    try:
+        with open(manifest_path, "w", encoding="utf-8") as mf:
+            json.dump(manifest, mf, indent=2)
+    except Exception as e:
+        print(f"ERROR: Failed to write updated manifest: {e}")
+        return refreshed
+
+    print(f"Refreshed {refreshed} presigned URLs. Manifest updated: {manifest_path}")
+    return refreshed
+
+
 def main():
     bucket = os.environ.get("S3_BUCKET_NAME", "anthropod")
     key_prefix = os.environ.get("S3_KEY_PREFIX", "temp/medibuddy")
@@ -191,7 +261,30 @@ def main():
     return 0
 
 
+def cli_main():
+    parser = argparse.ArgumentParser(description="Upload media to S3 and manage presigned URLs")
+    sub = parser.add_subparsers(dest="command")
+
+    # Default upload command (no subcommand still supported)
+    refresh = sub.add_parser("refresh", help="Refresh presigned URLs from existing s3_manifest.json")
+    refresh.add_argument("--expires", type=int, default=604800, help="Expiry in seconds for presigned URLs (default 7 days)")
+
+    # Back-compat flags (ignored by refresh)
+    parser.add_argument("--expires", type=int, default=604800, help="Expiry in seconds for presigned URLs during upload (default 7 days)")
+
+    args = parser.parse_args()
+
+    if args.command == "refresh":
+        s3 = build_s3_client()
+        manifest_path = WORKSPACE_ROOT / "s3_manifest.json"
+        refresh_presigned_urls(s3, manifest_path, presign_expires=args.expires)
+        return 0
+
+    # Default behavior: perform upload-and-replace and write manifest
+    return main()
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(cli_main())
 
 

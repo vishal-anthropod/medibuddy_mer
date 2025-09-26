@@ -1,0 +1,725 @@
+{
+  "personal_particulars": {
+    "name": "Aastha",
+    "dob": "01-Jan-1991",
+    "id_proofs": [
+      {
+        "type": "PAN",
+        "value": "BWYPT4747H",
+        "present_in_mer": false
+      }
+    ],
+    "nominee_name": "Pranati",
+    "nominee_dob": "01-Jan-1993"
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Birla Health Insurance",
+      "timestamp": "00:32"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "00:20"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "meta.member_id",
+      "question_text": "Member ID",
+      "captured_response": "ABHIMOCKC32832",
+      "expected_response": "ABHIMOCK32832",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "ABHIMOCK32832",
+      "timestamp": "01:16"
+    },
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Aastha",
+      "expected_response": "Aastha",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "00:55"
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "01-Jan-1992",
+      "expected_response": "01-Jan-1991",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "01-Jan-1991",
+      "timestamp": "00:59"
+    },
+    {
+      "question_id": "PP.Gender",
+      "question_text": "Gender Of Member",
+      "captured_response": "null",
+      "expected_response": "FEMALE",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Should have asked for gender.",
+      "timestamp": "null"
+    },
+    {
+      "question_id": "PP.RelationshipWithProposer",
+      "question_text": "Relationship With Member / Proposer",
+      "captured_response": "null",
+      "expected_response": "NA",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Should have asked for relationship with proposer.",
+      "timestamp": "null"
+    },
+    {
+      "question_id": "Height",
+      "question_text": "Height (in CM)",
+      "captured_response": "5'8\" (172.72 cm)",
+      "expected_response": "172.72",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "01:24"
+    },
+    {
+      "question_id": "Weight",
+      "question_text": "Weight (in Kgs)",
+      "captured_response": "65",
+      "expected_response": "65",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "01:32"
+    },
+    {
+      "question_id": "3.0",
+      "question_text": "Have you suffered from any medical or surgical condition in past or currently suffering from or taken advise or done investigation for any of the conditions",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "The MER's 'No' for this general question is inconsistent with the detailed 'Yes' answers for HBP, Jaundice, Anxiety, and Farsightedness. The doctor should have probed further or the MER should reflect 'Yes' for this general question.",
+      "timestamp": "01:48"
+    },
+    {
+      "question_id": "3.1",
+      "question_text": "Diagnosed with Diabetes?",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:02"
+    },
+    {
+      "question_id": "3.2",
+      "question_text": "Hypertension / High blood pressure",
+      "captured_response": "I have high blood pressure, doctor.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:06"
+    },
+    {
+      "question_id": "3.2.1",
+      "question_text": "Since when you are suffering from High Blood Pressure?",
+      "captured_response": "Six years, doctor.",
+      "expected_response": "6 years",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:11"
+    },
+    {
+      "question_id": "3.2.2",
+      "question_text": "Are you on any medication?",
+      "captured_response": "Uh, there's a pill I take every day.",
+      "expected_response": "yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:17"
+    },
+    {
+      "question_id": "3.2.3",
+      "question_text": "Please mention the medicines you are taking (name of medicine and dosages)?",
+      "captured_response": "I don't remember the name of it. Once a day, doctor.",
+      "expected_response": "once a day, exact name she didn't remember",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:24"
+    },
+    {
+      "question_id": "3.2.4",
+      "question_text": "Whether any hospitalization in past for Hypertension with details or related complications?",
+      "captured_response": "No, doctor. No hospitalization.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:35"
+    },
+    {
+      "question_id": "3.2.5",
+      "question_text": "Multiple hospitalization History",
+      "captured_response": "Yes, doctor. No, no complications.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "02:54"
+    },
+    {
+      "question_id": "3.3",
+      "question_text": "Do you ever had/have recorded blood pressure in the past? Routine or due to any complain or Physician advice if yes please share complete details",
+      "captured_response": "it was because I had intense headaches and then I, uh, I think I fainted once, they check that high blood pressure.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "03:02"
+    },
+    {
+      "question_id": "3.3.1",
+      "question_text": "When was last blood pressure reading checked?",
+      "captured_response": "No, doctor, I don't remember the last blood pressure reading.",
+      "expected_response": "not remembered",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "03:50"
+    },
+    {
+      "question_id": "3.3.2",
+      "question_text": "Latest Blood pressure measurement ?",
+      "captured_response": "One year ago, doctor.",
+      "expected_response": "1 yr ago , exact name didin't remember",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:00"
+    },
+    {
+      "question_id": "3.4",
+      "question_text": "High Cholesterol or High Triglycerides",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:10"
+    },
+    {
+      "question_id": "3.5",
+      "question_text": "Asthma",
+      "captured_response": "No, doctor, I don't have asthma.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:17"
+    },
+    {
+      "question_id": "3.6",
+      "question_text": "Current or past history of COVID",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:22"
+    },
+    {
+      "question_id": "3.7",
+      "question_text": "Epilepsy/Fits/Seizure/Convulsion",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:28"
+    },
+    {
+      "question_id": "3.8",
+      "question_text": "Heart Problem like Heart Attack, Heart Disease (Ischaemic /Coronary), Heart Valve disease, or any heart disease or procedure /surgery like Angioplasty / PTCA or By Pass Surgery (CABG)",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:34"
+    },
+    {
+      "question_id": "3.9",
+      "question_text": "Blood disorder or Blood Vessel disease like obstruction of artery/ occlusion of arteries of limbs including Varicose Vein",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "04:51"
+    },
+    {
+      "question_id": "3.10",
+      "question_text": "Do you ever had/have or currently suffering from any Respiratory disease ? If Yes , Confirm from list of disease Tuberculosis (TB),Bronchitis, COPD, or any other lung / respiratory disease/Obstructive sleep apnoea (OSA)",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "05:02"
+    },
+    {
+      "question_id": "3.11",
+      "question_text": "Do you ever had/have or currently suffering from any Gastointestional or Digestive disease. Genito urninary ? If Yes , Confirm from list of disease Ulcer (Stomach/Duodenal), Reflux Disease (GERD), Anal Fissure, fistula, Piles, Gall Bladder Stone, Alcoholic Liver disease,Liver cirrhosis or any other digestive tract disease, Prostate related disease, hernia, hydrocele, varicocele",
+      "captured_response": "I've had jaundice, doctor.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "05:14"
+    },
+    {
+      "question_id": "3.11.DiseaseName",
+      "question_text": "Name of Disease/Illness/Condition",
+      "captured_response": "jaundice",
+      "expected_response": "Any other digestive tract disease",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "05:35"
+    },
+    {
+      "question_id": "3.11.1",
+      "question_text": "Date of Diagnosis - (mm/yyyy)",
+      "captured_response": "nearly four years ago.",
+      "expected_response": "not remembered , 4 years ago",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "05:38"
+    },
+    {
+      "question_id": "3.11.2",
+      "question_text": "Last Consultation Date - (mm/yyyy)",
+      "captured_response": "null",
+      "expected_response": "4 years ago",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Should have asked for last consultation date for jaundice.",
+      "timestamp": "null"
+    },
+    {
+      "question_id": "3.11.3",
+      "question_text": "Name of Surgery if any",
+      "captured_response": "No hospitalization.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "06:11"
+    },
+    {
+      "question_id": "3.11.4",
+      "question_text": "Details of Treatment given (hospitalised/OPD)",
+      "captured_response": "doctor prescribed me medicines. No, doctor.",
+      "expected_response": "medicine was taken by her , exact name didn't remember",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "06:37"
+    },
+    {
+      "question_id": "3.11.5",
+      "question_text": "Name of medicines",
+      "captured_response": "No, doctor.",
+      "expected_response": "not remembered",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "06:32"
+    },
+    {
+      "question_id": "3.12",
+      "question_text": "Do you ever had/have or currenlty suffering from Kidney/Urinary Tract related disorders? If yes list of disease Kidney problem like Renal Failure, Stone in kidney or urinary tract, or any other kidney /urinary tract disease",
+      "captured_response": "No, doctor, no kidney or urinary tract disorders.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "07:11"
+    },
+    {
+      "question_id": "3.13",
+      "question_text": "Do you ever had/have or currenlty suffering from any Nervous system/Neurological/Brain/Spinal cord related disorders? If Yes Nervous system disorders like Brain Stroke, Paralysis, Brain Tumour, Parkinsonism, Alzheimers Disease, Multiple sclerosis, Down Syndrome or any other Brain / Spinal Cord or nervous system disease/ Polio",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "07:29"
+    },
+    {
+      "question_id": "3.14",
+      "question_text": "Do you ever had/have or currently suffering from Arthritis of any type, Spondylosis, Slipped Disc, or any disease of the muscles, bones or joints",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "07:51"
+    },
+    {
+      "question_id": "3.15",
+      "question_text": "Psychiatric /Mental illnesses",
+      "captured_response": "Anxiety, doctor.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:02"
+    },
+    {
+      "question_id": "3.15.DiseaseName",
+      "question_text": "Name of Disease/Illness/Condition",
+      "captured_response": "Anxiety disorder",
+      "expected_response": "Anxiety disorder",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:06"
+    },
+    {
+      "question_id": "3.15.1",
+      "question_text": "Date of Diagnosis - (mm/yyyy)",
+      "captured_response": "Two years.",
+      "expected_response": "2 years",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:08"
+    },
+    {
+      "question_id": "3.15.2",
+      "question_text": "Last Consultation Date - (mm/yyyy)",
+      "captured_response": "Therapy last Thursday.",
+      "expected_response": "1 week",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:23"
+    },
+    {
+      "question_id": "3.15.3",
+      "question_text": "Name of Surgery if any",
+      "captured_response": "No, no, no.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:32"
+    },
+    {
+      "question_id": "3.15.4",
+      "question_text": "Details of Treatment given (hospitalised/OPD)",
+      "captured_response": "taking therapy and medication, I took medication, then it is extreme. I don't remember the name.",
+      "expected_response": "la is taking medicines only on having symptoms , exact name she didn't remember",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:38"
+    },
+    {
+      "question_id": "3.15.5",
+      "question_text": "Name of medicines",
+      "captured_response": "I don't remember the name.",
+      "expected_response": "not remembered",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:43"
+    },
+    {
+      "question_id": "3.16",
+      "question_text": "Disability or deformity whether physical / mental",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "08:57"
+    },
+    {
+      "question_id": "3.17",
+      "question_text": "Autism",
+      "captured_response": "No, doctor. No autism.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "09:25"
+    },
+    {
+      "question_id": "3.18",
+      "question_text": "Do you ever had/have or crrently suffering from any Tumour - benign or malignant, Cancer, ulcer, growth, cyst, Lump or mass in the body .",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "09:29"
+    },
+    {
+      "question_id": "3.19",
+      "question_text": "Do you ever had/have or currently suffering from Cataract, Deviated Nasal Septum, Nasal Polyps, or any disease of the Ear, Nose, Throat, Thyroid, Teeth, Eye, speech",
+      "captured_response": "I have vision like farsighted, I can't see.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "09:41"
+    },
+    {
+      "question_id": "3.19.DiseaseName",
+      "question_text": "Name of Disease/Illness/Condition",
+      "captured_response": "farsighted",
+      "expected_response": "myopia",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Should be 'farsightedness' or 'hyperopia' instead of 'myopia'.",
+      "timestamp": "09:58"
+    },
+    {
+      "question_id": "3.19.1",
+      "question_text": "Date of Diagnosis - (mm/yyyy)",
+      "captured_response": "10, 12 years now.",
+      "expected_response": "12 years",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:03"
+    },
+    {
+      "question_id": "3.19.2",
+      "question_text": "Last Consultation Date - (mm/yyyy)",
+      "captured_response": "A year and a half.",
+      "expected_response": "1.5 yr",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:08"
+    },
+    {
+      "question_id": "3.19.3",
+      "question_text": "Name of Surgery if any",
+      "captured_response": "No, doctor.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:23"
+    },
+    {
+      "question_id": "3.19.4",
+      "question_text": "Details of Treatment given (hospitalised/OPD)",
+      "captured_response": "No, doctor.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:30"
+    },
+    {
+      "question_id": "3.19.5",
+      "question_text": "Name of medicines",
+      "captured_response": "No, doctor.",
+      "expected_response": "no",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:30"
+    },
+    {
+      "question_id": "3.20",
+      "question_text": "HIV/AIDS,sexually transmitted diseases (STD)",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:39"
+    },
+    {
+      "question_id": "3.21",
+      "question_text": "Genetic Disorder, Birth defects",
+      "captured_response": "null",
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Should have asked about genetic disorders or birth defects.",
+      "timestamp": "null"
+    },
+    {
+      "question_id": "3.22",
+      "question_text": "Any other condition",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:50"
+    },
+    {
+      "question_id": "3.23",
+      "question_text": "Fibroid (Uterus), Breast Lumps, Polycystic Ovary Disease (PCOD) or any other Gynaecological disease (only for female)",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "10:58"
+    },
+    {
+      "question_id": "Regular Medication",
+      "question_text": "Under any regular medication prescribed by the Doctor other than vitamin pills and tonics?",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer is taking daily medication for HBP, so this should be 'Yes'. The MER's expected response is also inconsistent with its own details.",
+      "timestamp": "11:08"
+    },
+    {
+      "question_id": "Investigations",
+      "question_text": "Blood tests, X -Ray/USG/Scan/MRI other than routine or pre-employment health check?Reason for undergoing the test and the findings of the report? Any adversity noted",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "11:20"
+    },
+    {
+      "question_id": "Surgery",
+      "question_text": "Surgery done or advised and still pending for the surgery to be done?",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "11:33"
+    },
+    {
+      "question_id": "Habits",
+      "question_text": "Does any person proposed to be insured Smoke or consume tobacco in any form, or alcohol. If yes, please indicate the Quantity (Qty) consumed. If not, please indicate 'No'",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "11:41"
+    },
+    {
+      "question_id": "Pregnancy",
+      "question_text": "Whether lady is pregnant",
+      "captured_response": "No, doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "12:04"
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "Declaration: You Aastha , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "captured_response": "Yes, doctor.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "12:12"
+    },
+    {
+      "question_id": "PP.NomineeName",
+      "question_text": "Nominee Name",
+      "captured_response": "Pranati",
+      "expected_response": "Pranati",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "13:11"
+    },
+    {
+      "question_id": "PP.NomineeDOB",
+      "question_text": "Nominee Date of Birth",
+      "captured_response": "01-Jan-1993",
+      "expected_response": "01-Jan-1993",
+      "status": "Correct",
+      "error_type": "null",
+      "suggested_correction": "null",
+      "timestamp": "13:17"
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+    
+      "Medical condition 'farsightedness' (hyperopia) stated by the customer was incorrectly mapped or recorded as 'myopia' in the MER, which are opposite conditions.",
+      "Customer stated taking daily medication for Hypertension, but later responded 'No' to the general question about 'regular medication prescribed by the Doctor other than vitamin pills and tonics'. The MER also reflects 'No', indicating an internal inconsistency in data capture.",
+      "Several mandatory questions from the MER template were not asked: Gender of Member, Relationship with Proposer, Last Consultation Date for Jaundice, and Genetic Disorder/Birth Defects."
+    ],
+    "recommendations": [
+      "Ensure all personal particulars, especially DOB and Member ID, are accurately verified and cross-checked against the MER document.",
+      "Train doctors to confirm and accurately record medical conditions, distinguishing between similar but opposite terms like farsightedness and nearsightedness (myopia).",
+      "Implement a system to cross-verify answers for consistency, particularly regarding ongoing medications. If a customer declares daily medication for a condition, the general 'regular medication' question should reflect 'Yes'.",
+      "Ensure all mandatory questions from the MER template are explicitly asked during the telephonic verification to avoid 'Missing Question' errors.",
+      "The MER template itself has an inconsistency where the general question 'Have you suffered from any medical or surgical condition...' is marked 'No' despite subsequent detailed 'Yes' answers. This should be reviewed."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer was cooperative and answered all questions.",
+      "Doctor maintained a polite and professional demeanor throughout the call."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "172.72",
+    "weight_kg": "65",
+    "dates_mentioned": [
+      "01-Jan-1992",
+      "6 years ago",
+      "1 year ago",
+      "4 years ago",
+      "2 years ago",
+      "last Thursday",
+      "10-12 years ago",
+      "1.5 years ago",
+      "27th of March",
+      "01-Jan-1993"
+    ],
+    "medications": [
+      "a pill (for HBP, name not remembered)",
+      "medication (for anxiety, name not remembered)"
+    ],
+    "validation_errors": [
+      
+      "Customer stated 'farsighted' for vision, but MER recorded 'myopia'. These are medically distinct conditions.",
+      "Customer stated taking daily medication for HBP, but later denied taking 'any regular medication' (excluding vitamins/tonics). This is an internal inconsistency."
+    ]
+  },
+  "meta": {
+    "proposal_number": "ABHIMOCK32832",
+    "doctor_name": "Dr. Mansi",
+    "customer_name": "Aastha",
+    "insurance_company": "Birla Health Insurance",
+    "doctor_wpm": 204.78,
+    "customer_wpm": 177.88
+  }
+}
