@@ -1616,9 +1616,10 @@ def api_record_call_audio(rid: str, idx: int):
             if url:
                 return redirect(url, code=302)
             return partial_response(cpath)
-    # Fallback: look up S3 URL from manifest for any audio/video under this record
+    # Fallback: look up S3 URL from manifest for the exact call index path only
     try:
-        urls = _s3_manifest_lookup_urls(lambda lp: lp.startswith(f"reports and recordings/{rid}") and (lp.endswith('.mp3') or lp.endswith('.m4a') or lp.endswith('.wav') or lp.endswith('.mp4')))
+        expected_lp = f"reports and recordings/{rid}/_processed/call{idx}/audio.mp3"
+        urls = _s3_manifest_lookup_urls(lambda lp: lp == expected_lp)
         if urls:
             return redirect(urls[0], code=302)
     except Exception:

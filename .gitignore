@@ -33,3 +33,8 @@ s3_upload.log
 # Manifest kept (needed for S3 URLs)
 # s3_manifest.json is committed
 
+
+# Local SSH key files (do not commit)
+git_ssh_key
+git_ssh_key.pub
+known_hosts
