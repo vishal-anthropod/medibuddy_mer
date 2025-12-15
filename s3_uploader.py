@@ -6,6 +6,9 @@ import mimetypes
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
+import urllib.request
+import email.utils
 
 import boto3
 from botocore.client import Config
@@ -161,6 +164,16 @@ def refresh_presigned_urls(
         print(f"ERROR: Failed to read manifest: {e}")
         return 0
 
+    # Use S3 server time for presigning to avoid any local clock skew causing immediate expiry
+    server_dt = _fetch_s3_server_time(manifest.get("bucket") or os.environ.get("S3_BUCKET_NAME", ""))
+    if not server_dt:
+        server_dt = datetime.now(timezone.utc)
+    ymd = server_dt.strftime("%Y%m%d")
+    amz_date = server_dt.strftime("%Y%m%dT%H%M%SZ")
+    region = os.environ.get("AWS_REGION", "ap-south-1")
+    access_key = os.environ.get("AWS_ACCESS_KEY_ID")
+    secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY")
+
     items = manifest.get("items", [])
     refreshed = 0
     for item in items:
@@ -169,17 +182,37 @@ def refresh_presigned_urls(
         local_path = item.get("local_path")
         if not bucket or not key:
             continue
-        try:
-            url = s3_client.generate_presigned_url(
-                "get_object",
-                Params={"Bucket": bucket, "Key": key},
-                ExpiresIn=presign_expires,
-            )
-            item["presigned_url"] = url
-            refreshed += 1
-        except (BotoCoreError, ClientError) as e:
-            print(f"ERROR: Failed to generate URL for s3://{bucket}/{key}: {e}")
+        # Prefer manual SigV4 with server time to prevent expired links on hosts with skewed clocks
+        url = None
+        if access_key and secret_key:
+            try:
+                url = _manual_presign_s3_get(
+                    bucket=bucket,
+                    key=key,
+                    region=region,
+                    access_key=access_key,
+                    secret_key=secret_key,
+                    expires=presign_expires,
+                    amz_date=amz_date,
+                    yyyymmdd=ymd,
+                )
+            except Exception as e:
+                print(f"ERROR: Manual presign failed for s3://{bucket}/{key}: {e}")
+                url = None
+        if not url:
+            try:
+                url = s3_client.generate_presigned_url(
+                    "get_object",
+                    Params={"Bucket": bucket, "Key": key},
+                    ExpiresIn=presign_expires,
+                )
+            except (BotoCoreError, ClientError) as e:
+                print(f"ERROR: Failed to generate URL for s3://{bucket}/{key}: {e}")
+                url = None
+        if not url:
             continue
+        item["presigned_url"] = url
+        refreshed += 1
 
         # Update local pointer file if it still exists
         try:
@@ -202,6 +235,69 @@ def refresh_presigned_urls(
 
     print(f"Refreshed {refreshed} presigned URLs. Manifest updated: {manifest_path}")
     return refreshed
+
+
+def _fetch_s3_server_time(bucket: str) -> datetime:
+    """HEAD the bucket to get S3 Date header as a reliable server time source."""
+    host = f"{bucket}.s3.amazonaws.com" if bucket else "s3.amazonaws.com"
+    req = urllib.request.Request(f"https://{host}/", method="HEAD")
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            date_hdr = resp.headers.get("Date")
+    except Exception as e:
+        # Sometimes S3 returns error but with headers
+        date_hdr = getattr(e, "headers", None).get("Date") if getattr(e, "headers", None) else None
+    if not date_hdr:
+        return None
+    try:
+        return email.utils.parsedate_to_datetime(date_hdr).astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def _manual_presign_s3_get(*, bucket: str, key: str, region: str, access_key: str, secret_key: str, expires: int, amz_date: str, yyyymmdd: str) -> str:
+    """Minimal SigV4 presign for S3 GET using server time to avoid clock skew issues."""
+    service = "s3"
+    credential_scope = f"{yyyymmdd}/{region}/{service}/aws4_request"
+    host = f"{bucket}.s3.amazonaws.com"
+    canonical_uri = "/" + quote(key, safe="/")
+    params = {
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "X-Amz-Credential": f"{access_key}/{credential_scope}",
+        "X-Amz-Date": amz_date,
+        "X-Amz-Expires": str(expires),
+        "X-Amz-SignedHeaders": "host",
+    }
+    canonical_query = "&".join([f"{quote(k, safe='~')}={quote(str(params[k]), safe='~')}" for k in sorted(params)])
+    canonical_headers = f"host:{host}\n"
+    signed_headers = "host"
+    payload_hash = "UNSIGNED-PAYLOAD"
+    canonical_request = "\n".join([
+        "GET",
+        canonical_uri,
+        canonical_query,
+        canonical_headers,
+        signed_headers,
+        payload_hash,
+    ])
+    import hashlib, hmac as _hmac
+    cr_hash = hashlib.sha256(canonical_request.encode()).hexdigest()
+    string_to_sign = "\n".join([
+        "AWS4-HMAC-SHA256",
+        amz_date,
+        credential_scope,
+        cr_hash,
+    ])
+    def _sign(key_bytes, msg):
+        return _hmac.new(key_bytes, msg.encode("utf-8"), hashlib.sha256).digest()
+    k_secret = ("AWS4" + secret_key).encode("utf-8")
+    k_date = _sign(k_secret, yyyymmdd)
+    k_region = _sign(k_date, region)
+    k_service = _sign(k_region, service)
+    k_signing = _sign(k_service, "aws4_request")
+    signature = _hmac.new(k_signing, string_to_sign.encode("utf-8"), hashlib.sha256).hexdigest()
+    final_query = canonical_query + "&X-Amz-Signature=" + signature
+    return f"https://{host}{canonical_uri}?{final_query}"
 
 
 def main():
