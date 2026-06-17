@@ -1,9 +1,10 @@
 import os
 import json
 import math
+import hmac
 from datetime import timedelta
 from typing import Dict, Any, List, Optional, Tuple
-from flask import Flask, jsonify, send_file, request, Response, render_template, render_template_string, redirect
+from flask import Flask, jsonify, send_file, request, Response, render_template, render_template_string, redirect, session, url_for
 import threading
 
 import wave
@@ -1274,6 +1275,138 @@ def derive_top_metrics(report: Dict[str, Any], audio_duration: Optional[float]) 
 
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
+app.secret_key = os.environ.get("APP_SECRET_KEY") or os.environ.get("SECRET_KEY") or "change-this-local-dev-secret"
+app.config.update(
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE="Lax",
+    SESSION_COOKIE_SECURE=bool(os.environ.get("VERCEL")),
+)
+
+
+LOGIN_USERNAME = os.environ.get("APP_LOGIN_USERNAME", "admin")
+LOGIN_PASSWORD = os.environ.get("APP_LOGIN_PASSWORD", "")
+LOGIN_ENABLED = os.environ.get("APP_LOGIN_ENABLED", "true").strip().lower() not in ("0", "false", "no", "off")
+
+
+@app.context_processor
+def inject_asset_version_final():
+    return {"asset_v": ASSET_VERSION}
+
+
+@app.after_request
+def disable_cache_for_html_and_json_final(resp: Response):
+    try:
+        ct = resp.headers.get('Content-Type', '')
+        if ('text/html' in ct) or ('application/json' in ct):
+            resp.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+            resp.headers['Pragma'] = 'no-cache'
+            resp.headers['Expires'] = '0'
+    except Exception:
+        pass
+    return resp
+
+
+def is_logged_in() -> bool:
+    return bool(session.get("authenticated"))
+
+
+@app.before_request
+def require_login():
+    if not LOGIN_ENABLED:
+        return None
+    allowed_endpoints = {"login", "static"}
+    if request.endpoint in allowed_endpoints or request.path in ("/login", "/favicon.ico"):
+        return None
+    if is_logged_in():
+        return None
+    if request.path.startswith("/api/"):
+        return jsonify({"error": "authentication_required"}), 401
+    return redirect(url_for("login", next=request.full_path if request.query_string else request.path))
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    error = None
+    if request.method == 'POST':
+        if not LOGIN_PASSWORD:
+            error = "Login is not configured. Set APP_LOGIN_PASSWORD in the deployment environment."
+            return render_template_string("""
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MediBuddy Login</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f8fafc;font-family:Arial,sans-serif;color:#0f172a}
+    .login-card{width:min(420px,calc(100vw - 32px));background:#fff;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,.08);padding:28px}
+    h1{font-size:24px;margin:0 0 6px}
+    p{margin:0 0 22px;color:#64748b}
+    .error{margin-top:14px;border:1px solid #fecaca;background:#fee2e2;color:#991b1b;border-radius:8px;padding:10px;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <h1>MediBuddy Records</h1>
+    <p>Sign in to continue.</p>
+    <div class="error">{{ error }}</div>
+  </div>
+</body>
+</html>
+""", error=error), 503
+        username = (request.form.get('username') or '').strip()
+        password = request.form.get('password') or ''
+        valid_user = hmac.compare_digest(username, LOGIN_USERNAME)
+        valid_pass = hmac.compare_digest(password, LOGIN_PASSWORD)
+        if valid_user and valid_pass:
+            session.clear()
+            session["authenticated"] = True
+            session["username"] = username
+            return redirect(request.args.get("next") or url_for("records_page"))
+        error = "Invalid username or password."
+
+    return render_template_string("""
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MediBuddy Login</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f8fafc;font-family:Arial,sans-serif;color:#0f172a}
+    .login-card{width:min(420px,calc(100vw - 32px));background:#fff;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,.08);padding:28px}
+    h1{font-size:24px;margin:0 0 6px}
+    p{margin:0 0 22px;color:#64748b}
+    label{display:block;font-weight:700;font-size:13px;margin:14px 0 6px}
+    input{width:100%;border:1px solid #cbd5e1;border-radius:8px;padding:11px 12px;font-size:15px}
+    input:focus{outline:none;border-color:#3b82f6;box-shadow:0 0 0 3px rgba(59,130,246,.16)}
+    button{width:100%;margin-top:18px;border:0;border-radius:8px;background:#2563eb;color:#fff;padding:11px 14px;font-weight:700;font-size:15px;cursor:pointer}
+    button:hover{background:#1d4ed8}
+    .error{margin-top:14px;border:1px solid #fecaca;background:#fee2e2;color:#991b1b;border-radius:8px;padding:10px;font-size:14px}
+  </style>
+</head>
+<body>
+  <form class="login-card" method="post">
+    <h1>MediBuddy Records</h1>
+    <p>Sign in to continue.</p>
+    <label for="username">Username</label>
+    <input id="username" name="username" autocomplete="username" required autofocus>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <button type="submit">Login</button>
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+  </form>
+</body>
+</html>
+""", error=error)
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for("login"))
 
 
 @app.route('/')
