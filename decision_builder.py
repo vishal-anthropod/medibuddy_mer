@@ -199,10 +199,6 @@ def summarize_record(rec_dir: Path) -> Dict[str, Any]:
     if aud in ('poor','inaudible','not_audible'):
         add('TECH_ISSUES', 'Voice not audible', {'audibility_level': tech.get('audibility_level')})
 
-    vis = str((video.get('visibility_status') or '')).strip().lower()
-    if vis and vis != 'both_visible':
-        add('TECH_ISSUES', 'Not both participants visible', {'visibility_status': video.get('visibility_status')})
-
     return issues
 
 

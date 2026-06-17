@@ -8,9 +8,9 @@ Current refreshed batch summary:
 | --- | ---: |
 | Assignback | 68 |
 | Ops Attention | 14 |
-| Flags | 0 |
-| Tech Issues | 5 |
-| Pass | 4 |
+| Flags | 2 |
+| Tech Issues | 0 |
+| Pass | 7 |
 | Staged only | 1 |
 
 The staged-only record is `C330718334`, because it has a MER PDF but no media recording.
@@ -267,7 +267,8 @@ Record is marked Tech Issues if any of these are found and Assignback/Ops Attent
 | --- | --- |
 | Recording missing | Technical status says recording does not exist. |
 | Voice not audible | Audibility is poor/inaudible/not audible. |
-| Not both participants visible | Video visibility status is not `both_visible`. |
+
+Visibility status is intentionally not used for final judgement. Audio-only records and video records should not be classified as Tech Issues based on whether both participants are visible.
 
 ### Pass
 
