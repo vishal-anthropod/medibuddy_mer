@@ -750,6 +750,12 @@ def as_dict(value: Any) -> Dict[str, Any]:
     return value if isinstance(value, dict) else {}
 
 
+def is_record_staged_only(base: Path) -> bool:
+    marker = base / "staged.json"
+    data = as_dict(load_json_safe(marker)) if marker.exists() else {}
+    return str(data.get("status") or "").strip().lower() == "staged"
+
+
 def load_transcript_from_path(path: Path) -> Dict[str, Any]:
     """Load a transcript JSON and normalize shape to {segments:[...]},
     supporting the code-fenced JSON stored under raw_text."""
@@ -1604,9 +1610,10 @@ def api_records_dashboard():
     out = []
     for rid, rec in recs.items():
         base = Path(RECORDS_DIR) / rid / '_processed'
+        staged_only = is_record_staged_only(base)
         qa = as_dict(load_json_safe(base / 'merged_qa_report.json'))
         qc2 = as_dict(load_json_safe(base / 'merged_qa_report_part2.json'))
-        is_processed = bool(qa or qc2 or load_json_safe(base / 'processing_summary.json'))
+        is_processed = (not staged_only) and bool(qa or qc2 or load_json_safe(base / 'processing_summary.json'))
         # compute metrics
         duration = None
         try:
@@ -1630,7 +1637,7 @@ def api_records_dashboard():
         category = 'staged'
         if is_processed:
             category = 'pass'
-        if decision:
+        if is_processed and decision:
             if (decision.get('ASSIGNBACK') or []):
                 category = 'assignback'
             elif (decision.get('OPS_ATTENTION') or []):
@@ -1689,7 +1696,7 @@ def api_process_record(rid: str):
 @app.route('/api/records/<rid>')
 def api_record_details(rid: str):
     base = Path(RECORDS_DIR) / rid / "_processed"
-    if not base.exists():
+    if (not base.exists()) or is_record_staged_only(base):
         rec = scan_records().get(rid)
         if not rec:
             return jsonify({"error": "not_found"}), 404
