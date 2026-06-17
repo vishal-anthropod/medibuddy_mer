@@ -1,0 +1,837 @@
+{
+  "personal_particulars": {
+    "name": "Divya Bhavani",
+    "dob": "May 29, 1994",
+    "id_proofs": [
+      {
+        "type": "PAN",
+        "value": "CCYPR7001J",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata Insurance",
+      "timestamp": "00:00:34"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "00:00:08"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Divya Bhavani",
+      "expected_response": "Diddi Pavani",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Diddi Pavani",
+      "timestamp": "00:00:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Your Date of birth",
+      "captured_response": "May 29, 1994",
+      "expected_response": "1994-05-29",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "M.Sc. Food and Nutrition",
+      "expected_response": "Above Graduate",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "I'm a clinical dietitian. I'm a self-employed.",
+      "expected_response": "Self-employed",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.PAN",
+      "question_text": "ID Proof PAN",
+      "captured_response": "PAN card, CCYPR7001J",
+      "expected_response": "PAN Card CCYPR7001J",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Hyderabad",
+      "expected_response": "HYDERABAD TELANGANA",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Hyderabad, Telangana, India",
+      "timestamp": "00:01:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.Tobacco",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "No",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:57",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.Alcohol",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "I have consumed alcohol four years back, but only in one function, that's it. ... present I'm not taking anything.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "No",
+      "timestamp": "00:02:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.AlcoholType",
+      "question_text": "Please select the type of alcohol you consume. Spirit/Hard Liqour",
+      "captured_response": "vodka",
+      "expected_response": "Spirit/Hard Liqour",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:11",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Spirit/Hard Liquor"
+      }
+    },
+    {
+      "question_id": "Lifestyle.AlcoholUnits",
+      "question_text": "In a week,How many unit of Hard liqour/spirit do you consume ?1 unit of alcohol = 1 glass of spirits (44 ml)",
+      "captured_response": "once in, once, means one month, I consumed this one, vodka. ... That is also tenure of one month.",
+      "expected_response": "1",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "0 (as customer states they stopped)",
+      "timestamp": "00:02:11",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "In a week, How many units of Hard liquor/spirit do you consume? 1 unit of alcohol = 1 glass of spirits (44 ml)"
+      }
+    },
+    {
+      "question_id": "Lifestyle.AlcoholAdvisedStop",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "No, never.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:10",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.Drugs",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "No, no, no, sorry.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.Height",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "163 centimeters, 5'4\".",
+      "expected_response": "163 cm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.Weight",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "Sometimes 68, sometimes 67. It fluctuates by 1 kg.",
+      "expected_response": "68 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+      "captured_response": "Never, never.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "b",
+      "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "All are normal, all are normal, doctor. ... No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "c",
+      "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "No, nothing, nothing I have.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:09",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "d",
+      "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "No, I don't have any thyroid, any history of diabetes also.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+      "captured_response": "No, no, nothing. ... No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "f",
+      "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "g",
+      "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "I diagnosed with autoimmune disorder, ANA, ANA positive.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "g.1",
+      "question_text": "Please provide details including type of condition, the age at diagnosis and symptoms.",
+      "captured_response": "Sjogren's Syndrome. ... AUTOIMMUNE DIESEASE IN 2025... Skin rashes.",
+      "expected_response": "Sjögren’s AUTOIMMUNE DIESEASE IN 2025, TEST ANA TESTS SYMPTOMS WERE SHIK RASHESM",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:01, 00:07:02, 00:07:50, 00:17:54",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Sjögren’s AUTOIMMUNE DISEASE IN 2025, TEST ANA TESTS SYMPTOMS WERE SKIN RASHES"
+      }
+    },
+    {
+      "question_id": "g.2",
+      "question_text": "Please provide details of treatment and/or medication advice received or sought, type of investigation(s) done, and last follow-up date.",
+      "captured_response": "I'm on medication since one year. I use HCQ 200... FPPK 200... ANA profile I did the test. ... condition is good. ... 10 days back.",
+      "expected_response": "TREATMENT TAKING MEDICATION SINCE 2025 CURRENT CNDITION IS GOOD LAST CONSULTATION 10 DAYS BACK",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:40, 00:06:04, 00:08:25, 00:08:34",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "TREATMENT TAKING MEDICATION SINCE 2025 CURRENT CONDITION IS GOOD LAST CONSULTATION 10 DAYS BACK"
+      }
+    },
+    {
+      "question_id": "h",
+      "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:12",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "i",
+      "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+      "captured_response": "I have only back pain.",
+      "expected_response": "Back pain",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Fracture.AwaitingTests",
+      "question_text": "Are you awaiting any of the following for this condition: medical tests or investigations, test results or referral to hospital or surgery?",
+      "captured_response": "Presently, doctor told me nothing. Everything is good, going good. Uh, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:09:02",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Fracture.Cause",
+      "question_text": "Was the fracture caused by an accident / trauma or due to an underlying disease or condition?",
+      "captured_response": "Huh. Accident? ... Huh, due to accident",
+      "expected_response": "Accident / Trauma",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:09:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Fracture.Site",
+      "question_text": "Please select the site(s) of the fracture from the list below: None of the above",
+      "captured_response": "my ribs were fractured, right side",
+      "expected_response": "None of the above",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Ribs",
+      "timestamp": "00:03:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Fracture.Recovery",
+      "question_text": "Have you made a full recovery with no ongoing symptoms, treatment , limitation of joint movement or no implantation removal is pending ?",
+      "captured_response": "Uh, I, I'm fully recovered. I'm working also.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:09:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.BackPain.SurgeryDone",
+      "question_text": "Have you undergone surgery for this condition?",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.BackPain.SurgeryAdvised",
+      "question_text": "Have you been advised by your doctor for surgery?",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.BackPain.RestrictedDays",
+      "question_text": "Within the last 12 months, how many days have your physical activities been restricted due to this condition, for example bed rest, causing time off work or school?",
+      "captured_response": "No. ... Nothing.",
+      "expected_response": "0",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+      "captured_response": "I have glasses previously. I did this LASIK surgery.",
+      "expected_response": "Lasik",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Lasik.Recovery",
+      "question_text": "Have you fully recovered with no further symptoms, investigations, treatment or compli-cations?",
+      "captured_response": "Yeah, fully recovered.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Lasik.RecoveryDuration",
+      "question_text": "When you have recovered. Please confirm duration in months",
+      "captured_response": "It it is on 2011, I think.",
+      "expected_response": "More than a year ago",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "m",
+      "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.Share",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "As you asked me, I have PCOD, irregular periods I have.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, PCOD/irregular periods",
+      "timestamp": "00:13:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.a",
+      "question_text": "Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "So I did abdomen ultrasound abdomen, in that only PCOD has come out.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, abdomen ultrasound for PCOD",
+      "timestamp": "00:14:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.b",
+      "question_text": "Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "for autoimmune disorder only I consulted the doctor.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, for autoimmune disorder",
+      "timestamp": "00:14:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.c",
+      "question_text": "Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.Congenital",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.HIV",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.WeightChange",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "No, nothing. No, no surgery.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.Pregnant",
+      "question_text": "Are you Pregnant now?",
+      "captured_response": "No. I have already two kids, one boy, one girl. They are twins.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:33",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.PregnancyComplications",
+      "question_text": "Have you ever suffered/are currently suffering from gestational diabetes, preeclampsia or any other pregnancy related complications?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.Gynecological",
+      "question_text": "Have you ever suffered from or consulted a doctor for breast lump(s), breast disease, irregular or painful menstruation, abnormal Pap Smear or any other breasts or gyneco-logical conditions such as vaginal disorders, or disorder of the uterus, ovary, fallopian tubes ?",
+      "captured_response": "No, no, nothing.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, PCOD/irregular menstruation",
+      "timestamp": "00:15:52",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.PCOSFollowUp",
+      "question_text": "Are you on regular follow-up (at least 6 monthly) with your gynecologist or regular doctor for this condition?",
+      "captured_response": "Yes, yes.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.BloodSugarTest",
+      "question_text": "Have you had a fasting blood sugar or HBA1c test done within the last 6 months?",
+      "captured_response": "Yeah, did.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:57",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FLQ.BloodSugarNormal",
+      "question_text": "Did your doctor confirm that your results were normal?",
+      "captured_response": "Your reports were normal.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:09",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "The customer's name ('Divya Bhavani') verified during the call does not match the name ('Diddi Pavani') in the MER document.",
+      "Discrepancies in alcohol consumption details: MER states 'Yes' for current consumption, but the customer explicitly states they stopped consuming alcohol.",
+      "Discrepancy in the fracture site: MER states 'None of the above', but the customer clearly specified 'ribs' as the fracture site.",
+      "Discrepancy in 'anything else to share' section: MER states 'No', but the customer disclosed PCOD and irregular periods.",
+      "Discrepancy in 'abnormal medical findings or pending test results' section: MER states 'No', but the customer disclosed having an abdomen ultrasound for PCOD.",
+      "Discrepancy in 'medication or treatment that lasted more than 2 weeks or specialist referral' section: MER states 'No', but the customer is on long-term medication for an autoimmune disorder and consulted a specialist.",
+      "Discrepancy in 'gynecological conditions' section: MER states 'Yes' (PCOS), but the customer initially responded 'No, no, nothing' to the direct question about gynecological disorders, despite having previously disclosed PCOD.",
+      "The customer initially struggled to provide the specific diagnosis for the autoimmune disease, requiring multiple probes and a second call to obtain the correct information."
+    ],
+    "recommendations": [
+      "The doctor should ensure the customer's name is accurately captured and verified against the official records/MER.",
+      "The doctor should thoroughly clarify alcohol consumption details to ensure consistency between the customer's statements and the MER.",
+      "The doctor must accurately record specific medical details, such as the site of a fracture, rather than selecting generic options like 'None of the above' when specific information is provided.",
+      "The doctor should ensure all disclosed medical conditions, especially those volunteered by the customer or contradicting previous 'No' answers, are accurately reflected in the MER.",
+      "The doctor should probe further when a customer provides a test result (e.g., 'ANA positive') instead of a specific disease diagnosis, to ensure complete and accurate medical history is captured.",
+      "Ensure all components of a question, such as city, state, and country for location, are explicitly asked and captured."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and answers questions.",
+      "Customer provides detailed explanations for medical conditions.",
+      "Customer shows some confusion or lack of precise medical terminology, requiring clarification from the doctor."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "163",
+    "weight_kg": "68",
+    "dates_mentioned": [
+      "May 29, 1994",
+      "2025 January",
+      "March",
+      "2011"
+    ],
+    "medications": [
+      "HCQ 200",
+      "FPPK 200"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": true,
+      "timestamps": [
+        "00:05:28",
+        "00:05:53",
+        "00:06:15",
+        "00:16:34",
+        "00:16:54",
+        "00:17:04"
+      ],
+      "examples": [
+        "Customer: \"ANA positive. ANA.\" (when asked for disease name)",
+        "Customer: \"My, in my reports, the name was ANA, that is three positive, positive, positive. That's it. ANA.\"",
+        "Customer: \"ANA, ANA only.\"",
+        "Customer: \"Wait a minute.\" (when asked for exact diagnosis in Call 2)"
+      ]
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 3,
+    "typos_found": [
+      "Liqour (should be Liquor)",
+      "shik rashesm (should be skin rashes)",
+      "CNDITION (should be CONDITION)"
+    ],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "U164129636AD0",
+    "doctor_name": "Dr. Arya Patokar",
+    "customer_name": "Diddi Pavani",
+    "insurance_company": "Tata AIA Life Insurance Company Ltd."
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -17.79
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

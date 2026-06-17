@@ -1,0 +1,35 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "ulcerative"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "difficulty in swallowing"
+          },
+          {
+            "id": "Health.Last5Years.a",
+            "expected": "No",
+            "corrected": "prescribed"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

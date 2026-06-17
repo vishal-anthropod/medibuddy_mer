@@ -1,0 +1,33 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "Customer (02:47): 'Where is the Aadhaar card? Look, check below, bring my mobile, it will be in that.'",
+          "Customer (04:38): 'They are asking for length, show them.'",
+          "Customer (09:06): 'Tell your name.' (followed by customer stating their name, suggesting external prompting)",
+          "Doctor (10:35): 'Whatever question is asked here, you have to answer it. If anything is told from behind, it will affect your policy, so please keep this in mind.' (Doctor's explicit warning indicates awareness of prompting)"
+        ],
+        "timestamps": [
+          "02:47",
+          "04:38",
+          "04:53",
+          "05:04",
+          "05:22",
+          "09:06",
+          "10:35"
+        ]
+      }
+    },
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

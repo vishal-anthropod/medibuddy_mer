@@ -1,0 +1,84 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": [
+        "00:00:05",
+        "00:00:09"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": {
+        "self_intro": "00:00:09",
+        "client_name": "00:00:13",
+        "insurer_name": "00:00:11"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamp": "00:00:31"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": [
+        "00:01:22"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamp": "00:00:36"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": [
+        "00:00:09",
+        "00:06:14"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed. The doctor showed politeness when asking a sensitive question.",
+      "timestamps": [
+        "00:06:14"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": {
+        "good_examples": [
+          "00:00:27",
+          "00:00:36",
+          "00:01:35",
+          "00:02:19"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The customer consistently provided clear 'No' answers to all medical questions, leaving no scope for further probing.",
+      "timestamps": []
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation or third-party prompting was observed.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": {
+        "declaration": "00:06:59",
+        "thank_you": "00:07:08"
+      }
+    }
+  }
+}

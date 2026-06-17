@@ -1,0 +1,742 @@
+{
+  "record_id": "U215165196AD0",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/U215165196AD0_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 782.424,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/U215165196AD0_call1.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/audio.mp3",
+      "duration": 782.424,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/transcript.json",
+      "segments_count": 155,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -21.55
+      },
+      "video_analysis": {
+        "attire_check": "yes",
+        "attire_explanation": "The doctor is wearing a white clinical coat/apron, visible in all frames.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in all provided frames.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background is blurred in all frames, preventing any identifiable information or individuals from being seen. No privacy breaches are observed.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_03.jpg"
+        ]
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/merged_transcript.json",
+    "total_segments": 155,
+    "total_duration": 782.424
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Naresh Kumar Korvi",
+      "dob": "January 12th, 1990",
+      "id_proofs": [
+        {
+          "type": "DL",
+          "value": "36842634",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Tata AIG Life Insurance",
+        "timestamp": "00:00:41"
+      },
+      "language_preference": {
+        "asked": false,
+        "selected_language": null,
+        "timestamp": null
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Kindly confirm your full Name",
+        "captured_response": "Naresh Kumar Korvi",
+        "expected_response": "Korvi Naresh Kumar",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Korvi Naresh Kumar",
+        "timestamp": "00:01:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Your Date of birth",
+        "captured_response": "January 12th, 1990",
+        "expected_response": "12-Jan-1990",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Education Quali\ufb01cation",
+        "captured_response": "Master's in Software Engineering.",
+        "expected_response": "Education - Above Graduate",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:16",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Education Qualification"
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Your current Occupation",
+        "captured_response": "Software Engineering too.",
+        "expected_response": "Occupation - Salaried",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:22",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.DL",
+        "question_text": "Please show your ID proof",
+        "captured_response": "36842634",
+        "expected_response": "36842634 dl no",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:57",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "Kindly share your current location( City and state with country)?",
+        "captured_response": "Dallas, Texas.",
+        "expected_response": "dalaas texas",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:26",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Dallas Texas"
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Sir/Mam' are you in agreement with the declaration that I have r ead out to you.",
+        "captured_response": "Okay, thank you.",
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "The doctor should have explicitly asked, \"Sir, are you in agreement with the declaration that I have read out to you?\" and waited for a \"Yes\" or \"I agree\" from the customer.",
+        "timestamp": "00:12:43",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Sir/Ma'am are you in agreement with the declaration that I have read out to you."
+        }
+      },
+      {
+        "question_id": "Lifestyle.1",
+        "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:18",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Lifestyle.2",
+        "question_text": "Do you consume alcohol ?",
+        "captured_response": "Occasionally.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:31",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Lifestyle.3",
+        "question_text": "Please select the type of alcohol you consume.",
+        "captured_response": "Only beer.",
+        "expected_response": "Beer",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Lifestyle.4",
+        "question_text": "In a week,How many units do you consume ? 1 unit of alcohol = 1 bottle of beer (350 ml)",
+        "captured_response": "Once in two weeks. Two small beers.",
+        "expected_response": "1",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:42",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Lifestyle.5",
+        "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:35",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Lifestyle.6",
+        "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:43",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Height",
+        "question_text": "What is Proposed insured height (cm)?",
+        "captured_response": "5 feet 11 inches.",
+        "expected_response": "180.34 cm",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:06:53",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Weight",
+        "question_text": "What is Proposed Insured weight (kg)?",
+        "captured_response": "180 pounds.",
+        "expected_response": "81.646627 kg",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:03",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "a",
+        "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "b",
+        "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:56",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "c",
+        "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:10",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumors, polyps, nodules, cysts, lump or other growths"
+        }
+      },
+      {
+        "question_id": "d",
+        "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:21",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "e",
+        "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "f",
+        "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:54",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "g",
+        "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "h",
+        "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "i",
+        "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:31",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+        }
+      },
+      {
+        "question_id": "j",
+        "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:09:46",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "k",
+        "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "l",
+        "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:13",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "m",
+        "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:23",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+        }
+      },
+      {
+        "question_id": "HealthHabits.1",
+        "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+        "captured_response": "I don't have any.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Last5Years.a",
+        "question_text": "Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:11:10",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Any abnormal medical findings or pending test results, scheduled or planned or prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+        }
+      },
+      {
+        "question_id": "Last5Years.b",
+        "question_text": "Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:11:25",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Last5Years.c",
+        "question_text": "Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:11:42",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Inability to perform your daily activities or absent from work more than two 2 consecutive weeks at a time"
+        }
+      },
+      {
+        "question_id": "CongenitalDisease",
+        "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:11:53",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "STD_HIV_AIDS",
+        "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:12:10",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "UnexplainedWeight",
+        "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:12:23",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Doctor's name in the transcript (Dr. Kusuma Rani) differs from the name documented in the MER (Dr. Kusum Motwani).",
+        "Customer's full name order provided in the conversation (Naresh Kumar Korvi) differs from the order documented in the MER (Korvi Naresh Kumar).",
+        "The doctor read the declaration but did not explicitly ask the customer for agreement, which is a required step as per the MER template."
+      ],
+      "recommendations": [
+        "Ensure the doctor's name in the MER accurately reflects the name of the doctor conducting the call.",
+        "Confirm the customer's full name, including the correct order, to ensure it matches the MER documentation.",
+        "After reading the declaration, the doctor should explicitly ask the customer for their agreement (e.g., 'Sir, are you in agreement with the declaration?') and obtain a clear 'Yes' or 'I agree' response.",
+        "Implement a check for language preference at the beginning of the call, as it was not asked."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer was cooperative and answered all questions.",
+        "Customer provided clarifications when requested (e.g., spelling location, repeating ID number)."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "180.34",
+      "weight_kg": "81.64656",
+      "dates_mentioned": [
+        "January 12th, 1990"
+      ],
+      "medications": [],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 17,
+      "typos_found": [
+        "Quali\ufb01cation",
+        "dalaas",
+        "declar e",
+        "ask ed",
+        "fur nished",
+        "infor mation",
+        "af ter",
+        "r ead",
+        "ar e",
+        "agr eement",
+        "sacroma",
+        "tumours",
+        "ulcera-tive",
+        "swal-lowing",
+        "pre-scribed",
+        "Endo-scopy/Colonoscopy",
+        "consec-utive"
+      ],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "U215165196AD0",
+      "doctor_name": "Dr. Kusuma Rani",
+      "customer_name": "Korvi Naresh Kumar",
+      "insurance_company": "Tata AIG Life Insurance"
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -21.55
+    },
+    "video_analysis": {
+      "attire_check": "yes",
+      "attire_explanation": "The doctor is wearing a white clinical coat/apron, visible in all frames.",
+      "visibility_status": "both_visible",
+      "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in all provided frames.",
+      "privacy_maintained": true,
+      "privacy_explanation": "The doctor's background is blurred in all frames, preventing any identifiable information or individuals from being seen. No privacy breaches are observed.",
+      "screenshots": [
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_01.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_02.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed/call1/frame_03.jpg"
+      ]
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The doctor initiated the call with a greeting.",
+        "timestamps": [
+          "00:00:14"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+        "timestamps": {
+          "self_intro": "00:00:41",
+          "client_name": "00:00:46",
+          "insurer_name": "00:00:43"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "The doctor did not ask about the customer's language preference.",
+        "timestamp": "NA"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The doctor asked the customer to show ID proof and confirmed the DL number.",
+        "timestamps": [
+          "00:02:25",
+          "00:02:53"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The doctor provided a comprehensive disclaimer regarding the call recording, purpose, and importance of truthful answers.",
+        "timestamp": "00:00:54"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The doctor consistently used polite language, including 'sir' and phrases like 'Kindly confirm' and 'Can you spell please?'.",
+        "timestamps": [
+          "00:01:48",
+          "00:02:53",
+          "00:03:34"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "No serious health concerns were discussed, so empathy is marked as Yes by default.",
+        "timestamps": [
+          "NA"
+        ]
+      },
+      "communication_skills": {
+        "value": "Partial",
+        "explanation": "The doctor effectively managed audio issues and clarified information but initially misheard/misspelled 'Texas' and 'Once in a week'.",
+        "timestamps": {
+          "good_examples": [
+            "00:03:04",
+            "00:08:24"
+          ],
+          "poor_examples": [
+            "00:04:04",
+            "00:05:45"
+          ]
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The doctor asked follow-up questions for alcohol consumption details, clarified weight units, and asked an open-ended question.",
+        "timestamps": [
+          "00:05:34",
+          "00:06:00",
+          "00:06:08",
+          "00:07:13",
+          "00:10:27"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "The customer indicated a potential audio issue on the doctor's side, stating 'probably it's your system that you are on speaker'.",
+        "timestamps": [
+          "00:08:29"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "The doctor read the declaration and thanked the customer for their cooperation.",
+        "timestamps": {
+          "declaration": "00:12:43",
+          "thank_you": "00:12:50"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U215165196AD0/_processed"
+}

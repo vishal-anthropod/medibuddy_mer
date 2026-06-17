@@ -1,0 +1,66 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "7",
+          "text": "DECLARATION: Sir/Mam' are you in agreement with the declaration that I have read out to you."
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 6,
+        "examples": [
+          {
+            "id": "PP.ID.Aadhar",
+            "expected": "Addhar card -1014",
+            "corrected": "Aadhaar card -1014"
+          },
+          {
+            "id": "6",
+            "expected": "jorhat, Assam",
+            "corrected": "Jorhat, Assam"
+          },
+          {
+            "id": "7",
+            "expected": "Implicit Yes",
+            "corrected": "Sir/Mam' are you in agreement"
+          },
+          {
+            "id": "Medical.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Medical.i",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer initially states 'No alcohol, no nothing' (00:05:15), then admits 'Yes, I consumed in some very, like some this one, no? Wines and all, wine, wines and all, no? Sometimes.' (00:05:45).",
+          "Customer later insists 'No, it's zero actually. It's no alcohol actually. Nothing.' (00:06:51) and suggests 'You have to put it as a nil. Just a teetotaler type.' (00:07:15), indicating an attempt to evade or influence the recording of their actual consumption."
+        ],
+        "timestamps": [
+          "00:05:45",
+          "00:06:51",
+          "00:07:15",
+          "00:08:00"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

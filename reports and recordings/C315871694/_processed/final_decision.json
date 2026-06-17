@@ -1,0 +1,71 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "HYDEREBAD,TELANGANA",
+            "corrected": "HYDERABAD, TELANGANA"
+          },
+          {
+            "id": "15",
+            "expected": "No",
+            "corrected": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure, Hypertension, Elevated Cholesterol, Lipids?"
+          },
+          {
+            "id": "17",
+            "expected": "No",
+            "corrected": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung, respiratory Disease or Urine, Kidney disease or any Liver, gastric disorders?"
+          },
+          {
+            "id": "20",
+            "expected": "No",
+            "corrected": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury, Disability or impairment?"
+          },
+          {
+            "id": "21",
+            "expected": "YesExact Diagnosis - Others (Please specif y) Date of Diagnosis or Duration of disor der - 2017 Treatment details - Exercise Reﬂex test - CBC + Grid medicals Remarks - OBESE SINCE 2017,DUE TO IT JOB ,SEDENT ARY LIFESTYLE ,L ONG HRS OF SITING,L A TAKING OWN STEPS TOW ARDS EXER CISE AND DIET .",
+            "corrected": "YesExact Diagnosis - Others (Please specify) Date of Diagnosis or Duration of disorder - 2017 Treatment details - Exercise Reflex test - CBC + Grid medicals Remarks - OBESE SINCE 2017, DUE TO IT JOB, SEDENTARY LIFESTYLE, LONG HRS OF SITTING, LA TAKING OWN STEPS TOWARDS EXERCISE AND DIET."
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 15
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer initially gave a range for height (5'8 to 5'10) before providing a single digit (5'8).",
+          "Customer responded 'We haven't tested that' to the HIV/AIDS/STD question, indicating uncertainty or lack of direct 'Yes/No'.",
+          "Customer asked for repetition ('Sorry, can you come again?') for the 'other health conditions' question before disclosing being overweight.",
+          "Customer responded 'Uhm, sorry, I didn't I'm I'm not sure' to the prostate related disorder question before clarification and a definitive 'No'."
+        ],
+        "timestamps": [
+          "00:03:03",
+          "00:05:37",
+          "00:06:02",
+          "00:09:55"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

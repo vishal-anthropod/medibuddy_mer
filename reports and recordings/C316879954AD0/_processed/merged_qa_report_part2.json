@@ -1,0 +1,595 @@
+[
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Doctor greets the customer at the beginning of the call.",
+        "timestamps": [
+          "00:00:04",
+          "00:00:08"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduces self, company, and confirms the policyholder's name.",
+        "timestamps": {
+          "self_intro": "00:00:08",
+          "client_name": "00:00:20",
+          "insurer_name": "00:00:08"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Doctor asks the customer about their preferred language.",
+        "timestamp": "00:01:13"
+      },
+      "id_validation": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not full ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not a full verification, so a disclaimer was not required.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and professional tone throughout the call.",
+        "timestamps": [
+          "00:00:08",
+          "00:01:13"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly communicates the purpose of the call and successfully schedules a callback.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:08",
+            "00:01:13"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor probes to confirm the policyholder's name and availability.",
+        "timestamps": [
+          "00:00:55"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer states the policyholder is unavailable and has gone to the village.",
+        "timestamps": [
+          "00:00:44"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "Doctor thanks the customer but does not provide a full declaration.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": "00:01:21"
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "No",
+        "explanation": "Doctor does not provide a formal greeting, immediately asking for the policyholder.",
+        "timestamps": [
+          "00:01:30"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduces self and company, and asks for the policyholder.",
+        "timestamps": {
+          "self_intro": "00:01:38",
+          "client_name": "00:01:30",
+          "insurer_name": "00:01:38"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "Doctor does not ask for the customer's language preference.",
+        "timestamp": ""
+      },
+      "id_validation": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not full ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not a full verification, so a disclaimer was not required.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and professional tone throughout the call.",
+        "timestamps": [
+          "00:01:38",
+          "00:02:02"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly explains the call purpose and tries to schedule a callback time.",
+        "timestamps": {
+          "good_examples": [
+            "00:01:38",
+            "00:02:02"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor probes for a suitable callback time for the policyholder.",
+        "timestamps": [
+          "00:02:02",
+          "00:02:12",
+          "00:02:22"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer states the policyholder is unavailable and has gone to the village.",
+        "timestamps": [
+          "00:01:42"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "Doctor thanks the customer but does not provide a full declaration.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": "00:02:59"
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "No",
+        "explanation": "Doctor does not provide a formal greeting to the customer.",
+        "timestamps": []
+      },
+      "call_opening": {
+        "value": "No",
+        "explanation": "Doctor does not introduce self, company, or ask for the policyholder.",
+        "timestamps": {
+          "self_intro": "",
+          "client_name": "",
+          "insurer_name": ""
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "Doctor does not ask for the customer's language preference.",
+        "timestamp": ""
+      },
+      "id_validation": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not full ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not a full verification, so a disclaimer was not required.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and professional tone throughout the call.",
+        "timestamps": [
+          "00:03:37",
+          "00:03:53"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly schedules a callback time with the customer.",
+        "timestamps": {
+          "good_examples": [
+            "00:03:37",
+            "00:03:53"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor confirms the scheduled time with the customer.",
+        "timestamps": [
+          "00:03:37"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer states they are out and won't be back until after 8:30 PM.",
+        "timestamps": [
+          "00:03:20"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "Doctor thanks the customer but does not provide a full declaration.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": "00:03:58"
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "No",
+        "explanation": "Doctor does not provide a formal greeting to the customer.",
+        "timestamps": []
+      },
+      "call_opening": {
+        "value": "No",
+        "explanation": "Doctor does not introduce self, company, or ask for the policyholder.",
+        "timestamps": {
+          "self_intro": "",
+          "client_name": "",
+          "insurer_name": ""
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "Doctor does not ask for the customer's language preference.",
+        "timestamp": ""
+      },
+      "id_validation": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not full ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not a full verification, so a disclaimer was not required.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and professional tone throughout the call.",
+        "timestamps": [
+          "00:04:15",
+          "00:04:30"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly communicates about connecting with the policyholder.",
+        "timestamps": {
+          "good_examples": [
+            "00:04:15",
+            "00:04:36"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor probes to clarify if the call will be audio or video.",
+        "timestamps": [
+          "00:04:36"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer asks if Vimalaben has arrived, indicating they are waiting for her.",
+        "timestamps": [
+          "00:04:13"
+        ]
+      },
+      "call_closure": {
+        "value": "No",
+        "explanation": "Doctor does not provide a thank you or a full declaration.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": ""
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Doctor greets the customer at the beginning of the call.",
+        "timestamps": [
+          "00:05:53",
+          "00:06:00"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduces self, company, and confirms the policyholder's name.",
+        "timestamps": {
+          "self_intro": "00:06:00",
+          "client_name": "00:05:55",
+          "insurer_name": "00:06:00"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Doctor asks the customer about their preferred language.",
+        "timestamp": "00:06:06"
+      },
+      "id_validation": {
+        "value": "No",
+        "explanation": "ID validation failed as the customer could not correctly state their date of birth, leading to the call being paused.",
+        "timestamps": [
+          "00:07:08",
+          "00:08:19",
+          "00:10:30"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "Doctor provides a comprehensive disclaimer about call recording, truthfulness of answers, and policy implications.",
+        "timestamp": "00:06:26"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor remains polite and patient despite difficulties with ID validation and third-party intervention.",
+        "timestamps": [
+          "00:05:28",
+          "00:08:19"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly explains the rules and the reason for not proceeding with verification due to incorrect DOB.",
+        "timestamps": {
+          "good_examples": [
+            "00:05:28",
+            "00:06:26",
+            "00:08:19",
+            "00:10:01"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor repeatedly probes for the correct date of birth when the customer struggles.",
+        "timestamps": [
+          "00:07:08",
+          "00:07:26",
+          "00:07:37",
+          "00:07:54"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "A third party repeatedly prompts the customer with answers for the date of birth.",
+        "timestamps": [
+          "00:07:59",
+          "00:08:10",
+          "00:09:32",
+          "00:09:43"
+        ]
+      },
+      "call_closure": {
+        "value": "Partial",
+        "explanation": "Doctor states the next steps (checking with the team) but does not provide a full declaration or formal thank you.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": "00:11:07"
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Doctor greets the customer at the beginning of the call.",
+        "timestamps": [
+          "00:11:23",
+          "00:11:26"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduces self and company, and asks for the policyholder.",
+        "timestamps": {
+          "self_intro": "00:11:26",
+          "client_name": "00:11:32",
+          "insurer_name": "00:11:26"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "Doctor does not ask for the customer's language preference.",
+        "timestamp": ""
+      },
+      "id_validation": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not full ID validation.",
+        "timestamps": []
+      },
+      "disclaimer": {
+        "value": "NA",
+        "explanation": "This call was for scheduling, not a full verification, so a disclaimer was not required.",
+        "timestamp": ""
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and professional tone throughout the call.",
+        "timestamps": [
+          "00:11:26",
+          "00:11:44"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly asks to be connected with the policyholder and for a callback time.",
+        "timestamps": {
+          "good_examples": [
+            "00:11:32",
+            "00:11:44"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor probes for a suitable callback time for the policyholder.",
+        "timestamps": [
+          "00:11:44"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer states they cannot connect with the policyholder today and asks for a call tomorrow.",
+        "timestamps": [
+          "00:11:39"
+        ]
+      },
+      "call_closure": {
+        "value": "No",
+        "explanation": "Doctor only says 'Okay' and does not provide a thank you or a full declaration.",
+        "timestamps": {
+          "declaration": "",
+          "thank_you": ""
+        }
+      }
+    }
+  },
+  {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Doctor greets the customer at the beginning of the call.",
+        "timestamps": [
+          "00:12:06",
+          "00:13:46"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduces self, company, and asks for the policyholder.",
+        "timestamps": {
+          "self_intro": "00:12:06",
+          "client_name": "00:12:06",
+          "insurer_name": "00:12:06"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Doctor asks the customer about their preferred language.",
+        "timestamp": "00:13:46"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "Doctor successfully validates the customer's name, date of birth, and last four digits of the Aadhar card.",
+        "timestamps": [
+          "00:14:55",
+          "00:15:03",
+          "00:15:50"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "Doctor provides a comprehensive disclaimer including call recording, truthfulness, policy implications, and the rule against third-party help.",
+        "timestamps": [
+          "00:14:09",
+          "00:14:31",
+          "00:14:43"
+        ]
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintains a polite and patient tone throughout the call, even when the customer struggles with Aadhar digits.",
+        "timestamps": [
+          "00:13:46",
+          "00:15:56"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed to warrant empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor clearly explains the process, disclaimers, and asks questions, demonstrating patience when the customer struggles.",
+        "timestamps": {
+          "good_examples": [
+            "00:14:09",
+            "00:14:31",
+            "00:15:56"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor probes for the date of birth and Aadhar digits when the customer struggles to provide them.",
+        "timestamps": [
+          "00:15:03",
+          "00:15:21",
+          "00:15:50",
+          "00:15:56"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Customer states 'It's our private matter' in response to a question about sexually transmitted diseases.",
+        "timestamps": [
+          "00:22:14"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "Doctor confirms the truthfulness of answers, states they will be in the policy record, and thanks the customer.",
+        "timestamps": {
+          "declaration": "00:23:00",
+          "thank_you": "00:23:16"
+        }
+      }
+    }
+  }
+]

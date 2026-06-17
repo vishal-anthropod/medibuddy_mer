@@ -1,0 +1,91 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer appropriately.",
+      "timestamps": [
+        "00:00:09"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:09",
+        "client_name": "00:00:20",
+        "insurer_name": "00:00:12"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about her language preference.",
+      "timestamp": "00:00:15"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested and verified the customer's Aadhaar card and its last four digits, and also requested the husband's ID.",
+      "timestamps": [
+        "00:07:16",
+        "00:07:34",
+        "00:08:04"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "A comprehensive disclaimer regarding call recording, policy terms, and accuracy of information was provided.",
+      "timestamp": "00:00:25"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional demeanor throughout the call.",
+      "timestamps": [
+        "00:00:09",
+        "00:09:18"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that required specific empathy.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, rephrased questions for clarity, and effectively managed the third-party interaction.",
+      "timestamps": {
+        "good_examples": [
+          "00:01:20",
+          "00:02:27",
+          "00:04:33"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for complete information (e.g., DOB, policy details) and addressed the third-party presence.",
+      "timestamps": [
+        "00:01:20",
+        "00:02:27",
+        "00:05:55"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The doctor identified and addressed third-party prompting/presence and customer evasion regarding the third party.",
+      "timestamps": [
+        "00:02:27",
+        "00:05:55",
+        "00:06:06",
+        "00:06:11"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a final declaration from the customer and thanked her.",
+      "timestamps": {
+        "declaration": "00:09:03",
+        "thank_you": "00:09:18"
+      }
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "record_id": "U033600752",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/U033600752_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 813.144,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/U033600752_call1.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/audio.mp3",
+      "duration": 813.144,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/transcript.json",
+      "segments_count": 158,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -22.01
+      },
+      "video_analysis": {
+        "attire_check": "no",
+        "attire_explanation": "The doctor is wearing a white top and a light brown/beige patterned headscarf, but no clinical apron or coat is visible.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in frames 1 and 2.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background is heavily blurred in frames 1 and 2, effectively preventing the identification of any potential privacy breaches such as people, private boards, files, or monitors showing confidential data.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_03.jpg"
+        ]
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/merged_transcript.json",
+    "total_segments": 158,
+    "total_duration": 813.144
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Usha Ben Mukesh Bhai Goyani",
+      "dob": "05-Feb-1984",
+      "id_proofs": [
+        {
+          "type": "Aadhar",
+          "value": "0361",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Tata AIA Life Insurance",
+        "timestamp": "00:42"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "Hindi",
+        "timestamp": "00:35"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Kindly confirm your full Name",
+        "captured_response": "Usha Ben Mukesh Bhai Goyani",
+        "expected_response": "Usha Muk eshbhai Goyani",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Your Date of birth",
+        "captured_response": "5th February 1984",
+        "expected_response": "1984-02-05",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:46",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Education Quali\ufb01cation",
+        "captured_response": "9th",
+        "expected_response": "Below Graduate",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:41",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Education Qualification"
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Your current Occupation:",
+        "captured_response": "Housewife",
+        "expected_response": "Housewife",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "03:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Aadhar",
+        "question_text": "ID Proof Aadhar",
+        "captured_response": "0361",
+        "expected_response": "AADHAR 0361",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "04:59",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "Kindly share your current location( City and state with country)?",
+        "captured_response": "Surat, State Gujarat",
+        "expected_response": "SURAT, GUJARAT",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Are you currently in Good Health ?",
+        "captured_response": "It's good.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:52",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Are you taking any type of medication currently?",
+        "captured_response": "Absolutely not.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "height",
+        "captured_response": "5 feet 2 inches",
+        "expected_response": "157.48",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:00",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "weight",
+        "captured_response": "50 kg",
+        "expected_response": "50",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:26",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Have you lost or gained weight of 10 kg or more in the last six months?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:37",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Have you ever in the past consumed or currently consume tobacco in any form lik e Cigarette,Bidi,P an,Gutkha?",
+        "captured_response": "No, no, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Have you ever in the past or are currently consuming Alcohol?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "06:59",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:05",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:11",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+        "captured_response": "Nothing like that at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:17",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:21",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:30",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:35",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+        "captured_response": "No, there is nothing like that at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:41",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Have you undergone any investigations lik e blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury , accident or disorder in the last 5 years?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "07:58",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "Have either of your natural parents or any siblings su\ufb00ered from or are su\ufb00ering from any medical condition lik e Cancer , Heart related Problems, Diabetes, Blood Pressure, Hepatitis etc.?",
+        "captured_response": "No, there's nothing there either.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "08:06",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "Has any of your insurance application or reinstatement application on life, accident, medical or health, critical illness, or disability ever been declined, postponed or accepted at extra premium or modi\ufb01ed terms?",
+        "captured_response": "No, it didn't happen, it didn't happen, nothing like that happened.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "27",
+        "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "28",
+        "question_text": "[For Female] Are you currently pregnant ?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "29",
+        "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any P ap smear , mammogram?",
+        "captured_response": "No, no, no.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:13",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "30",
+        "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:30",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "31",
+        "question_text": "Is there anything else that you would lik e to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+        "captured_response": "No, there is nothing like that.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:40",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Declaration",
+        "question_text": "Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+        "captured_response": "All are true and all are true.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "09:50",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Customer-side prompting detected during the call, which could impact the validity of the responses."
+      ],
+      "recommendations": [
+        "The doctor should reiterate the importance of the customer answering independently more firmly when prompting is suspected.",
+        "The doctor handled the initial technical issues and customer's hesitation well by re-asking questions and providing clear instructions."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer was cooperative despite initial technical difficulties and some hesitation.",
+        "Doctor maintained a professional and patient tone throughout the call, especially when dealing with customer's confusion and suspected prompting."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "157.48",
+      "weight_kg": "50",
+      "dates_mentioned": [
+        "05-Feb-1984"
+      ],
+      "medications": [],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": true,
+        "timestamps": [
+          "02:20"
+        ],
+        "examples": [
+          "Customer repeats 'Share the Aadhar card number' after the doctor asks for the husband's Aadhar number, suggesting a third party is guiding the customer. The doctor also explicitly warns against prompting multiple times (01:56, 03:54)."
+        ]
+      },
+      "customer_hesitation": {
+        "value": true,
+        "timestamps": [
+          "01:36",
+          "02:33",
+          "02:49",
+          "06:12"
+        ],
+        "examples": [
+          "Customer initially provides DOB as '5 2 84' and takes multiple attempts to confirm '5th February 1984'.",
+          "Customer asks 'My Aadhar card or my husband's Aadhar card?' indicating confusion.",
+          "Customer hesitates and self-corrects while reading Aadhar digits ('45... 4517. No, no.').",
+          "Customer initially states weight as '15 kg' before correcting to '50 kg'."
+        ]
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 2,
+      "typos_found": [
+        {
+          "original_text": "Quali\ufb01cation",
+          "corrected_text": "Qualification"
+        },
+        {
+          "original_text": "V eri\ufb01cation",
+          "corrected_text": "Verification"
+        }
+      ],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "U033600752",
+      "doctor_name": "Dr. Kamini Baudh",
+      "customer_name": "Usha Mukeshbhai Goyani",
+      "insurance_company": "Tata AIA Life Insurance Company Ltd."
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -22.01
+    },
+    "video_analysis": {
+      "attire_check": "no",
+      "attire_explanation": "The doctor is wearing a white top and a light brown/beige patterned headscarf, but no clinical apron or coat is visible.",
+      "visibility_status": "both_visible",
+      "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in frames 1 and 2.",
+      "privacy_maintained": true,
+      "privacy_explanation": "The doctor's background is heavily blurred in frames 1 and 2, effectively preventing the identification of any potential privacy breaches such as people, private boards, files, or monitors showing confidential data.",
+      "screenshots": [
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_01.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_02.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed/call1/frame_03.jpg"
+      ]
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The doctor greeted the customer with 'Namaste'.",
+        "timestamps": [
+          "00:00:42"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "The doctor introduced herself, stated the purpose of the call, mentioned the insurer's name, and asked for the client's full name.",
+        "timestamps": {
+          "self_intro": "00:00:42",
+          "client_name": "00:01:02",
+          "insurer_name": "00:00:53"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "The doctor confirmed the language preference multiple times with the customer.",
+        "timestamp": "00:00:35"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The doctor asked for the customer's full name, date of birth, husband's Aadhar number, and asked the customer to show and read the last four digits of their own Aadhar card.",
+        "timestamps": [
+          "00:01:02",
+          "00:01:33",
+          "00:02:17",
+          "00:04:23",
+          "00:04:46"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The doctor clearly stated that answers form a legal contract, wrong answers can lead to policy cancellation, and the call is being recorded.",
+        "timestamp": "00:00:42"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The doctor maintained a polite and professional tone throughout the call, even when guiding the customer or addressing issues like prompting.",
+        "timestamps": [
+          "00:01:09",
+          "00:03:09"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns (accident, operation, severe illness) were reported by the customer during the call.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "The doctor communicated clearly, rephrased questions when the customer misunderstood, and directly addressed instances of potential third-party prompting.",
+        "timestamps": {
+          "good_examples": [
+            "00:01:56",
+            "00:03:54",
+            "00:08:46"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The doctor probed for clarification on the customer's weight, re-confirmed medication status, and patiently clarified questions about previous insurance applications.",
+        "timestamps": [
+          "00:06:05",
+          "00:06:14",
+          "00:08:31"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "There were multiple instances of potential third-party prompting, which the doctor actively identified and addressed, including a direct warning and asking the customer to have someone else hold the phone.",
+        "timestamps": [
+          "00:01:56",
+          "00:02:20",
+          "00:03:43",
+          "00:03:54",
+          "00:05:17"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "The doctor concluded the call by asking for a declaration of truthfulness and thanked the customer for their cooperation.",
+        "timestamps": {
+          "declaration": "00:09:42",
+          "thank_you": "00:09:54"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U033600752/_processed"
+}

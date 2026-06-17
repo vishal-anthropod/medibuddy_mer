@@ -1,0 +1,564 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_1",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:00",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "seg_2",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:02"
+    },
+    {
+      "segment_id": "seg_3",
+      "text": "Dr. Urja is calling from Tata AIG Insurance. Am I speaking with Mansuri Safi Mohammad Gulab bhai?",
+      "speaker": "doctor",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "seg_4",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "seg_5",
+      "text": "Am I speaking with Mansuri Safi Mohammad Gulab bhai?",
+      "speaker": "doctor",
+      "start_timestamp": "00:07",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "seg_6",
+      "text": "Please wait one minute. Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "seg_7",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "seg_8",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:11",
+      "end_timestamp": "00:12"
+    },
+    {
+      "segment_id": "seg_9",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "seg_10",
+      "text": "Hey, give me the phone from Tata.",
+      "speaker": "customer",
+      "start_timestamp": "00:16",
+      "end_timestamp": "00:19"
+    },
+    {
+      "segment_id": "seg_11",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:20",
+      "end_timestamp": "00:20"
+    },
+    {
+      "segment_id": "seg_12",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:25",
+      "end_timestamp": "00:25"
+    },
+    {
+      "segment_id": "seg_13",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:26",
+      "end_timestamp": "00:26"
+    },
+    {
+      "segment_id": "seg_14",
+      "text": "Yes, madam.",
+      "speaker": "customer",
+      "start_timestamp": "00:27",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "seg_15",
+      "text": "Yes, Dr. Urja is calling from Tata AIG Insurance. Am I speaking with Mansuri Safi Mohammad Gulab bhai?",
+      "speaker": "doctor",
+      "start_timestamp": "00:29",
+      "end_timestamp": "00:35"
+    },
+    {
+      "segment_id": "seg_16",
+      "text": "Yes, yes. Speak.",
+      "speaker": "customer",
+      "start_timestamp": "00:36",
+      "end_timestamp": "00:38"
+    },
+    {
+      "segment_id": "seg_17",
+      "text": "Are you speaking or should I hand it over to them?",
+      "speaker": "doctor",
+      "start_timestamp": "00:38",
+      "end_timestamp": "00:40"
+    },
+    {
+      "segment_id": "seg_18",
+      "text": "Yes, give it, give it. One minute.",
+      "speaker": "customer",
+      "start_timestamp": "00:41",
+      "end_timestamp": "00:42"
+    },
+    {
+      "segment_id": "seg_19",
+      "text": "Okay, I'll give it. Right. Yes, give it.",
+      "speaker": "doctor",
+      "start_timestamp": "00:42",
+      "end_timestamp": "00:44"
+    },
+    {
+      "segment_id": "seg_20",
+      "text": "Give it.",
+      "speaker": "customer",
+      "start_timestamp": "00:46",
+      "end_timestamp": "00:46"
+    },
+    {
+      "segment_id": "seg_21",
+      "text": "Speak, Tata's call. Take it.",
+      "speaker": "customer",
+      "start_timestamp": "00:47",
+      "end_timestamp": "00:50"
+    },
+    {
+      "segment_id": "seg_22",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "01:01",
+      "end_timestamp": "01:02"
+    },
+    {
+      "segment_id": "seg_23",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "01:02",
+      "end_timestamp": "01:03"
+    },
+    {
+      "segment_id": "seg_24",
+      "text": "Yes, speak.",
+      "speaker": "customer",
+      "start_timestamp": "01:03",
+      "end_timestamp": "01:04"
+    },
+    {
+      "segment_id": "seg_25",
+      "text": "Hello, Dr. Urja is calling from Tata AIG Insurance. Would you prefer to speak in Gujarati or any other language?",
+      "speaker": "doctor",
+      "start_timestamp": "01:04",
+      "end_timestamp": "01:09"
+    },
+    {
+      "segment_id": "seg_26",
+      "text": "In Gujarati.",
+      "speaker": "customer",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:13"
+    },
+    {
+      "segment_id": "seg_27",
+      "text": "Okay. This call is for your policy for life insurance, a telephonic medical verification. I will ask you some questions about your health for verification. Please note that this call is being recorded for quality audit purposes. I hope that the answers you provide will be accurate because if your policy proposal is accepted, it will become a legal contract between you and Tata AIG Insurance. Any answers you provide will be recorded in your policy records.",
+      "speaker": "doctor",
+      "start_timestamp": "01:14",
+      "end_timestamp": "01:40"
+    },
+    {
+      "segment_id": "seg_28",
+      "text": "Incorrect answers may lead to policy cancellation or claim rejection. Another thing, when your policy is being processed, no one else is allowed to speak during the call except you. If you don't understand something, you can ask me twice. If you don't know the answer to something, you can say 'I don't know', but no one else should tell you the answer. Do you understand? No one else should help you with the answer. What is your full name?",
+      "speaker": "doctor",
+      "start_timestamp": "01:40",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "seg_29",
+      "text": "Mansuri Safi Mohammad Gulab bhai.",
+      "speaker": "customer",
+      "start_timestamp": "02:06",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "seg_30",
+      "text": "Date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "02:08",
+      "end_timestamp": "02:09"
+    },
+    {
+      "segment_id": "seg_31",
+      "text": "Date of birth 98 57, 1957. 31/05/1957.",
+      "speaker": "customer",
+      "start_timestamp": "02:10",
+      "end_timestamp": "02:14"
+    },
+    {
+      "segment_id": "seg_32",
+      "text": "31/05/1957?",
+      "speaker": "doctor",
+      "start_timestamp": "02:14",
+      "end_timestamp": "02:15"
+    },
+    {
+      "segment_id": "seg_33",
+      "text": "1957, yes.",
+      "speaker": "customer",
+      "start_timestamp": "02:16",
+      "end_timestamp": "02:17"
+    },
+    {
+      "segment_id": "seg_34",
+      "text": "Yes, 31/05/1957, right?",
+      "speaker": "doctor",
+      "start_timestamp": "02:17",
+      "end_timestamp": "02:19"
+    },
+    {
+      "segment_id": "seg_35",
+      "text": "What is your education level?",
+      "speaker": "doctor",
+      "start_timestamp": "02:20",
+      "end_timestamp": "02:21"
+    },
+    {
+      "segment_id": "seg_36",
+      "text": "I have studied approximately three or five books, it's been a long time.",
+      "speaker": "customer",
+      "start_timestamp": "02:22",
+      "end_timestamp": "02:25"
+    },
+    {
+      "segment_id": "seg_37",
+      "text": "What do you do for work now? Business or job?",
+      "speaker": "doctor",
+      "start_timestamp": "02:26",
+      "end_timestamp": "02:28"
+    },
+    {
+      "segment_id": "seg_38",
+      "text": "No, no, business. Not job.",
+      "speaker": "customer",
+      "start_timestamp": "02:28",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "seg_39",
+      "text": "Okay. Business, right?",
+      "speaker": "doctor",
+      "start_timestamp": "02:32",
+      "end_timestamp": "02:33"
+    },
+    {
+      "segment_id": "seg_40",
+      "text": "Yes, business. Home.",
+      "speaker": "customer",
+      "start_timestamp": "02:34",
+      "end_timestamp": "02:36"
+    },
+    {
+      "segment_id": "seg_41",
+      "text": "Okay. Can you tell me the last four digits of your Aadhaar card number?",
+      "speaker": "doctor",
+      "start_timestamp": "02:37",
+      "end_timestamp": "02:40"
+    },
+    {
+      "segment_id": "seg_42",
+      "text": "Huh?",
+      "speaker": "customer",
+      "start_timestamp": "02:41",
+      "end_timestamp": "02:41"
+    },
+    {
+      "segment_id": "seg_43",
+      "text": "Your Aadhaar card, our Aadhaar card. From that, just the last four digits of your Aadhaar card. There will be a 12-digit number, from that you just need to tell me the last four digits.",
+      "speaker": "doctor",
+      "start_timestamp": "02:42",
+      "end_timestamp": "02:52"
+    },
+    {
+      "segment_id": "seg_44",
+      "text": "Bring it. Bring my Aadhaar card if it's there. One minute.",
+      "speaker": "customer",
+      "start_timestamp": "02:54",
+      "end_timestamp": "02:58"
+    },
+    {
+      "segment_id": "seg_45",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "02:59",
+      "end_timestamp": "02:59"
+    },
+    {
+      "segment_id": "seg_46",
+      "text": "Bring it.",
+      "speaker": "customer",
+      "start_timestamp": "03:00",
+      "end_timestamp": "03:01"
+    },
+    {
+      "segment_id": "seg_47",
+      "text": "Oh, give it to them, give it to them.",
+      "speaker": "customer",
+      "start_timestamp": "03:03",
+      "end_timestamp": "03:06"
+    },
+    {
+      "segment_id": "seg_48",
+      "text": "Yes, you read it and tell me. Don't ask them, okay? No.",
+      "speaker": "doctor",
+      "start_timestamp": "03:07",
+      "end_timestamp": "03:11"
+    },
+    {
+      "segment_id": "seg_49",
+      "text": "You read it, you read it. Don't tell them.",
+      "speaker": "doctor",
+      "start_timestamp": "03:12",
+      "end_timestamp": "03:14"
+    },
+    {
+      "segment_id": "seg_50",
+      "text": "1895. 1895.",
+      "speaker": "customer",
+      "start_timestamp": "03:27",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "seg_51",
+      "text": "1895. And who was speaking before?",
+      "speaker": "doctor",
+      "start_timestamp": "03:30",
+      "end_timestamp": "03:36"
+    },
+    {
+      "segment_id": "seg_52",
+      "text": "That was Babu, he was on the phone, he was on the phone, wasn't he?",
+      "speaker": "customer",
+      "start_timestamp": "03:37",
+      "end_timestamp": "03:40"
+    },
+    {
+      "segment_id": "seg_53",
+      "text": "What is his name?",
+      "speaker": "doctor",
+      "start_timestamp": "03:41",
+      "end_timestamp": "03:42"
+    },
+    {
+      "segment_id": "seg_54",
+      "text": "Mohin Baba.",
+      "speaker": "customer",
+      "start_timestamp": "03:43",
+      "end_timestamp": "03:43"
+    },
+    {
+      "segment_id": "seg_55",
+      "text": "And what are the last four digits of his Aadhaar card?",
+      "speaker": "doctor",
+      "start_timestamp": "03:44",
+      "end_timestamp": "03:46"
+    },
+    {
+      "segment_id": "seg_56",
+      "text": "I will tell you the card number from the mobile.",
+      "speaker": "customer",
+      "start_timestamp": "03:48",
+      "end_timestamp": "03:50"
+    },
+    {
+      "segment_id": "seg_57",
+      "text": "Yes, no problem. Which village are you calling from?",
+      "speaker": "doctor",
+      "start_timestamp": "03:50",
+      "end_timestamp": "03:52"
+    },
+    {
+      "segment_id": "seg_58",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "03:58",
+      "end_timestamp": "03:58"
+    },
+    {
+      "segment_id": "seg_59",
+      "text": "7153.",
+      "speaker": "customer",
+      "start_timestamp": "04:15",
+      "end_timestamp": "04:17"
+    },
+    {
+      "segment_id": "seg_60",
+      "text": "Okay, now hand it over to him.",
+      "speaker": "doctor",
+      "start_timestamp": "04:17",
+      "end_timestamp": "04:19"
+    },
+    {
+      "segment_id": "seg_61",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "04:19",
+      "end_timestamp": "04:21"
+    },
+    {
+      "segment_id": "seg_62",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "04:22",
+      "end_timestamp": "04:22"
+    },
+    {
+      "segment_id": "seg_63",
+      "text": "Yes, which village are you calling from?",
+      "speaker": "doctor",
+      "start_timestamp": "04:23",
+      "end_timestamp": "04:25"
+    },
+    {
+      "segment_id": "seg_64",
+      "text": "Nagpur.",
+      "speaker": "customer",
+      "start_timestamp": "04:26",
+      "end_timestamp": "04:26"
+    },
+    {
+      "segment_id": "seg_65",
+      "text": "Oh, which Nagpur?",
+      "speaker": "doctor",
+      "start_timestamp": "04:27",
+      "end_timestamp": "04:27"
+    },
+    {
+      "segment_id": "seg_66",
+      "text": "Nagpur, Mehsana.",
+      "speaker": "customer",
+      "start_timestamp": "04:28",
+      "end_timestamp": "04:29"
+    },
+    {
+      "segment_id": "seg_67",
+      "text": "Mehsana, okay. Right.",
+      "speaker": "doctor",
+      "start_timestamp": "04:30",
+      "end_timestamp": "04:31"
+    },
+    {
+      "segment_id": "seg_68",
+      "text": "Mehsana, Mehsana, right.",
+      "speaker": "customer",
+      "start_timestamp": "04:33",
+      "end_timestamp": "04:34"
+    },
+    {
+      "segment_id": "seg_69",
+      "text": "In the last two years, have you ever smoked or used tobacco or nicotine products?",
+      "speaker": "doctor",
+      "start_timestamp": "04:35",
+      "end_timestamp": "04:39"
+    },
+    {
+      "segment_id": "seg_70",
+      "text": "I used to smoke beedi, I stopped now. I don't smoke beedi now.",
+      "speaker": "customer",
+      "start_timestamp": "04:40",
+      "end_timestamp": "04:45"
+    },
+    {
+      "segment_id": "seg_71",
+      "text": "Has a doctor ever advised you to stop or reduce alcohol consumption, or have you ever consumed alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "04:46",
+      "end_timestamp": "04:52"
+    },
+    {
+      "segment_id": "seg_72",
+      "text": "No, no, no alcohol in my life. I don't go to places where people drink alcohol.",
+      "speaker": "customer",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:57"
+    },
+    {
+      "segment_id": "seg_73",
+      "text": "Any recreational drugs or narcotics without a doctor's prescription?",
+      "speaker": "doctor",
+      "start_timestamp": "04:58",
+      "end_timestamp": "05:02"
+    },
+    {
+      "segment_id": "seg_74",
+      "text": "No, no, nothing like that.",
+      "speaker": "customer",
+      "start_timestamp": "05:03",
+      "end_timestamp": "05:04"
+    },
+    {
+      "segment_id": "seg_75",
+      "text": "What is your height?",
+      "speaker": "doctor",
+      "start_timestamp": "05:04",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "seg_76",
+      "text": "Nothing of that sort, nothing at all. Nothing happens to me.",
+      "speaker": "customer",
+      "start_timestamp": "05:06",
+      "end_timestamp": "05:12"
+    },
+    {
+      "segment_id": "seg_77",
+      "text": "Okay. What is your height? Height?",
+      "speaker": "doctor",
+      "start_timestamp": "05:13",
+      "end_timestamp": "05:15"
+    },
+    {
+      "segment_id": "seg_78",
+      "text": "Height is approximately 5 feet 6 inches, around 5 feet 6 inches.",
+      "speaker": "customer",
+      "start_timestamp": "05:15",
+      "end_timestamp": "05:19"
+    },
+    {
+      "segment_id": "seg_79",
+      "text": "Weight?",
+      "speaker": "doctor",
+      "start_timestamp": "05:20",
+      "end_timestamp": "05:20"
+    },
+    {
+      "segment_id": "seg_80",
+      "text": "Weight is above 60. 60 or 65.",
+      "speaker": "customer",
+      "start_timestamp": "05:21",
+      "end_timestamp": "05:25"
+    }
+  ]
+}

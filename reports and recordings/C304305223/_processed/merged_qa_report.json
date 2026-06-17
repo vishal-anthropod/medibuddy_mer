@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "proposal_number": "C304305223",
+    "doctor_name": "Dr. Jaya Khanna",
+    "customer_name": "Monica Manick Gawade",
+    "insurance_company": "Tata AIA Life Insurance"
+  },
+  "personal_particulars": {
+    "name": "Monica Manick Gawade",
+    "dob": "24th September 1997",
+    "id_proofs": [
+      {
+        "type": "PAN",
+        "value": "BWBPP G99 41C",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA Life Insurance",
+      "timestamp": "00:37"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "00:15"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Monica Manick Gawade",
+      "expected_response": "Monika Manik Gawade",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:21",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Monica Manik Gawade"
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "For verification, I can see that in your details, your full name in the application is Monica Manick Gawade.",
+      "expected_response": "Yes Monika Manik Gawade",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:21",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Monica Manik Gawade"
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "24th September 1997",
+      "expected_response": "1997-09-24",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:32",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "Your Date of birth",
+      "captured_response": "24th September 1997",
+      "expected_response": "Yes 1997-09-24",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:32",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "BE.",
+      "expected_response": "Yes Education - Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "Service. Private sector.",
+      "expected_response": "Yes Occupation - Salaried Remarks - la is in pvt job",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.PAN",
+      "question_text": "ID Proof PAN",
+      "captured_response": "BWBPP G99 41C",
+      "expected_response": "B WBPG9941C",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please show your ID proof",
+      "captured_response": "BWBPP G99 41C",
+      "expected_response": "Yes PAN CARD- B WBPG9941C",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Pune. Maharashtra.",
+      "expected_response": "Yes pune, maharashtra INDIA",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:22",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "7",
+      "question_text": "Are you currently in Good Health ?",
+      "captured_response": "Yeah.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:31",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "8",
+      "question_text": "Are you taking any type of medication currently?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "9",
+      "question_text": "Height",
+      "captured_response": "5.2.",
+      "expected_response": "Yes 157",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "10",
+      "question_text": "Weight",
+      "captured_response": "67 around.",
+      "expected_response": "Yes 67",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "11",
+      "question_text": "Did you have any loss or gain of weight of 10 kg or more in the last six months?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Doctor should ask for 10 kg or more weight change, not 5 kg or more.",
+      "timestamp": "03:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12",
+      "question_text": "Have you ever in the past consumed or currently consume tobacco in any form like Cigarette,Bidi,Paan,Gutkha?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "13",
+      "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:22",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "14",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "15",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "16",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "17",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "19",
+      "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "20",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "21",
+      "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "22",
+      "question_text": "Have you undergone any investigations like blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:07",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "23",
+      "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury, accident or disorder in the last 5 years?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24",
+      "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "25",
+      "question_text": "[For Female] Are you currently pregnant ?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "26",
+      "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any Pap smear , mammogram?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "27",
+      "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "28",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": "Doctor should include the full phrasing about ensuring policy processing based on all facts and information.",
+      "timestamp": "06:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "DECLARATION",
+      "question_text": "You Monika Manik Gawade , declar e that, you have fully understood the questions ask ed to you as per this call and have fur nished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+      "captured_response": "Yeah.",
+      "expected_response": "Yes",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": "Doctor should read the full declaration text as per MER.",
+      "timestamp": "06:20",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "You Monica Manik Gawade, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [],
+    "recommendations": [
+      "The doctor should adhere strictly to the MER script for critical questions, especially regarding thresholds (e.g., weight change of 10 kg vs 5 kg).",
+      "The doctor should read the full declaration text as provided in the MER to ensure complete legal compliance.",
+      "The doctor should ensure the full phrasing of the 'anything else to share' question is used, including the part about policy processing based on all facts and information."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer responds clearly and cooperatively throughout the call.",
+      "Customer confirms understanding and agreement."
+    ]
+  },
+  "data_validation": {
+    "height_cm": 157.48,
+    "weight_kg": 67,
+    "dates_mentioned": [
+      "24th September 1997"
+    ],
+    "medications": [
+      "iron",
+      "folic acid",
+      "calcium",
+      "thyroid",
+      "zinc supplement"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -18.92
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

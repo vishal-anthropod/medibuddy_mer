@@ -1,0 +1,424 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello sir.",
+      "speaker": "doctor",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "3",
+      "text": "Sir, am I audible and visible?",
+      "speaker": "doctor",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:09"
+    },
+    {
+      "segment_id": "4",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "5",
+      "text": "Sir, I'm Dr. Jacob Sebastian calling on behalf of Tata AIA Life Insurance. This is with reference to your insurance policy, sir. We have decided to go ahead with your proposal, but as part of the process, we need to conduct a video medical verification in which I will ask you some verification and medical history questions, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:29"
+    },
+    {
+      "segment_id": "6",
+      "text": "This call is recorded for company's audit and quality purpose. I will be asking you few questions regarding your insurance application and this recorded call will take about 10 to 12 minutes, sir. I hope we can continue with the call.",
+      "speaker": "doctor",
+      "start_timestamp": "00:30",
+      "end_timestamp": "00:41"
+    },
+    {
+      "segment_id": "7",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:44",
+      "end_timestamp": "00:45"
+    },
+    {
+      "segment_id": "8",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:47",
+      "end_timestamp": "00:48"
+    },
+    {
+      "segment_id": "9",
+      "text": "Can you please understand that the replies and the information provided by you on this call relating to your health and habits will be considered as part of your application for insurance and if the proposal is accepted, it shall form the basis of legal contract of insurance between you and Tata AIA Life Insurance.",
+      "speaker": "doctor",
+      "start_timestamp": "00:48",
+      "end_timestamp": "01:03"
+    },
+    {
+      "segment_id": "10",
+      "text": "Any incorrect or false statements or replies will have an impact on the contract and may lead to the cancellation of the policy before or after issuance and may also lead to the rejection of the claim data, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "01:03",
+      "end_timestamp": "01:11"
+    },
+    {
+      "segment_id": "11",
+      "text": "You are hence requested to respond thoughtfully and correctly.",
+      "speaker": "doctor",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:15"
+    },
+    {
+      "segment_id": "12",
+      "text": "I'm sure you have given the medical history during the test, but as the video medical verification is vital for issue of the policy, I will take you through a set of medical questions again, sir. Can you kindly confirm the full name that you have given?",
+      "speaker": "doctor",
+      "start_timestamp": "01:17",
+      "end_timestamp": "01:29"
+    },
+    {
+      "segment_id": "13",
+      "text": "Hello sir?",
+      "speaker": "doctor",
+      "start_timestamp": "01:41",
+      "end_timestamp": "01:42"
+    },
+    {
+      "segment_id": "14",
+      "text": "Yes sir.",
+      "speaker": "customer",
+      "start_timestamp": "01:43",
+      "end_timestamp": "01:43"
+    },
+    {
+      "segment_id": "15",
+      "text": "Can you confirm the full name? Your full name?",
+      "speaker": "doctor",
+      "start_timestamp": "01:45",
+      "end_timestamp": "01:48"
+    },
+    {
+      "segment_id": "16",
+      "text": "Akshay Kumar Das. Akshay Kumar Das.",
+      "speaker": "customer",
+      "start_timestamp": "01:48",
+      "end_timestamp": "01:50"
+    },
+    {
+      "segment_id": "17",
+      "text": "Your date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "01:51",
+      "end_timestamp": "01:52"
+    },
+    {
+      "segment_id": "18",
+      "text": "27 April 1990.",
+      "speaker": "customer",
+      "start_timestamp": "01:54",
+      "end_timestamp": "01:55"
+    },
+    {
+      "segment_id": "19",
+      "text": "Your education qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "01:59",
+      "end_timestamp": "02:00"
+    },
+    {
+      "segment_id": "20",
+      "text": "Actually I am a I am also MBBS MD MD DM.",
+      "speaker": "customer",
+      "start_timestamp": "02:02",
+      "end_timestamp": "02:07"
+    },
+    {
+      "segment_id": "21",
+      "text": "Yeah, okay. Critical care.",
+      "speaker": "doctor",
+      "start_timestamp": "02:08",
+      "end_timestamp": "02:09"
+    },
+    {
+      "segment_id": "22",
+      "text": "Your current occupation, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "02:10",
+      "end_timestamp": "02:11"
+    },
+    {
+      "segment_id": "23",
+      "text": "I'm a doctor.",
+      "speaker": "customer",
+      "start_timestamp": "02:13",
+      "end_timestamp": "02:13"
+    },
+    {
+      "segment_id": "24",
+      "text": "Okay. Are you self-employed or salaried, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "02:15",
+      "end_timestamp": "02:17"
+    },
+    {
+      "segment_id": "25",
+      "text": "Salaried.",
+      "speaker": "customer",
+      "start_timestamp": "02:19",
+      "end_timestamp": "02:19"
+    },
+    {
+      "segment_id": "26",
+      "text": "Can you please show me your ID proof for the verification, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "02:25",
+      "end_timestamp": "02:27"
+    },
+    {
+      "segment_id": "27",
+      "text": "Any Aadhar card or PAN card or anything?",
+      "speaker": "customer",
+      "start_timestamp": "02:29",
+      "end_timestamp": "02:32"
+    },
+    {
+      "segment_id": "28",
+      "text": "Any government approved ID will do, sir. Any Aadhar card, PAN card or license or passport.",
+      "speaker": "doctor",
+      "start_timestamp": "02:33",
+      "end_timestamp": "02:37"
+    },
+    {
+      "segment_id": "29",
+      "text": "Okay, sure.",
+      "speaker": "customer",
+      "start_timestamp": "02:39",
+      "end_timestamp": "02:39"
+    },
+    {
+      "segment_id": "30",
+      "text": "Please move it a little more upwards so that I can read that number, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "02:48",
+      "end_timestamp": "02:51"
+    },
+    {
+      "segment_id": "31",
+      "text": "A little more up, a little bit.",
+      "speaker": "doctor",
+      "start_timestamp": "02:55",
+      "end_timestamp": "02:57"
+    },
+    {
+      "segment_id": "32",
+      "text": "Okay, sir. Can you please tell me the last four digits of the Aadhar number?",
+      "speaker": "doctor",
+      "start_timestamp": "03:01",
+      "end_timestamp": "03:04"
+    },
+    {
+      "segment_id": "33",
+      "text": "9893.",
+      "speaker": "customer",
+      "start_timestamp": "03:06",
+      "end_timestamp": "03:07"
+    },
+    {
+      "segment_id": "34",
+      "text": "Can you please share me your current location where you are right now, like city and state?",
+      "speaker": "doctor",
+      "start_timestamp": "03:10",
+      "end_timestamp": "03:14"
+    },
+    {
+      "segment_id": "35",
+      "text": "Have to send current location or tell?",
+      "speaker": "customer",
+      "start_timestamp": "03:17",
+      "end_timestamp": "03:18"
+    },
+    {
+      "segment_id": "36",
+      "text": "Current location. Can you please tell me where you are right now, like city and",
+      "speaker": "doctor",
+      "start_timestamp": "03:19",
+      "end_timestamp": "03:24"
+    },
+    {
+      "segment_id": "37",
+      "text": "Durgapur, Durgapur, West Bengal.",
+      "speaker": "customer",
+      "start_timestamp": "03:24",
+      "end_timestamp": "03:27"
+    },
+    {
+      "segment_id": "38",
+      "text": "Just a moment, sir. Can you please show me your full view for the verification purpose, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "03:36",
+      "end_timestamp": "03:40"
+    },
+    {
+      "segment_id": "39",
+      "text": "Complete view, like from head to toe. You can either place your phone like in the selfie position while standing so that I could see your toe also or you can either ask somebody or place your camera somewhere and move a little backwards, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "03:42",
+      "end_timestamp": "03:55"
+    },
+    {
+      "segment_id": "40",
+      "text": "Excuse me, sir, that won't work, sir. I need to see your lower part also like from head to toe in a complete view, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "04:00",
+      "end_timestamp": "04:06"
+    },
+    {
+      "segment_id": "41",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "04:08",
+      "end_timestamp": "04:09"
+    },
+    {
+      "segment_id": "42",
+      "text": "Yeah, you try placing your phone like in the selfie position like this. Like we are taking a selfie so that I could see also the toe also, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "04:10",
+      "end_timestamp": "04:18"
+    },
+    {
+      "segment_id": "43",
+      "text": "Can you please put your phone a little more upwards, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "04:19",
+      "end_timestamp": "04:22"
+    },
+    {
+      "segment_id": "44",
+      "text": "Okay. Like I need to see the toe also, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "04:25",
+      "end_timestamp": "04:29"
+    },
+    {
+      "segment_id": "45",
+      "text": "No, sir. We'll holding up. I need to see from head to toe in one screen, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "04:34",
+      "end_timestamp": "04:38"
+    },
+    {
+      "segment_id": "46",
+      "text": "Yeah, that that will do, sir. Can you please tilt your phone a little bit and put your phone a little bit upward so that I can see the top portion also, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "04:39",
+      "end_timestamp": "04:49"
+    },
+    {
+      "segment_id": "47",
+      "text": "I'm not able to see your toe, sir, of it, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:55"
+    },
+    {
+      "segment_id": "48",
+      "text": "Can you please adjust your phone accordingly so that I could see your toe also, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "04:59",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "49",
+      "text": "Not able to see your toe, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "05:09",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "50",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "05:11",
+      "end_timestamp": "05:12"
+    },
+    {
+      "segment_id": "51",
+      "text": "Yeah. Okay. Can you please move little back, take a step, sir? Can you please take a step?",
+      "speaker": "doctor",
+      "start_timestamp": "05:17",
+      "end_timestamp": "05:24"
+    },
+    {
+      "segment_id": "52",
+      "text": "Yeah. Okay, thank you, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "05:32",
+      "end_timestamp": "05:34"
+    },
+    {
+      "segment_id": "53",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "05:39",
+      "end_timestamp": "05:40"
+    },
+    {
+      "segment_id": "54",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "05:41",
+      "end_timestamp": "05:41"
+    },
+    {
+      "segment_id": "55",
+      "text": "Hello, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "05:42",
+      "end_timestamp": "05:42"
+    },
+    {
+      "segment_id": "56",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "05:43",
+      "end_timestamp": "05:43"
+    },
+    {
+      "segment_id": "57",
+      "text": "Sir, we are we are currently facing a technical issue, sir. I am very sorry for your inconvenience. I cannot go ahead with this call. Another doctor will call you, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "05:44",
+      "end_timestamp": "05:55"
+    },
+    {
+      "segment_id": "58",
+      "text": "I'm very sorry for your inconvenience, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "05:57",
+      "end_timestamp": "05:59"
+    },
+    {
+      "segment_id": "59",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "06:00",
+      "end_timestamp": "06:00"
+    },
+    {
+      "segment_id": "60",
+      "text": "Thank you, sir. Thank you for your time, sir.",
+      "speaker": "customer",
+      "start_timestamp": "06:02",
+      "end_timestamp": "06:03"
+    }
+  ]
+}

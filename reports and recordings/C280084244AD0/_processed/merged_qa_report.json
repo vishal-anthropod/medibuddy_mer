@@ -1,0 +1,919 @@
+{
+  "personal_particulars": {
+    "name": "Arelli Kumaraswamy",
+    "dob": "26/07/1981",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "3480",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIG Life Insurance",
+      "timestamp": "00:00:32"
+    },
+    "language_preference": {
+      "asked": false,
+      "selected_language": null,
+      "timestamp": null
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Arelli Kumaraswamy",
+      "expected_response": "Arelli K umara Swamy",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Your Date of birth",
+      "captured_response": "26/07/1981",
+      "expected_response": "26-July-1981",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:39",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "Post-graduation and B.Ed.",
+      "expected_response": "Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "School assistant, teacher. School assistant.",
+      "expected_response": "Salaried - TEACHER",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:07",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "Please show your ID proof",
+      "captured_response": "Aadhar card, 3480",
+      "expected_response": "AADHAR CARD - 3480",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Karimnagar. Telangana state, Karimnagar district.",
+      "expected_response": "KARIMNA GAR DISTRICT, TEL ANGANA",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:47",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.1",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "No, ma'am, I haven't.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:05:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.2",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "Normally, I don't, ma'am.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:05:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.3",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "There was no such need.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:06:02",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.4",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "No, ma'am, nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:06:12",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.5",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "5.7",
+      "expected_response": "173.7 cm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:06:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.6",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "75 or 76, it'll be in between.",
+      "expected_response": "76 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:06:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+      "captured_response": "No low BP, no high BP. Ma'am, I haven't taken medicine so far, but tests were written. But no doctor has suggested any medicine to me so far. No, ma'am. Even after showing to doctors, I haven't received any advice or any tablet prescriptions.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:07:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "b",
+      "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "No, ma'am, none of those. Nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:08:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "c",
+      "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "No, ma'am, nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:08:35",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "sarcoma"
+      }
+    },
+    {
+      "question_id": "d",
+      "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "No, ma'am, I haven't taken any tablet regularly so far, be it for BP or sugar, I haven't taken any tablet. Nothing. No. That's right, ma'am, that's it. No BP, no sugar.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:08:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+      "captured_response": "No, madam. No, madam. No, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:09:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "f",
+      "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "I have none of those you mentioned, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "g",
+      "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "No. No, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "h",
+      "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "No, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:10:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "i",
+      "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "Nothing like that, madam, if I eat something that doesn't suit me, I get gastric trouble, but otherwise there's nothing, madam. No, if I eat something that doesn't suit me, or any spicy food, if there's a problem, then I feel a slight discomfort in my stomach, like gas trouble. That's all. It's a minor thing, that too.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+      "captured_response": "No, madam. Kidney, no diseases.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:11:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+      "captured_response": "Nothing like that, madam. However, sometimes there are pains. A slight, light back pain. But my job involves me traveling daily on a vehicle, right, madam, on a bike, right? So there's back pain.",
+      "expected_response": "Back pain",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Back pain.1",
+      "question_text": "Have you undergone surgery for this condition?",
+      "captured_response": "No, I haven't. Slight back pain, that's common because I travel, so there is back pain.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:04",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Back pain.2",
+      "question_text": "Have you been advised by your doctor for surgery?",
+      "captured_response": "No, madam. For back pain, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Back pain.3",
+      "question_text": "Within the last 12 months, how many days have your physical activities been restricted due to this condition, for example bed rest, causing time off work or school?",
+      "captured_response": "No, madam, I have never not gone to work. One or two times. One or two times. That too, one day only. One day I take rest and then I go back to work. Not two times, one or two times. That doesn't mean taking leave, madam. If it's Sunday or a holiday, then just that. There's nothing like taking leave.",
+      "expected_response": "2",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:13:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Ligament tear",
+      "question_text": "Ligament tear",
+      "captured_response": "Madam, once I had this ligament, you saw it, right, madam? My knee had a minor surgery, it was arthroscopy, you know? ... Eight, eight years ago. ... Ah, I think it was a ligament tear, madam. I think it was a tear.",
+      "expected_response": "Ligament tear",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:57",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Ligament tear.1",
+      "question_text": "Are you awaiting any of the following for this condition: medical tests or investigations, test results or referral to hospital or surgery?",
+      "captured_response": "No, nothing. Everything is closed. It was already closed then, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:19:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Ligament tear.2",
+      "question_text": "Was the ligament damage or sprain caused by an accident / trauma or due to an underlying disease or condition?",
+      "captured_response": "It was a condition, madam. No accident happened anywhere, no problem happened anywhere. It was something during walking, a small problem. It happened during walking. No accident happened anywhere, madam.",
+      "expected_response": "Underlying disease or condition",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:19:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Slipped disc",
+      "question_text": "Slipped disc",
+      "captured_response": "Nothing like that, madam.",
+      "expected_response": "Slipped disc",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Fracture",
+      "question_text": "Fracture",
+      "captured_response": "Nothing like that, madam.",
+      "expected_response": "Fracture",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Gout",
+      "question_text": "Gout",
+      "captured_response": "Nothing like that, madam.",
+      "expected_response": "Gout",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.Any other disorders of muscle, joints, limbs or spine?",
+      "question_text": "Any other disorders of muscle, joints, limbs or spine?",
+      "captured_response": "Nothing like that, madam.",
+      "expected_response": "No disclosures entered",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:12:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+      "captured_response": "As for me, I have no disease so far. I wear reading glasses. Madam, reading glasses are 1.0, right? I only use reading glasses when reading, otherwise I don't use glasses at all. Ah, lightly, only when reading small letters, otherwise I don't have any disease or surgeries. Nothing like that. Usually, I am without glasses.",
+      "expected_response": "Hypermetropia",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Blindness",
+      "question_text": "Blindness",
+      "captured_response": "As for me, I have no disease so far.",
+      "expected_response": "Blindness",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Cataract",
+      "question_text": "Cataract",
+      "captured_response": "As for me, I have no disease so far.",
+      "expected_response": "Cataract",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Any other eye related disorder ?",
+      "question_text": "Any other eye related disorder ?",
+      "captured_response": "I wear reading glasses. Madam, reading glasses are 1.0, right? I only use reading glasses when reading, otherwise I don't use glasses at all. Ah, lightly, only when reading small letters, otherwise I don't have any disease or surgeries. Nothing like that. Usually, I am without glasses.",
+      "expected_response": "Hypermetropia",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.Hypermetropia",
+      "question_text": "Hypermetropia",
+      "captured_response": "I wear reading glasses. Madam, reading glasses are 1.0, right? I only use reading glasses when reading, otherwise I don't use glasses at all. Ah, lightly, only when reading small letters, otherwise I don't have any disease or surgeries. Nothing like that. Usually, I am without glasses.",
+      "expected_response": "Hypermetropia",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:14:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "m",
+      "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "No, madam, nothing. No, madam, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:15:38",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "difficulty"
+      }
+    },
+    {
+      "question_id": "AnythingElse.1",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "Madam, once I had this ligament, you saw it, right, madam? My knee had a minor surgery, it was arthroscopy, you know? ... Eight, eight years ago. ... Ah, I think it was a ligament tear, madam. I think it was a tear.",
+      "expected_response": "No disclosures entered",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Ligament surgery (arthroscopy) 8 years ago for a ligament tear in the knee.",
+      "timestamp": "00:15:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.2",
+      "question_text": "Annual Health Checkup",
+      "captured_response": "I do it every year, madam. I get ECG done. It's like an annual checkup. BP or sugar, all these, I check every six months or once a year.",
+      "expected_response": "Annual Health Checkup",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:20:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.2.1",
+      "question_text": "Reason for undergoing the health checkup/Blood test",
+      "captured_response": "No no, there's no company policy, madam. I casually go and get it done.",
+      "expected_response": "Self",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:20:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.2.2",
+      "question_text": "Was there any abnormal finding in Reports/Blood tests?",
+      "captured_response": "No, madam. ECG is perfect, BP, everything is perfect.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:20:49",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.3",
+      "question_text": "Viral infection",
+      "captured_response": null,
+      "expected_response": "Viral infection",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about viral infection.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.4",
+      "question_text": "Dengue fever",
+      "captured_response": null,
+      "expected_response": "Dengue fever",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about Dengue fever.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.5",
+      "question_text": "Malaria",
+      "captured_response": null,
+      "expected_response": "Malaria",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about Malaria.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.6",
+      "question_text": "Mouth ulcer",
+      "captured_response": null,
+      "expected_response": "Mouth ulcer",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about Mouth ulcer.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.7",
+      "question_text": "Hay fever",
+      "captured_response": null,
+      "expected_response": "Hay fever",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about Hay fever.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.8",
+      "question_text": "COVID-19 Positive",
+      "captured_response": null,
+      "expected_response": "COVID-19 Positive",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Ask about COVID-19 Positive.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "AnythingElse.9",
+      "question_text": "Others",
+      "captured_response": null,
+      "expected_response": "No disclosures entered",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "OtherThanDisclosed.a",
+      "question_text": "Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "I got ECG done, I got ECG done, madam. Okay, no problem with that. I do it every year, madam. I get ECG done. Oh, okay. All those are normal. There's nothing like that. I haven't had any problems so far.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, annual ECG done, no abnormalities.",
+      "timestamp": "00:19:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "OtherThanDisclosed.b",
+      "question_text": "Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "No, madam. I haven't had bed rest or anything like that. No, nothing has come up that would require two weeks of usage. Yes, I went to a doctor. But what happened was, I took things like ECG, and he just said there's nothing, it's not necessary, and sent me off. When I got the general checkup done, they said everything was okay, sir, and sent me off, saying there was no problem. I had it checked about six months back.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, referred for general checkup (including ECG) 6 months ago, no issues found.",
+      "timestamp": "00:21:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "OtherThanDisclosed.c",
+      "question_text": "Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time",
+      "captured_response": "No, madam. Because I haven't been on medical leave. The problem would only arise if I were on medical leave. I haven't been on medical leave, I'm continuously going to work, so I don't have that problem.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:22:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "CongenitalHereditary",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "No, madam. No hereditary disease. No, madam, I don't.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:22:52",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "STD",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "Haven't gone so far, madam. No, madam, haven't gone so far. Haven't done it, I don't have anything like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:24:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "FutureMedical",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "No, madam. For the last 20 years, I've been the same weight. I stay in the range of 78, 76, 75. No, madam. Currently, there are none.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:24:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "DECLARATION: You Arelli K umara Swamy , declar e that, you have fully understood the questions ask ed to you as per this call and have furnished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+      "captured_response": "Sir, your questions are done. Lastly, a declaration. So, do you agree that everything you've said so far is completely true? Okay.",
+      "expected_response": "You Arelli K umara Swamy , declar e that, you have fully understood the questions ask ed to you as per this call and have furnished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:24:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Speaker labels are swapped from 00:05:37 until the end of the transcript, making it appear the customer is asking questions and the doctor is answering. This is a severe transcription error.",
+      "The MER entry for 'Is there anything else that you would like to share...' states 'No disclosures entered', but the customer explicitly disclosed a knee ligament surgery (arthroscopy) 8 years ago.",
+      "The MER entry for 'Any abnormal medical findings or pending test results... such as... ECG' states 'No', but the customer explicitly stated having annual ECGs, even if the findings were normal.",
+      "The MER entry for 'Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital...' states 'No', but the customer explicitly stated being referred to a doctor for a general checkup 6 months ago, even if no issues were found."
+    ],
+    "recommendations": [
+      "Review and correct speaker labels in the transcript for accuracy to ensure proper attribution of dialogue.",
+      "Ensure all customer disclosures, even if volunteered or not directly prompted by a specific MER question, are accurately captured in the 'Remarks' or 'Other disclosures' section of the MER.",
+      "Ensure MER entries accurately reflect customer responses, especially for questions about past tests or referrals, even if findings were normal, to maintain data integrity.",
+      "Ensure all mandatory questions from the MER, such as 'Viral infection', 'Dengue fever', 'Malaria', 'Mouth ulcer', 'Hay fever', and 'COVID-19 Positive', are explicitly asked during the call."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and provides detailed answers.",
+      "Customer clarifies when they don't understand medical terms."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "173.7",
+    "weight_kg": "75-76",
+    "dates_mentioned": [
+      "26/07/1981",
+      "1981, July 26th",
+      "8 years ago",
+      "2016 or 2017",
+      "last 24 months",
+      "last 12 months",
+      "one year",
+      "last five years",
+      "six months back",
+      "last 20 years"
+    ],
+    "medications": [],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 2,
+    "typos_found": [
+      {
+        "question_id": "c",
+        "original_text": "sacroma",
+        "corrected_text": "sarcoma"
+      },
+      {
+        "question_id": "m",
+        "original_text": "difficult",
+        "corrected_text": "difficulty"
+      }
+    ],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "C280084244AD0",
+    "doctor_name": "Dr. Tumpala Manisha Madurya",
+    "customer_name": "Arelli Kumaraswamy",
+    "insurance_company": "Tata AIG Life Insurance"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -18.58
+  },
+  "video_analysis": {
+    "attire_check": "yes",
+    "attire_explanation": "The doctor is wearing a white clinical apron/coat in all visible frames.",
+    "visibility_status": "both_visible",
+    "visibility_explanation": "In all frames, both the customer (left) and the doctor (right) are visible. Although the doctor's face is blurred in frame 3, their presence is still clear.",
+    "privacy_maintained": null,
+    "privacy_explanation": "The doctor's background is heavily blurred in all frames, making it impossible to assess for any privacy breaches such as people walking, visible private boards/files/monitors, or identifiable patients.",
+    "screenshots": [
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C280084244AD0/_processed/call1/frame_01.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C280084244AD0/_processed/call1/frame_02.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C280084244AD0/_processed/call1/frame_03.jpg"
+    ]
+  }
+}

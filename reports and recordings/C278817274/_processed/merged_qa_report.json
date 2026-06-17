@@ -1,0 +1,543 @@
+{
+  "personal_particulars": {
+    "name": "Vaibhav Jain",
+    "dob": "31st December 1985",
+    "id_proofs": [
+      {
+        "type": "PAN",
+        "value": "AIEPJ7563K",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA",
+      "timestamp": "00:30"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "00:25"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Vaibhav Jain",
+      "expected_response": "Vaibhav Jain",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:22",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "31st December 1985",
+      "expected_response": "1985-12-31",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.PAN",
+      "question_text": "ID Proof PAN",
+      "captured_response": "A I E P J 7 5 6 3 K",
+      "expected_response": "AIEPJ7563K",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Vaibhav Jain",
+      "expected_response": "Vaibhav Jain",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:22",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "Your Date of birth",
+      "captured_response": "31st December 1985",
+      "expected_response": "1985-12-31",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "I'm post graduate.",
+      "expected_response": "Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "Salaried.",
+      "expected_response": "Salaried",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please show your ID proof",
+      "captured_response": "Can you please show me your ID proof, Aadhar or PAN, in front of the camera? ... A I E P J 7 5 6 3 K.",
+      "expected_response": "PAN CARD ID: AIEPJ7563K",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Yeah, I'm in Ghaziabad. Ghaziabad, Uttar Pradesh.",
+      "expected_response": "GHAZIABAD, UTTARPRADESH",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "7",
+      "question_text": "Are you currently in Good Health ?",
+      "captured_response": "Yep.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "8",
+      "question_text": "Are you taking any type of medication currently?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "9",
+      "question_text": "Height",
+      "captured_response": "5 feet 5 inch.",
+      "expected_response": "165.1",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:30",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "10",
+      "question_text": "Weight",
+      "captured_response": "It's around 96.",
+      "expected_response": "96",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "11",
+      "question_text": "Did you have any loss or gain of weight of 10 kg or more in the last six months?",
+      "captured_response": "No, I haven't.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12",
+      "question_text": "Have you ever in the past consumed or currently consume tobacco in any form like Cigarette,Bidi,Pan,Gutkha?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about tobacco consumption.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "13",
+      "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about narcotics consumption.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "14",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about diabetes/high blood sugar.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "15",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about high blood pressure/cholesterol.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "16",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about heart/circulatory diseases.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "17",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+      "captured_response": null,
+      "expected_response": "Yes Exact Diagnosis - Kidney stones Date of Diagnosis or Duration of disorder - 01/04/2023 Treatment details - Medication Reflex test - Remarks - LA was diagnosed with 3 kidney stones in 01/04/2023. Among them 1 kidney stone was 7mm and the other 2 are tiny. Stomach pain is the symptom. Doctor advised medication for 1 week, and the large kidney stone was passed away, but not sure about the 2 tiny stones. Fully recovered without any symptoms and complications.",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should have asked question 17 directly. Information about kidney stones was volunteered later.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about cancer/tumors.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "19",
+      "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about HIV/AIDS/STDs.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "20",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about accidental injury/disability.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "21",
+      "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about other health conditions.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "22",
+      "question_text": "Have you undergone any investigations like blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+      "captured_response": null,
+      "expected_response": "Yes Reason for undergoing test - Annual healthcheck up/Blood donation/Routine healthcheck up(Self/Company) Results of the test - Normal Past Surgery - Remarks - LA undergone annual health check 2 years back. Reports are normal.",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should have asked question 22 directly. Information about annual health checkup and vitamin D deficiency was volunteered later.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "23",
+      "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury , accident or disorder in the last 5 years?",
+      "captured_response": "Yeah, I was hospitalized for dengue in October 2024.",
+      "expected_response": "Yes Disorder Details - Dengue > 6 month Remarks - LA was diagnosed with dengue fever in 01/10/2024. Hospitalized for 4days.Doctor advised medications and fully recovered without any symptoms, treatment and complications.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24",
+      "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "16:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "25",
+      "question_text": "[For Female] Are you currently pregnant ?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "26",
+      "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any Pap smear , mammogram?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "27",
+      "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "28",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "I had kidney stones in the past... It was in uh I think April 2023... It was two or three... You can mention three... I think it was 7 mm... 7 mm stone has been passed away... No other surgery or nothing... I'm not sure [if tiny stones are present]... Symptoms of pain, pain on the left side, I think, or the right side... Only the stomach pain, sir? No vomitting or any other? No... I don't remember [diameter of other stones]. They were tiny... Yeah, yeah, of course [fully recovered]... No, nothing [no further symptoms]... I would say fully recovered... Yeah, fully recovered. I've never felt that pain again. Annual health check up and dengue. Yeah, that vitamin D came up in the health checkup.",
+      "expected_response": "Yes - Notings Exact Diagnosis - Others (Please specify) Date of Diagnosis/Duration of disorder - Treatment details - Current health status - Availability of reports - Next follow up - Remarks - LA was diagnosed with vitamin D deficiency in 01/01/2023. Doctor advised medication for 2months and fully recovered without any symptoms and complications.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "16:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Multiple mandatory medical history questions (Q12, Q13, Q14, Q15, Q16, Q18, Q19, Q20, Q21) were not asked by the doctor.",
+      "Information regarding kidney stones (relevant to Q17) and annual health checkup/vitamin D deficiency (relevant to Q22) was volunteered by the customer under Q28, rather than being elicited by the doctor asking the specific questions. This indicates a deviation from the structured questioning process."
+    ],
+    "recommendations": [
+      "The doctor should adhere strictly to the MER questionnaire, ensuring all mandatory questions are asked in sequence.",
+      "Training should be provided to ensure the doctor covers all medical history questions (Q12-Q22) as per the MER.",
+      "Reinforce the importance of eliciting information through direct questioning rather than relying solely on volunteered information, even if volunteered information is subsequently probed."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and provides detailed answers.",
+      "Doctor is patient in clarifying details (e.g., ID proof, full length view, kidney stone details)."
+    ]
+  },
+  "data_validation": {
+    "height_cm": 165.1,
+    "weight_kg": 96,
+    "dates_mentioned": [
+      "31st December 1985",
+      "2023",
+      "June",
+      "October 2024",
+      "April 2023"
+    ],
+    "medications": [
+      "vitamin D supplement",
+      "painkillers"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": true,
+      "timestamps": [
+        "03:08"
+      ],
+      "examples": [
+        "Prithvi, hold this phone like this."
+      ]
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "C278817274",
+    "doctor_name": "Dr. P. Srilakshmi",
+    "customer_name": "Vaibhav Jain",
+    "insurance_company": "Tata AIA Life Insurance Company Ltd."
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -19.11
+  },
+  "video_analysis": {
+    "attire_check": "yes",
+    "attire_explanation": "The doctor is wearing a white clinical apron/coat, clearly visible in all frames.",
+    "visibility_status": "both_visible",
+    "visibility_explanation": "Both the doctor (right frame) and the customer (left frame) are clearly visible in all provided video frames.",
+    "privacy_maintained": true,
+    "privacy_explanation": "The doctor's background is blurred, preventing any identifiable information, people, or confidential data from being visible. No privacy breaches are observed.",
+    "screenshots": [
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C278817274/_processed/call1/frame_01.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C278817274/_processed/call1/frame_02.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C278817274/_processed/call1/frame_03.jpg"
+    ]
+  }
+}

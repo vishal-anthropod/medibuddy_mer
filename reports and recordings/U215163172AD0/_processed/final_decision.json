@@ -1,0 +1,51 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Bhavya Deepak Kumar Solanki",
+        "expected": "Bhavya Deepakkumar Solanki"
+      }
+    },
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "customer: Dheeraj, hold the phone.",
+          "doctor: Whoever is holding it, stay a little back.",
+          "doctor: Move back, move back from the client.",
+          "doctor: Yes, just lower the phone like this, the feet will be visible.",
+          "doctor: Give it to them, the phone."
+        ],
+        "timestamps": [
+          "03:02",
+          "03:52",
+          "04:06",
+          "04:08",
+          "04:11",
+          "04:14",
+          "04:17",
+          "04:18",
+          "04:19"
+        ]
+      }
+    },
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "26-1999",
+        "expected": "02-June-1999"
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

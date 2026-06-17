@@ -1,0 +1,82 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Divya Bhavani",
+        "expected": "Diddi Pavani"
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 8
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "Lifestyle.AlcoholType",
+            "expected": "Spirit/Hard Liqour",
+            "corrected": "Spirit/Hard Liquor"
+          },
+          {
+            "id": "Lifestyle.AlcoholUnits",
+            "expected": "1",
+            "corrected": "In a week, How many units of Hard liquor/spirit do you consume? 1 unit of alcohol = 1 glass of spirits (44 ml)"
+          },
+          {
+            "id": "g.1",
+            "expected": "Sjögren’s AUTOIMMUNE DIESEASE IN 2025, TEST ANA TESTS SYMPTOMS WERE SHIK RASHESM",
+            "corrected": "Sjögren’s AUTOIMMUNE DISEASE IN 2025, TEST ANA TESTS SYMPTOMS WERE SKIN RASHES"
+          },
+          {
+            "id": "g.2",
+            "expected": "TREATMENT TAKING MEDICATION SINCE 2025 CURRENT CNDITION IS GOOD LAST CONSULTATION 10 DAYS BACK",
+            "corrected": "TREATMENT TAKING MEDICATION SINCE 2025 CURRENT CONDITION IS GOOD LAST CONSULTATION 10 DAYS BACK"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 3
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer: \"ANA positive. ANA.\" (when asked for disease name)",
+          "Customer: \"My, in my reports, the name was ANA, that is three positive, positive, positive. That's it. ANA.\"",
+          "Customer: \"ANA, ANA only.\"",
+          "Customer: \"Wait a minute.\" (when asked for exact diagnosis in Call 2)"
+        ],
+        "timestamps": [
+          "00:05:28",
+          "00:05:53",
+          "00:06:15",
+          "00:16:34",
+          "00:16:54",
+          "00:17:04"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

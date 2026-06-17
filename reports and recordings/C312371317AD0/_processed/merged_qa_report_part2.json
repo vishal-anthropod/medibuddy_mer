@@ -1,0 +1,101 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with polite greetings.",
+      "timestamps": [
+        "00:00:06",
+        "00:00:08"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor clearly introduced themselves, stated the insurer's name, and confirmed the customer's identity.",
+      "timestamps": {
+        "self_intro": "00:00:24",
+        "client_name": "00:00:18",
+        "insurer_name": "00:00:24"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their language preference at the beginning of the call.",
+      "timestamp": "00:00:13"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested the customer to show their Aadhaar card and provide the last four digits for verification.",
+      "timestamps": [
+        "00:02:00",
+        "00:02:06"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly informed the customer about call recording and the legal implications of the provided information.",
+      "timestamp": "00:00:45"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressing the customer as 'sir' and expressing thanks throughout the call.",
+      "timestamps": [
+        "00:00:08",
+        "00:02:36",
+        "00:03:03",
+        "00:19:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that would require explicit empathy, so it is marked Yes by default.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor was generally polite but struggled with clarity on complex questions, requiring repetition and rephrasing, and made some redundant or medically inappropriate questions.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:24",
+          "00:00:45",
+          "00:02:41",
+          "00:19:36"
+        ],
+        "poor_examples": [
+          "00:02:15",
+          "00:05:13",
+          "00:05:41",
+          "00:06:06",
+          "00:07:43",
+          "00:09:27",
+          "00:13:54"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details on elevated blood pressure, vitamin deficiencies, and specific cholesterol levels, ensuring comprehensive information was gathered.",
+      "timestamps": [
+        "00:03:44",
+        "00:04:00",
+        "00:04:21",
+        "00:05:00",
+        "00:08:43",
+        "00:10:35",
+        "00:14:34"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No instances of customer hesitation, third-party prompting, or other unusual events were observed as per the defined rules.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained the customer's declaration of truthfulness and concluded the call with a thank you and a polite closing.",
+      "timestamps": {
+        "declaration": "00:19:26",
+        "thank_you": "00:19:36"
+      }
+    }
+  }
+}

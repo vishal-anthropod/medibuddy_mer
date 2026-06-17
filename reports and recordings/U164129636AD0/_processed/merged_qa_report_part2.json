@@ -1,0 +1,96 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:01"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced themselves, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:12",
+        "client_name": "00:00:03",
+        "insurer_name": "00:00:14"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked about the customer's language preference multiple times to ensure comfort.",
+      "timestamp": "00:00:08"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for an ID proof number (PAN card).",
+      "timestamps": [
+        "00:01:42"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor read out the full disclaimer regarding information usage, policy impact, and call recording.",
+      "timestamp": "00:00:34"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout both calls, even when seeking clarification.",
+      "timestamps": [
+        "00:00:01",
+        "00:09:32",
+        "00:19:10"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The customer disclosed serious health concerns (accident, fractured ribs, autoimmune disorder, and her brother's suicide), but the doctor did not offer any empathetic statements.",
+      "timestamps": [
+        "00:03:44",
+        "00:07:30"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, rephrased questions when the customer didn't understand, and was persistent in obtaining necessary information.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:57",
+          "00:06:18",
+          "00:16:20"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor demonstrated excellent probing skills, especially in the second call, to extract the specific diagnosis of the autoimmune disease.",
+      "timestamps": [
+        "00:05:23",
+        "00:05:48",
+        "00:06:13",
+        "00:16:20",
+        "00:16:49",
+        "00:17:39"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer repeatedly struggled to provide the specific name of her autoimmune disease, requiring a follow-up call to obtain the information.",
+      "timestamps": [
+        "00:05:42",
+        "00:05:53",
+        "00:16:34",
+        "00:16:54"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor read the declaration and thanked the customer at the end of both calls.",
+      "timestamps": {
+        "declaration": "00:15:53",
+        "thank_you": "00:16:02"
+      }
+    }
+  }
+}

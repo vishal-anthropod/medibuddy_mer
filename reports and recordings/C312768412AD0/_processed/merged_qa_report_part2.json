@@ -1,0 +1,93 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:07"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:25",
+        "client_name": "00:00:29",
+        "insurer_name": "00:00:27"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language for the call.",
+      "timestamp": "00:00:12"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer to show their Aadhaar card and confirm the last four digits.",
+      "timestamps": [
+        "00:02:41",
+        "00:02:48"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer that the call would be recorded and explained the implications of the provided information on the policy.",
+      "timestamp": "00:00:46"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using 'sir' frequently and thanking the customer.",
+      "timestamps": [
+        "00:00:07",
+        "00:12:58"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer mentioned fistula surgery, a serious health concern. The doctor professionally probed for details, complications, and current status, showing appropriate concern.",
+      "timestamps": [
+        "00:07:57",
+        "00:09:22",
+        "00:09:38"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor's communication was generally clear, but there was a long pause before repeating a question and some awkward phrasing/confusion regarding dates and questions.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:56",
+          "00:05:00",
+          "00:07:57"
+        ],
+        "poor_examples": [
+          "00:03:19",
+          "00:08:41",
+          "00:11:40"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding the customer's fistula surgery, asking about complications, current status, and related tests.",
+      "timestamps": [
+        "00:07:57",
+        "00:09:22",
+        "00:10:32"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting observed in the transcript.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a declaration from the customer and thanked them for their cooperation at the end of the call.",
+      "timestamps": {
+        "declaration": "00:12:48",
+        "thank_you": "00:12:58"
+      }
+    }
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "personal_particulars": {
+    "name": "Pankaj Baghel",
+    "dob": "21/11/1997",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "2124",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA Life Insurance",
+      "timestamp": "00:34"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "Hindi",
+      "timestamp": "00:09"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Pankaj Baghel",
+      "expected_response": "Pankaj Baghel",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Your Date of birth",
+      "captured_response": "21/11/1997",
+      "expected_response": "1997-11-21",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.Education",
+      "question_text": "Education Qualification",
+      "captured_response": "Graduate",
+      "expected_response": "Education - Above Graduate",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Graduate",
+      "timestamp": "01:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.Occupation",
+      "question_text": "Your current Occupation",
+      "captured_response": "Salaried",
+      "expected_response": "Occupation - Salaried",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "Please show your ID proof",
+      "captured_response": "2124",
+      "expected_response": "AADHAR 2122",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "AADHAR 2124",
+      "timestamp": "01:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.Location",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Delhi, New Delhi",
+      "expected_response": "NEW DELHI",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "You Pankaj Baghel , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "captured_response": "Doctor, whatever answers you have given, are they all true? -> Yes.",
+      "expected_response": "You Pankaj Baghel , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Doctor should read the full declaration as per MER.",
+      "timestamp": "08:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "L1",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "Nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "L2",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "L3",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "No, never. This is like, sometimes people say it but I don't drink.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "L4",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "No, never.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "H1",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "5'8.5\"",
+      "expected_response": "173.99 cm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "W1",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "78",
+      "expected_response": "78 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1a",
+      "question_text": "a. High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+      "captured_response": "No, no, no, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1b",
+      "question_text": "b. Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "No, no problem.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1c",
+      "question_text": "c. Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "No, no, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:50",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "sarcoma"
+      }
+    },
+    {
+      "question_id": "M1d",
+      "question_text": "d.Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "No, nothing so far.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1e",
+      "question_text": "e. Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1f",
+      "question_text": "f. Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1g",
+      "question_text": "g. Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1h",
+      "question_text": "h. Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "Nothing, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1i",
+      "question_text": "i. Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "No, not yet. And ma'am, please ask a little slowly.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:51",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "ulcerative"
+      }
+    },
+    {
+      "question_id": "M1j",
+      "question_text": "j. Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+      "captured_response": "No, ma'am. Last time I had a railway medical, there was no such diagnosis.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1k",
+      "question_text": "k.Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1l",
+      "question_text": "l. Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "Missing",
+      "error_type": "Missing Question",
+      "suggested_correction": "Doctor should ask about eye-related disorders.",
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M1m",
+      "question_text": "m. Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "No, no, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:43",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "swallowing"
+      }
+    },
+    {
+      "question_id": "M2",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "Nothing much. Just, you know, in Delhi, due to pollution, there's hair fall and all that. For that, I used shampoo and some multivitamins. That's all.",
+      "expected_response": "VITAMIN B7, Hair loss, VITAMIN B7, Please provide details including type of condition, the age at diagnosis and symptoms. 2025 VIT B7 ,BIOTIN ,TRAYA FOR 1 MONTH, Please provide details of treatment and/or medication advice received or sought, type of investigation(s) done, and last follow-up date.LA IS COMPLETELY FINE",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:49",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M3a",
+      "question_text": "Annual Health Checkup - Reason for undergoing the health checkup/Blood test",
+      "captured_response": "Yes, the one for railway job, the general job before medical test.",
+      "expected_response": "As per company norms",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:31",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M3b",
+      "question_text": "Annual Health Checkup - Was there any abnormal finding in Reports/Blood tests?",
+      "captured_response": "No, ma'am. Last time I had a railway medical, there was no such diagnosis.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M4a",
+      "question_text": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years a)Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "No, no problem in this.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M4b",
+      "question_text": "b) Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M4c",
+      "question_text": "c) Inability to perform your daily activities or absent from work more than two 2 consecutive weeks at a time",
+      "captured_response": "No, nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M5",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M6",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "M7",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:07",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "ID proof (Aadhar last 4 digits) provided by the customer (2124) does not match the MER (2122).",
+      "Education qualification provided by the customer ('Graduate') does not match the MER ('Above Graduate').",
+      "The doctor did not read the full declaration as specified in the MER at the end of the call.",
+      "The question regarding eye-related disorders ('Blindness, cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes') was missing from the conversation."
+    ],
+    "recommendations": [
+      "The doctor should ensure all personal particulars, especially ID details, are accurately captured and verified against the MER.",
+      "The doctor should clarify any discrepancies in education qualification with the customer to ensure accurate recording.",
+      "The doctor must read the complete declaration statement as per the MER template to ensure process compliance.",
+      "The doctor should ensure all mandatory questions from the MER, including those related to eye disorders, are asked during the telephonic medical examination."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer was cooperative and answered all questions.",
+      "Customer requested the doctor to ask questions a little slowly, indicating a minor point of discomfort but was addressed."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "173.99",
+    "weight_kg": "78",
+    "dates_mentioned": [
+      "21/11/1997",
+      "2020-2021",
+      "December",
+      "January"
+    ],
+    "medications": [
+      "shampoo",
+      "multivitamins",
+      "vitamin B",
+      "B7",
+      "B9",
+      "B12",
+      "biotin",
+      "Himalaya"
+    ],
+    "validation_errors": [
+      "ID proof Aadhar number mismatch: Transcript '2124' vs MER '2122'",
+      "Education qualification mismatch: Transcript 'Graduate' vs MER 'Above Graduate'"
+    ]
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 3,
+    "typos_found": [
+      "sacroma",
+      "ulcera-tive",
+      "swal-lowing"
+    ],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "C307730581",
+    "doctor_name": "Dr. Trupti Pravin Zade",
+    "customer_name": "Mr Pankaj Baghel",
+    "insurance_company": "Tata AIA Life Insurance"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -20.32
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "MH.k.Musculoskeletal",
+          "text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 8,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "Vinish A Nadar",
+            "corrected": "Vinesh A Nadar"
+          },
+          {
+            "id": "Declaration.Agreement",
+            "expected": "Yes",
+            "corrected": "You Vinesh A Nadar, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam, are you in agreement with the declaration that I have read out to you."
+          },
+          {
+            "id": "MH.c.Cancer",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "MH.i.Gastrointestinal",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "MH.m.ENT",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

@@ -1,0 +1,537 @@
+{
+  "personal_particulars": {
+    "name": "Bamidi Patala Lalita",
+    "dob": "7/6/1994",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "723839855734",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIG Insurance Company",
+      "timestamp": "00:26"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "Telugu",
+      "timestamp": "00:15"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Bamidi Patala Lalita",
+      "expected_response": "BHAMIDIPATI LALITHA",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:33",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "7/6/1994",
+      "expected_response": "1996-06-07",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer stated 7/6/1994, MER states 07-June-1996",
+      "timestamp": "01:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "ID Proof Aadhar",
+      "captured_response": "723839855734",
+      "expected_response": "723839855732",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer stated 723839855734, MER states 723839855732",
+      "timestamp": "01:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Bamidi Patala Lalita",
+      "expected_response": "BHAMIDIPATI LALITHA",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:33",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "Your Date of birth",
+      "captured_response": "7/6/1994",
+      "expected_response": "1996-06-07",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer stated 7/6/1994, MER states 07-June-1996",
+      "timestamp": "01:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "My MBA is completed.",
+      "expected_response": "Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "I am currently working as a job consultant at GMR Airport.",
+      "expected_response": "Salaried",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:47",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please show your ID proof",
+      "captured_response": "723839855734 Aadhaar.",
+      "expected_response": "AADHAR NO : 723839855732",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer stated 723839855734, MER states 723839855732",
+      "timestamp": "01:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Vizianagaram.",
+      "expected_response": "VIJAYANAGARAM, AP.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:15",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "7",
+      "question_text": "Are you currently in Good Health ?",
+      "captured_response": "Yes.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "8",
+      "question_text": "Are you taking any type of medication currently?",
+      "captured_response": "Not currently.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "9",
+      "question_text": "Height",
+      "captured_response": "My height is 5 feet 1.",
+      "expected_response": "155",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "10",
+      "question_text": "Weight",
+      "captured_response": "Weight 62.",
+      "expected_response": "62",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:31",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "11",
+      "question_text": "Did you have any loss or gain of weight of 10 kg or more in the last six months?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12",
+      "question_text": "Have you ever in the past consumed or currently consume tobacco in any form like Cigarette,Bidi,Pan,Gutkha?",
+      "captured_response": "No, not at all.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "13",
+      "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+      "captured_response": "No, not at all.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "14",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "15",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "16",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+      "captured_response": "No, not at all.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "17",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:30",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "19",
+      "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "20",
+      "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "21",
+      "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+      "captured_response": "Currently, I am healthy.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "22",
+      "question_text": "Have you undergone any investigations like blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+      "captured_response": "Yes, recently I had a delivery. I had tests done then, around 8-9 months back. All reports are normal.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "23",
+      "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury , accident or disorder in the last 5 years?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24",
+      "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+      "captured_response": null,
+      "expected_response": "No",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "25",
+      "question_text": "[For Female] Are you currently pregnant ?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "26",
+      "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any P ap smear , mammogram?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "27",
+      "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "28",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "No, nothing. Health-wise, I am fit. I am okay. Habits, I don't have habits like tobacco or smoking.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer explicitly stated 'No, nothing' to this question, though C-section details were provided earlier in the call and noted in MER remarks.",
+      "timestamp": "05:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "The doctor stated the insurer name as 'Tata AIG Insurance Company' in the disclaimer and introduction, which differs from the 'Tata AIA Life Insurance Company Ltd.' mentioned in the MER document.",
+      "The customer's stated Date of Birth (7/6/1994) does not match the Date of Birth recorded in the MER (1996-06-07).",
+      "The customer's stated Aadhar ID (ending in 5734) does not match the Aadhar ID recorded in the MER (ending in 5732).",
+      "The MER records 'Yes' for the final open-ended question (Q28) regarding additional health/habit information, but the customer explicitly stated 'No, nothing' in response to this specific question. While C-section details were provided earlier and noted in the MER remarks for this question, the direct answer to the final question was 'No'."
+    ],
+    "recommendations": [
+      "Ensure the doctor reads the exact, company-approved disclaimer text at the beginning of the call, including the correct and consistent insurer name.",
+      "The doctor should meticulously verify and confirm critical personal particulars such as Date of Birth and ID proof numbers with the customer to prevent data discrepancies.",
+      "Clarify internal protocol for recording answers to open-ended questions (like Q28). If previous disclosures are to be noted, ensure the customer's direct answer to the final question is accurately reflected, or rephrase the question to confirm all previously discussed relevant information."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer was cooperative and polite throughout the call.",
+      "Customer proactively informed about phone battery issue and requested reschedule, which was handled professionally by the doctor.",
+      "Customer asked a follow-up question at the end, indicating engagement."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "154.94",
+    "weight_kg": "62",
+    "dates_mentioned": [
+      "7/6/1994",
+      "8-9 months back",
+      "18-April-2025",
+      "07-June-1996",
+      "18/04/2025 12:08"
+    ],
+    "medications": [
+      "Not currently"
+    ],
+    "validation_errors": [
+      "Date of Birth mismatch: Customer stated 7/6/1994, MER states 1996-06-07.",
+      "Aadhar ID mismatch: Customer stated 723839855734, MER states 723839855732."
+    ]
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "C330956756",
+    "doctor_name": "Dr. TEJASWINI GANDA",
+    "customer_name": "Bhamidipati Lalitha",
+    "insurance_company": "Tata AIG Insurance Company"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -20.85
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

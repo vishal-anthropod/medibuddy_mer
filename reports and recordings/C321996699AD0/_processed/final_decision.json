@@ -1,0 +1,56 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.h",
+          "text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 6,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "TELENGHANA",
+            "corrected": "TELANGANA"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "difficult in swallowing"
+          },
+          {
+            "id": "General.2.a",
+            "expected": "No",
+            "corrected": "prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          },
+          {
+            "id": "General.2.c",
+            "expected": "No",
+            "corrected": "consecutive weeks"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 6
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

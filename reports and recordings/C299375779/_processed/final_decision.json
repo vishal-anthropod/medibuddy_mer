@@ -1,0 +1,25 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Uh, one minute."
+        ],
+        "timestamps": [
+          "02:14"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

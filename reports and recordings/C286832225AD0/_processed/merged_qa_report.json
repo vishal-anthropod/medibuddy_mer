@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "proposal_number": "C286832225AD0",
+    "doctor_name": "Dr. Sonu Kumari",
+    "customer_name": "Chetan Singh",
+    "insurance_company": "Tata AIA Life Insurance Company Ltd."
+  },
+  "personal_particulars": {
+    "name": "Chetan Singh",
+    "dob": "13th September 2002",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "2589",
+        "present_in_mer": false
+      }
+    ],
+    "nominee_name": "Rajni Singh",
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA Life Insurance",
+      "timestamp": "00:00:31"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English or Hindi",
+      "timestamp": "00:00:12"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Chetan Singh",
+      "expected_response": "Ketan Singh",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Chetan Singh",
+      "timestamp": "00:01:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "13th September 2002",
+      "expected_response": "13-Sep-2002",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Chetan Singh",
+      "expected_response": "ketan singh",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Chetan Singh",
+      "timestamp": "00:01:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "Your Date of birth",
+      "captured_response": "13th September 2002",
+      "expected_response": "13-Sep-2002",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.1",
+      "question_text": "Education Qualification",
+      "captured_response": "Bachelors of Engineering",
+      "expected_response": "Graduate & above",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.2",
+      "question_text": "Course name",
+      "captured_response": "BE",
+      "expected_response": "be",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.3",
+      "question_text": "Institution name",
+      "captured_response": "Mumbai University",
+      "expected_response": "mumbai university",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3.4",
+      "question_text": "Year of Passing",
+      "captured_response": "2024",
+      "expected_response": "2024",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4.1",
+      "question_text": "Your current Occupation:",
+      "captured_response": "teaching as a tutor",
+      "expected_response": "Self-employed",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:01:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4.2",
+      "question_text": "Others (If Others, please ask the details)",
+      "captured_response": "I teach at home. I have my own WhatsApp group, I teach from there.",
+      "expected_response": "tutor at home",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.NomineeName",
+      "question_text": "Nominee Name",
+      "captured_response": "Rajni Singh",
+      "expected_response": "rajni singh",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please confirm name of the nominee",
+      "captured_response": "Rajni Singh",
+      "expected_response": "rajni singh",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "How much total SA you have with TATA AIA or any other insurance company already or applied simultaneously?",
+      "captured_response": "I don't know because my father is handling that.",
+      "expected_response": "tata aia dont know",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:02:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "7",
+      "question_text": "Has any of your insurance application or reinstatement application on life, accident, medical or health, critical illness, or disability ever been declined, postponed?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:02",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "8",
+      "question_text": "Has any of your insurance application required higher medical test like (stress Echo, 2D echo,APS,USG etc.)?",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:09",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "9",
+      "question_text": "Has any of your insurance application accepted or Withdrawn at extra premium or modified terms?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "10",
+      "question_text": "Do you Smoke or consume Tobacco?",
+      "captured_response": "No, no, I don't smoke, I don't consume tobacco.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "11",
+      "question_text": "For NRI customers: date of arrival and departure of last visit done to India",
+      "captured_response": null,
+      "expected_response": "no",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "12",
+      "question_text": "Height",
+      "captured_response": "175 centimeters",
+      "expected_response": "175",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "13",
+      "question_text": "Weight",
+      "captured_response": "78 kg",
+      "expected_response": "78",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "14",
+      "question_text": "Have you ever been diagnosed with Cancer?",
+      "captured_response": "No, never.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "15",
+      "question_text": "Have you ever been diagnosed with Stroke?",
+      "captured_response": "Brain hemorrhage?",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "16",
+      "question_text": "Have you ever been diagnosed with Heart disease?",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "17",
+      "question_text": "Have you ever been diagnosed with Hypertension?",
+      "captured_response": "No, no, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "18",
+      "question_text": "Have you ever been diagnosed with Diabetes?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "19",
+      "question_text": "Have you ever been diagnosed with Kidney disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:49",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "20",
+      "question_text": "Have you ever been diagnosed with Liver Disease?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "21",
+      "question_text": "Have you ever been diagnosed with HIV / AIDS ?",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "22",
+      "question_text": "Have you ever been diagnosed with Lump, Cyst or Tumor?",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:03:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "23",
+      "question_text": "Are you investigating, or do you plan to seek medical advice for any symptoms without a diagnosis, such as unexplained Weight Loss, Bleeding, or Chest Pain?",
+      "captured_response": "No, no, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "24",
+      "question_text": "Are you investigating, or do you plan to seek medical advice for any Abnormal test results?",
+      "captured_response": "No, I don't.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "25",
+      "question_text": "In the last 3 years, have you undergone any surgery that requires? (Except caesarean section or appendicitis)- that required stay in hospital for more than 3 days?",
+      "captured_response": "No, no, no, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "26",
+      "question_text": "In the last 3 years, have you been prescribed medication or treatment for more than 7 days? (Excluding flu, cold or contraception)",
+      "captured_response": "No, no, just normal cough cold. ... I just took one day medication, just one day.",
+      "expected_response": "Yes he had cold and cough in december 2024 and he took medicine for 1 days and he is fine now",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:04:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "27",
+      "question_text": "Please confirm if you have any observation/red flag during the call",
+      "captured_response": null,
+      "expected_response": "Yes- Scripted answers Others - policy answer and nominee name",
+      "status": "NA",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": null,
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "DECLARATION: You Ketan Singh , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "captured_response": "Yes.",
+      "expected_response": "You Ketan Singh , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:05:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Customer's name in the MER (Ketan Singh) does not match the name stated by the customer (Chetan Singh)."
+    ],
+    "recommendations": [
+      "The doctor should ensure accurate capture and verification of the customer's full name at the beginning of the call.",
+      "Ensure all personal particulars, especially the name, are cross-verified with the application form and confirmed with the customer."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer responded clearly to all questions.",
+      "Customer confirmed understanding and agreement to the declaration."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "175",
+    "weight_kg": "78",
+    "dates_mentioned": [
+      "13th September 2002",
+      "2024",
+      "December last year",
+      "17-Aug-2025",
+      "17/08/2025"
+    ],
+    "medications": [
+      "normal cough cold medication"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -22.66
+  },
+  "video_analysis": {
+    "attire_check": "yes",
+    "attire_explanation": "The doctor is wearing a white clinical coat or apron, visible around her collar and shoulders.",
+    "visibility_status": "both_visible",
+    "visibility_explanation": "Both the customer (left side) and the doctor (right side) are clearly visible in all provided frames.",
+    "privacy_maintained": true,
+    "privacy_explanation": "The doctor's background is blurred, and no private information, identifiable individuals, or confidential data are visible.",
+    "screenshots": [
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C286832225AD0/_processed/call1/frame_01.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C286832225AD0/_processed/call1/frame_02.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C286832225AD0/_processed/call1/frame_03.jpg"
+    ]
+  }
+}

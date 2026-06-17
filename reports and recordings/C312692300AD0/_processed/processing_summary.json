@@ -1,0 +1,190 @@
+{
+  "record_id": "C312692300AD0",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/C312692300AD0_MER.pdf",
+  "total_calls": 2,
+  "total_duration": 1248.624,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/C312692300AD0_call1.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call1/audio.mp3",
+      "duration": 366.36,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call1/transcript.json",
+      "segments_count": 60,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -19.92
+      },
+      "video_analysis": {
+        "attire_check": "yes",
+        "attire_explanation": "The doctor is wearing a white clinical coat over a red t-shirt in all frames.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the doctor and the customer are clearly visible in frames 1 and 3. In frame 2, the customer's face is replaced by an ID card, but the doctor remains visible.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background is a plain, light wall with no visible private information, confidential data, or other individuals that would compromise privacy.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call1/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call1/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call1/frame_03.jpg"
+        ]
+      }
+    },
+    {
+      "call_index": 2,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/C312692300AD0_call2.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/audio.mp3",
+      "duration": 882.264,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/transcript.json",
+      "segments_count": 143,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -13.41
+      },
+      "video_analysis": {
+        "attire_check": "no",
+        "attire_explanation": "The doctor is wearing a white collared shirt, which does not appear to be a clinical apron or coat.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in all provided frames.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background is dark and indistinct, showing no signs of people, private boards, files, monitors with confidential data, or identifiable patients. Privacy appears to be maintained.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_03.jpg"
+        ]
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/merged_transcript.json",
+    "total_segments": 203,
+    "total_duration": 1248.624
+  },
+  "qa_part1": {
+    "error": "Failed to parse QA analysis",
+    "raw_response": "{\n  \"personal_particulars\": {\n    \"name\": \"Akshay Kumar Das\",\n    \"dob\": \"27 April 1990\",\n    \"id_proofs\": [\n      {\n        \"type\": \"Aadhar\",\n        \"value\": \"9893\",\n        \"present_in_mer\": true\n      }\n    ],\n    \"nominee_name\": null,\n    \"nominee_dob\": null\n  },\n  \"process_compliance\": {\n    \"disclaimer\": {\n      \"stated\": true,\n      \"insurer_name\": \"Tata AIA Life Insurance\",\n      \"timestamp\": \"00:00:30\"\n    },\n    \"language_preference\": {\n      \"asked\": false,\n      \"selected_language\": null,\n      \"timestamp\": null\n    }\n  },\n  \"qa_matrix\": [\n    {\n      \"question_id\": \"PP.Name\",\n      \"question_text\": \"Member Name\",\n      \"captured_response\": \"Akshay Kumar Das\",\n      \"expected_response\": \"AKSHAYA KUMAR DAS\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:01:48\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"PP.DOB\",\n      \"question_text\": \"Member Date of Birth\",\n      \"captured_response\": \"27 April 1990\",\n      \"expected_response\": \"1990-04-27\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:01:54\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"PP.ID.Aadhar\",\n      \"question_text\": \"ID Proof Aadhar\",\n      \"captured_response\": \"Aadhar card, 9893\",\n      \"expected_response\": \"adhaar card-9893\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:03:06\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": true,\n        \"corrected_text\": \"aadhaar card-9893\"\n      }\n    },\n    {\n      \"question_id\": \"1\",\n      \"question_text\": \"Kindly confirm your full Name\",\n      \"captured_response\": \"Akshay Kumar Das\",\n      \"expected_response\": \"AKSHAYA KUMAR DAS\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:01:45\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"2\",\n      \"question_text\": \"Your Date of birth\",\n      \"captured_response\": \"27 April 1990\",\n      \"expected_response\": \"1990-04-27\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:01:51\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"3\",\n      \"question_text\": \"Education Qualification\",\n      \"captured_response\": \"MBBS MD DM\",\n      \"expected_response\": \"Above Graduate\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:01:59\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"4\",\n      \"question_text\": \"Your current Occupation\",\n      \"captured_response\": \"Doctor, Salaried, Private\",\n      \"expected_response\": \"Salaried Remarks - PRIVATE EMPLOYEE\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:02:10\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"5\",\n      \"question_text\": \"Please show your ID proof\",\n      \"captured_response\": \"Aadhar card, 9893\",\n      \"expected_response\": \"adhaar card-9893\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:02:25\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": true,\n        \"corrected_text\": \"aadhaar card-9893\"\n      }\n    },\n    {\n      \"question_id\": \"6\",\n      \"question_text\": \"Kindly share your current location( City and state with country)?\",\n      \"captured_response\": \"Durgapur, West Bengal\",\n      \"expected_response\": \"durgapur, west bengal\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:03:10\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.1\",\n      \"question_text\": \"In the last 24 months, have you smoked or used any tobacco or nicotine products?\",\n      \"captured_response\": \"No\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:15\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.2\",\n      \"question_text\": \"Do you consume alcohol ?\",\n      \"captured_response\": \"No, no alcohol. I don't drink.\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:21\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.3\",\n      \"question_text\": \"Have you ever been advised by a doctor to reduce or stop alcohol consumption ?\",\n      \"captured_response\": \"No, I don't drink alcohol. I mean, I never have. Never have.\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:26\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.4\",\n      \"question_text\": \"Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?\",\n      \"captured_response\": \"No, I haven't.\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:36\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.5\",\n      \"question_text\": \"What is Proposed insured height (cm)?\",\n      \"captured_response\": \"178 centimeters\",\n      \"expected_response\": \"178 cm\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:45\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"Lifestyle.6\",\n      \"question_text\": \"What is Proposed Insured weight (kg)?\",\n      \"captured_response\": \"82 kg\",\n      \"expected_response\": \"82 kg\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:09:53\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"a\",\n      \"question_text\": \"High/Low blood pressure, raised cholesterol or triglycerides or lipids\",\n      \"captured_response\": \"No, nothing.\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:10:09\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      }\n    },\n    {\n      \"question_id\": \"b\",\n      \"question_text\": \"Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions\",\n      \"captured_response\": \"No, I have had asthma since childhood.\",\n      \"expected_response\": \"No\",\n      \"status\": \"Correct\",\n      \"error_type\": null,\n      \"suggested_correction\": null,\n      \"timestamp\": \"00:10:15\",\n      \"typo_in_expected_response\": {\n        \"has_typo\": false,\n        \"corrected_text\": null\n      ",
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -13.41
+    },
+    "video_analysis": {
+      "attire_check": "no",
+      "attire_explanation": "The doctor is wearing a white collared shirt, which does not appear to be a clinical apron or coat.",
+      "visibility_status": "both_visible",
+      "visibility_explanation": "Both the doctor (right side) and the customer (left side) are clearly visible in all provided frames.",
+      "privacy_maintained": true,
+      "privacy_explanation": "The doctor's background is dark and indistinct, showing no signs of people, private boards, files, monitors with confidential data, or identifiable patients. Privacy appears to be maintained.",
+      "screenshots": [
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_01.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_02.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed/call2/frame_03.jpg"
+      ]
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The doctor greeted the customer at the beginning of both calls.",
+        "timestamps": [
+          "00:00:05",
+          "00:06:14"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "The doctor introduced themselves, stated the company name, and confirmed the client's name in both calls.",
+        "timestamps": {
+          "self_intro": "00:00:15",
+          "client_name": "00:01:48",
+          "insurer_name": "00:00:16"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "The doctor did not explicitly ask for the customer's language preference in either call.",
+        "timestamp": "NA"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The doctor requested and verified the customer's ID proof and Aadhaar number in both calls.",
+        "timestamps": [
+          "00:02:25",
+          "00:03:01",
+          "00:07:15",
+          "00:07:59"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The doctor clearly explained the call recording, purpose, and implications of false statements in both calls.",
+        "timestamp": "00:00:30"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The doctor maintained a polite and professional tone throughout both calls, using respectful language and apologies when necessary.",
+        "timestamps": [
+          "00:00:05",
+          "00:05:55",
+          "00:06:14",
+          "00:20:41"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "The doctor apologized for the technical inconvenience in Call 1. The customer's asthma was controlled, not requiring explicit empathy per guidelines.",
+        "timestamps": [
+          "00:05:55",
+          "00:05:57"
+        ]
+      },
+      "communication_skills": {
+        "value": "Partial",
+        "explanation": "The doctor was generally clear but gave a blunt warning about movement (00:09:10) and had to repeat instructions for camera adjustment multiple times in Call 2.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:15",
+            "00:06:31",
+            "00:10:09"
+          ],
+          "poor_examples": [
+            "00:08:17",
+            "00:09:10"
+          ]
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The doctor thoroughly probed the customer's asthma history, symptoms, and medication usage in Call 2.",
+        "timestamps": [
+          "00:11:30",
+          "00:12:00",
+          "00:12:41",
+          "00:13:18",
+          "00:13:45"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "Call 1 ended due to a technical issue. In Call 2, the customer struggled to provide a full body view and was warned about walking around.",
+        "timestamps": [
+          "00:05:55",
+          "00:08:17",
+          "00:09:10"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "The doctor provided a clear declaration and thanked the customer at the end of the successful verification call (Call 2).",
+        "timestamps": {
+          "declaration": "00:20:40",
+          "thank_you": "00:20:41"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C312692300AD0/_processed"
+}

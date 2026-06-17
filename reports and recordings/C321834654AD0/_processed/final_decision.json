@@ -1,0 +1,41 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "Health.i.Gastrointestinal disorders",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "Health.m.Ear/Nose/Throat disorders",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          },
+          {
+            "id": "Other.2.a.Abnormal medical findings (last 5 years)",
+            "expected": "No",
+            "corrected": "Any abnormal medical findings or pending test results, scheduled or planned or prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          },
+          {
+            "id": "Other.2.c.Unable to work/daily activities > 2 weeks (last 5 years)",
+            "expected": "No",
+            "corrected": "Inability to perform your daily activities or absent from work more than two consecutive weeks at a time"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

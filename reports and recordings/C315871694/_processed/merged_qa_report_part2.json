@@ -1,0 +1,95 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer with 'Good morning' at the beginning of the call.",
+      "timestamps": [
+        "00:00:11"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:15",
+        "client_name": "00:00:09",
+        "insurer_name": "00:00:13"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language for the call.",
+      "timestamp": "00:00:30"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor verified the customer's full name, date of birth, and the last four digits of their Aadhaar card.",
+      "timestamps": [
+        "00:01:37",
+        "00:01:49",
+        "00:02:15"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the importance of providing accurate information and the consequences of false statements.",
+      "timestamp": "00:00:49"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor used polite language throughout the call, including 'Good morning,' 'sir,' 'kindly note,' and 'please don't mind me asking' for a sensitive question.",
+      "timestamps": [
+        "00:00:11",
+        "00:05:19"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "The customer did not report any serious health concerns (accident, operation, severe illness) that would require the doctor to express empathy.",
+      "timestamps": [
+        "00:06:24"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor's communication was sometimes grammatically awkward or convoluted, leading to the customer asking for repetition. However, the doctor did rephrase questions for clarity and probed effectively on certain topics.",
+      "timestamps": {
+        "good_examples": [
+          "00:07:51",
+          "00:06:33"
+        ],
+        "poor_examples": [
+          "00:01:10",
+          "00:04:05",
+          "00:06:02",
+          "00:09:12"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed into the customer's self-reported overweight status, clarifying if it was a medical condition or a self-managed lifestyle choice.",
+      "timestamps": [
+        "00:06:33",
+        "00:06:45",
+        "00:06:55",
+        "00:07:03",
+        "00:07:43",
+        "00:08:08"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting observed in the transcript.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor requested a declaration from the customer that the provided information was true and complete, and also thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:10:52",
+        "thank_you": "00:10:57"
+      }
+    }
+  }
+}

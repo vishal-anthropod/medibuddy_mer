@@ -1,0 +1,137 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:02"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello, am I speaking with Mr. Aditya Bhatt?",
+      "speaker": "doctor",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yes, I am.",
+      "speaker": "customer",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "4",
+      "text": "Sir, I'm Dr. Sona Singh, calling on behalf of Tata AIG Life Insurance, and this is regarding your insurance policy.",
+      "speaker": "doctor",
+      "start_timestamp": "00:07",
+      "end_timestamp": "00:13"
+    },
+    {
+      "segment_id": "5",
+      "text": "Yeah, yeah, please tell me.",
+      "speaker": "customer",
+      "start_timestamp": "00:13",
+      "end_timestamp": "00:15"
+    },
+    {
+      "segment_id": "6",
+      "text": "Okay, sir. Are you comfortable in English?",
+      "speaker": "doctor",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:17"
+    },
+    {
+      "segment_id": "7",
+      "text": "Yes, very much.",
+      "speaker": "customer",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:19"
+    },
+    {
+      "segment_id": "8",
+      "text": "Okay, sir. Sir, we have decided to go ahead with your proposal, but as a part of the process, we need to conduct a telephonic medical verification in which I'll ask you some verification and medical history questions that will take around 10 to 12 minutes. I hope we can continue with the call?",
+      "speaker": "doctor",
+      "start_timestamp": "00:20",
+      "end_timestamp": "00:33"
+    },
+    {
+      "segment_id": "9",
+      "text": "Uh, madam, if it's not too much, sir, I'm asking for, would it be possible to do it tomorrow because I'm also headed out. If it's going to take 10-12 minutes, I'd be I'm in the middle of things right now and I'm not at a desk. So would it be okay if we do this tomorrow?",
+      "speaker": "customer",
+      "start_timestamp": "00:34",
+      "end_timestamp": "00:47"
+    },
+    {
+      "segment_id": "10",
+      "text": "Uh, in the evening?",
+      "speaker": "doctor",
+      "start_timestamp": "00:48",
+      "end_timestamp": "00:50"
+    },
+    {
+      "segment_id": "11",
+      "text": "Uh, what time?",
+      "speaker": "customer",
+      "start_timestamp": "00:51",
+      "end_timestamp": "00:52"
+    },
+    {
+      "segment_id": "12",
+      "text": "Tomorrow, what time? You tell me. No, not tomorrow. It's better you complete it today.",
+      "speaker": "doctor",
+      "start_timestamp": "00:53",
+      "end_timestamp": "00:57"
+    },
+    {
+      "segment_id": "13",
+      "text": "Okay. So then what is the last slot that you have available?",
+      "speaker": "customer",
+      "start_timestamp": "00:58",
+      "end_timestamp": "01:01"
+    },
+    {
+      "segment_id": "14",
+      "text": "Uh, sir, around 8, 7:30 to 8.",
+      "speaker": "doctor",
+      "start_timestamp": "01:03",
+      "end_timestamp": "01:06"
+    },
+    {
+      "segment_id": "15",
+      "text": "Can we do it at 7:30?",
+      "speaker": "customer",
+      "start_timestamp": "01:07",
+      "end_timestamp": "01:08"
+    },
+    {
+      "segment_id": "16",
+      "text": "Yes, we can do that. 7:30 that works.",
+      "speaker": "doctor",
+      "start_timestamp": "01:09",
+      "end_timestamp": "01:11"
+    },
+    {
+      "segment_id": "17",
+      "text": "Okay, fine.",
+      "speaker": "customer",
+      "start_timestamp": "01:11",
+      "end_timestamp": "01:12"
+    },
+    {
+      "segment_id": "18",
+      "text": "Thank you so much for understanding.",
+      "speaker": "customer",
+      "start_timestamp": "01:13",
+      "end_timestamp": "01:14"
+    },
+    {
+      "segment_id": "19",
+      "text": "Okay, okay, thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "01:14",
+      "end_timestamp": "01:16"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Female.1",
+          "text": "Are you Pregnant now?"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 10
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "ANAND, GUJARAT, INDIA",
+            "corrected": "ANAND, GUJARAT, INDIA"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          },
+          {
+            "id": "Other.2.a",
+            "expected": "No",
+            "corrected": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years a)Any abnormal medical findings or pending test results, scheduled or planned or prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 8
+      }
+    },
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "27/10/1986",
+        "expected": "27-Oct-1978"
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": [
+        "00:00"
+      ]
+    },
+    "call_opening": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": {
+        "self_intro": "00:00",
+        "client_name": "00:00",
+        "insurer_name": "00:00"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "",
+      "timestamp": "00:00"
+    },
+    "id_validation": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": [
+        "00:00"
+      ]
+    },
+    "disclaimer": {
+      "value": "No",
+      "explanation": "",
+      "timestamp": "00:00"
+    },
+    "politeness": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "",
+      "timestamps": [
+        "00:00"
+      ]
+    },
+    "communication_skills": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": {
+        "good_examples": [
+          "00:00"
+        ],
+        "poor_examples": [
+          "00:00"
+        ]
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "",
+      "timestamps": [
+        "00:00"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "",
+      "timestamps": [
+        "00:00"
+      ]
+    },
+    "call_closure": {
+      "value": "No",
+      "explanation": "",
+      "timestamps": {
+        "declaration": "00:00",
+        "thank_you": "00:00"
+      }
+    }
+  }
+}

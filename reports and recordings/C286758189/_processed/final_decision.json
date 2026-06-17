@@ -1,0 +1,60 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "F.1",
+          "text": "Are you Pregnant now?"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Ma'am, I am P. Anitha.",
+        "expected": "Anitha T"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "PP.ID.Aadhar",
+            "expected": "Adhar number 4396",
+            "corrected": "Aadhaar number 4396"
+          },
+          {
+            "id": "H.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "H.m",
+            "expected": "No",
+            "corrected": "difficulty in swallowing"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 3
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

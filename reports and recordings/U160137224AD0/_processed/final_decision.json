@@ -1,0 +1,73 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 10,
+        "examples": [
+          {
+            "id": "3",
+            "expected": "Non graduate & Non Diploma - true If below SSC or HSC or not completed graduation - 8TH CLASS PASS",
+            "corrected": "Education Qualification"
+          },
+          {
+            "id": "6",
+            "expected": "TATA AIA -1000/- MONTHL Y TO BE P AID FOR 10 YEARS",
+            "corrected": "TATA AIA - 1000/- MONTHLY TO BE PAID FOR 10 YEARS"
+          },
+          {
+            "id": "8",
+            "expected": "No",
+            "corrected": "Has any of your insurance application required higher medical test like (stress Echo, 2D echo, APS, USG etc.)?"
+          },
+          {
+            "id": "9",
+            "expected": "No",
+            "corrected": "Has any of your insurance application accepted or Withdrawn at extra premium or modified terms?"
+          },
+          {
+            "id": "10",
+            "expected": "No",
+            "corrected": "Do you Smoke or consume Tobacco?"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 16
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Minor prompting detected",
+      "details": {
+        "examples": [
+          "Doctor's warning: 'I would like to say one thing, ma'am, if you know the answer to a question, please tell me. If you don't know, no one else can speak for you, okay?' after customer's brief answer to Q6."
+        ],
+        "timestamps": [
+          "02:27"
+        ]
+      }
+    },
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer's brief answer '1000' to a complex question about sum assured/premium (02:24), leading to doctor's prompting warning.",
+          "Customer's uncertainty when asked for Aadhaar digits: 'Last four digits. Oh, these ones? These four.' (07:45).",
+          "Customer's delay in providing husband's ID: 'Yes, I need to take it out. One minute, one minute, I need to take it out.' (08:15)."
+        ],
+        "timestamps": [
+          "02:24",
+          "07:45",
+          "08:15"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

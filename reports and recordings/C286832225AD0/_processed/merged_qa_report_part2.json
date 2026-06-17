@@ -1,0 +1,91 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Doctor initiated the call with a 'Hello' and 'Good evening'.",
+      "timestamps": [
+        "00:00:05",
+        "00:00:12"
+      ]
+    },
+    "call_opening": {
+      "value": "Partial",
+      "explanation": "Doctor introduced self and insurer, but did not confirm client's name at the very beginning of the call opening.",
+      "timestamps": {
+        "self_intro": "00:00:12",
+        "client_name": "00:01:18",
+        "insurer_name": "00:00:12"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Doctor asked the customer for their preferred language (Hindi or English).",
+      "timestamp": "00:00:14"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Doctor requested government ID proof and confirmed the last four digits of the Aadhaar card.",
+      "timestamps": [
+        "00:01:47",
+        "00:02:05",
+        "00:02:12"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Doctor clearly explained the purpose of the call, the legal implications of responses, the need for truthfulness, and call recording.",
+      "timestamp": "00:00:20"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Doctor used polite language throughout the call, including 'good evening,' 'thank you,' and 'have a good day'.",
+      "timestamps": [
+        "00:00:12",
+        "00:01:17",
+        "00:02:46",
+        "00:05:03"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that would require specific empathy from the doctor.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Doctor generally communicated clearly but had some disjointed questioning and a question about 'sum assured' that the customer struggled to understand.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:20",
+          "00:01:01"
+        ],
+        "poor_examples": [
+          "00:01:47",
+          "00:02:29"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Partial",
+      "explanation": "Doctor probed effectively on cough/cold details but missed an opportunity to probe when the customer stated they didn't know policy details like sum assured or premium.",
+      "timestamps": [
+        "00:02:37",
+        "00:02:43",
+        "00:04:29"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal/evasion) or third-party prompting observed in the transcript.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Doctor obtained a declaration of truthfulness from the customer and provided a polite closing with thanks.",
+      "timestamps": {
+        "declaration": "00:04:52",
+        "thank_you": "00:05:03"
+      }
+    }
+  }
+}

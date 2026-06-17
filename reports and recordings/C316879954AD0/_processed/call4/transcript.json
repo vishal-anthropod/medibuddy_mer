@@ -1,0 +1,116 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:03"
+    },
+    {
+      "segment_id": "2",
+      "text": "Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:04"
+    },
+    {
+      "segment_id": "3",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "4",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:07",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "5",
+      "text": "Yes, tell me.",
+      "speaker": "doctor",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:09"
+    },
+    {
+      "segment_id": "6",
+      "text": "Sir, has Vimalaben arrived?",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "7",
+      "text": "Vimalaben, uh, two minutes, please. I am just arriving. I will make you talk to her in two minutes, please wait.",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:19"
+    },
+    {
+      "segment_id": "8",
+      "text": "Sir, should I call after 5-10 minutes?",
+      "speaker": "customer",
+      "start_timestamp": "00:19",
+      "end_timestamp": "00:21"
+    },
+    {
+      "segment_id": "9",
+      "text": "Yes, okay, okay, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "10",
+      "text": "You keep your Aadhar card and everything ready. You arrive, I will call after 5-10 minutes.",
+      "speaker": "customer",
+      "start_timestamp": "00:23",
+      "end_timestamp": "00:27"
+    },
+    {
+      "segment_id": "11",
+      "text": "Aadhar card, right? Okay, fine.",
+      "speaker": "doctor",
+      "start_timestamp": "00:27",
+      "end_timestamp": "00:29"
+    },
+    {
+      "segment_id": "12",
+      "text": "Yes, Aadhar card will be there, so you arrive with everything ready.",
+      "speaker": "customer",
+      "start_timestamp": "00:29",
+      "end_timestamp": "00:33"
+    },
+    {
+      "segment_id": "13",
+      "text": "Is it a video call or will an audio call work?",
+      "speaker": "doctor",
+      "start_timestamp": "00:33",
+      "end_timestamp": "00:35"
+    },
+    {
+      "segment_id": "14",
+      "text": "No, no, it will be the first. Sir, it will be the first call. It will be the same, this kind of call. It won't be a video call.",
+      "speaker": "customer",
+      "start_timestamp": "00:35",
+      "end_timestamp": "00:40"
+    },
+    {
+      "segment_id": "15",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "00:41",
+      "end_timestamp": "00:42"
+    },
+    {
+      "segment_id": "16",
+      "text": "Alright, thank you.",
+      "speaker": "customer",
+      "start_timestamp": "00:42",
+      "end_timestamp": "00:43"
+    }
+  ]
+}

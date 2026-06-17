@@ -1,0 +1,107 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:05"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:19",
+        "client_name": "00:00:24",
+        "insurer_name": "00:00:22"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language.",
+      "timestamp": "00:00:09"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested a government ID, guided the customer for a clear view, and verified the last four digits of the Aadhaar card.",
+      "timestamps": [
+        "00:02:31",
+        "00:02:42",
+        "00:03:03"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated that the call would be recorded and explained the implications of providing incorrect information.",
+      "timestamps": [
+        "00:00:45",
+        "00:00:59"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and respectful tone throughout the call, using 'sir' consistently and politely asking for clarifications.",
+      "timestamps": [
+        "00:00:05",
+        "00:00:19",
+        "00:01:41",
+        "00:03:45",
+        "00:07:21",
+        "00:14:57"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns requiring empathy were discussed. The doctor acknowledged the customer's mention of a power cut.",
+      "timestamps": [
+        "00:01:41"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, provided precise instructions, and patiently handled the customer's evasiveness regarding alcohol consumption.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:30",
+          "00:02:31",
+          "00:03:16",
+          "00:05:41",
+          "00:07:42",
+          "00:09:02"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed the customer's inconsistent answers regarding alcohol consumption, clarifying until a definitive 'no' was given.",
+      "timestamps": [
+        "00:05:41",
+        "00:06:08",
+        "00:06:40",
+        "00:07:29",
+        "00:07:42",
+        "00:08:04"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer repeatedly evaded the question about alcohol consumption, initially denying it, then admitting to occasional wine, and later trying to retract, which the doctor effectively captured through probing.",
+      "timestamps": [
+        "00:05:45",
+        "00:06:10",
+        "00:06:51",
+        "00:07:15",
+        "00:07:45"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor read the declaration and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:14:46",
+        "thank_you": "00:14:57"
+      }
+    }
+  }
+}

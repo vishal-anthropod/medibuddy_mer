@@ -1,0 +1,648 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello, namaskar. I am Dr. Meera speaking from Tata AIG Insurance. Can I speak to Ms. Ankita Kailash Marney?",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:09"
+    },
+    {
+      "segment_id": "2",
+      "text": "Yes, speaking. Tell me.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "3",
+      "text": "Would you prefer to speak in Hindi or another language?",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "4",
+      "text": "Hindi will do.",
+      "speaker": "customer",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "5",
+      "text": "This call is being recorded for quality and audit purposes. As per the process, we need to conduct a telephonic medical verification, in which you will be asked some verification questions related to your health and habits. It will take 10 minutes. Can we continue the call?",
+      "speaker": "doctor",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:29"
+    },
+    {
+      "segment_id": "6",
+      "text": "Yes, we can. Tell me.",
+      "speaker": "customer",
+      "start_timestamp": "00:30",
+      "end_timestamp": "00:31"
+    },
+    {
+      "segment_id": "7",
+      "text": "Please note that any information you provide on this call will be considered part of your application. Once the proposal is approved, a legal relationship will be formed between you and Tata AIG Life Insurance. Any false information or false statement or reply can affect your contract and your policy may be canceled or the claim may be rejected.",
+      "speaker": "doctor",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:49"
+    },
+    {
+      "segment_id": "8",
+      "text": "We request you to answer all questions thoughtfully and correctly.",
+      "speaker": "doctor",
+      "start_timestamp": "00:50",
+      "end_timestamp": "00:53"
+    },
+    {
+      "segment_id": "9",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:54",
+      "end_timestamp": "00:54"
+    },
+    {
+      "segment_id": "10",
+      "text": "Please tell your full name.",
+      "speaker": "doctor",
+      "start_timestamp": "00:55",
+      "end_timestamp": "00:56"
+    },
+    {
+      "segment_id": "11",
+      "text": "Ankita Kailash Marney.",
+      "speaker": "customer",
+      "start_timestamp": "00:57",
+      "end_timestamp": "00:58"
+    },
+    {
+      "segment_id": "12",
+      "text": "Date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "00:59",
+      "end_timestamp": "00:59"
+    },
+    {
+      "segment_id": "13",
+      "text": "1st December 1998.",
+      "speaker": "customer",
+      "start_timestamp": "01:00",
+      "end_timestamp": "01:02"
+    },
+    {
+      "segment_id": "14",
+      "text": "Education qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "01:03",
+      "end_timestamp": "01:04"
+    },
+    {
+      "segment_id": "15",
+      "text": "MBA Finance.",
+      "speaker": "customer",
+      "start_timestamp": "01:05",
+      "end_timestamp": "01:06"
+    },
+    {
+      "segment_id": "16",
+      "text": "Are you employed or self-employed?",
+      "speaker": "doctor",
+      "start_timestamp": "01:07",
+      "end_timestamp": "01:09"
+    },
+    {
+      "segment_id": "17",
+      "text": "I am employed.",
+      "speaker": "customer",
+      "start_timestamp": "01:09",
+      "end_timestamp": "01:10"
+    },
+    {
+      "segment_id": "18",
+      "text": "Can you tell me the last four digits of your Aadhaar card?",
+      "speaker": "doctor",
+      "start_timestamp": "01:11",
+      "end_timestamp": "01:13"
+    },
+    {
+      "segment_id": "19",
+      "text": "Wait a minute, I'll tell you.",
+      "speaker": "customer",
+      "start_timestamp": "01:14",
+      "end_timestamp": "01:15"
+    },
+    {
+      "segment_id": "20",
+      "text": "The last four numbers are 7953.",
+      "speaker": "customer",
+      "start_timestamp": "01:27",
+      "end_timestamp": "01:30"
+    },
+    {
+      "segment_id": "21",
+      "text": "Which city are you speaking from?",
+      "speaker": "doctor",
+      "start_timestamp": "01:31",
+      "end_timestamp": "01:33"
+    },
+    {
+      "segment_id": "22",
+      "text": "Sorry?",
+      "speaker": "customer",
+      "start_timestamp": "01:34",
+      "end_timestamp": "01:34"
+    },
+    {
+      "segment_id": "23",
+      "text": "Which city are you speaking from?",
+      "speaker": "doctor",
+      "start_timestamp": "01:35",
+      "end_timestamp": "01:36"
+    },
+    {
+      "segment_id": "24",
+      "text": "I am from Pune, Pune, Maharashtra.",
+      "speaker": "customer",
+      "start_timestamp": "01:37",
+      "end_timestamp": "01:39"
+    },
+    {
+      "segment_id": "25",
+      "text": "Now, 20 questions related to your health and habits will be asked. At the end of each question, you have to answer yes or no. If you do not understand any word, you can ask, and its meaning will be explained to you. It is important to answer all questions. Some questions may seem a little inappropriate.",
+      "speaker": "doctor",
+      "start_timestamp": "01:40",
+      "end_timestamp": "01:54"
+    },
+    {
+      "segment_id": "26",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "01:55",
+      "end_timestamp": "01:55"
+    },
+    {
+      "segment_id": "27",
+      "text": "In the last 24 months, have you used smoking, tobacco, or any nicotine product?",
+      "speaker": "doctor",
+      "start_timestamp": "01:56",
+      "end_timestamp": "02:00"
+    },
+    {
+      "segment_id": "28",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "02:01",
+      "end_timestamp": "02:01"
+    },
+    {
+      "segment_id": "29",
+      "text": "Has a doctor ever advised you to reduce or stop alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "02:02",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "30",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "02:05",
+      "end_timestamp": "02:06"
+    },
+    {
+      "segment_id": "31",
+      "text": "Do you have a habit of drinking alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "02:06",
+      "end_timestamp": "02:07"
+    },
+    {
+      "segment_id": "32",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "02:08",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "33",
+      "text": "Any use of drugs or narcotics not prescribed by a doctor?",
+      "speaker": "doctor",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:13"
+    },
+    {
+      "segment_id": "34",
+      "text": "No, I have never taken anything like that.",
+      "speaker": "customer",
+      "start_timestamp": "02:13",
+      "end_timestamp": "02:15"
+    },
+    {
+      "segment_id": "35",
+      "text": "What is your height?",
+      "speaker": "doctor",
+      "start_timestamp": "02:16",
+      "end_timestamp": "02:16"
+    },
+    {
+      "segment_id": "36",
+      "text": "Uh, 1.57. Sorry, 157.",
+      "speaker": "customer",
+      "start_timestamp": "02:17",
+      "end_timestamp": "02:20"
+    },
+    {
+      "segment_id": "37",
+      "text": "157 cm.",
+      "speaker": "doctor",
+      "start_timestamp": "02:21",
+      "end_timestamp": "02:23"
+    },
+    {
+      "segment_id": "38",
+      "text": "What is your weight?",
+      "speaker": "doctor",
+      "start_timestamp": "02:23",
+      "end_timestamp": "02:24"
+    },
+    {
+      "segment_id": "39",
+      "text": "56.65 or 56, something like that. It will be 56.",
+      "speaker": "customer",
+      "start_timestamp": "02:25",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "40",
+      "text": "56, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:32",
+      "end_timestamp": "02:33"
+    },
+    {
+      "segment_id": "41",
+      "text": "Are you taking any medication or receiving treatment for any of these diseases: high or low blood pressure, increased cholesterol, triglycerides, or lipids?",
+      "speaker": "doctor",
+      "start_timestamp": "02:34",
+      "end_timestamp": "02:40"
+    },
+    {
+      "segment_id": "42",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "02:41",
+      "end_timestamp": "02:41"
+    },
+    {
+      "segment_id": "43",
+      "text": "Chest pain, heaviness, restlessness, heart attack, any trouble with heart arteries or diseases, childhood heart disease, rapid heartbeat, shortness of breath while sleeping, or any heart condition?",
+      "speaker": "doctor",
+      "start_timestamp": "02:42",
+      "end_timestamp": "02:52"
+    },
+    {
+      "segment_id": "44",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "02:52",
+      "end_timestamp": "02:53"
+    },
+    {
+      "segment_id": "45",
+      "text": "Cancer, carcinoma in situ, pre-cancerous condition, leukemia, enlarged glands, any wound on the skin, dysplasia, leukoplakia, sarcoma, tumor, polyp, nodule, cyst, lump, or any growth in your body?",
+      "speaker": "doctor",
+      "start_timestamp": "02:54",
+      "end_timestamp": "03:05"
+    },
+    {
+      "segment_id": "46",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:06",
+      "end_timestamp": "03:06"
+    },
+    {
+      "segment_id": "47",
+      "text": "Diabetes, high blood sugar, sugar in urine, hyperthyroid, hypothyroid, or any other thyroid or endocrine disease?",
+      "speaker": "doctor",
+      "start_timestamp": "03:07",
+      "end_timestamp": "03:12"
+    },
+    {
+      "segment_id": "48",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:13",
+      "end_timestamp": "03:13"
+    },
+    {
+      "segment_id": "49",
+      "text": "Asthma, bronchitis, sinusitis, TB, pneumonia, persistent cough, shortness of breath while sleeping, swollen lungs, or any lung-related trouble?",
+      "speaker": "doctor",
+      "start_timestamp": "03:14",
+      "end_timestamp": "03:22"
+    },
+    {
+      "segment_id": "50",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:22",
+      "end_timestamp": "03:23"
+    },
+    {
+      "segment_id": "51",
+      "text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease, or any liver disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "03:24",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "52",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:29",
+      "end_timestamp": "03:30"
+    },
+    {
+      "segment_id": "53",
+      "text": "Anemia, poor blood formation, systemic lupus erythematosus, or any blood or immune system-related trouble?",
+      "speaker": "doctor",
+      "start_timestamp": "03:31",
+      "end_timestamp": "03:36"
+    },
+    {
+      "segment_id": "54",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:37",
+      "end_timestamp": "03:37"
+    },
+    {
+      "segment_id": "55",
+      "text": "Anxiety, depression, seizures, paralytic attack, weakness in hands and feet, stroke, transient ischemic attack, multiple sclerosis, Parkinson's, polio disease, Alzheimer's, or any brain or mental health-related disease?",
+      "speaker": "doctor",
+      "start_timestamp": "03:38",
+      "end_timestamp": "03:49"
+    },
+    {
+      "segment_id": "56",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:49",
+      "end_timestamp": "03:50"
+    },
+    {
+      "segment_id": "57",
+      "text": "Frequent acidity in the stomach, stomach acid coming into the mouth, stomach ulcer, persistent indigestion, gas problem, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, pancreatitis, or any stomach or intestinal related trouble?",
+      "speaker": "doctor",
+      "start_timestamp": "03:51",
+      "end_timestamp": "04:05"
+    },
+    {
+      "segment_id": "58",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:05",
+      "end_timestamp": "04:06"
+    },
+    {
+      "segment_id": "59",
+      "text": "Kidney stones, gallstones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, or any kidney, bladder, ureter, or urinary system-related trouble?",
+      "speaker": "doctor",
+      "start_timestamp": "04:07",
+      "end_timestamp": "04:18"
+    },
+    {
+      "segment_id": "60",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:18",
+      "end_timestamp": "04:19"
+    },
+    {
+      "segment_id": "61",
+      "text": "Persistent back pain, joint pain, gout, slip disc, muscular dystrophy, deformity, any trouble with the spine, or any muscle, bone, joint, ligament, or spine problem?",
+      "speaker": "doctor",
+      "start_timestamp": "04:19",
+      "end_timestamp": "04:28"
+    },
+    {
+      "segment_id": "62",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:28",
+      "end_timestamp": "04:29"
+    },
+    {
+      "segment_id": "63",
+      "text": "Any vision loss, blurred vision, double vision, cataract, or cataract operation?",
+      "speaker": "doctor",
+      "start_timestamp": "04:30",
+      "end_timestamp": "04:34"
+    },
+    {
+      "segment_id": "64",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:34",
+      "end_timestamp": "04:35"
+    },
+    {
+      "segment_id": "65",
+      "text": "Any hearing loss, impaired hearing, difficulty speaking, heavy voice, pain while swallowing food, pus discharge from ear, or any ear, nose, or throat-related trouble?",
+      "speaker": "doctor",
+      "start_timestamp": "04:36",
+      "end_timestamp": "04:44"
+    },
+    {
+      "segment_id": "66",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:44",
+      "end_timestamp": "04:45"
+    },
+    {
+      "segment_id": "67",
+      "text": "Besides this, is there any other information related to your health and habits that you think would be necessary during the policy processing?",
+      "speaker": "doctor",
+      "start_timestamp": "04:45",
+      "end_timestamp": "04:50"
+    },
+    {
+      "segment_id": "68",
+      "text": "No, nothing at all.",
+      "speaker": "customer",
+      "start_timestamp": "04:51",
+      "end_timestamp": "04:53"
+    },
+    {
+      "segment_id": "69",
+      "text": "In the last five years, any medical condition for which there was an abnormal medical finding or any scan such as X-ray, ultrasound, MRI, CT, biopsy, ECG, endoscopy, blood or urine test that was abnormal?",
+      "speaker": "doctor",
+      "start_timestamp": "04:54",
+      "end_timestamp": "05:04"
+    },
+    {
+      "segment_id": "70",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:04",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "71",
+      "text": "Any continuous medication or treatment for more than two weeks, or any hospitalization for diagnosis or treatment?",
+      "speaker": "doctor",
+      "start_timestamp": "05:06",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "72",
+      "text": "No, no, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "05:11",
+      "end_timestamp": "05:12"
+    },
+    {
+      "segment_id": "73",
+      "text": "Any trouble in your daily activities or leave from work for more than two weeks due to health reasons?",
+      "speaker": "doctor",
+      "start_timestamp": "05:12",
+      "end_timestamp": "05:17"
+    },
+    {
+      "segment_id": "74",
+      "text": "No, never.",
+      "speaker": "customer",
+      "start_timestamp": "05:18",
+      "end_timestamp": "05:18"
+    },
+    {
+      "segment_id": "75",
+      "text": "Childhood diseases or hereditary illnesses like cerebral palsy, Down syndrome, or polio?",
+      "speaker": "doctor",
+      "start_timestamp": "05:19",
+      "end_timestamp": "05:23"
+    },
+    {
+      "segment_id": "76",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:23",
+      "end_timestamp": "05:24"
+    },
+    {
+      "segment_id": "77",
+      "text": "Are you married?",
+      "speaker": "doctor",
+      "start_timestamp": "05:25",
+      "end_timestamp": "05:25"
+    },
+    {
+      "segment_id": "78",
+      "text": "Yes, I am married.",
+      "speaker": "customer",
+      "start_timestamp": "05:26",
+      "end_timestamp": "05:27"
+    },
+    {
+      "segment_id": "79",
+      "text": "This question is a little sensitive. Have you or your husband ever needed a test, treatment, medical advice, or counseling for sexually transmitted diseases like HIV AIDS?",
+      "speaker": "doctor",
+      "start_timestamp": "05:27",
+      "end_timestamp": "05:37"
+    },
+    {
+      "segment_id": "80",
+      "text": "No, never.",
+      "speaker": "customer",
+      "start_timestamp": "05:37",
+      "end_timestamp": "05:38"
+    },
+    {
+      "segment_id": "81",
+      "text": "Sudden weight gain, weight loss, or any symptom for which you are awaiting medical advice, treatment, or surgery?",
+      "speaker": "doctor",
+      "start_timestamp": "05:38",
+      "end_timestamp": "05:44"
+    },
+    {
+      "segment_id": "82",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:44",
+      "end_timestamp": "05:45"
+    },
+    {
+      "segment_id": "83",
+      "text": "Are you currently pregnant?",
+      "speaker": "doctor",
+      "start_timestamp": "05:46",
+      "end_timestamp": "05:46"
+    },
+    {
+      "segment_id": "84",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:47",
+      "end_timestamp": "05:47"
+    },
+    {
+      "segment_id": "85",
+      "text": "Do you have children?",
+      "speaker": "doctor",
+      "start_timestamp": "05:48",
+      "end_timestamp": "05:49"
+    },
+    {
+      "segment_id": "86",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:49",
+      "end_timestamp": "05:50"
+    },
+    {
+      "segment_id": "87",
+      "text": "Have you ever consulted your doctor for breast lump, breast disease, irregular painful menstruation, abnormal Pap smear, or any breast, gynecological condition, vaginal disorder, or uterus, ovary, fallopian tube disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "05:51",
+      "end_timestamp": "06:02"
+    },
+    {
+      "segment_id": "88",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "06:02",
+      "end_timestamp": "06:03"
+    },
+    {
+      "segment_id": "89",
+      "text": "Do you believe all the answers you have given to the questions are completely correct?",
+      "speaker": "doctor",
+      "start_timestamp": "06:03",
+      "end_timestamp": "06:06"
+    },
+    {
+      "segment_id": "90",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "06:07",
+      "end_timestamp": "06:07"
+    },
+    {
+      "segment_id": "91",
+      "text": "These will be part of our policy record. Thank you for your information and cooperation. Have a good day.",
+      "speaker": "doctor",
+      "start_timestamp": "06:08",
+      "end_timestamp": "06:12"
+    },
+    {
+      "segment_id": "92",
+      "text": "Thank you.",
+      "speaker": "customer",
+      "start_timestamp": "06:13",
+      "end_timestamp": "06:13"
+    }
+  ]
+}

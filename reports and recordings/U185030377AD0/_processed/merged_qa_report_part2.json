@@ -1,0 +1,108 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The agent initiated greetings at the start and after reconnection.",
+      "timestamps": [
+        "00:00:23",
+        "00:15:08"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The agent introduced themselves, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:01:28",
+        "client_name": "00:01:33",
+        "insurer_name": "00:01:31"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The agent did not explicitly ask for the client's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The agent requested ID proof, guided the client for proper display, and asked them to read the passport number for verification.",
+      "timestamps": [
+        "00:04:15",
+        "00:05:04"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The agent informed the client about call recording and the legal implications of providing incorrect information.",
+      "timestamps": [
+        "00:01:52",
+        "00:02:04"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The agent consistently used polite language, 'sir,' 'please,' 'thank you,' and showed consideration for the client's situation.",
+      "timestamps": [
+        "00:01:28",
+        "00:04:15",
+        "00:06:37",
+        "00:06:51",
+        "00:07:02",
+        "00:11:35",
+        "00:20:08",
+        "00:20:20",
+        "00:23:48"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The agent accommodated the client's difficulty in showing a full view and acknowledged network issues. No serious health concerns requiring explicit empathy were present.",
+      "timestamps": [
+        "00:00:53",
+        "00:01:16",
+        "00:15:14"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The agent provided clear instructions and managed disconnections but struggled with audio clarity, requiring repeated clarifications.",
+      "timestamps": {
+        "good_examples": [
+          "00:04:25",
+          "00:06:06",
+          "00:11:35",
+          "00:16:08"
+        ],
+        "poor_examples": [
+          "00:03:45",
+          "00:03:50",
+          "00:03:53"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The agent effectively probed for details regarding the client's ADHD condition, including type, age of diagnosis, symptoms, and treatment.",
+      "timestamps": [
+        "00:18:21",
+        "00:19:29"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "Multiple call disconnections occurred due to network issues on the client's side. The transcript also shows the agent providing their own medical history, which is an unusual event for a verification call.",
+      "timestamps": [
+        "00:09:00",
+        "00:11:27",
+        "00:15:10"
+      ]
+    },
+    "call_closure": {
+      "value": "No",
+      "explanation": "The agent (speaker: customer) did not read the declaration or provide the final thank you and closure. These were performed by the client (speaker: doctor).",
+      "timestamps": {
+        "declaration": "00:29:56",
+        "thank_you": "00:30:04"
+      }
+    }
+  }
+}

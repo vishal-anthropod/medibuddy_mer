@@ -1,0 +1,80 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "Lifestyle.1.c",
+            "expected": "No",
+            "corrected": "Nicotine replacement products (Including nicotine patches)"
+          },
+          {
+            "id": "Health.a.v",
+            "expected": "Within 5 year",
+            "corrected": "When was hypertension diagnosed Within 5 years"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "Health.k",
+            "expected": "No",
+            "corrected": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, functional disability or any other disorders of muscle, bones, joints, limbs or spine?"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "If you ask there, I don't remember. Just a minute, I'll check.",
+          "Ah, the reports are at home. Currently, I took them physically. If you want me to tell you, if you call me again, I'll ask my family at home and have them send it.",
+          "Recent means, no. If you're asking about the start, I have the January one to tell you. If not, I can tell you again.",
+          "I don't know.",
+          "I don't know about her. When I had a blood test then, it came in combination, and it was negative, I think."
+        ],
+        "timestamps": [
+          "02:28",
+          "10:11",
+          "10:47",
+          "17:46",
+          "18:00"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

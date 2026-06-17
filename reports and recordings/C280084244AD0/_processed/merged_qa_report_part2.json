@@ -1,0 +1,97 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:20"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:32",
+        "client_name": "00:01:31",
+        "insurer_name": "00:00:32"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask for the customer's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof, guided the customer for visibility, and verified the last four digits of the Aadhar card.",
+      "timestamps": [
+        "00:02:16",
+        "00:02:35",
+        "00:03:28"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided disclaimers regarding call recording and the legal implications of providing incorrect information.",
+      "timestamps": [
+        "00:00:53",
+        "00:01:16"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressing the customer as 'sir' and apologizing for a sensitive question.",
+      "timestamps": [
+        "00:00:20",
+        "00:01:31",
+        "00:23:46"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer mentioned minor health issues (slight back pain, old knee surgery) which do not qualify as serious health concerns requiring explicit empathy.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Doctor's instructions for ID and full body check were clear, and an apology was given for a sensitive question. However, the doctor expressed confusion and asked for repetition when the customer was listing diseases.",
+      "timestamps": {
+        "good_examples": [
+          "00:23:46"
+        ],
+        "poor_examples": [
+          "00:09:31",
+          "00:09:39"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details on cholesterol, back pain, knee surgery, and annual ECG checkups.",
+      "timestamps": [
+        "00:07:47",
+        "00:13:23",
+        "00:16:45",
+        "00:20:34"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "An unusual interaction occurred where the doctor expressed not understanding the customer's statements and asked for repetition, leading the customer to clarify and rephrase the questions.",
+      "timestamps": [
+        "00:09:31",
+        "00:09:39"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a final declaration of truthfulness and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:24:51",
+        "thank_you": "00:25:15"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Female.2",
+          "text": "Have you ever suffered/are currently suffering from gestational diabetes, preeclampsia or any other pregnancy related complications?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "PP.ID.Aadhar",
+            "expected": "adhar - 7953",
+            "corrected": "Aadhar - 7953"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          },
+          {
+            "id": "OtherInfo.2.a",
+            "expected": "No",
+            "corrected": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years a)Any abnormal medical findings or pending test results, scheduled or planned or prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "j",
+          "text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?"
+        },
+        {
+          "id": "m",
+          "text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 2
+      }
+    },
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "4",
+            "expected": "Salaried\nRemarks\n- primry gvt teachert",
+            "corrected": "primary govt teacher"
+          },
+          {
+            "id": "DECLARATION",
+            "expected": "Yes",
+            "corrected": "You Narasimhalu, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam, are you in agreement with the declaration that I have read out to you."
+          },
+          {
+            "id": "c",
+            "expected": "No",
+            "corrected": "sarcoma, tumors"
+          },
+          {
+            "id": "i",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          },
+          {
+            "id": "m",
+            "expected": "No",
+            "corrected": "difficulty in swallowing"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

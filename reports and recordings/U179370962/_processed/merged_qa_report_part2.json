@@ -1,0 +1,103 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:05"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:06",
+        "client_name": "00:00:09",
+        "insurer_name": "00:00:07"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their comfortable language.",
+      "timestamp": "00:00:15"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor validated the customer's full name, date of birth, and the last four digits of their Aadhaar card.",
+      "timestamps": [
+        "00:01:04",
+        "00:01:15",
+        "00:01:34",
+        "00:01:42",
+        "00:02:20",
+        "00:02:54"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided a comprehensive disclaimer covering the call's purpose, legal implications, recording, and the rule against prompting.",
+      "timestamp": "00:00:25"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and respectful tone throughout the call, even when re-explaining instructions.",
+      "timestamps": [
+        "00:07:15",
+        "00:07:22"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer's leg pain from falling was not a serious health concern requiring explicit empathy, so 'Yes' by default.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, rephrased questions when needed, and effectively guided the customer to provide appropriate answers.",
+      "timestamps": {
+        "good_examples": [
+          "00:07:15",
+          "00:07:22",
+          "00:13:37",
+          "00:15:50"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding alcohol consumption and the customer's leg injury/pain, ensuring complete information.",
+      "timestamps": [
+        "00:03:54",
+        "00:04:11",
+        "00:04:30",
+        "00:13:11",
+        "00:13:37",
+        "00:15:53",
+        "00:16:38",
+        "00:17:08"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer initially omitted information about a past leg injury/medication and provided inconsistent details when probed, requiring repeated clarification from the doctor.",
+      "timestamps": [
+        "00:13:03",
+        "00:13:27",
+        "00:13:34",
+        "00:13:42",
+        "00:16:42"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a final declaration of truthfulness and thanked the customer for their time and cooperation.",
+      "timestamps": {
+        "declaration": "00:19:21",
+        "thank_you": "00:19:25"
+      }
+    }
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "personal_particulars": {
+    "name": "Sanjay Ullas Gokarnakar",
+    "dob": "01-July-1990",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "1611",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA Insurance",
+      "timestamp": "00:38"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "English",
+      "timestamp": "03:25"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Sanjay Ullas Gokarnakar",
+      "expected_response": "Sanjay Ullas Gokarnakar",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "01/07/1990",
+      "expected_response": "1990-07-01",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:30",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "ID Proof Aadhar",
+      "captured_response": "Aadhar card, last four digits are 1611",
+      "expected_response": "adhaar -1611",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "I have completed B.Com, madam.",
+      "expected_response": "Education - Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "I have a clothing shop. Yes.",
+      "expected_response": "Occupation - Self -employed Remarks - clothes shop",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please show your ID proof",
+      "captured_response": "Aadhar card, last four digits are 1611",
+      "expected_response": "adhaar -1611",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:53",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Chikkodi, madam.",
+      "expected_response": "chikk eruru",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:11",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Chikkodi"
+      }
+    },
+    {
+      "question_id": "DECLARATION",
+      "question_text": "You Sanjay Ullas Gokarnakar , declare that, you have fully understood the questions ask ed to you as per this call and have fur nished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+      "captured_response": "Sir, do you declare that all the answers you have given are correct? Yes, madam.",
+      "expected_response": "You Sanjay Ullas Gokarnakar , declar e that, you have fully understood the questions ask ed to you as per this call and have fur nished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:02",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "You Sanjay Ullas Gokarnakar, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+      }
+    },
+    {
+      "question_id": "Lifestyle.1",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "Have you ever smoked cigarettes, bidis, or anything like that in your life? No, madam, no, no, no.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor should have asked specifically about smoking/tobacco use in the last 24 months, not 'in your life'.",
+      "timestamp": "02:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.2",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "Have you ever consumed alcohol, sir? No, madam, no, no, no.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor should have asked about current alcohol consumption, not 'ever consumed'.",
+      "timestamp": "02:55",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.3",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "Sir, has any doctor ever told you in your life to reduce or stop drinking alcohol? No, no, madam, nothing like that, nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.4",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "Have you ever taken any drugs or narcotics that a doctor hasn't prescribed or advised against, sir? No, madam, no, no, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.5",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "5.9.",
+      "expected_response": "175.26 cm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.6",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "75.",
+      "expected_response": "75 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+      "captured_response": "Sir, did you have any problems like high BP, low BP, or high cholesterol, triglycerides, lipids? No problem at all, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "b",
+      "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "Chest pain, chest pain means heart pain, or heart murmur, or heart attack, coronary artery... Okay, heart valve disorder, or congenital heart disease, palpitation, rheumatic fever, and difficulty breathing, or any other heart condition? No, madam, nothing at all.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "c",
+      "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "Cancer, or pre-cancerous condition, or white lesions inside the mouth like cancer lesions? No. Or, okay, enlarged nodes, node enlargement means something like a lump in the throat, or polyps, cysts, lumps, any extra growth? Nothing, madam, nothing at all, nothing. I am completely fine, look.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:10",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "sarcoma"
+      }
+    },
+    {
+      "question_id": "d",
+      "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "Diabetes, or raised sugar levels, anything? No, madam, no. Okay. So, any hyperthyroid or hypothyroid or any other thyroid issues, endocrine disorders? Nothing at all, madam, nothing.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:33",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+      "captured_response": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, recurrent cough, or sleep apnea (meaning less sleep due to breathing issues), or emphysema, chronic pulmonary disease, or respiratory disorders? Nothing, madam.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "f",
+      "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "Hepatitis B, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, or alcoholic liver disease, or any other liver problems ever, sir? No, madam, no problem at all for me.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "g",
+      "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "Anemia, thalassemia, systemic lupus erythematosus, or other blood or autoimmune diseases, sir? No, madam, no problem at all. No, any blood related problems, or autoimmune disorder? No, madam, nothing, nothing.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "h",
+      "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack. One minute, sir. Just one second. Ah, anxiety, depression, epilepsy, or paralysis, or any issues with hands and feet, or have you ever had a fracture or sclerosis? No, madam, nothing at all. I am completely fine, look. No blood or any disease. No, sir, there is no nerve related disease, right, sir? Nothing, no BP, no sugar, no blood issues. There are no other diseases. No, madam, nothing. No, madam, nothing, nothing at all.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:37",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "i",
+      "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "Gastritis, or GERD means ulcers in the stomach, or pancreatitis, recurrent indigestion. No, madam, nothing, nothing at all. Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, pancreatitis, any other gastric problems? No, madam, currently nothing.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:29",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "ulcerative"
+      }
+    },
+    {
+      "question_id": "j",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+      "captured_response": "Kidney stones, stones in the kidney, or gallstones, kidney urinary tract infection, or protein in urine, chronic kidney disease, kidney failure, kidney disorders of kidney, bladder, genital prostate or urinary system? Nothing at all, madam, no problem at all.",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor missed asking about 'piles, fistula, hydrocele'.",
+      "timestamp": "06:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+      "captured_response": "Recurrent back pain, meaning back issues, or arthritis, gout, slipped disc. No pain. No pain at all, madam, for me. Any deformities, sir? Question please, sir, fully. Any other disorders of muscle and limbs, spine? No, madam, no pain at all for me. I am very comfortable.",
+      "expected_response": "No",
+      "status": "Clubbed",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:08",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+      "captured_response": "Blindness, cataract, glaucoma, impaired sight, double vision, or any disorders of the eye? Eye related. No, madam, nothing at all.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "m",
+      "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "Any problem with the ear? Can't hear, or hearing loss, or trouble speaking, any of that? No, madam, nothing, nothing. No problem at all.",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor missed asking about 'hoarseness of voice, difficult in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat'.",
+      "timestamp": "07:47",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "swallowing"
+      }
+    },
+    {
+      "question_id": "Other.1",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "Sir, from what I've said, is there any other disease you want me to add? Nothing, madam. I am perfectly fine, I am comfortable, I am strong, look. Go ahead.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.2.a",
+      "question_text": "Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "Sir, have you had any other lab tests done, sir? Nothing has been done, madam. I am strong, look. Nothing has been done.",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor's question was too general and missed specific types of tests, abnormal findings, or pending/scheduled tests.",
+      "timestamp": "08:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.2.b",
+      "question_text": "Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "Sir, have you taken any medicines for more than two weeks? I haven't taken anything, madam, currently.",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor only asked about medication and missed asking about referrals to specialists or hospitals for treatment/consultation/investigations.",
+      "timestamp": "08:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.2.c",
+      "question_text": "Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time",
+      "captured_response": "Have you ever had any health issues that prevented you from going to work for two weeks? No, madam, nothing. It's my own shop, how can I not go to work?",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor missed asking about 'inability to perform your daily activities'.",
+      "timestamp": "08:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.3",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "Sir, cerebral palsy, Down syndrome, or polio, anything like that ever happened? Nothing, madam, no problem at all, look.",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.4",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "Have you ever told your wife, or partner, about HIV, STD, AIDS? Counselling or anything? No, madam, nothing, nothing.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Mismapped",
+      "suggested_correction": "The doctor's question was about disclosure to a partner, not about the customer or partner being advised/treated/counselled for STDs/HIV/AIDS.",
+      "timestamp": "08:41",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.5",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "Have you ever had sudden weight gain or weight loss? Did you show it to a doctor? No, madam, nothing like that has happened.",
+      "expected_response": "No",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "The doctor only asked about weight changes and missed asking about other signs/symptoms requiring medical advice/treatment or awaiting surgical procedures.",
+      "timestamp": "08:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "The doctor incorrectly asked about smoking/alcohol consumption ('ever' instead of specific timeframes/current status), leading to incomplete information capture.",
+      "The doctor mismapped the question regarding STDs/HIV/AIDS, asking about disclosure to a partner instead of whether the customer or partner received medical advice/tests/treatment.",
+      "Several questions were asked incompletely, missing key components from the MER (e.g., specific conditions for kidney/urinary, ENT; details for lab tests, referrals, daily activities, and other symptoms/surgical procedures)."
+    ],
+    "recommendations": [
+      "The doctor should adhere strictly to the phrasing of questions in the MER, especially regarding timeframes (e.g., 'in the last 24 months') and specific conditions.",
+      "Ensure all parts of clubbed questions are explicitly covered to avoid incompleteness.",
+      "For questions with multiple components, the doctor should break them down or ensure all elements are covered in their phrasing.",
+      "The doctor needs to be trained on the precise meaning and scope of each question, particularly for sensitive topics like STDs/HIV/AIDS, to avoid misinterpretation and mismapping."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and responsive.",
+      "Customer provides additional context and reassurances about their health ('I am completely fine, look', 'I am strong, look')."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "175.26",
+    "weight_kg": "75",
+    "dates_mentioned": [
+      "01/07/1990"
+    ],
+    "medications": [
+      "nothing"
+    ],
+    "validation_errors": []
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 14,
+    "typos_found": [
+      "POLICY",
+      "Videotelephony",
+      "transcript",
+      "assured",
+      "request",
+      "furnished",
+      "after",
+      "read",
+      "are",
+      "agreement",
+      "Time",
+      "Chikkodi",
+      "sarcoma",
+      "ulcerative",
+      "swallowing"
+    ],
+    "notes": "not evaluated in this step"
+  },
+  "meta": {
+    "proposal_number": "U188118937AD0",
+    "doctor_name": "Dr. Sara Mazher",
+    "customer_name": "Sanjay Ullas Gokarnakar",
+    "insurance_company": "Tata AIA Life Insurance Company Ltd."
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -20.76
+  },
+  "video_analysis": {
+    "attire_check": "yes",
+    "attire_explanation": "The doctor is wearing a white clinical apron/coat, visible in all frames.",
+    "visibility_status": "both_visible",
+    "visibility_explanation": "Both the customer (left side) and the doctor (right side) are clearly visible in all provided frames.",
+    "privacy_maintained": true,
+    "privacy_explanation": "The doctor's background is blurred, preventing any identifiable information or potential privacy breaches such as people, private boards, files, or monitors from being visible.",
+    "screenshots": [
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U188118937AD0/_processed/call1/frame_01.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U188118937AD0/_processed/call1/frame_02.jpg",
+      "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/U188118937AD0/_processed/call1/frame_03.jpg"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Q.Declaration",
+          "text": "You Supriya Molaka , declar e that, you have fully understood the questions ask ed to you as per this call and have fur nished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you."
+        },
+        {
+          "id": "15a",
+          "text": "Annual Health Checkup"
+        },
+        {
+          "id": "15b",
+          "text": "Reason for undergoing the health checkup/Blood test"
+        },
+        {
+          "id": "15c",
+          "text": "How did your doctor described the result of your health checkup reports?"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Supriya Mulakkal",
+        "expected": "Supriya Molaka"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

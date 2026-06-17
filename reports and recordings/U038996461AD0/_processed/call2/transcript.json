@@ -1,0 +1,88 @@
+{
+  "segments": [
+    {
+      "segment_id": "s1",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:00",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "s2",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:02"
+    },
+    {
+      "segment_id": "s3",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:03"
+    },
+    {
+      "segment_id": "s4",
+      "text": "I'm calling from Tata AIA. Am I speaking to Manik Samanta?",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "s5",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "s6",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "s7",
+      "text": "Which language do you prefer?",
+      "speaker": "doctor",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "s8",
+      "text": "English.",
+      "speaker": "customer",
+      "start_timestamp": "00:16",
+      "end_timestamp": "00:17"
+    },
+    {
+      "segment_id": "s9",
+      "text": "Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "s10",
+      "text": "Indistinct speech.",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:26"
+    },
+    {
+      "segment_id": "s11",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:30",
+      "end_timestamp": "00:32"
+    },
+    {
+      "segment_id": "s12",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:33"
+    }
+  ]
+}

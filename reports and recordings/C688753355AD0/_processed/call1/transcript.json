@@ -1,0 +1,767 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "2",
+      "text": "Yeah. Mr. Ramesh.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:12"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yeah, hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "4",
+      "text": "Hi, so I'm Dr. Anvesh calling on behalf of Tata A.I. Life Insurance. I just want to make sure I'm speaking with Mr. Gullapalli Prashanth.",
+      "speaker": "doctor",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:22"
+    },
+    {
+      "segment_id": "5",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:23",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "6",
+      "text": "Uh, so am I clearly visible and audible?",
+      "speaker": "doctor",
+      "start_timestamp": "00:25",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "7",
+      "text": "Yeah, you're audible and clearly visible.",
+      "speaker": "customer",
+      "start_timestamp": "00:29",
+      "end_timestamp": "00:31"
+    },
+    {
+      "segment_id": "8",
+      "text": "Okay, thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:33"
+    },
+    {
+      "segment_id": "9",
+      "text": "And so this is with reference to your insurance policy. We have decided to go ahead with your proposal, but as a part of the process we need to conduct a video medical verification in which I will ask you some verification and medical history questions.",
+      "speaker": "doctor",
+      "start_timestamp": "00:35",
+      "end_timestamp": "00:46"
+    },
+    {
+      "segment_id": "10",
+      "text": "Okay, fine.",
+      "speaker": "customer",
+      "start_timestamp": "00:46",
+      "end_timestamp": "00:47"
+    },
+    {
+      "segment_id": "11",
+      "text": "So this call will be recorded for company's audit and quality purpose. I will be asking you a few questions regarding your insurance application and this recorded call should take 10 to 12 minutes. I hope we can continue with the call.",
+      "speaker": "doctor",
+      "start_timestamp": "00:48",
+      "end_timestamp": "00:58"
+    },
+    {
+      "segment_id": "12",
+      "text": "We can.",
+      "speaker": "customer",
+      "start_timestamp": "00:59",
+      "end_timestamp": "01:00"
+    },
+    {
+      "segment_id": "13",
+      "text": "And uh, kindly note that the replies and information provided by you on this call relating to your health and habits will be considered as a part of your application for insurance. And if the proposal is accepted, it shall form basis of legal contract of insurance between you and Tata A.I. Life Insurance. Any incorrect or false statements, replies, or replies could have an impact on the contract and will lead to the cancellation of the policy before or after issuance and may also lead to the rejection of the claim later. You are hence requested to respond thoughtfully and correctly.",
+      "speaker": "doctor",
+      "start_timestamp": "01:01",
+      "end_timestamp": "01:26"
+    },
+    {
+      "segment_id": "14",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "01:28",
+      "end_timestamp": "01:28"
+    },
+    {
+      "segment_id": "15",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:29",
+      "end_timestamp": "01:29"
+    },
+    {
+      "segment_id": "16",
+      "text": "Kindly confirm your full name.",
+      "speaker": "doctor",
+      "start_timestamp": "01:29",
+      "end_timestamp": "01:31"
+    },
+    {
+      "segment_id": "17",
+      "text": "Sorry?",
+      "speaker": "doctor",
+      "start_timestamp": "01:34",
+      "end_timestamp": "01:34"
+    },
+    {
+      "segment_id": "18",
+      "text": "I'm getting another call from anybody.",
+      "speaker": "customer",
+      "start_timestamp": "01:36",
+      "end_timestamp": "01:37"
+    },
+    {
+      "segment_id": "19",
+      "text": "Uh, you can tell them you are already in the video call with the doctor.",
+      "speaker": "doctor",
+      "start_timestamp": "01:39",
+      "end_timestamp": "01:42"
+    },
+    {
+      "segment_id": "20",
+      "text": "Or you can just ignore the call. Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "01:45",
+      "end_timestamp": "01:47"
+    },
+    {
+      "segment_id": "21",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "01:50",
+      "end_timestamp": "01:51"
+    },
+    {
+      "segment_id": "22",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "01:57",
+      "end_timestamp": "01:58"
+    },
+    {
+      "segment_id": "23",
+      "text": "Hello, can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "02:07",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "24",
+      "text": "Yes, I can hear you. Miss Parvati called me. Miss uh, Dr. Parvati called me regarding the same thing.",
+      "speaker": "customer",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:17"
+    },
+    {
+      "segment_id": "25",
+      "text": "Okay. When did she call you? Before or after, after my call?",
+      "speaker": "doctor",
+      "start_timestamp": "02:18",
+      "end_timestamp": "02:22"
+    },
+    {
+      "segment_id": "26",
+      "text": "Just I told you right. So we had a call. I mean, just this is.",
+      "speaker": "customer",
+      "start_timestamp": "02:22",
+      "end_timestamp": "02:26"
+    },
+    {
+      "segment_id": "27",
+      "text": "Yeah.",
+      "speaker": "customer",
+      "start_timestamp": "02:26",
+      "end_timestamp": "02:27"
+    },
+    {
+      "segment_id": "28",
+      "text": "Okay, it's okay, we can continue with the call.",
+      "speaker": "doctor",
+      "start_timestamp": "02:28",
+      "end_timestamp": "02:30"
+    },
+    {
+      "segment_id": "29",
+      "text": "No issues.",
+      "speaker": "doctor",
+      "start_timestamp": "02:30",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "30",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "02:31",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "31",
+      "text": "Um, and uh, kindly confirm your full name.",
+      "speaker": "doctor",
+      "start_timestamp": "02:32",
+      "end_timestamp": "02:35"
+    },
+    {
+      "segment_id": "32",
+      "text": "Yeah.",
+      "speaker": "customer",
+      "start_timestamp": "02:36",
+      "end_timestamp": "02:36"
+    },
+    {
+      "segment_id": "33",
+      "text": "Gullapalli Prashanth.",
+      "speaker": "customer",
+      "start_timestamp": "02:38",
+      "end_timestamp": "02:39"
+    },
+    {
+      "segment_id": "34",
+      "text": "And your date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "02:40",
+      "end_timestamp": "02:41"
+    },
+    {
+      "segment_id": "35",
+      "text": "09 09 1993.",
+      "speaker": "customer",
+      "start_timestamp": "02:43",
+      "end_timestamp": "02:44"
+    },
+    {
+      "segment_id": "36",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:45",
+      "end_timestamp": "02:46"
+    },
+    {
+      "segment_id": "37",
+      "text": "09 09 1993.",
+      "speaker": "doctor",
+      "start_timestamp": "02:47",
+      "end_timestamp": "02:50"
+    },
+    {
+      "segment_id": "38",
+      "text": "And your educational qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "02:54",
+      "end_timestamp": "02:55"
+    },
+    {
+      "segment_id": "39",
+      "text": "I'm a graduate.",
+      "speaker": "customer",
+      "start_timestamp": "02:56",
+      "end_timestamp": "02:57"
+    },
+    {
+      "segment_id": "40",
+      "text": "And your current occupation?",
+      "speaker": "doctor",
+      "start_timestamp": "02:58",
+      "end_timestamp": "03:00"
+    },
+    {
+      "segment_id": "41",
+      "text": "Software engineer.",
+      "speaker": "customer",
+      "start_timestamp": "03:01",
+      "end_timestamp": "03:02"
+    },
+    {
+      "segment_id": "42",
+      "text": "And uh, can you please show me your ID proof?",
+      "speaker": "doctor",
+      "start_timestamp": "03:14",
+      "end_timestamp": "03:15"
+    },
+    {
+      "segment_id": "43",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "03:17",
+      "end_timestamp": "03:18"
+    },
+    {
+      "segment_id": "44",
+      "text": "I'm sorry, can you hold it to the mobile? Yeah, up, more up, more up please. I can't see your name and date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "03:19",
+      "end_timestamp": "03:25"
+    },
+    {
+      "segment_id": "45",
+      "text": "Yeah, hold it there, hold it right there.",
+      "speaker": "doctor",
+      "start_timestamp": "03:25",
+      "end_timestamp": "03:27"
+    },
+    {
+      "segment_id": "46",
+      "text": "Uh, move it a bit back.",
+      "speaker": "doctor",
+      "start_timestamp": "03:27",
+      "end_timestamp": "03:28"
+    },
+    {
+      "segment_id": "47",
+      "text": "It's not clear.",
+      "speaker": "doctor",
+      "start_timestamp": "03:29",
+      "end_timestamp": "03:30"
+    },
+    {
+      "segment_id": "48",
+      "text": "More back please.",
+      "speaker": "doctor",
+      "start_timestamp": "03:32",
+      "end_timestamp": "03:33"
+    },
+    {
+      "segment_id": "49",
+      "text": "Closer, move it a bit closer.",
+      "speaker": "doctor",
+      "start_timestamp": "03:36",
+      "end_timestamp": "03:38"
+    },
+    {
+      "segment_id": "50",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "03:50",
+      "end_timestamp": "03:50"
+    },
+    {
+      "segment_id": "51",
+      "text": "Uh, yeah, I mean your date of birth is not clear. Still.",
+      "speaker": "doctor",
+      "start_timestamp": "03:52",
+      "end_timestamp": "03:56"
+    },
+    {
+      "segment_id": "52",
+      "text": "Is it okay?",
+      "speaker": "customer",
+      "start_timestamp": "03:59",
+      "end_timestamp": "04:00"
+    },
+    {
+      "segment_id": "53",
+      "text": "No, I can't, I can't see your date of birth clearly.",
+      "speaker": "doctor",
+      "start_timestamp": "04:01",
+      "end_timestamp": "04:03"
+    },
+    {
+      "segment_id": "54",
+      "text": "It's blurred.",
+      "speaker": "doctor",
+      "start_timestamp": "04:04",
+      "end_timestamp": "04:04"
+    },
+    {
+      "segment_id": "55",
+      "text": "One second.",
+      "speaker": "customer",
+      "start_timestamp": "04:08",
+      "end_timestamp": "04:08"
+    },
+    {
+      "segment_id": "56",
+      "text": "Try moving it back by slowly, slowly.",
+      "speaker": "doctor",
+      "start_timestamp": "04:16",
+      "end_timestamp": "04:18"
+    },
+    {
+      "segment_id": "57",
+      "text": "Yeah.",
+      "speaker": "doctor",
+      "start_timestamp": "04:20",
+      "end_timestamp": "04:20"
+    },
+    {
+      "segment_id": "58",
+      "text": "I think it's due to the network issue. I can't see your date of birth clearly.",
+      "speaker": "doctor",
+      "start_timestamp": "04:23",
+      "end_timestamp": "04:26"
+    },
+    {
+      "segment_id": "59",
+      "text": "I have a Wi-Fi and 5G network, so there is no",
+      "speaker": "customer",
+      "start_timestamp": "04:27",
+      "end_timestamp": "04:31"
+    },
+    {
+      "segment_id": "60",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "04:32",
+      "end_timestamp": "04:32"
+    },
+    {
+      "segment_id": "61",
+      "text": "But I really can't see your date of birth clearly on your Aadhar card.",
+      "speaker": "doctor",
+      "start_timestamp": "04:35",
+      "end_timestamp": "04:38"
+    },
+    {
+      "segment_id": "62",
+      "text": "So do you have any PAN or do you have a xerox copy?",
+      "speaker": "doctor",
+      "start_timestamp": "04:39",
+      "end_timestamp": "04:42"
+    },
+    {
+      "segment_id": "63",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "04:45",
+      "end_timestamp": "04:45"
+    },
+    {
+      "segment_id": "64",
+      "text": "Uh, no sir, I still can't.",
+      "speaker": "doctor",
+      "start_timestamp": "04:48",
+      "end_timestamp": "04:49"
+    },
+    {
+      "segment_id": "65",
+      "text": "Can I switch my camera?",
+      "speaker": "customer",
+      "start_timestamp": "04:50",
+      "end_timestamp": "04:51"
+    },
+    {
+      "segment_id": "66",
+      "text": "Yes, if possible, you can.",
+      "speaker": "doctor",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:53"
+    },
+    {
+      "segment_id": "67",
+      "text": "I don't have any option like that.",
+      "speaker": "customer",
+      "start_timestamp": "04:56",
+      "end_timestamp": "04:58"
+    },
+    {
+      "segment_id": "68",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "04:58",
+      "end_timestamp": "04:59"
+    },
+    {
+      "segment_id": "69",
+      "text": "So, if you have a photocopy or if you have another phone, you can take a photo of it and zoom it and show me.",
+      "speaker": "doctor",
+      "start_timestamp": "05:00",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "70",
+      "text": "I don't have any phone, phone right now.",
+      "speaker": "customer",
+      "start_timestamp": "05:06",
+      "end_timestamp": "05:08"
+    },
+    {
+      "segment_id": "71",
+      "text": "So I'm, I'm showing again.",
+      "speaker": "customer",
+      "start_timestamp": "05:09",
+      "end_timestamp": "05:11"
+    },
+    {
+      "segment_id": "72",
+      "text": "You know, if you see, able to see.",
+      "speaker": "customer",
+      "start_timestamp": "05:12",
+      "end_timestamp": "05:14"
+    },
+    {
+      "segment_id": "73",
+      "text": "Uh, sir, I can't see it clearly.",
+      "speaker": "doctor",
+      "start_timestamp": "05:15",
+      "end_timestamp": "05:17"
+    },
+    {
+      "segment_id": "74",
+      "text": "Is it clear?",
+      "speaker": "customer",
+      "start_timestamp": "05:33",
+      "end_timestamp": "05:34"
+    },
+    {
+      "segment_id": "75",
+      "text": "No sir, it's blurred. I can't see it clearly.",
+      "speaker": "doctor",
+      "start_timestamp": "05:36",
+      "end_timestamp": "05:39"
+    },
+    {
+      "segment_id": "76",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "05:50",
+      "end_timestamp": "05:51"
+    },
+    {
+      "segment_id": "77",
+      "text": "Right.",
+      "speaker": "customer",
+      "start_timestamp": "05:52",
+      "end_timestamp": "05:53"
+    },
+    {
+      "segment_id": "78",
+      "text": "Uh, no, no, I'm sorry.",
+      "speaker": "doctor",
+      "start_timestamp": "05:53",
+      "end_timestamp": "05:55"
+    },
+    {
+      "segment_id": "79",
+      "text": "It's not clear. Tell me whenever you are free or back home. I can schedule a call back then.",
+      "speaker": "doctor",
+      "start_timestamp": "05:56",
+      "end_timestamp": "06:00"
+    },
+    {
+      "segment_id": "80",
+      "text": "One second.",
+      "speaker": "customer",
+      "start_timestamp": "06:00",
+      "end_timestamp": "06:01"
+    },
+    {
+      "segment_id": "81",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "06:03",
+      "end_timestamp": "06:04"
+    },
+    {
+      "segment_id": "82",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "06:06",
+      "end_timestamp": "06:07"
+    },
+    {
+      "segment_id": "83",
+      "text": "Okay, I'm trying again.",
+      "speaker": "customer",
+      "start_timestamp": "06:23",
+      "end_timestamp": "06:24"
+    },
+    {
+      "segment_id": "84",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "06:26",
+      "end_timestamp": "06:26"
+    },
+    {
+      "segment_id": "85",
+      "text": "Yeah, just move a bit back, back slowly, slowly.",
+      "speaker": "doctor",
+      "start_timestamp": "06:30",
+      "end_timestamp": "06:34"
+    },
+    {
+      "segment_id": "86",
+      "text": "Slowly move it a bit back.",
+      "speaker": "doctor",
+      "start_timestamp": "06:47",
+      "end_timestamp": "06:48"
+    },
+    {
+      "segment_id": "87",
+      "text": "If you have another mobile, you can take a photo of it and zoom it and show me.",
+      "speaker": "doctor",
+      "start_timestamp": "07:00",
+      "end_timestamp": "07:04"
+    },
+    {
+      "segment_id": "88",
+      "text": "Can I talk to the doctor?",
+      "speaker": "customer",
+      "start_timestamp": "07:07",
+      "end_timestamp": "07:08"
+    },
+    {
+      "segment_id": "89",
+      "text": "No sir, it's, it's blurred, it's completely blurred.",
+      "speaker": "doctor",
+      "start_timestamp": "07:24",
+      "end_timestamp": "07:27"
+    },
+    {
+      "segment_id": "90",
+      "text": "If you have another mobile, you can take a photo of it, zoom it and show me, if possible.",
+      "speaker": "doctor",
+      "start_timestamp": "07:28",
+      "end_timestamp": "07:32"
+    },
+    {
+      "segment_id": "91",
+      "text": "I don't have any other phone right now.",
+      "speaker": "customer",
+      "start_timestamp": "07:33",
+      "end_timestamp": "07:35"
+    },
+    {
+      "segment_id": "92",
+      "text": "Okay. So, yeah, we can try one last time.",
+      "speaker": "doctor",
+      "start_timestamp": "07:37",
+      "end_timestamp": "07:41"
+    },
+    {
+      "segment_id": "93",
+      "text": "So, uh, tell me whenever you're free or whenever you reach.",
+      "speaker": "doctor",
+      "start_timestamp": "07:50",
+      "end_timestamp": "07:54"
+    },
+    {
+      "segment_id": "94",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "07:57",
+      "end_timestamp": "07:58"
+    },
+    {
+      "segment_id": "95",
+      "text": "Can I send my digital copy, is that okay?",
+      "speaker": "customer",
+      "start_timestamp": "08:31",
+      "end_timestamp": "08:34"
+    },
+    {
+      "segment_id": "96",
+      "text": "Uh, no, I just need to see it in the video call.",
+      "speaker": "doctor",
+      "start_timestamp": "08:35",
+      "end_timestamp": "08:37"
+    },
+    {
+      "segment_id": "97",
+      "text": "You have a Xerox or anything?",
+      "speaker": "doctor",
+      "start_timestamp": "08:40",
+      "end_timestamp": "08:41"
+    },
+    {
+      "segment_id": "98",
+      "text": "What's the problem with it? It's clear, it's clear, it's from my side, it's very clear.",
+      "speaker": "customer",
+      "start_timestamp": "08:45",
+      "end_timestamp": "08:49"
+    },
+    {
+      "segment_id": "99",
+      "text": "Okay, but it's blurred here.",
+      "speaker": "doctor",
+      "start_timestamp": "08:51",
+      "end_timestamp": "08:52"
+    },
+    {
+      "segment_id": "100",
+      "text": "Uh, it's okay sir, I'll schedule a call back for you.",
+      "speaker": "doctor",
+      "start_timestamp": "08:55",
+      "end_timestamp": "08:56"
+    },
+    {
+      "segment_id": "101",
+      "text": "No issues.",
+      "speaker": "doctor",
+      "start_timestamp": "08:57",
+      "end_timestamp": "08:57"
+    },
+    {
+      "segment_id": "102",
+      "text": "Can you be able to see it again?",
+      "speaker": "customer",
+      "start_timestamp": "08:59",
+      "end_timestamp": "09:01"
+    },
+    {
+      "segment_id": "103",
+      "text": "Uh, no.",
+      "speaker": "doctor",
+      "start_timestamp": "09:02",
+      "end_timestamp": "09:03"
+    },
+    {
+      "segment_id": "104",
+      "text": "It's complete, it's blurred. I can't see or read anything on it.",
+      "speaker": "doctor",
+      "start_timestamp": "09:05",
+      "end_timestamp": "09:09"
+    },
+    {
+      "segment_id": "105",
+      "text": "Hmm.",
+      "speaker": "customer",
+      "start_timestamp": "09:10",
+      "end_timestamp": "09:11"
+    },
+    {
+      "segment_id": "106",
+      "text": "Even now?",
+      "speaker": "customer",
+      "start_timestamp": "09:12",
+      "end_timestamp": "09:13"
+    },
+    {
+      "segment_id": "107",
+      "text": "Yeah, even now.",
+      "speaker": "doctor",
+      "start_timestamp": "09:15",
+      "end_timestamp": "09:16"
+    },
+    {
+      "segment_id": "108",
+      "text": "Okay, fine, we'll catch up later then.",
+      "speaker": "customer",
+      "start_timestamp": "09:27",
+      "end_timestamp": "09:28"
+    },
+    {
+      "segment_id": "109",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "09:29",
+      "end_timestamp": "09:30"
+    }
+  ]
+}

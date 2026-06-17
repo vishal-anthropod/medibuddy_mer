@@ -1,0 +1,47 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Declaration",
+          "text": "You dheeraj Munnalal gupta , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Niraj Manerkar",
+        "expected": "DHEERAJ MUNNALAL GUPTA"
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 9
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Height, uh, one second, how will you see?",
+          "I haven't checked my weight, but it should be around 68, 65 nearby.",
+          "I cannot confirm what caused it, the doctor said I had jaundice.",
+          "Actually, I had an MRI done for what, let me tell you in a second?"
+        ],
+        "timestamps": [
+          "00:05:05",
+          "00:05:27",
+          "00:08:11",
+          "00:14:59"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

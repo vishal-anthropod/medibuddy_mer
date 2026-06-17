@@ -1,0 +1,47 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 6,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "suresh chunilal pur ohit",
+            "corrected": "suresh chunilal purohit"
+          },
+          {
+            "id": "PP.NomineeName",
+            "expected": "wife geeta sur esh pur ohit",
+            "corrected": "wife geeta suresh purohit"
+          },
+          {
+            "id": "1",
+            "expected": "suresh chunilal pur ohit",
+            "corrected": "suresh chunilal purohit"
+          },
+          {
+            "id": "5",
+            "expected": "wife geeta sur esh pur ohit",
+            "corrected": "wife geeta suresh purohit"
+          },
+          {
+            "id": "6",
+            "expected": "tata aia 1 cr ore",
+            "corrected": "tata aia 1 crore"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

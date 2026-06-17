@@ -1,0 +1,35 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "PP.ID.Other",
+          "text": "ID Details Other"
+        }
+      ]
+    },
+    {
+      "issue": "Missing ID proof verification",
+      "details": [
+        {
+          "id": "PP.ID.Other",
+          "expected": "BPBPS5639N"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Minor prompting detected",
+      "details": {
+        "examples": [
+          "MER notes: 'an individual in the background advises LA to refrain from any disruptions.'"
+        ],
+        "timestamps": []
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

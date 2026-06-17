@@ -1,0 +1,83 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:01:02"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:01:04",
+        "client_name": "00:01:07",
+        "insurer_name": "00:01:05"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language.",
+      "timestamp": "00:01:20"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor validated the customer's identity by asking for their date of birth and an ID number (PAN/Aadhaar).",
+      "timestamps": [
+        "00:01:52",
+        "00:02:10"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer that the call would be recorded and that false information could impact claims.",
+      "timestamp": "00:01:23"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using respectful language and reassuring the customer during medical questions.",
+      "timestamps": [
+        "00:03:16"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "The customer mentioned having diabetes, but described it as 'normal sugar' managed with 'primary medications' and stated being 'completely fit'. No serious health concerns requiring specific empathy were present.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, offered choices for ID, and reassured the customer about answering medical questions.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:21",
+          "00:03:16"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed when the customer initially downplayed their diabetes, asking about medication, duration, regular check-ups, HbA1c tests, and complications.",
+      "timestamps": [
+        "00:04:11",
+        "00:04:25",
+        "00:04:32"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation (refusal/evasion) or third-party prompting observed during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor declared that the answers were recorded and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:08:14",
+        "thank_you": "00:08:18"
+      }
+    }
+  }
+}

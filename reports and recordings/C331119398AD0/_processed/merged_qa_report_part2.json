@@ -1,0 +1,108 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Doctor initiated greetings in both calls.",
+      "timestamps": [
+        "00:00:04",
+        "00:07:09"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "Doctor introduced themselves, the company, and confirmed the client's name in both calls.",
+      "timestamps": {
+        "self_intro": "00:00:22, 00:07:23",
+        "client_name": "00:01:24, 00:08:54",
+        "insurer_name": "00:00:24, 00:07:23"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Doctor asked for language preference at the beginning of both calls.",
+      "timestamp": "00:00:26, 00:07:15"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Doctor requested and validated a government ID (PAN card in Call 1, Aadhaar card in Call 2) and asked for the number.",
+      "timestamps": [
+        "00:02:18",
+        "00:09:23"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Doctor clearly explained the policy implications of incorrect answers and stated that the call was being recorded in both calls.",
+      "timestamp": "00:00:50, 00:01:19, 00:07:36, 00:08:48"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Doctor maintained a polite tone throughout both calls, using 'sir/ma'am' and 'please', and expressing thanks.",
+      "timestamps": [
+        "00:03:00",
+        "00:04:00",
+        "00:05:27",
+        "00:11:12",
+        "00:17:53",
+        "00:18:25"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "No serious health concerns were discussed that would require empathy.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "Doctor's instructions and questions were clear and easy to understand, despite some customer-side difficulties with camera positioning.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:50",
+          "00:01:58",
+          "00:04:28",
+          "00:07:36",
+          "00:11:31",
+          "00:13:46"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "Doctor effectively probed for clarification on personal details, previous policy cancellation, and policy terms when the customer was unsure.",
+      "timestamps": [
+        "00:01:35",
+        "00:01:47",
+        "00:01:58",
+        "00:11:08",
+        "00:11:31",
+        "00:11:42",
+        "00:11:47",
+        "00:11:50",
+        "00:12:58",
+        "00:13:15",
+        "00:13:46",
+        "00:14:49"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "A third party assisted the customer with ID and physical verification. In Call 2, the customer was heard telling someone 'Tell your name' before answering, indicating potential third-party prompting.",
+      "timestamps": [
+        "00:02:47",
+        "00:04:38",
+        "00:05:04",
+        "00:05:22",
+        "00:09:06"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Call 2 concluded with a clear declaration and thank you, despite Call 1 ending abruptly.",
+      "timestamps": {
+        "declaration": "00:17:40",
+        "thank_you": "00:17:53"
+      }
+    }
+  }
+}

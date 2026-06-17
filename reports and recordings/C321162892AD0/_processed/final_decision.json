@@ -1,0 +1,85 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "a.9",
+          "text": "Apart from your regular follow ups for this condition are you awaiting further: medical tests or investigations, test results or referral to hospital or surgery?"
+        },
+        {
+          "id": "j.2",
+          "text": "Hernia"
+        },
+        {
+          "id": "j.5",
+          "text": "Haematuria"
+        },
+        {
+          "id": "j.6",
+          "text": "Proteinuria"
+        },
+        {
+          "id": "Please confirm medical disclosure in previous policy with TALIC?",
+          "text": "Please confirm medical disclosure in previous policy with TALIC?"
+        }
+      ]
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 9
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 8,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "Panipath, Haryana",
+            "corrected": "Panipat, Haryana"
+          },
+          {
+            "id": "a.8",
+            "expected": "Within  5 year",
+            "corrected": "When was hypertension diagnosed"
+          },
+          {
+            "id": "i.1",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "j.11",
+            "expected": "Yes",
+            "corrected": "Have you fully recovered with no further symptoms, investigations, treatment or complications?"
+          },
+          {
+            "id": "m.1",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 7
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

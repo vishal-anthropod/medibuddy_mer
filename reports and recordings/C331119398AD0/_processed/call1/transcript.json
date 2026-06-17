@@ -1,0 +1,620 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:04",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "seg_002",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "seg_003",
+      "text": "Can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "seg_004",
+      "text": "Yes sir?",
+      "speaker": "customer",
+      "start_timestamp": "00:11",
+      "end_timestamp": "00:12"
+    },
+    {
+      "segment_id": "seg_005",
+      "text": "Can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "seg_006",
+      "text": "Yes sir, I can hear you.",
+      "speaker": "customer",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "seg_007",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:19",
+      "end_timestamp": "00:19"
+    },
+    {
+      "segment_id": "seg_008",
+      "text": "Yes, I can hear you, please speak.",
+      "speaker": "customer",
+      "start_timestamp": "00:20",
+      "end_timestamp": "00:21"
+    },
+    {
+      "segment_id": "seg_009",
+      "text": "Hello, I am Dr. Nikhil, speaking from Tata AIA Life Insurance. Which language are you comfortable with, Hindi or English?",
+      "speaker": "doctor",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "seg_010",
+      "text": "Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "00:28",
+      "end_timestamp": "00:29"
+    },
+    {
+      "segment_id": "seg_011",
+      "text": "Yes?",
+      "speaker": "doctor",
+      "start_timestamp": "00:30",
+      "end_timestamp": "00:31"
+    },
+    {
+      "segment_id": "seg_012",
+      "text": "Hindi sir, Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:32"
+    },
+    {
+      "segment_id": "seg_013",
+      "text": "Hindi, okay. This is related to your insurance policy. We have planned to proceed with your proposal, but before that, we need to conduct a video call telephonic medical verification. In this, I will ask you some questions related to your medical history and some verification questions, okay?",
+      "speaker": "doctor",
+      "start_timestamp": "00:33",
+      "end_timestamp": "00:48"
+    },
+    {
+      "segment_id": "seg_014",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:48",
+      "end_timestamp": "00:49"
+    },
+    {
+      "segment_id": "seg_015",
+      "text": "Please pay attention, whatever answers you give me about your health, about your habits, are part of this insurance application. If it gets accepted, a legal contract will be formed between you and the company. If any of your answers turn out to be false or do not match later, it will directly affect your policy. The policy can be canceled even before being issued, and it can also be rejected after being issued. So please answer carefully, correctly, and completely.",
+      "speaker": "doctor",
+      "start_timestamp": "00:50",
+      "end_timestamp": "01:18"
+    },
+    {
+      "segment_id": "seg_016",
+      "text": "And this call is being recorded for company quality purposes.",
+      "speaker": "doctor",
+      "start_timestamp": "01:19",
+      "end_timestamp": "01:22"
+    },
+    {
+      "segment_id": "seg_017",
+      "text": "Please tell me your full name.",
+      "speaker": "doctor",
+      "start_timestamp": "01:24",
+      "end_timestamp": "01:25"
+    },
+    {
+      "segment_id": "seg_018",
+      "text": "My name is Joginder, sir.",
+      "speaker": "customer",
+      "start_timestamp": "01:25",
+      "end_timestamp": "01:27"
+    },
+    {
+      "segment_id": "seg_019",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:29",
+      "end_timestamp": "01:29"
+    },
+    {
+      "segment_id": "seg_020",
+      "text": "Please tell me your date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "01:30",
+      "end_timestamp": "01:31"
+    },
+    {
+      "segment_id": "seg_021",
+      "text": "My date of birth is 2-7-1980.",
+      "speaker": "customer",
+      "start_timestamp": "01:32",
+      "end_timestamp": "01:34"
+    },
+    {
+      "segment_id": "seg_022",
+      "text": "2-7?",
+      "speaker": "doctor",
+      "start_timestamp": "01:35",
+      "end_timestamp": "01:36"
+    },
+    {
+      "segment_id": "seg_023",
+      "text": "1980.",
+      "speaker": "customer",
+      "start_timestamp": "01:37",
+      "end_timestamp": "01:37"
+    },
+    {
+      "segment_id": "seg_024",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:38",
+      "end_timestamp": "01:38"
+    },
+    {
+      "segment_id": "seg_025",
+      "text": "How far have you studied?",
+      "speaker": "doctor",
+      "start_timestamp": "01:39",
+      "end_timestamp": "01:40"
+    },
+    {
+      "segment_id": "seg_026",
+      "text": "I have studied till 10th standard, sir.",
+      "speaker": "customer",
+      "start_timestamp": "01:41",
+      "end_timestamp": "01:46"
+    },
+    {
+      "segment_id": "seg_027",
+      "text": "Studied till 10th standard?",
+      "speaker": "doctor",
+      "start_timestamp": "01:47",
+      "end_timestamp": "01:48"
+    },
+    {
+      "segment_id": "seg_028",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "01:49",
+      "end_timestamp": "01:49"
+    },
+    {
+      "segment_id": "seg_029",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:50",
+      "end_timestamp": "01:50"
+    },
+    {
+      "segment_id": "seg_030",
+      "text": "What do you currently do for work?",
+      "speaker": "doctor",
+      "start_timestamp": "01:52",
+      "end_timestamp": "01:53"
+    },
+    {
+      "segment_id": "seg_031",
+      "text": "I have an electric shop.",
+      "speaker": "customer",
+      "start_timestamp": "01:54",
+      "end_timestamp": "01:57"
+    },
+    {
+      "segment_id": "seg_032",
+      "text": "Okay, what is the name of your shop?",
+      "speaker": "doctor",
+      "start_timestamp": "01:58",
+      "end_timestamp": "02:00"
+    },
+    {
+      "segment_id": "seg_033",
+      "text": "Nitin.",
+      "speaker": "customer",
+      "start_timestamp": "02:01",
+      "end_timestamp": "02:02"
+    },
+    {
+      "segment_id": "seg_034",
+      "text": "Yes?",
+      "speaker": "doctor",
+      "start_timestamp": "02:02",
+      "end_timestamp": "02:03"
+    },
+    {
+      "segment_id": "seg_035",
+      "text": "Nitin Electric.",
+      "speaker": "customer",
+      "start_timestamp": "02:03",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "seg_036",
+      "text": "Nitin Electric. Is it your own business?",
+      "speaker": "doctor",
+      "start_timestamp": "02:05",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "seg_037",
+      "text": "Yes sir, it's my own electrician shop.",
+      "speaker": "customer",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:11"
+    },
+    {
+      "segment_id": "seg_038",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:11",
+      "end_timestamp": "02:12"
+    },
+    {
+      "segment_id": "seg_039",
+      "text": "Named Nitin Electric, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:15",
+      "end_timestamp": "02:16"
+    },
+    {
+      "segment_id": "seg_040",
+      "text": "Okay, first, please show any government identity card you have.",
+      "speaker": "doctor",
+      "start_timestamp": "02:18",
+      "end_timestamp": "02:22"
+    },
+    {
+      "segment_id": "seg_041",
+      "text": "Sir, the Aadhaar card is kept there, let me see.",
+      "speaker": "customer",
+      "start_timestamp": "02:25",
+      "end_timestamp": "02:28"
+    },
+    {
+      "segment_id": "seg_042",
+      "text": "One second, sir, I am showing it.",
+      "speaker": "customer",
+      "start_timestamp": "02:30",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "seg_043",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:31",
+      "end_timestamp": "02:32"
+    },
+    {
+      "segment_id": "seg_044",
+      "text": "Oh.",
+      "speaker": "customer",
+      "start_timestamp": "02:39",
+      "end_timestamp": "02:40"
+    },
+    {
+      "segment_id": "seg_045",
+      "text": "Where is it?",
+      "speaker": "customer",
+      "start_timestamp": "02:42",
+      "end_timestamp": "02:42"
+    },
+    {
+      "segment_id": "seg_046",
+      "text": "Where is the Aadhaar card? Look, check below, bring my mobile, it will be in that.",
+      "speaker": "customer",
+      "start_timestamp": "02:47",
+      "end_timestamp": "02:51"
+    },
+    {
+      "segment_id": "seg_047",
+      "text": "One minute, you'll have to wait a little.",
+      "speaker": "customer",
+      "start_timestamp": "02:58",
+      "end_timestamp": "02:59"
+    },
+    {
+      "segment_id": "seg_048",
+      "text": "Yes, no problem.",
+      "speaker": "doctor",
+      "start_timestamp": "03:00",
+      "end_timestamp": "03:01"
+    },
+    {
+      "segment_id": "seg_049",
+      "text": "Sir, will a PAN card work?",
+      "speaker": "customer",
+      "start_timestamp": "03:20",
+      "end_timestamp": "03:21"
+    },
+    {
+      "segment_id": "seg_050",
+      "text": "Yes, it will work.",
+      "speaker": "doctor",
+      "start_timestamp": "03:22",
+      "end_timestamp": "03:23"
+    },
+    {
+      "segment_id": "seg_051",
+      "text": "This is it, sir.",
+      "speaker": "customer",
+      "start_timestamp": "03:26",
+      "end_timestamp": "03:27"
+    },
+    {
+      "segment_id": "seg_052",
+      "text": "Sir, please move it up a little, move it up.",
+      "speaker": "doctor",
+      "start_timestamp": "03:28",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "seg_053",
+      "text": "This is it, put it down.",
+      "speaker": "customer",
+      "start_timestamp": "03:30",
+      "end_timestamp": "03:33"
+    },
+    {
+      "segment_id": "seg_054",
+      "text": "One second, there's light on it. Please change your position a little and show it.",
+      "speaker": "doctor",
+      "start_timestamp": "03:36",
+      "end_timestamp": "03:40"
+    },
+    {
+      "segment_id": "seg_055",
+      "text": "Come here, the light is falling here.",
+      "speaker": "customer",
+      "start_timestamp": "03:41",
+      "end_timestamp": "03:42"
+    },
+    {
+      "segment_id": "seg_056",
+      "text": "Please move it up a little, up up.",
+      "speaker": "doctor",
+      "start_timestamp": "03:47",
+      "end_timestamp": "03:49"
+    },
+    {
+      "segment_id": "seg_057",
+      "text": "Yes, and bring it close to the camera like this.",
+      "speaker": "doctor",
+      "start_timestamp": "03:51",
+      "end_timestamp": "03:53"
+    },
+    {
+      "segment_id": "seg_058",
+      "text": "One second, keep it here.",
+      "speaker": "doctor",
+      "start_timestamp": "03:57",
+      "end_timestamp": "03:58"
+    },
+    {
+      "segment_id": "seg_059",
+      "text": "Okay, alright. Thank you. Please tell me your PAN card number by speaking it out.",
+      "speaker": "doctor",
+      "start_timestamp": "04:00",
+      "end_timestamp": "04:04"
+    },
+    {
+      "segment_id": "seg_060",
+      "text": "Sir, my PAN card, the PAN card number is...",
+      "speaker": "customer",
+      "start_timestamp": "04:06",
+      "end_timestamp": "04:12"
+    },
+    {
+      "segment_id": "seg_061",
+      "text": "This is the number, sir: B H R P G 6 5 2 8 D.",
+      "speaker": "customer",
+      "start_timestamp": "04:18",
+      "end_timestamp": "04:26"
+    },
+    {
+      "segment_id": "seg_062",
+      "text": "Okay, thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "04:27",
+      "end_timestamp": "04:27"
+    },
+    {
+      "segment_id": "seg_063",
+      "text": "You need to stand up for physical verification. Hand the phone to someone so they can show your height from a distance.",
+      "speaker": "doctor",
+      "start_timestamp": "04:28",
+      "end_timestamp": "04:32"
+    },
+    {
+      "segment_id": "seg_064",
+      "text": "They are asking for length, show them.",
+      "speaker": "customer",
+      "start_timestamp": "04:38",
+      "end_timestamp": "04:41"
+    },
+    {
+      "segment_id": "seg_065",
+      "text": "Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "04:46",
+      "end_timestamp": "04:46"
+    },
+    {
+      "segment_id": "seg_066",
+      "text": "Okay, you need to show it from a distance, from a distance. Stand far with the camera. Yes, stand far.",
+      "speaker": "doctor",
+      "start_timestamp": "04:47",
+      "end_timestamp": "04:52"
+    },
+    {
+      "segment_id": "seg_067",
+      "text": "My mo... focus here.",
+      "speaker": "customer",
+      "start_timestamp": "04:53",
+      "end_timestamp": "04:54"
+    },
+    {
+      "segment_id": "seg_068",
+      "text": "This one. Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "04:55",
+      "end_timestamp": "04:56"
+    },
+    {
+      "segment_id": "seg_069",
+      "text": "Turn the camera down towards the feet. Turn it down towards the feet. Bring it down. Bring it down, bring it down further. Turn it completely.",
+      "speaker": "doctor",
+      "start_timestamp": "04:57",
+      "end_timestamp": "05:04"
+    },
+    {
+      "segment_id": "seg_070",
+      "text": "Turn the camera down.",
+      "speaker": "customer",
+      "start_timestamp": "05:04",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "seg_071",
+      "text": "Yes, bring it down further, do it more.",
+      "speaker": "doctor",
+      "start_timestamp": "05:07",
+      "end_timestamp": "05:08"
+    },
+    {
+      "segment_id": "seg_072",
+      "text": "Do more. Look at me.",
+      "speaker": "customer",
+      "start_timestamp": "05:09",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "seg_073",
+      "text": "Bring it all the way down. Bring it down, bring it down, to the feet.",
+      "speaker": "doctor",
+      "start_timestamp": "05:11",
+      "end_timestamp": "05:14"
+    },
+    {
+      "segment_id": "seg_074",
+      "text": "No, turn it down completely like this, so their feet are visible below.",
+      "speaker": "doctor",
+      "start_timestamp": "05:19",
+      "end_timestamp": "05:22"
+    },
+    {
+      "segment_id": "seg_075",
+      "text": "The feet should be visible, tell them.",
+      "speaker": "customer",
+      "start_timestamp": "05:22",
+      "end_timestamp": "05:23"
+    },
+    {
+      "segment_id": "seg_076",
+      "text": "Please turn the camera down.",
+      "speaker": "doctor",
+      "start_timestamp": "05:25",
+      "end_timestamp": "05:26"
+    },
+    {
+      "segment_id": "seg_077",
+      "text": "Okay, alright. Thank you. Hand them the phone, you can sit comfortably.",
+      "speaker": "doctor",
+      "start_timestamp": "05:27",
+      "end_timestamp": "05:31"
+    },
+    {
+      "segment_id": "seg_078",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "05:32",
+      "end_timestamp": "05:32"
+    },
+    {
+      "segment_id": "seg_079",
+      "text": "Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "05:45",
+      "end_timestamp": "05:46"
+    },
+    {
+      "segment_id": "seg_080",
+      "text": "Who have you made the nominee for this policy, the successor?",
+      "speaker": "doctor",
+      "start_timestamp": "05:47",
+      "end_timestamp": "05:49"
+    },
+    {
+      "segment_id": "seg_081",
+      "text": "It's Ram.",
+      "speaker": "customer",
+      "start_timestamp": "05:50",
+      "end_timestamp": "05:51"
+    },
+    {
+      "segment_id": "seg_082",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "05:55",
+      "end_timestamp": "05:55"
+    },
+    {
+      "segment_id": "seg_083",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "05:58",
+      "end_timestamp": "05:58"
+    },
+    {
+      "segment_id": "seg_084",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:11",
+      "end_timestamp": "06:12"
+    },
+    {
+      "segment_id": "seg_085",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:15",
+      "end_timestamp": "06:16"
+    },
+    {
+      "segment_id": "seg_086",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:22",
+      "end_timestamp": "06:23"
+    },
+    {
+      "segment_id": "seg_087",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:28",
+      "end_timestamp": "06:29"
+    },
+    {
+      "segment_id": "seg_088",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:33",
+      "end_timestamp": "06:33"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello",
+      "speaker": "customer",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:04"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello? Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "3",
+      "text": "Ma'am, I'm Dr. Bushra Sumera calling on behalf of Tata AIA. Are you Miss Vadapalli?",
+      "speaker": "doctor",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "4",
+      "text": "Ah, yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "5",
+      "text": "Ma'am, this is regarding your insurance policy. Are you comfortable in Hindi or English?",
+      "speaker": "doctor",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:21"
+    },
+    {
+      "segment_id": "6",
+      "text": "Not comfortable in Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "7",
+      "text": "Do you know Hindi?",
+      "speaker": "doctor",
+      "start_timestamp": "00:24",
+      "end_timestamp": "00:25"
+    },
+    {
+      "segment_id": "8",
+      "text": "Ah, no no.",
+      "speaker": "customer",
+      "start_timestamp": "00:26",
+      "end_timestamp": "00:27"
+    },
+    {
+      "segment_id": "9",
+      "text": "Okay, which language? Telugu?",
+      "speaker": "doctor",
+      "start_timestamp": "00:28",
+      "end_timestamp": "00:30"
+    },
+    {
+      "segment_id": "10",
+      "text": "Telugu.",
+      "speaker": "customer",
+      "start_timestamp": "00:30",
+      "end_timestamp": "00:31"
+    },
+    {
+      "segment_id": "11",
+      "text": "Okay, a Telugu doctor will call you.",
+      "speaker": "doctor",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:33"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "FLQ.1",
+          "text": "Are you Pregnant now?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "H.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "H.i",
+            "expected": "No",
+            "corrected": "ulcerative"
+          },
+          {
+            "id": "H.m",
+            "expected": "No",
+            "corrected": "swallowing"
+          },
+          {
+            "id": "FLQ.2",
+            "expected": "No",
+            "corrected": "pre-eclampsia"
+          },
+          {
+            "id": "FLQ.3",
+            "expected": "Yes",
+            "corrected": "gynecological"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 5
+      }
+    },
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "23/05/1977",
+        "expected": "1977-05-30"
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

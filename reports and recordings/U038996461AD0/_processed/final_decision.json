@@ -1,0 +1,33 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.j.3",
+          "text": "Hernia"
+        },
+        {
+          "id": "Health.j.14",
+          "text": "When was your last recovery?"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 8
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

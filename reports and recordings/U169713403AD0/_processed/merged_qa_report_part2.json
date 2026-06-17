@@ -1,0 +1,87 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:03:01"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:03:15",
+        "client_name": "00:03:24",
+        "insurer_name": "00:03:19"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked for the customer's language preference.",
+      "timestamp": "00:03:08"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested ID proof and the customer's PAN number for validation.",
+      "timestamps": [
+        "00:05:14",
+        "00:05:37"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated the call recording purpose and the implications of the answers for the insurance policy.",
+      "timestamp": "00:03:48"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout the call, using respectful language.",
+      "timestamps": [
+        "00:03:11",
+        "00:05:14"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that would require specific empathy.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, provided precise instructions, and ensured understanding throughout the call.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:03",
+          "00:06:02"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding the customer's gutkha consumption.",
+      "timestamps": [
+        "00:07:01",
+        "00:07:09"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation or third-party prompting observed during the call.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a declaration from the customer and concluded the call with a thank you.",
+      "timestamps": {
+        "declaration": "00:13:14",
+        "thank_you": "00:13:26"
+      }
+    }
+  }
+}

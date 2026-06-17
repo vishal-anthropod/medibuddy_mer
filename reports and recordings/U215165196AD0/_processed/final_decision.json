@@ -1,0 +1,63 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "7",
+          "text": "Sir/Mam' are you in agreement with the declaration that I have r ead out to you."
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Naresh Kumar Korvi",
+        "expected": "Korvi Naresh Kumar"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 8,
+        "examples": [
+          {
+            "id": "3",
+            "expected": "Education - Above Graduate",
+            "corrected": "Education Qualification"
+          },
+          {
+            "id": "6",
+            "expected": "dalaas texas",
+            "corrected": "Dallas Texas"
+          },
+          {
+            "id": "7",
+            "expected": "Yes",
+            "corrected": "Sir/Ma'am are you in agreement with the declaration that I have read out to you."
+          },
+          {
+            "id": "c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumors, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 17
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

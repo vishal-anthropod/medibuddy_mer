@@ -1,0 +1,82 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Seema Amol Aptalakar",
+        "expected": "Seema Amol Atyalkar"
+      }
+    },
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "Customer talking to a third party: 'She's on the phone. It's a call from Tata A.I.A.'",
+          "Customer relaying instructions to a third party: 'Your Aadhaar card or PAN card. Keep it ready in front.'",
+          "Customer talking to a third party: 'Who are you talking to? It's a medical verification.'",
+          "Customer talking to a third party: 'Your voice is coming through the speaker. Keep it on.'",
+          "Customer talking to a third party: 'Yes, on speaker. She was on speaker before.'",
+          "Customer talking to a third party: 'Your voice is coming through the speaker.'"
+        ],
+        "timestamps": [
+          "00:18",
+          "00:28",
+          "00:50",
+          "00:54",
+          "00:58",
+          "08:38"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "i",
+            "expected": "No",
+            "corrected": "ulcerative"
+          },
+          {
+            "id": "j.Fistula.OnsetInvestigationsResults",
+            "expected": "ONSET-1 DECEMBER 2025 MRI AND BLOODE TEST INFECTION AT ANAL AREA",
+            "corrected": "BLOOD TEST"
+          },
+          {
+            "id": "Last5Years.c",
+            "expected": "No",
+            "corrected": "consecutive"
+          },
+          {
+            "id": "Female.3",
+            "expected": "No",
+            "corrected": "gynecological"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 7
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

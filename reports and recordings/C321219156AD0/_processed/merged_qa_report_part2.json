@@ -1,0 +1,113 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of both calls.",
+      "timestamps": [
+        "00:00:04",
+        "00:00:06",
+        "00:01:44"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, mentioned the insurer's name, and confirmed the client's name multiple times.",
+      "timestamps": {
+        "self_intro": "00:00:06",
+        "client_name": "00:00:35",
+        "insurer_name": "00:00:06"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked for the customer's language preference at the start of both calls.",
+      "timestamp": "00:00:13"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested the last four digits of the customer's Aadhaar card for identity validation.",
+      "timestamps": [
+        "00:04:21"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided comprehensive disclaimers regarding the call's purpose, recording, legal contract, consequences of false answers, and the duration.",
+      "timestamps": [
+        "00:00:42",
+        "00:00:56",
+        "00:01:19",
+        "00:02:58",
+        "00:03:24"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the conversation, using phrases like 'Okay' and 'Great' and acknowledging customer requests.",
+      "timestamps": [
+        "00:01:35",
+        "00:01:41",
+        "00:02:26",
+        "00:07:14",
+        "00:07:21",
+        "00:10:58",
+        "00:12:51"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that would require explicit empathy. Defaulting to Yes as per guidelines.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor clearly explained disclaimers and actively managed third-party interference. However, there was a minor lapse in asking for the third party's Aadhaar and repeating some questions.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:42",
+          "00:03:24",
+          "00:04:48",
+          "00:06:57"
+        ],
+        "poor_examples": [
+          "00:05:28",
+          "00:10:37"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details, clarifying customer's answers on height, weight, fever, and identifying the third party.",
+      "timestamps": [
+        "00:05:14",
+        "00:06:57",
+        "00:07:35",
+        "00:11:30",
+        "00:12:07",
+        "00:12:16"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "A third party (father) was present and provided an answer regarding the customer's weight, which the customer then repeated. The doctor also had to repeatedly instruct the customer not to let others speak.",
+      "timestamps": [
+        "00:02:17",
+        "00:03:24",
+        "00:04:38",
+        "00:04:47",
+        "00:04:51",
+        "00:04:56",
+        "00:05:14",
+        "00:07:39"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the accuracy of the provided answers and thanked the customer at the end of the call.",
+      "timestamps": {
+        "declaration": "00:13:13",
+        "thank_you": "00:13:23"
+      }
+    }
+  }
+}

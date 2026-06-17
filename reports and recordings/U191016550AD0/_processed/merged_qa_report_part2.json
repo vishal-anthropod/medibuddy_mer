@@ -1,0 +1,88 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:04:26",
+        "00:04:33"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:04:33",
+        "client_name": "00:05:45",
+        "insurer_name": "00:04:35"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language.",
+      "timestamp": "00:04:36"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested and validated the customer's government ID proof.",
+      "timestamps": [
+        "00:06:24",
+        "00:06:36"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the purpose of the call, the policy implications, and that the call might be recorded.",
+      "timestamp": "00:04:41"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout the call, using 'please' and 'thank you'.",
+      "timestamps": [
+        "00:04:33",
+        "00:09:07"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that would require specific empathy from the doctor.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, provided precise instructions, and asked questions effectively.",
+      "timestamps": {
+        "good_examples": [
+          "00:04:51",
+          "00:05:35",
+          "00:06:24"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The customer answered all questions directly and promptly; no hesitation was observed.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation or third-party prompting was observed during the call.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the correctness of the provided answers and thanked the customer for their time.",
+      "timestamps": {
+        "declaration": "00:08:59",
+        "thank_you": "00:09:07"
+      }
+    }
+  }
+}

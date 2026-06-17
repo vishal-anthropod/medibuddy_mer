@@ -1,0 +1,69 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "No",
+      "explanation": "No greeting found in the transcript.",
+      "timestamps": []
+    },
+    "call_opening": {
+      "value": "No",
+      "explanation": "No self-introduction, client name, or insurer name mentioned in the transcript.",
+      "timestamps": {
+        "self_intro": "",
+        "client_name": "",
+        "insurer_name": ""
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "No language preference check found in the transcript.",
+      "timestamp": ""
+    },
+    "id_validation": {
+      "value": "No",
+      "explanation": "No ID validation found in the transcript.",
+      "timestamps": []
+    },
+    "disclaimer": {
+      "value": "No",
+      "explanation": "No disclaimer provided in the transcript.",
+      "timestamp": ""
+    },
+    "politeness": {
+      "value": "No",
+      "explanation": "No polite language or interactions found in the transcript.",
+      "timestamps": []
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concern (accident, operation, severe illness) was mentioned in the transcript, so empathy is marked 'Yes' by default.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "No",
+      "explanation": "No communication interactions found in the transcript.",
+      "timestamps": {
+        "good_examples": [],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "No conversation or information gathering occurred, so probing was not applicable.",
+      "timestamps": []
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer-side observations (hesitation, prompting, unusual events) were present in the transcript.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "No",
+      "explanation": "No call closure declaration or thank you found in the transcript.",
+      "timestamps": {
+        "declaration": "",
+        "thank_you": ""
+      }
+    }
+  }
+}

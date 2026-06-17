@@ -1,0 +1,64 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Declaration",
+          "text": "You Katakamsetty Venkata Jaganmohan , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+        },
+        {
+          "id": "a.1.iii",
+          "text": "Raised lipids"
+        },
+        {
+          "id": "b.1",
+          "text": "Chest pain or heaviness or discomfort"
+        },
+        {
+          "id": "b.2",
+          "text": "heart murmur"
+        },
+        {
+          "id": "b.4",
+          "text": "Stroke"
+        },
+        {
+          "id": "d.3",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "id": "d.4",
+          "text": "Hypothyroidism"
+        },
+        {
+          "id": "d.5",
+          "text": "Type 1 Diabetes"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Katakamsetti Venkata Jagannath Mohan",
+        "expected": "Katakamsetty Venkata Jaganmohan"
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 9
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

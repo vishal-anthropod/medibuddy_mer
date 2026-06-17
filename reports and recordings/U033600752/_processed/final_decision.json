@@ -1,0 +1,42 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Minor prompting detected",
+      "details": {
+        "examples": [
+          "Customer repeats 'Share the Aadhar card number' after the doctor asks for the husband's Aadhar number, suggesting a third party is guiding the customer. The doctor also explicitly warns against prompting multiple times (01:56, 03:54)."
+        ],
+        "timestamps": [
+          "02:20"
+        ]
+      }
+    },
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer initially provides DOB as '5 2 84' and takes multiple attempts to confirm '5th February 1984'.",
+          "Customer asks 'My Aadhar card or my husband's Aadhar card?' indicating confusion.",
+          "Customer hesitates and self-corrects while reading Aadhar digits ('45... 4517. No, no.').",
+          "Customer initially states weight as '15 kg' before correcting to '50 kg'."
+        ],
+        "timestamps": [
+          "01:36",
+          "02:33",
+          "02:49",
+          "06:12"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

@@ -1,0 +1,53 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_1",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:03"
+    },
+    {
+      "segment_id": "seg_2",
+      "text": "Hello? Uh, am I speaking to Shailesh Chandra?",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "seg_3",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "seg_4",
+      "text": "You dialed the wrong number.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:11"
+    },
+    {
+      "segment_id": "seg_5",
+      "text": "Uh, uh, is this Shailesh Chandra?",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:15"
+    },
+    {
+      "segment_id": "seg_6",
+      "text": "You dialed the wrong number.",
+      "speaker": "customer",
+      "start_timestamp": "00:16",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "seg_7",
+      "text": "Manik...",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:20"
+    }
+  ]
+}

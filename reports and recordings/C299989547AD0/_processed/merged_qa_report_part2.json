@@ -1,0 +1,92 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself and the company, and confirmed the customer's name.",
+      "timestamps": {
+        "self_intro": "00:09",
+        "client_name": "02:13",
+        "insurer_name": "00:11"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language.",
+      "timestamp": "00:12"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested ID, asked for the PAN card number, and clarified the name based on the ID.",
+      "timestamps": [
+        "00:15",
+        "00:24",
+        "02:19",
+        "02:35"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided disclaimers regarding the policy's terms and conditions, and call recording.",
+      "timestamp": "00:43"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using 'please' and 'thank you'.",
+      "timestamps": [
+        "00:15",
+        "04:55"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed, so empathy was not specifically required.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, provided instructions, and effectively clarified information.",
+      "timestamps": {
+        "good_examples": [
+          "00:12",
+          "00:43",
+          "02:24"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed to clarify the customer's full name based on their ID and application.",
+      "timestamps": [
+        "02:19",
+        "02:24",
+        "02:35"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "A third party was assisting the customer with the camera during the physical verification, as indicated by the doctor's instructions to 'Tell them to lower the camera'.",
+      "timestamps": [
+        "02:06",
+        "02:08"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the accuracy of the answers and thanked the customer.",
+      "timestamps": {
+        "declaration": "04:47",
+        "thank_you": "04:55"
+      }
+    }
+  }
+}

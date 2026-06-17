@@ -1,0 +1,93 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Doctors initiated both calls with greetings.",
+      "timestamps": [
+        "00:00:05",
+        "00:09:48"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "Both doctors introduced themselves, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:14",
+        "client_name": "00:00:19",
+        "insurer_name": "00:00:16"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not ask for the customer's language preference in either call.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Initial ID validation in Call 1 failed due to blurriness, but was successfully completed in Call 2, including verification of Aadhaar digits.",
+      "timestamps": [
+        "00:03:14",
+        "00:11:30"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Both doctors read out the disclaimer regarding call recording and the legal implications of the information provided.",
+      "timestamp": "00:00:48"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Doctors maintained a polite tone throughout both calls, even when facing technical difficulties or customer interruptions.",
+      "timestamps": [
+        "00:02:28",
+        "00:17:46"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The doctor showed empathy by acknowledging the customer's disclosure of a past accident and surgery, and emphasizing the importance of sharing all health information.",
+      "timestamps": [
+        "00:17:24",
+        "00:17:46"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Doctors provided clear instructions and questions. However, they occasionally repeated 'Hello?' during brief silences or customer interruptions, indicating minor impatience.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:19",
+          "00:12:38"
+        ],
+        "poor_examples": [
+          "00:01:50",
+          "00:14:46"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding the customer's accident, fracture, and surgery, and clarified customer responses.",
+      "timestamps": [
+        "00:17:02",
+        "00:17:50"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer received another call during Call 1 and experienced persistent difficulty showing ID proof clearly due to blurriness/network issues.",
+      "timestamps": [
+        "00:01:36",
+        "00:03:19"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Call 1 ended with a reschedule due to ID issues. Call 2 concluded with a proper declaration and thank you from the doctor.",
+      "timestamps": {
+        "declaration": "00:22:47",
+        "thank_you": "00:22:56"
+      }
+    }
+  }
+}

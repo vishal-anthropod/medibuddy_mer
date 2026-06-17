@@ -1,0 +1,90 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a clear greeting.",
+      "timestamps": [
+        "00:00:01"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and asked for the client by name.",
+      "timestamps": {
+        "self_intro": "00:00:05",
+        "client_name": "00:00:11",
+        "insurer_name": "00:00:07"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language.",
+      "timestamp": "00:00:15"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested an ID proof number from the customer.",
+      "timestamps": [
+        "00:01:53"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the purpose of the medical verification call and the virtual agreement.",
+      "timestamp": "00:00:26"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language and addressed the customer as 'ma'am' throughout the call.",
+      "timestamps": [
+        "00:00:01",
+        "00:01:12",
+        "00:06:13"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer's C-section was elective and not a current serious health concern. The doctor appropriately probed about complications.",
+      "timestamps": [
+        "00:05:28"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, managed the call effectively, and professionally handled the rescheduling request.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:26",
+          "00:01:06",
+          "00:03:10"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details when the customer mentioned recent delivery and C-section.",
+      "timestamps": [
+        "00:04:25",
+        "00:04:41",
+        "00:04:55",
+        "00:05:28"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer reported a low phone battery and requested to reschedule, which the doctor accommodated.",
+      "timestamps": [
+        "00:00:46"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the accuracy of the answers and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:06:07",
+        "thank_you": "00:06:13"
+      }
+    }
+  }
+}

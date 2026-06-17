@@ -1,0 +1,88 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor engaged in greetings at the beginning and end of the call.",
+      "timestamps": [
+        "00:00:03",
+        "00:14:06"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:01:10",
+        "client_name": "00:01:04",
+        "insurer_name": "00:01:13"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language for the conversation.",
+      "timestamp": "00:01:18"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested the customer to keep their ID ready and later asked for and confirmed the PAN card number.",
+      "timestamps": [
+        "00:02:13",
+        "00:02:31"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided a comprehensive disclaimer regarding call recording, policy implications, and the importance of accurate information.",
+      "timestamp": "00:01:22"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using 'ma'am' and 'please' frequently.",
+      "timestamps": [
+        "00:01:51",
+        "00:02:24"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The customer disclosed having undergone fistula surgery, which is a serious health concern, but the doctor did not express any empathy.",
+      "timestamps": [
+        "00:05:19",
+        "00:06:24",
+        "00:08:03"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor's communication was clear, provided good instructions, and summarized key information effectively.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:49",
+          "00:09:42"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor thoroughly probed for details regarding the customer's fistula and piles conditions, including onset, investigations, symptoms, treatment, and recovery.",
+      "timestamps": [
+        "00:05:42",
+        "00:11:20"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting (feeding answers).",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a final declaration from the customer, and the customer concluded the call with a thank you.",
+      "timestamps": {
+        "declaration": "00:13:32",
+        "thank_you": "00:14:05"
+      }
+    }
+  }
+}

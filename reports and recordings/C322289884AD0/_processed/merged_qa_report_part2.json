@@ -1,0 +1,106 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting in both attempts.",
+      "timestamps": [
+        "00:00:11",
+        "00:01:30"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name and purpose of the call.",
+      "timestamps": {
+        "self_intro": "00:00:16",
+        "client_name": "00:00:11",
+        "insurer_name": "00:00:16"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their language preference.",
+      "timestamp": "00:00:24"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for the customer's full name, date of birth, and the last four digits of their Aadhar number.",
+      "timestamps": [
+        "00:02:39",
+        "00:02:46",
+        "00:03:38"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly read out the call recording and policy impact disclaimers.",
+      "timestamp": "00:02:04"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone, used respectful language ('Sir', 'Ma'am'), and thanked the customer.",
+      "timestamps": [
+        "00:01:23",
+        "00:28:31"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer mentioned past health conditions (fistula, hernia, slipped disc, raised cholesterol), but none were presented as severe or requiring explicit empathy beyond professional conduct.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "Generally good, but the doctor repeated an incorrect future date (October 2025) for a past diagnosis without correction.",
+      "timestamps": {
+        "good_examples": [
+          "00:04:08",
+          "00:14:07",
+          "00:15:01"
+        ],
+        "poor_examples": [
+          "00:20:34"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor consistently asked follow-up questions for clarification on health conditions, dates, and details.",
+      "timestamps": [
+        "00:06:30",
+        "00:07:40",
+        "00:08:01",
+        "00:09:09",
+        "00:10:02",
+        "00:16:03",
+        "00:18:13",
+        "00:19:16",
+        "00:19:59",
+        "00:20:13",
+        "00:21:16",
+        "00:22:29",
+        "00:23:38",
+        "00:24:00",
+        "00:24:46",
+        "00:24:59",
+        "00:25:12",
+        "00:25:21",
+        "00:25:46",
+        "00:25:57"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "The customer experienced minor difficulties (e.g., finding Aadhar, recalling exact dates/readings) but did not refuse, give no answer, or repeatedly evade questions. No third-party prompting was observed.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor read the final declaration and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:28:31",
+        "thank_you": "00:28:31"
+      }
+    }
+  }
+}

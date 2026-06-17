@@ -1,0 +1,62 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Lifestyle.Alcohol.Units",
+          "text": "In a week,How many units do you consume ? 1 unit of alcohol = 1 bottle of beer (350 ml)"
+        },
+        {
+          "id": "GeneralDisclosure",
+          "text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?"
+        },
+        {
+          "id": "GeneralDisclosure.ViralInfection",
+          "text": "Viral infection"
+        },
+        {
+          "id": "GeneralDisclosure.DengueFever",
+          "text": "Dengue fever"
+        },
+        {
+          "id": "GeneralDisclosure.Malaria",
+          "text": "Malaria"
+        },
+        {
+          "id": "GeneralDisclosure.MouthUlcer",
+          "text": "Mouth ulcer"
+        },
+        {
+          "id": "GeneralDisclosure.HayFever",
+          "text": "Hay fever"
+        },
+        {
+          "id": "GeneralDisclosure.COVID19Positive",
+          "text": "COVID-19 Positive"
+        },
+        {
+          "id": "Declaration.Agreement",
+          "text": "Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you."
+        }
+      ]
+    },
+    {
+      "issue": "Doctor not wearing apron",
+      "details": {
+        "attire_check": "no"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "February 11, 1989",
+        "expected": "11-Feb-1999"
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

@@ -1,0 +1,93 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Doctor greeted the customer in both calls.",
+      "timestamps": [
+        "00:00:06",
+        "00:01:33"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "In Call 2, the doctor introduced herself, stated the company, and confirmed the customer's name. Call 1 was a rescheduling call.",
+      "timestamps": {
+        "self_intro": "00:01:52",
+        "client_name": "00:02:27",
+        "insurer_name": "00:01:52"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Doctor asked for language preference in both calls.",
+      "timestamp": "00:00:18"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Doctor requested ID, customer showed driving license, and doctor verified the number by asking the customer to read it out.",
+      "timestamps": [
+        "00:02:47",
+        "00:03:05",
+        "00:03:34"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Doctor provided a comprehensive disclaimer regarding the call's purpose, recording, and policy implications.",
+      "timestamp": "00:01:52"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "Doctor maintained a polite tone and used respectful language throughout both calls.",
+      "timestamps": [
+        "00:01:08",
+        "00:01:27",
+        "00:20:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that would require explicit empathy.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "Doctor communicated clearly, confirmed details (e.g., driving license number), and explained protocols (e.g., 'it's protocol'). No poor examples were observed.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:23",
+          "00:04:27",
+          "00:19:24"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "Doctor effectively probed for details on medical history (jaundice, fistula, B12, injury) and the reason for rescheduling in Call 1.",
+      "timestamps": [
+        "00:00:34",
+        "00:07:02",
+        "00:09:39",
+        "00:14:59"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "In Call 1, the customer was traveling and unable to provide a complete view, which was a relevant unusual event that the doctor captured and addressed by rescheduling.",
+      "timestamps": [
+        "00:00:48",
+        "00:01:01",
+        "00:01:08"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "In Call 2, the doctor provided a clear declaration of information correctness and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:20:36",
+        "thank_you": "00:20:36"
+      }
+    }
+  }
+}

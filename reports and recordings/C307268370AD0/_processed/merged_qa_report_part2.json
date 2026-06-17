@@ -1,0 +1,108 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with greetings.",
+      "timestamps": [
+        "00:00:03",
+        "00:00:07"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:15",
+        "client_name": "00:00:22",
+        "insurer_name": "00:00:18"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their language preference.",
+      "timestamp": "00:00:10"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer to spell their name, show ID proof, and provide the last four digits of their Aadhaar card when visual validation was difficult.",
+      "timestamps": [
+        "00:01:19",
+        "00:01:56",
+        "00:02:03",
+        "00:03:23"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided disclaimers regarding call recording, duration, and the legal implications of the information provided.",
+      "timestamp": "00:00:28"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and respectful tone throughout the call, using 'sir' and 'madam'.",
+      "timestamps": [
+        "00:00:15",
+        "00:00:28",
+        "00:00:49",
+        "00:01:19",
+        "00:03:45",
+        "00:15:33"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that required explicit empathy. The customer's conditions were not severe.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor's communication was clear, structured, and effective, providing clear instructions and explanations.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:28",
+          "00:00:49",
+          "00:02:03",
+          "00:03:45",
+          "00:05:04",
+          "00:06:55",
+          "00:09:19"
+        ],
+        "poor_examples": [
+          "NA"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed into the customer's disclosed gas problem and kidney stone history, asking detailed follow-up questions.",
+      "timestamps": [
+        "00:06:55",
+        "00:07:22",
+        "00:08:17",
+        "00:08:59",
+        "00:09:19",
+        "00:09:42",
+        "00:10:26",
+        "00:12:39",
+        "00:14:44"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation (refusal, no answer, repeated evasion) or third-party prompting was observed during the call.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a final declaration from the customer and concluded the call with a thank you.",
+      "timestamps": {
+        "declaration": "00:15:18",
+        "thank_you": "00:15:33"
+      }
+    }
+  }
+}

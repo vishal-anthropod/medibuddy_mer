@@ -1,0 +1,57 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Lifestyle.RecreationalDrugs",
+          "text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "Lifestyle.Tobacco.b",
+            "expected": "No",
+            "corrected": "Chewing tobacco, Paan and/or Gutka"
+          },
+          {
+            "id": "Lifestyle.Tobacco.c",
+            "expected": "No",
+            "corrected": "Nicotine replacement products (Including nicotine patches)"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

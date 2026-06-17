@@ -1,0 +1,34 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.f",
+          "text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver"
+        },
+        {
+          "id": "Other.6",
+          "text": "Please confirm medical disclosure in Proposal form/Previous Policy with TALIC?"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Ganesh Malik",
+        "expected": "DINESH DEVKISHEN MANIK"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

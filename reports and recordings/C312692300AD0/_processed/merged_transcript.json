@@ -1,0 +1,1628 @@
+{
+  "segments": [
+    {
+      "segment_id": "call1_1",
+      "text": "Hello sir.",
+      "speaker": "doctor",
+      "start_timestamp": "0:05",
+      "end_timestamp": "0:06",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_2",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "0:06",
+      "end_timestamp": "0:07",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_3",
+      "text": "Sir, am I audible and visible?",
+      "speaker": "doctor",
+      "start_timestamp": "0:08",
+      "end_timestamp": "0:09",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_4",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "0:10",
+      "end_timestamp": "0:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_5",
+      "text": "Sir, I'm Dr. Jacob Sebastian calling on behalf of Tata AIA Life Insurance. This is with reference to your insurance policy, sir. We have decided to go ahead with your proposal, but as part of the process, we need to conduct a video medical verification in which I will ask you some verification and medical history questions, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "0:15",
+      "end_timestamp": "0:29",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_6",
+      "text": "This call is recorded for company's audit and quality purpose. I will be asking you few questions regarding your insurance application and this recorded call will take about 10 to 12 minutes, sir. I hope we can continue with the call.",
+      "speaker": "doctor",
+      "start_timestamp": "0:30",
+      "end_timestamp": "0:41",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_7",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:44",
+      "end_timestamp": "0:45",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_8",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "0:47",
+      "end_timestamp": "0:48",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_9",
+      "text": "Can you please understand that the replies and the information provided by you on this call relating to your health and habits will be considered as part of your application for insurance and if the proposal is accepted, it shall form the basis of legal contract of insurance between you and Tata AIA Life Insurance.",
+      "speaker": "doctor",
+      "start_timestamp": "0:48",
+      "end_timestamp": "1:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_10",
+      "text": "Any incorrect or false statements or replies will have an impact on the contract and may lead to the cancellation of the policy before or after issuance and may also lead to the rejection of the claim data, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "1:03",
+      "end_timestamp": "1:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_11",
+      "text": "You are hence requested to respond thoughtfully and correctly.",
+      "speaker": "doctor",
+      "start_timestamp": "1:12",
+      "end_timestamp": "1:15",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_12",
+      "text": "I'm sure you have given the medical history during the test, but as the video medical verification is vital for issue of the policy, I will take you through a set of medical questions again, sir. Can you kindly confirm the full name that you have given?",
+      "speaker": "doctor",
+      "start_timestamp": "1:17",
+      "end_timestamp": "1:29",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_13",
+      "text": "Hello sir?",
+      "speaker": "doctor",
+      "start_timestamp": "1:41",
+      "end_timestamp": "1:42",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_14",
+      "text": "Yes sir.",
+      "speaker": "customer",
+      "start_timestamp": "1:43",
+      "end_timestamp": "1:43",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_15",
+      "text": "Can you confirm the full name? Your full name?",
+      "speaker": "doctor",
+      "start_timestamp": "1:45",
+      "end_timestamp": "1:48",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_16",
+      "text": "Akshay Kumar Das. Akshay Kumar Das.",
+      "speaker": "customer",
+      "start_timestamp": "1:48",
+      "end_timestamp": "1:50",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_17",
+      "text": "Your date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "1:51",
+      "end_timestamp": "1:52",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_18",
+      "text": "27 April 1990.",
+      "speaker": "customer",
+      "start_timestamp": "1:54",
+      "end_timestamp": "1:55",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_19",
+      "text": "Your education qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "1:59",
+      "end_timestamp": "2:00",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_20",
+      "text": "Actually I am a I am also MBBS MD MD DM.",
+      "speaker": "customer",
+      "start_timestamp": "2:02",
+      "end_timestamp": "2:07",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_21",
+      "text": "Yeah, okay. Critical care.",
+      "speaker": "doctor",
+      "start_timestamp": "2:08",
+      "end_timestamp": "2:09",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_22",
+      "text": "Your current occupation, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "2:10",
+      "end_timestamp": "2:11",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_23",
+      "text": "I'm a doctor.",
+      "speaker": "customer",
+      "start_timestamp": "2:13",
+      "end_timestamp": "2:13",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_24",
+      "text": "Okay. Are you self-employed or salaried, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "2:15",
+      "end_timestamp": "2:17",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_25",
+      "text": "Salaried.",
+      "speaker": "customer",
+      "start_timestamp": "2:19",
+      "end_timestamp": "2:19",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_26",
+      "text": "Can you please show me your ID proof for the verification, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "2:25",
+      "end_timestamp": "2:27",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_27",
+      "text": "Any Aadhar card or PAN card or anything?",
+      "speaker": "customer",
+      "start_timestamp": "2:29",
+      "end_timestamp": "2:32",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_28",
+      "text": "Any government approved ID will do, sir. Any Aadhar card, PAN card or license or passport.",
+      "speaker": "doctor",
+      "start_timestamp": "2:33",
+      "end_timestamp": "2:37",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_29",
+      "text": "Okay, sure.",
+      "speaker": "customer",
+      "start_timestamp": "2:39",
+      "end_timestamp": "2:39",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_30",
+      "text": "Please move it a little more upwards so that I can read that number, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "2:48",
+      "end_timestamp": "2:51",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_31",
+      "text": "A little more up, a little bit.",
+      "speaker": "doctor",
+      "start_timestamp": "2:55",
+      "end_timestamp": "2:57",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_32",
+      "text": "Okay, sir. Can you please tell me the last four digits of the Aadhar number?",
+      "speaker": "doctor",
+      "start_timestamp": "3:01",
+      "end_timestamp": "3:04",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_33",
+      "text": "9893.",
+      "speaker": "customer",
+      "start_timestamp": "3:06",
+      "end_timestamp": "3:07",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_34",
+      "text": "Can you please share me your current location where you are right now, like city and state?",
+      "speaker": "doctor",
+      "start_timestamp": "3:10",
+      "end_timestamp": "3:14",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_35",
+      "text": "Have to send current location or tell?",
+      "speaker": "customer",
+      "start_timestamp": "3:17",
+      "end_timestamp": "3:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_36",
+      "text": "Current location. Can you please tell me where you are right now, like city and",
+      "speaker": "doctor",
+      "start_timestamp": "3:19",
+      "end_timestamp": "3:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_37",
+      "text": "Durgapur, Durgapur, West Bengal.",
+      "speaker": "customer",
+      "start_timestamp": "3:24",
+      "end_timestamp": "3:27",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_38",
+      "text": "Just a moment, sir. Can you please show me your full view for the verification purpose, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "3:36",
+      "end_timestamp": "3:40",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_39",
+      "text": "Complete view, like from head to toe. You can either place your phone like in the selfie position while standing so that I could see your toe also or you can either ask somebody or place your camera somewhere and move a little backwards, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "3:42",
+      "end_timestamp": "3:55",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_40",
+      "text": "Excuse me, sir, that won't work, sir. I need to see your lower part also like from head to toe in a complete view, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "4:00",
+      "end_timestamp": "4:06",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_41",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "4:08",
+      "end_timestamp": "4:09",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_42",
+      "text": "Yeah, you try placing your phone like in the selfie position like this. Like we are taking a selfie so that I could see also the toe also, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "4:10",
+      "end_timestamp": "4:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_43",
+      "text": "Can you please put your phone a little more upwards, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "4:19",
+      "end_timestamp": "4:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_44",
+      "text": "Okay. Like I need to see the toe also, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "4:25",
+      "end_timestamp": "4:29",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_45",
+      "text": "No, sir. We'll holding up. I need to see from head to toe in one screen, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "4:34",
+      "end_timestamp": "4:38",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_46",
+      "text": "Yeah, that that will do, sir. Can you please tilt your phone a little bit and put your phone a little bit upward so that I can see the top portion also, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "4:39",
+      "end_timestamp": "4:49",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_47",
+      "text": "I'm not able to see your toe, sir, of it, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "4:52",
+      "end_timestamp": "4:55",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_48",
+      "text": "Can you please adjust your phone accordingly so that I could see your toe also, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "4:59",
+      "end_timestamp": "5:05",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_49",
+      "text": "Not able to see your toe, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "5:09",
+      "end_timestamp": "5:10",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_50",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "5:11",
+      "end_timestamp": "5:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_51",
+      "text": "Yeah. Okay. Can you please move little back, take a step, sir? Can you please take a step?",
+      "speaker": "doctor",
+      "start_timestamp": "5:17",
+      "end_timestamp": "5:24",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_52",
+      "text": "Yeah. Okay, thank you, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "5:32",
+      "end_timestamp": "5:34",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_53",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "5:39",
+      "end_timestamp": "5:40",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_54",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "5:41",
+      "end_timestamp": "5:41",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_55",
+      "text": "Hello, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "5:42",
+      "end_timestamp": "5:42",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_56",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "5:43",
+      "end_timestamp": "5:43",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_57",
+      "text": "Sir, we are we are currently facing a technical issue, sir. I am very sorry for your inconvenience. I cannot go ahead with this call. Another doctor will call you, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "5:44",
+      "end_timestamp": "5:55",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_58",
+      "text": "I'm very sorry for your inconvenience, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "5:57",
+      "end_timestamp": "5:59",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_59",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "6:00",
+      "end_timestamp": "6:00",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_60",
+      "text": "Thank you, sir. Thank you for your time, sir.",
+      "speaker": "customer",
+      "start_timestamp": "6:02",
+      "end_timestamp": "6:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call2_1",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "6:14",
+      "end_timestamp": "6:17",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_2",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "6:17",
+      "end_timestamp": "6:18",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_3",
+      "text": "Can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "6:19",
+      "end_timestamp": "6:19",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_4",
+      "text": "Yes, yes, I can hear you.",
+      "speaker": "customer",
+      "start_timestamp": "6:20",
+      "end_timestamp": "6:21",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_5",
+      "text": "Yes, okay. My name is Dr. Kanak Sarkar, I am calling from Tata AIA Life Insurance. Am I speaking with Mr. Akshay Kumar Das?",
+      "speaker": "doctor",
+      "start_timestamp": "6:21",
+      "end_timestamp": "6:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_6",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "6:30",
+      "end_timestamp": "6:30",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_7",
+      "text": "Okay. I will ask you some medical-related questions, and you have to answer them correctly. And this call will take 10 to 12 minutes. This call will be recorded for the company's audit and quality purposes. Do not give any false answers, false statements, or incorrect statements, otherwise, there might be a chance of cancellation in the future. Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "6:31",
+      "end_timestamp": "6:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_8",
+      "text": "All right, all right.",
+      "speaker": "customer",
+      "start_timestamp": "6:52",
+      "end_timestamp": "6:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_9",
+      "text": "Please tell me your date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "6:53",
+      "end_timestamp": "6:54",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_10",
+      "text": "27th April 1990.",
+      "speaker": "customer",
+      "start_timestamp": "6:55",
+      "end_timestamp": "6:56",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_11",
+      "text": "Okay, what is your educational qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "6:58",
+      "end_timestamp": "6:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_12",
+      "text": "I have done MBBS, MD, DM. I am a doctor.",
+      "speaker": "customer",
+      "start_timestamp": "7:00",
+      "end_timestamp": "7:04",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_13",
+      "text": "Okay, okay, okay. And, and now, which hospital are you in now?",
+      "speaker": "doctor",
+      "start_timestamp": "7:05",
+      "end_timestamp": "7:10",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_14",
+      "text": "Yes, attested at the hospital.",
+      "speaker": "customer",
+      "start_timestamp": "7:11",
+      "end_timestamp": "7:11",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_15",
+      "text": "Is it government or private?",
+      "speaker": "doctor",
+      "start_timestamp": "7:12",
+      "end_timestamp": "7:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_16",
+      "text": "No, private, private.",
+      "speaker": "customer",
+      "start_timestamp": "7:14",
+      "end_timestamp": "7:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_17",
+      "text": "Okay. Please show your ID proof.",
+      "speaker": "doctor",
+      "start_timestamp": "7:15",
+      "end_timestamp": "7:17",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_18",
+      "text": "Showing.",
+      "speaker": "customer",
+      "start_timestamp": "7:18",
+      "end_timestamp": "7:18",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_19",
+      "text": "Lift it up a bit. Take it back a bit, slightly. That's it, that's it, hold it. Okay. Please tell me the last four digits of your Aadhaar card.",
+      "speaker": "doctor",
+      "start_timestamp": "7:49",
+      "end_timestamp": "7:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_20",
+      "text": "9893.",
+      "speaker": "customer",
+      "start_timestamp": "8:00",
+      "end_timestamp": "8:01",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_21",
+      "text": "9893. Okay. What is your current location?",
+      "speaker": "doctor",
+      "start_timestamp": "8:02",
+      "end_timestamp": "8:05",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_22",
+      "text": "Durgapur, West Bengal.",
+      "speaker": "customer",
+      "start_timestamp": "8:06",
+      "end_timestamp": "8:07",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_23",
+      "text": "Okay, I need a complete view of you. You need to hold your phone tilted like this. So that your feet are also visible. Hold the phone a bit tilted, bend it a bit. No, your feet, lower the phone a bit, lower the phone and tilt it so your feet are also visible.",
+      "speaker": "doctor",
+      "start_timestamp": "8:17",
+      "end_timestamp": "8:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_24",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "8:36",
+      "end_timestamp": "8:36",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_25",
+      "text": "More tilted. A bit more.",
+      "speaker": "doctor",
+      "start_timestamp": "8:39",
+      "end_timestamp": "8:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_26",
+      "text": "Yes, yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "8:41",
+      "end_timestamp": "8:42",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_27",
+      "text": "Feet are not visible. That's it, that's it, that's it. Okay. Show your face.",
+      "speaker": "doctor",
+      "start_timestamp": "8:42",
+      "end_timestamp": "8:47",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_28",
+      "text": "Yes?",
+      "speaker": "customer",
+      "start_timestamp": "8:48",
+      "end_timestamp": "8:48",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_29",
+      "text": "Show your face.",
+      "speaker": "doctor",
+      "start_timestamp": "8:49",
+      "end_timestamp": "8:50",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_30",
+      "text": "Should I record?",
+      "speaker": "customer",
+      "start_timestamp": "8:51",
+      "end_timestamp": "8:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_31",
+      "text": "Face, face, show your face. Your face.",
+      "speaker": "doctor",
+      "start_timestamp": "8:53",
+      "end_timestamp": "8:58",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_32",
+      "text": "Oh, the face.",
+      "speaker": "customer",
+      "start_timestamp": "8:59",
+      "end_timestamp": "8:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_33",
+      "text": "Oh, okay, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "9:00",
+      "end_timestamp": "9:00",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_34",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "9:01",
+      "end_timestamp": "9:01",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_35",
+      "text": "All right, all right. Okay. Please stand still for a while, then I will finish asking all the questions.",
+      "speaker": "doctor",
+      "start_timestamp": "9:02",
+      "end_timestamp": "9:08",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_36",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "9:09",
+      "end_timestamp": "9:09",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_37",
+      "text": "Walking around often leads to cancellation, meaning there's a chance of cancellation. Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "9:10",
+      "end_timestamp": "9:15",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_38",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "9:13",
+      "end_timestamp": "9:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_39",
+      "text": "Okay, have you taken any smoking or tobacco products, nicotine products, in the last two years?",
+      "speaker": "doctor",
+      "start_timestamp": "9:15",
+      "end_timestamp": "9:19",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_40",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "9:20",
+      "end_timestamp": "9:20",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_41",
+      "text": "Do you drink alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "9:21",
+      "end_timestamp": "9:23",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_42",
+      "text": "No, no alcohol. I don't drink.",
+      "speaker": "customer",
+      "start_timestamp": "9:24",
+      "end_timestamp": "9:25",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_43",
+      "text": "Has any doctor ever advised you against consuming alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "9:26",
+      "end_timestamp": "9:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_44",
+      "text": "No, I don't drink alcohol. I mean, I never have. Never have.",
+      "speaker": "customer",
+      "start_timestamp": "9:30",
+      "end_timestamp": "9:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_45",
+      "text": "Have you ever taken any recreational drugs or narcotics?",
+      "speaker": "doctor",
+      "start_timestamp": "9:36",
+      "end_timestamp": "9:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_46",
+      "text": "No, I haven't.",
+      "speaker": "customer",
+      "start_timestamp": "9:41",
+      "end_timestamp": "9:42",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_47",
+      "text": "What is your height?",
+      "speaker": "doctor",
+      "start_timestamp": "9:45",
+      "end_timestamp": "9:46",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_48",
+      "text": "178 centimeters.",
+      "speaker": "customer",
+      "start_timestamp": "9:47",
+      "end_timestamp": "9:49",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_49",
+      "text": "178?",
+      "speaker": "doctor",
+      "start_timestamp": "9:50",
+      "end_timestamp": "9:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_50",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "9:51",
+      "end_timestamp": "9:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_51",
+      "text": "Your weight?",
+      "speaker": "doctor",
+      "start_timestamp": "9:53",
+      "end_timestamp": "9:53",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_52",
+      "text": "Weight is 82 kg.",
+      "speaker": "customer",
+      "start_timestamp": "9:54",
+      "end_timestamp": "9:56",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_53",
+      "text": "82 kg. Please kindly stand still in one place. Otherwise, the verification process might lead to cancellation. Okay? Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "9:57",
+      "end_timestamp": "10:08",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_54",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "10:07",
+      "end_timestamp": "10:07",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_55",
+      "text": "Do you have high blood pressure, cholesterol, triglycerides, lipids?",
+      "speaker": "doctor",
+      "start_timestamp": "10:09",
+      "end_timestamp": "10:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_56",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "10:14",
+      "end_timestamp": "10:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_57",
+      "text": "Okay. Do you ever have chest pain, heaviness or discomfort, heart murmur, heart attack, coronary artery disease, heart valve disorder, congenital heart disease, palpitation or rheumatic fever, shortness of breath or any other heart conditions?",
+      "speaker": "doctor",
+      "start_timestamp": "10:15",
+      "end_timestamp": "10:27",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_58",
+      "text": "No, I have had asthma since childhood. It was diagnosed from childhood, since I was 10 years old. At that time, I did not take an inhaler for asthma. Then, from the age of 19-20, Asthalin was given as SOS. Then, for the last two years, I keep Asthalin and Foracort with me, but it is never used. I mean, it hasn't been used in the last two years. Not a single asthma attack has occurred now, but I always keep it with me for emergencies.",
+      "speaker": "customer",
+      "start_timestamp": "10:28",
+      "end_timestamp": "11:10",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_59",
+      "text": "Okay, do you have bronchitis, sinusitis, tuberculosis, pneumonia, chronic recurrent cough, sleep apnea, emphysema, chronic pulmonary disease, any of these respiratory disorders?",
+      "speaker": "doctor",
+      "start_timestamp": "11:11",
+      "end_timestamp": "11:20",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_60",
+      "text": "No, apart from asthma, there is no other such illness. Asthma is also controlled, I rarely take medicine now. I mean, I keep it with me but don't use it.",
+      "speaker": "customer",
+      "start_timestamp": "11:20",
+      "end_timestamp": "11:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_61",
+      "text": "Okay, okay, when was the last time you experienced asthma symptoms?",
+      "speaker": "doctor",
+      "start_timestamp": "11:30",
+      "end_timestamp": "11:34",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_62",
+      "text": "Last two years back, it used to happen before. Now, I don't have any such episodes. But before that, it used to happen once or twice monthly if it was very cold. But now it doesn't happen, nothing has happened for two years.",
+      "speaker": "customer",
+      "start_timestamp": "11:35",
+      "end_timestamp": "11:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_63",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "11:51",
+      "end_timestamp": "11:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_64",
+      "text": "No single.",
+      "speaker": "customer",
+      "start_timestamp": "11:51",
+      "end_timestamp": "11:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_65",
+      "text": "Okay, have you ever been hospitalized for this condition?",
+      "speaker": "doctor",
+      "start_timestamp": "11:52",
+      "end_timestamp": "11:55",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_66",
+      "text": "No, never. Never once in a hospital.",
+      "speaker": "customer",
+      "start_timestamp": "11:56",
+      "end_timestamp": "11:58",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_67",
+      "text": "The attacks you used to have, were they daily? Or every few months?",
+      "speaker": "doctor",
+      "start_timestamp": "12:00",
+      "end_timestamp": "12:03",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_68",
+      "text": "What are you saying?",
+      "speaker": "customer",
+      "start_timestamp": "12:04",
+      "end_timestamp": "12:04",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_69",
+      "text": "Did you have daily attacks, daily asthmatic attacks?",
+      "speaker": "doctor",
+      "start_timestamp": "12:05",
+      "end_timestamp": "12:07",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_70",
+      "text": "No, no, daily attacks did not happen. During childhood, it used to happen more when it was very cold, in December-November. It used to happen more in November-December. Then, when I was 18-19 years old, it still happened a bit more during winter days. Yes, if it was winter, it would happen. In December-January, it would happen once or twice a week. Then gradually, gradually, now it is controlled. Now, I mean, for the last two years, it hasn't happened even once. Even in winter, I haven't had a single episode.",
+      "speaker": "customer",
+      "start_timestamp": "12:07",
+      "end_timestamp": "12:39",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_71",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "12:40",
+      "end_timestamp": "12:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_72",
+      "text": "Did you take any oral steroids, prednisolone, corticosteroids, or tablets for this?",
+      "speaker": "doctor",
+      "start_timestamp": "12:41",
+      "end_timestamp": "12:45",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_73",
+      "text": "No. No, I'm saying I never had to take steroids. Levosalbutamol was kept for SOS. And Budecort and Formoterol were taken as a one-month course during winter. But now, for the last two years, I don't need to take these. But I buy and keep them, but they are not needed. I keep Asthalin for emergencies.",
+      "speaker": "customer",
+      "start_timestamp": "12:45",
+      "end_timestamp": "13:17",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_74",
+      "text": "Okay. And do your symptoms get worse at night?",
+      "speaker": "doctor",
+      "start_timestamp": "13:18",
+      "end_timestamp": "13:21",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_75",
+      "text": "No, nothing like that at night. It would happen if it was winter, if there was a lot of cold and coughing, then it would happen. I mean, there's nothing specific about night or day. It used to happen sometimes during the day, and sometimes at night, but it doesn't happen now. But it used to happen more if it was very cold, in December, January, February. It wasn't as frequent at other times.",
+      "speaker": "customer",
+      "start_timestamp": "13:22",
+      "end_timestamp": "13:45",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_76",
+      "text": "Okay, when you used to have these symptoms, and you used the inhaler, how many times a day would you use it?",
+      "speaker": "doctor",
+      "start_timestamp": "13:45",
+      "end_timestamp": "13:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_77",
+      "text": "How many times did I use it?",
+      "speaker": "customer",
+      "start_timestamp": "13:54",
+      "end_timestamp": "13:55",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_78",
+      "text": "Yes, on average.",
+      "speaker": "doctor",
+      "start_timestamp": "13:55",
+      "end_timestamp": "13:56",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_79",
+      "text": "I'm saying.",
+      "speaker": "customer",
+      "start_timestamp": "13:58",
+      "end_timestamp": "13:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_80",
+      "text": "Let's say, within a week, within a week.",
+      "speaker": "doctor",
+      "start_timestamp": "14:00",
+      "end_timestamp": "14:01",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_81",
+      "text": "Yes. I'm saying. The regular, for example, Foracort Duolin that we have, Budecort and Formoterol, that is advised as two puffs monthly. I used to take two puffs. The other one was for SOS. For example, it used to happen twice, thrice a week before. Twice, thrice a week, it used to happen only during winter for two to three months. It didn't happen at other times. It would happen about twice a week.",
+      "speaker": "customer",
+      "start_timestamp": "14:01",
+      "end_timestamp": "14:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_82",
+      "text": "Two to three times.",
+      "speaker": "doctor",
+      "start_timestamp": "14:30",
+      "end_timestamp": "14:30",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_83",
+      "text": "Two, two to three times maximum. However, I am talking about two years ago.",
+      "speaker": "customer",
+      "start_timestamp": "14:31",
+      "end_timestamp": "14:34",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_84",
+      "text": "After two years, you are fine now, right?",
+      "speaker": "doctor",
+      "start_timestamp": "14:35",
+      "end_timestamp": "14:37",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_85",
+      "text": "Now, for the last one or two years, I haven't had a single episode of asthma.",
+      "speaker": "customer",
+      "start_timestamp": "14:38",
+      "end_timestamp": "14:42",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_86",
+      "text": "Okay, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "14:42",
+      "end_timestamp": "14:43",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_87",
+      "text": "I mean, in the hospital, I am the DM Critical Care ICU facility.",
+      "speaker": "customer",
+      "start_timestamp": "14:43",
+      "end_timestamp": "14:47",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_88",
+      "text": "I understand. Yes, yes.",
+      "speaker": "doctor",
+      "start_timestamp": "14:47",
+      "end_timestamp": "14:48",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_89",
+      "text": "Okay, do you have any cancer, carcinoma in situ, pre-cancerous condition, leukemia, enlarged lymph nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumor, polyp, nodule, cyst, lump or other type of growth?",
+      "speaker": "doctor",
+      "start_timestamp": "14:50",
+      "end_timestamp": "15:03",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_90",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "15:04",
+      "end_timestamp": "15:04",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_91",
+      "text": "Ever had diabetes, raised blood sugar, sugar in the urine, hyperthyroidism, hypothyroidism, any type of thyroid disorder or any other endocrine disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "15:05",
+      "end_timestamp": "15:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_92",
+      "text": "No, none of these.",
+      "speaker": "customer",
+      "start_timestamp": "15:14",
+      "end_timestamp": "15:15",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_93",
+      "text": "Okay. Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice or any other disease or disorders of the liver?",
+      "speaker": "doctor",
+      "start_timestamp": "15:17",
+      "end_timestamp": "15:23",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_94",
+      "text": "No, nothing related to the liver. No hepatitis or anything like that.",
+      "speaker": "customer",
+      "start_timestamp": "15:24",
+      "end_timestamp": "15:27",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_95",
+      "text": "Okay, please move your camera a little further from your face, so your full face is visible. Okay, thank you. Okay, ever had anemia, thalassemia, systemic lupus erythematosus or any other disease or disorders of blood or autoimmune disease?",
+      "speaker": "doctor",
+      "start_timestamp": "15:28",
+      "end_timestamp": "15:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_96",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "15:40",
+      "end_timestamp": "15:41",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_97",
+      "text": "Anxiety, depression, epilepsy, paralysis, weakness of limbs, stroke, transient ischemic attack, multiple sclerosis, Parkinson's disease, dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "speaker": "doctor",
+      "start_timestamp": "15:42",
+      "end_timestamp": "15:53",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_98",
+      "text": "No, nothing like that has happened.",
+      "speaker": "customer",
+      "start_timestamp": "15:54",
+      "end_timestamp": "15:55",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_99",
+      "text": "Gastritis, gastroesophageal reflux disease, stomach ulcer, recurrent indigestion, IBS, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Spinetitis, pancreatitis, pancreatic disorder or any other gastrointestinal disease or disorders?",
+      "speaker": "doctor",
+      "start_timestamp": "15:56",
+      "end_timestamp": "16:10",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_100",
+      "text": "No, loose stools sometimes once or twice a year is different. Otherwise, nothing like this happens.",
+      "speaker": "customer",
+      "start_timestamp": "16:11",
+      "end_timestamp": "16:16",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_101",
+      "text": "Okay. Kidney stone, gallstone, kidney or urinary tract infection, blood or protein in the urine, chronic kidney disease, kidney failure, piles, fistula, hydroceles or any other disorders of kidney, bladder, genitals, prostate or urinary system?",
+      "speaker": "doctor",
+      "start_timestamp": "16:17",
+      "end_timestamp": "16:30",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_102",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "16:31",
+      "end_timestamp": "16:31",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_103",
+      "text": "Recurrent back pain, arthritis, gout, slipped disc, muscular dystrophy, deformity, physical disability or any other disorders of muscles, bones, joints, limbs or spine?",
+      "speaker": "doctor",
+      "start_timestamp": "16:33",
+      "end_timestamp": "16:41",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_104",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "16:43",
+      "end_timestamp": "16:43",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_105",
+      "text": "Have you ever had any eye problems like cataract, glaucoma, impaired sight, double vision or any other disease or disorders of the eye?",
+      "speaker": "doctor",
+      "start_timestamp": "16:45",
+      "end_timestamp": "16:50",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_106",
+      "text": "No, for the eyes, I'll tell you. In my eyes, for the last two-three years, I've had allergies. Meaning, if there's too much dust, my eyes feel like there's a foreign body. If a lot of dust gets in. This happens sometimes, otherwise nothing else. I mean, difficulty seeing in the eyes.",
+      "speaker": "customer",
+      "start_timestamp": "16:51",
+      "end_timestamp": "17:09",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_107",
+      "text": "Do you have to take any medicine for that?",
+      "speaker": "doctor",
+      "start_timestamp": "17:10",
+      "end_timestamp": "17:11",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_108",
+      "text": "No, I don't have to take medicine. If I go out in a lot of dust, I use these goggles or spectacles. Otherwise, if I go out in a lot of dust, for some time, I get an allergic sensation in my eyes.",
+      "speaker": "customer",
+      "start_timestamp": "17:12",
+      "end_timestamp": "17:24",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_109",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "17:25",
+      "end_timestamp": "17:26",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_110",
+      "text": "Deafness, impaired hearing, speech problem, hoarseness of voice, difficulty in swallowing, ear distress or any other disease or disorders of ear, nose or throat?",
+      "speaker": "doctor",
+      "start_timestamp": "17:27",
+      "end_timestamp": "17:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_111",
+      "text": "No, ear, nose, I don't have that.",
+      "speaker": "customer",
+      "start_timestamp": "17:38",
+      "end_timestamp": "17:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_112",
+      "text": "Okay. Do you want to say anything else about your health that we should include in the insurance? Is there anything else?",
+      "speaker": "doctor",
+      "start_timestamp": "17:42",
+      "end_timestamp": "17:47",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_113",
+      "text": "Asthma, which I have, yes, for two years now. Otherwise, my mother has hypertension, but my BP readings are all normal. But my mother has hypertension. My father doesn't have any such diseases. Otherwise, this is the eye problem.",
+      "speaker": "customer",
+      "start_timestamp": "17:49",
+      "end_timestamp": "18:09",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_114",
+      "text": "Okay, do you always have an annual health checkup every year?",
+      "speaker": "doctor",
+      "start_timestamp": "18:10",
+      "end_timestamp": "18:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_115",
+      "text": "Yes, annual health checkup is done.",
+      "speaker": "customer",
+      "start_timestamp": "18:14",
+      "end_timestamp": "18:15",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_116",
+      "text": "How is it done, I mean, do you get it done yourself?",
+      "speaker": "doctor",
+      "start_timestamp": "18:16",
+      "end_timestamp": "18:18",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_117",
+      "text": "No, it's done through our hospital.",
+      "speaker": "customer",
+      "start_timestamp": "18:19",
+      "end_timestamp": "18:22",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_118",
+      "text": "Okay, are you at IQ City now or something?",
+      "speaker": "doctor",
+      "start_timestamp": "18:23",
+      "end_timestamp": "18:25",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_119",
+      "text": "No, no, no. At Mission Hospital.",
+      "speaker": "customer",
+      "start_timestamp": "18:25",
+      "end_timestamp": "18:26",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_120",
+      "text": "At Mission Hospital. Okay. And everything is normal from that blood test?",
+      "speaker": "doctor",
+      "start_timestamp": "18:27",
+      "end_timestamp": "18:31",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_121",
+      "text": "Yes, normal in blood test. Nothing like that.",
+      "speaker": "customer",
+      "start_timestamp": "18:32",
+      "end_timestamp": "18:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_122",
+      "text": "Okay, have you had any tests done in the last five years that have abnormal findings or pending test results, such as X-ray, USG, MRI, PET scan, CT scan, biopsy, ECG, treadmill?",
+      "speaker": "doctor",
+      "start_timestamp": "18:37",
+      "end_timestamp": "18:46",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_123",
+      "text": "I don't understand what 'pending report' means. Pending.",
+      "speaker": "customer",
+      "start_timestamp": "18:47",
+      "end_timestamp": "18:49",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_124",
+      "text": "I mean, have you had any tests done in the last five years for which you haven't received the report yet, or it's pending, or there are abnormal findings?",
+      "speaker": "doctor",
+      "start_timestamp": "18:49",
+      "end_timestamp": "18:54",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_125",
+      "text": "No, no, no. I haven't done anything like that. Haven't done anything like that.",
+      "speaker": "customer",
+      "start_timestamp": "18:54",
+      "end_timestamp": "18:57",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_126",
+      "text": "Blood mammography, endoscopy, Pap smear, blood or urine test?",
+      "speaker": "doctor",
+      "start_timestamp": "18:57",
+      "end_timestamp": "18:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_127",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "19:00",
+      "end_timestamp": "19:00",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_128",
+      "text": "Has it ever happened that you are taking medication or treatment for something that required you to be referred to a hospital or a specialist doctor?",
+      "speaker": "doctor",
+      "start_timestamp": "19:01",
+      "end_timestamp": "19:09",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_129",
+      "text": "For that eye condition, I consulted an ophthalmologist a few times. He had prescribed CMC eye drops once. I had consulted at AIIMS a long time ago for that. And, and for asthma, what I mean is, there's no other medication. Apart from these two, no other medication.",
+      "speaker": "customer",
+      "start_timestamp": "19:11",
+      "end_timestamp": "19:32",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_130",
+      "text": "Okay, have you ever taken two weeks leave from work due to illness?",
+      "speaker": "doctor",
+      "start_timestamp": "19:33",
+      "end_timestamp": "19:37",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_131",
+      "text": "No, never.",
+      "speaker": "customer",
+      "start_timestamp": "19:38",
+      "end_timestamp": "19:38",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_132",
+      "text": "Okay. I have to ask you this next question, the second one.",
+      "speaker": "doctor",
+      "start_timestamp": "19:39",
+      "end_timestamp": "19:43",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_133",
+      "text": "Hmm hmm hmm. Yes, yes, please tell me, yes.",
+      "speaker": "customer",
+      "start_timestamp": "19:44",
+      "end_timestamp": "19:48",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_134",
+      "text": "Because that falls within the policy. Yes, yes, tell me. Did you ever have cerebral palsy, Down syndrome, polio?",
+      "speaker": "doctor",
+      "start_timestamp": "19:45",
+      "end_timestamp": "19:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_135",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "19:52",
+      "end_timestamp": "19:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_136",
+      "text": "Yes. Okay. Has any doctor or anyone ever advised or counselled you to get tested for HIV or AIDS?",
+      "speaker": "doctor",
+      "start_timestamp": "19:53",
+      "end_timestamp": "20:01",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_137",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "20:02",
+      "end_timestamp": "20:02",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_138",
+      "text": "Yes, it was done at the hospital during my joining time. I mean, when I joined medical college, it was done at BMEA or the hospital. After that, it was done for the policy, not for any hospital reasons.",
+      "speaker": "customer",
+      "start_timestamp": "20:03",
+      "end_timestamp": "20:18",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_139",
+      "text": "Okay, okay, okay. Do you ever see symptoms like sudden weight loss, sudden weight gain, which you feel needs medical advice or treatment or any surgery?",
+      "speaker": "doctor",
+      "start_timestamp": "20:19",
+      "end_timestamp": "20:30",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_140",
+      "text": "No, weight remains the same. It remains the same for two years. Around 82, 81, it stays like that.",
+      "speaker": "customer",
+      "start_timestamp": "20:30",
+      "end_timestamp": "20:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_141",
+      "text": "Okay. Okay, all right. We are including all your answers. And thank you for your time. Thank you very much. Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "20:36",
+      "end_timestamp": "20:44",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_142",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "20:42",
+      "end_timestamp": "20:43",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_143",
+      "text": "Bye.",
+      "speaker": "customer",
+      "start_timestamp": "20:45",
+      "end_timestamp": "20:45",
+      "call_index": 2
+    }
+  ]
+}

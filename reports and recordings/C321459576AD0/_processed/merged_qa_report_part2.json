@@ -1,0 +1,94 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:14",
+        "00:00:17"
+      ]
+    },
+    "call_opening": {
+      "value": "Partial",
+      "explanation": "The doctor introduced herself and the company but did not state the customer's name at the opening.",
+      "timestamps": {
+        "self_intro": "00:00:21",
+        "client_name": "NA",
+        "insurer_name": "00:00:23"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language.",
+      "timestamp": "00:00:26"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof, guided the customer for the photo, and verified the last four digits of the Aadhaar card.",
+      "timestamps": [
+        "00:01:37",
+        "00:01:56",
+        "00:02:03"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the purpose of the call, the impact of the information, and that the call was recorded.",
+      "timestamp": "00:00:29"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor used polite language throughout the call, including 'Sorry,' 'Kindly note,' and 'Thank you so much.'",
+      "timestamps": [
+        "00:00:17",
+        "00:00:53",
+        "00:01:56",
+        "00:03:02",
+        "00:08:42"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed that would require specific empathy. Defaulting to 'Yes' as per instructions.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, explained complex medical terms when the customer expressed confusion, and provided clear instructions for physical verification.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:29",
+          "00:02:20",
+          "00:05:39"
+        ],
+        "poor_examples": [
+          "NA"
+        ]
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "There was no instance of customer hesitation (refusal, no answer, repeated evasion) or third-party prompting that required specific probing.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation (refusal, no answer, repeated evasion) or third-party prompting was observed.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a final declaration and closed the call politely with thanks.",
+      "timestamps": {
+        "declaration": "00:08:31",
+        "thank_you": "00:08:37"
+      }
+    }
+  }
+}

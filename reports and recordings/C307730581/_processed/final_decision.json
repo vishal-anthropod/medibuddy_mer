@@ -1,0 +1,53 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "M1l",
+          "text": "l. Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "M1c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "M1i",
+            "expected": "No",
+            "corrected": "ulcerative"
+          },
+          {
+            "id": "M1m",
+            "expected": "No",
+            "corrected": "swallowing"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 3
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

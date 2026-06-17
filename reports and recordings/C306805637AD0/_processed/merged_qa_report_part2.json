@@ -1,0 +1,96 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer with 'Hello?' and 'Namaste' at the beginning of the call.",
+      "timestamps": [
+        "00:00:00",
+        "00:00:02"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself by name, stated the insurer's name, and confirmed the customer's full name.",
+      "timestamps": {
+        "self_intro": "00:00:11",
+        "client_name": "00:00:31",
+        "insurer_name": "00:00:02"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The customer explicitly requested the doctor to ask questions in Telugu, which the doctor accommodated.",
+      "timestamp": "00:21:43"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof and confirmed the last four digits of the customer's Aadhar card.",
+      "timestamps": [
+        "00:01:25",
+        "00:01:40",
+        "00:02:13"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer that the call was being recorded for company audit purposes.",
+      "timestamp": "00:00:11"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and respectful tone throughout the call, even when the customer was informal or confused.",
+      "timestamps": [
+        "00:00:02",
+        "00:26:14"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The doctor expressed sympathy when the customer mentioned his wife had passed away.",
+      "timestamps": [
+        "00:24:55"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor effectively rephrased questions and accommodated the customer's language preference. However, there was an instance where the doctor made an unclear comment to herself.",
+      "timestamps": {
+        "good_examples": [
+          "00:04:30",
+          "00:21:43"
+        ],
+        "poor_examples": [
+          "00:13:11"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor probed for more details on alcohol consumption, triglycerides, eye issues (cataract), knee pain, and the customer's self-monitoring of tests.",
+      "timestamps": [
+        "00:02:55",
+        "00:04:55",
+        "00:05:14",
+        "00:13:25",
+        "00:17:04",
+        "00:22:55"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer was observed reading out medical questions from a document, explicitly stating 'I'll complete the question, you have to answer fully. Okay?', indicating a customer-side third-party coaching situation.",
+      "timestamps": [
+        "00:10:05",
+        "00:10:39"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a declaration of truthfulness from the customer and thanked them for their information and cooperation.",
+      "timestamps": {
+        "declaration": "00:25:48",
+        "thank_you": "00:26:14"
+      }
+    }
+  }
+}

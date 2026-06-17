@@ -1,0 +1,81 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello",
+      "speaker": "customer",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:04"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello",
+      "speaker": "doctor",
+      "start_timestamp": "00:04",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "3",
+      "text": "Hello, good morning. Can I speak to Mr. Ponnathota Vignesh?",
+      "speaker": "doctor",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "4",
+      "text": "Yes, this is Vignesh.",
+      "speaker": "customer",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:09"
+    },
+    {
+      "segment_id": "5",
+      "text": "Can you call me?",
+      "speaker": "customer",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "6",
+      "text": "I'll be 5 minutes. 5 minutes.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:12"
+    },
+    {
+      "segment_id": "7",
+      "text": "Yeah.",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:13"
+    },
+    {
+      "segment_id": "8",
+      "text": "5 minutes.",
+      "speaker": "customer",
+      "start_timestamp": "00:13",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "9",
+      "text": "Okay, I'll call you then, sir.",
+      "speaker": "doctor",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "10",
+      "text": "5 minutes, sir.",
+      "speaker": "customer",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "11",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:19"
+    }
+  ]
+}

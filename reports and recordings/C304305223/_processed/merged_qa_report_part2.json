@@ -1,0 +1,79 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:05"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:05",
+        "client_name": "00:00:11",
+        "insurer_name": "00:00:08"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer if they were comfortable speaking in English.",
+      "timestamp": "00:00:15"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested and confirmed the customer's PAN card number for ID verification.",
+      "timestamps": [
+        "00:01:49"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided a comprehensive disclaimer regarding the accuracy of information and its impact on the policy.",
+      "timestamp": "00:00:37"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout the call, using phrases like 'good evening' and 'thank you so much'.",
+      "timestamps": [
+        "00:00:05",
+        "00:06:22"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were disclosed by the customer, so empathy was not specifically required.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, explained the call's purpose, and confirmed details effectively, such as using phonetic spelling for the PAN card.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:19",
+          "00:02:05"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The customer consistently provided direct 'No' answers to all medical questions, and no further probing was necessary based on the responses.",
+      "timestamps": []
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation, refusal to answer, or third-party prompting observed during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a final declaration of truthfulness and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:06:13",
+        "thank_you": "00:06:22"
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:12"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's full name.",
+      "timestamps": {
+        "self_intro": "00:00:21",
+        "client_name": "00:01:19",
+        "insurer_name": "00:00:24"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the customer's primary language.",
+      "timestamp": "00:03:14"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer to show their ID card and read out the last four digits of their Aadhaar.",
+      "timestamps": [
+        "00:01:45",
+        "00:01:57"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated that the call was being recorded for audit purposes and explained the implications of providing incorrect information.",
+      "timestamp": "00:00:26"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor used polite language ('please', 'can you please'), thanked the customer, and checked on them after a call disconnection.",
+      "timestamps": [
+        "00:01:19",
+        "00:01:45",
+        "00:05:00",
+        "00:13:37"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were reported by the customer that would require specific empathy. The customer stated being an 'actively fit person'.",
+      "timestamps": [
+        "00:11:00"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor provided clear instructions for the full view verification and prefaced a sensitive question politely, demonstrating good communication.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:26",
+          "00:12:38"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor asked comprehensive and detailed questions across various health and lifestyle categories, ensuring thorough information gathering.",
+      "timestamps": [
+        "00:06:57",
+        "00:07:13",
+        "00:11:26",
+        "00:12:38"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting observed during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor read the declaration statement and concluded the call with a thank you.",
+      "timestamps": {
+        "declaration": "00:13:20",
+        "thank_you": "00:13:37"
+      }
+    }
+  }
+}

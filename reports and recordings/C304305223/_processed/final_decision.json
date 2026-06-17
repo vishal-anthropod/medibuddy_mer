@@ -1,0 +1,37 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "Monika Manik Gawade",
+            "corrected": "Monica Manik Gawade"
+          },
+          {
+            "id": "1",
+            "expected": "Yes Monika Manik Gawade",
+            "corrected": "Monica Manik Gawade"
+          },
+          {
+            "id": "DECLARATION",
+            "expected": "Yes",
+            "corrected": "You Monica Manik Gawade, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_01",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:03"
+    },
+    {
+      "segment_id": "seg_02",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:04"
+    },
+    {
+      "segment_id": "seg_03",
+      "text": "No, I haven't arrived. Today I went to a temple.",
+      "speaker": "customer",
+      "start_timestamp": "00:04",
+      "end_timestamp": "00:13"
+    },
+    {
+      "segment_id": "seg_04",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "00:13",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "seg_05",
+      "text": "At what time?",
+      "speaker": "doctor",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:15"
+    },
+    {
+      "segment_id": "seg_06",
+      "text": "I'm out and won't be back until after 8:30.",
+      "speaker": "customer",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:20"
+    },
+    {
+      "segment_id": "seg_07",
+      "text": "When will you come?",
+      "speaker": "doctor",
+      "start_timestamp": "00:20",
+      "end_timestamp": "00:22"
+    },
+    {
+      "segment_id": "seg_08",
+      "text": "Now, if you want to contact me, do so after 8:30 PM, or in the morning before 9 AM.",
+      "speaker": "customer",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:31"
+    },
+    {
+      "segment_id": "seg_09",
+      "text": "Okay, no problem. I'll schedule it for 8:30 to 9:30 tonight, right?",
+      "speaker": "doctor",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:36"
+    },
+    {
+      "segment_id": "seg_10",
+      "text": "Correct.",
+      "speaker": "customer",
+      "start_timestamp": "00:37",
+      "end_timestamp": "00:37"
+    },
+    {
+      "segment_id": "seg_11",
+      "text": "You will confirm on the phone, right? Verification.",
+      "speaker": "doctor",
+      "start_timestamp": "00:38",
+      "end_timestamp": "00:40"
+    },
+    {
+      "segment_id": "seg_12",
+      "text": "No, no, no, I'm present. Everyone will be sitting for dinner by 8:30 or 9:30.",
+      "speaker": "customer",
+      "start_timestamp": "00:40",
+      "end_timestamp": "00:47"
+    },
+    {
+      "segment_id": "seg_13",
+      "text": "Okay, okay, no problem. I'll schedule it for tonight, right?",
+      "speaker": "doctor",
+      "start_timestamp": "00:48",
+      "end_timestamp": "00:52"
+    },
+    {
+      "segment_id": "seg_14",
+      "text": "Correct, correct, correct.",
+      "speaker": "customer",
+      "start_timestamp": "00:52",
+      "end_timestamp": "00:53"
+    },
+    {
+      "segment_id": "seg_15",
+      "text": "Okay, okay, thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "00:53",
+      "end_timestamp": "00:55"
+    }
+  ]
+}

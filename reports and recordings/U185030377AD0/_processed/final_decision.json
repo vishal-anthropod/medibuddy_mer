@@ -1,0 +1,46 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "4",
+            "expected": "Salaried",
+            "corrected": "BUSINESS ASSOCIATE"
+          },
+          {
+            "id": "6",
+            "expected": "BANGALORE,KARANATAKA",
+            "corrected": "BANGALORE,KARNATAKA"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Health.h.treatment",
+            "expected": "TREATMENT:CONGINITIVE BEHAVIOUR-AL THERAPYMEDICATION:METHYL PHENIDATE36 MGINVESTIGATION:ADHD TEST DONE UN-DER PSYCHIATRISTLAST FOLLOW UP DONE IN JAN 2026",
+            "corrected": "TREATMENT:COGNITIVE BEHAVIORAL THERAPYMEDICATION:METHYLPHENIDATE 36 MGINVESTIGATION:ADHD TEST DONE UNDER PSYCHIATRISTLAST FOLLOW UP DONE IN JAN 2026"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "ulcerative"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 7
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

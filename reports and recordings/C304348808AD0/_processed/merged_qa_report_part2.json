@@ -1,0 +1,89 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a polite greeting.",
+      "timestamps": [
+        "00:00:48"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and asked for the client by name.",
+      "timestamps": {
+        "self_intro": "00:00:49",
+        "client_name": "00:00:52",
+        "insurer_name": "00:00:50"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language.",
+      "timestamp": "00:00:57"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor verified the customer's full name, date of birth, last four digits of Aadhaar card, and city of residence.",
+      "timestamps": [
+        "00:01:40",
+        "00:01:44",
+        "00:01:56",
+        "00:02:16"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer about call recording, the purpose of the call, legal implications of false information, and the format of health questions.",
+      "timestamps": [
+        "00:01:02",
+        "00:01:17",
+        "00:02:25"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, offering language choice, explaining the process, and thanking the customer.",
+      "timestamps": [
+        "00:00:48",
+        "00:00:57",
+        "00:02:25",
+        "00:06:53"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were disclosed by the customer, so empathy is marked 'Yes' by default.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, repeated a question when asked, and clarified information like height units.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:20",
+          "00:03:06",
+          "00:03:17"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The customer consistently answered 'No' to all health-related questions, so no probing was required.",
+      "timestamps": []
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation (refusal to answer, no answer, or repeated evasion) or third-party prompting observed.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the accuracy of the answers and that they would be part of the policy record, then thanked the customer.",
+      "timestamps": {
+        "declaration": "00:06:48",
+        "thank_you": "00:06:53"
+      }
+    }
+  }
+}

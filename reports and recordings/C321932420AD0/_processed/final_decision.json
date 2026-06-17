@@ -1,0 +1,76 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.j.GallStones",
+          "text": "Gall Stones"
+        },
+        {
+          "id": "Health.j.KidneyStones",
+          "text": "Kidney stones"
+        },
+        {
+          "id": "Health.j.UrinaryTractInfection",
+          "text": "Urinary tract infection"
+        },
+        {
+          "id": "Health.j.Haematuria",
+          "text": "Haematuria"
+        },
+        {
+          "id": "Health.j.Proteinuria",
+          "text": "Proteinuria"
+        },
+        {
+          "id": "Health.j.OtherDisorders",
+          "text": "Any other disorders of the kidney, bladder, genital, prostate or urinary systems"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "kovilpetti, tamilnadu",
+            "corrected": "kovilpatti, tamilnadu"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Health.i",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          },
+          {
+            "id": "AnalAbscess.6",
+            "expected": "No",
+            "corrected": "treatment for any disease such as inflammatory bowel disease, malignant tumor, sexually transmitted disease"
+          },
+          {
+            "id": "OtherConditions.a",
+            "expected": "No",
+            "corrected": "prescribed"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

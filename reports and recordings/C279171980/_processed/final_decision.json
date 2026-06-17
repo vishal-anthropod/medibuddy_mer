@@ -1,0 +1,37 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Declaration.Agreement",
+          "text": "Agreement to Declaration"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Jagadish Kumar Vuttala",
+        "expected": "Jagadeesh Kumar Ruttala"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "7/6/1994",
+        "expected": "1996-06-07"
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "record_id": "C331119398AD0",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/C331119398AD0_MER.pdf",
+  "total_calls": 2,
+  "total_duration": 1109.88,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/C331119398AD0_call1.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call1/audio.mp3",
+      "duration": 396.504,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call1/transcript.json",
+      "segments_count": 88,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -21.97
+      },
+      "video_analysis": {
+        "attire_check": "yes",
+        "attire_explanation": "The doctor is wearing a white clinical apron/coat over a light blue shirt, visible in all frames.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the doctor and the customer are clearly visible in all provided frames.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background appears to be a plain, light-colored wall, possibly blurred. No people, private boards, files, monitors showing confidential data, or identifiable patients are visible in the doctor's background.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call1/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call1/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call1/frame_03.jpg"
+        ]
+      }
+    },
+    {
+      "call_index": 2,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/C331119398AD0_call2.mp4",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/audio.mp3",
+      "duration": 713.376,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/transcript.json",
+      "segments_count": 203,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -20.21
+      },
+      "video_analysis": {
+        "attire_check": "no",
+        "attire_explanation": "The doctor is wearing a light-colored, possibly white or light grey, regular top/sweater, not a clinical apron or coat.",
+        "visibility_status": "both_visible",
+        "visibility_explanation": "Both the person on the left (customer) and the person on the right (doctor) are clearly visible in all provided frames.",
+        "privacy_maintained": true,
+        "privacy_explanation": "The doctor's background is heavily blurred in all frames, effectively preventing any identifiable information or potential privacy breaches from being visible.",
+        "screenshots": [
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_01.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_02.jpg",
+          "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_03.jpg"
+        ]
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/merged_transcript.json",
+    "total_segments": 291,
+    "total_duration": 1109.88
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Joginder",
+      "dob": "02-Jul-1980",
+      "id_proofs": [
+        {
+          "type": "PAN",
+          "value": "BHRPG6528D",
+          "present_in_mer": false
+        },
+        {
+          "type": "Aadhar",
+          "value": "79032274302",
+          "present_in_mer": false
+        }
+      ],
+      "nominee_name": "Rekha",
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Tata AIA Life Insurance",
+        "timestamp": "00:50"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "Hindi",
+        "timestamp": "00:22"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "1",
+        "question_text": "Kindly confirm your full Name",
+        "captured_response": "My name is Joginder, sir. / Joginder Kumar. / The name is Joginder, sir.",
+        "expected_response": "Yes Joginder",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:24",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "Your Date of birth",
+        "captured_response": "My date of birth is 2-7-1980. / July 2, 1980.",
+        "expected_response": "Yes 02-Jul-1980",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:30",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Education Qualification",
+        "captured_response": "I have studied till 10th standard, sir. / Ma'am, high school.",
+        "expected_response": "Yes Non graduate & Non Diploma - 10th pass",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "01:39",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Please confirm name of the nominee",
+        "captured_response": "It's Ram. / The name is Rekha, ma'am.",
+        "expected_response": "Yes rekha",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "05:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "How much total SA you have with T ATA AIA or any other insurance company already or applied simultaneously?",
+        "captured_response": "No, I don't have information about this, ma'am. / It will be 800 minimum, ma'am. / I don't know that. / Yes, ma'am, monthly.",
+        "expected_response": "Yes 800 monthly la no aware for how many years have to pay premium amount with T ATA AIA",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "10:50",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes 800 monthly LA not aware for how many years have to pay premium amount with TATA AIA"
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Has any of your insurance application or reinstatement application on life, accident, medical or health, critical illness, or disability ever been declined, postponed?",
+        "captured_response": "Yes, yes, yes, ma'am, it was stopped. / LIC, sir. / It's been a year. / I had asked for a different policy, they did another policy, which I didn't like, so I got it canceled.",
+        "expected_response": "Yes lic , 1 year before applied just after 1 month cancelled by la did not like policy .",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "12:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Has any of your insurance application required higher medical test lik e (stress Echo, 2D echo,APS,USG etc.)?",
+        "captured_response": "No, no, no, ma'am, no.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:09",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Has any of your insurance application accepted or Withdrawn at extra premium or modi\ufb01ed terms?",
+        "captured_response": "No, nothing like that happened, I myself didn't like it.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:21",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Do you Smok e or consume T obacco?",
+        "captured_response": "No, ma'am, I don't consume anything.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "For NRI customers: date of arrival and departure of last visit done to India",
+        "captured_response": null,
+        "expected_response": "Yes no",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Height",
+        "captured_response": "5 feet 5 inches.",
+        "expected_response": "Yes 165.1",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:39",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Weight",
+        "captured_response": "approximately 50.",
+        "expected_response": "Yes 50",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "15:39",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Have you ever been diagnosed with Cancer?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Have you ever been diagnosed with Strok e?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:08",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "Have you ever been diagnosed with Heart disease?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:13",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Have you ever been diagnosed with Hypertension?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:17",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Have you ever been diagnosed with Diabetes?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:21",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Have you ever been diagnosed with Kidney disease?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:24",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you ever been diagnosed with Liver Disease?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:27",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Have you ever been diagnosed with HIV / AIDS ?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:30",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Have you ever been diagnosed with Lump, Cyst or Tumor?",
+        "captured_response": "No, no, no.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Are you investigating, or do you plan to seek medical advice for any symptoms without a diagnosis, such as unexplained W eight Loss, Bleeding, or Chest P ain?",
+        "captured_response": "Ma'am, I get tested every year, there is nothing like that.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:36",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "Are you investigating, or do you plan to seek medical advice for any Abnormal test results?",
+        "captured_response": "It came normal, ma'am.",
+        "expected_response": "No",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:50",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "In the last 3 years, have you undergone any surgery that requires? (Except caesarean section or appendicitis)- that required sta y in hospital for more than 3 da ys?",
+        "captured_response": "No, ma'am.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "16:58",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "In the last 3 years, have you been prescribed medication or treatment for more than 7 da ys? (Excluding \ufb02u, cold or contraception)",
+        "captured_response": "No, ma'am. Only cough and fever.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "17:06",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "27",
+        "question_text": "Please con\ufb01rm if you have any observation/red \ufb02ag during the call",
+        "captured_response": null,
+        "expected_response": "Yes- Veri\ufb01cation questions- P rompting done by others/F amily members Others - prompting on quest no 5,6",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Yes- Verification questions- Prompting done by others/Family members Others - prompting on question no 5,6"
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "Discrepancy in nominee name: In Call 1, the customer stated 'Ram' as the nominee, while in Call 2 and the MER, the nominee is 'Rekha'. This indicates inconsistent information provided by the customer or captured by the doctor across calls.",
+        "Prompting detected during the call, specifically noted in the MER for questions 5 and 6, and observed in the transcript where the customer interacts with a third party for answers or guidance."
+      ],
+      "recommendations": [
+        "The doctor should ensure consistent information is captured, especially for critical details like nominee name, and clarify any discrepancies with the customer during the call.",
+        "The doctor should reiterate the importance of the customer answering independently to prevent prompting from third parties, as this can compromise the integrity of the verification process."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is generally cooperative and answers questions.",
+        "Customer expresses uncertainty about policy details (sum assured, premium duration) but not dissatisfaction with the process itself."
+      ]
+    },
+    "data_validation": {
+      "height_cm": 165.1,
+      "weight_kg": 50,
+      "dates_mentioned": [
+        "02-Jul-1980",
+        "21-Oct-2025",
+        "03-Nov-2025"
+      ],
+      "medications": [
+        "cough",
+        "fever"
+      ],
+      "validation_errors": [
+        "Nominee name discrepancy: 'Ram' stated in Call 1, 'Rekha' stated in Call 2 and recorded in MER."
+      ]
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": true,
+        "timestamps": [
+          "02:47",
+          "04:38",
+          "04:53",
+          "05:04",
+          "05:22",
+          "09:06",
+          "10:35"
+        ],
+        "examples": [
+          "Customer (02:47): 'Where is the Aadhaar card? Look, check below, bring my mobile, it will be in that.'",
+          "Customer (04:38): 'They are asking for length, show them.'",
+          "Customer (09:06): 'Tell your name.' (followed by customer stating their name, suggesting external prompting)",
+          "Doctor (10:35): 'Whatever question is asked here, you have to answer it. If anything is told from behind, it will affect your policy, so please keep this in mind.' (Doctor's explicit warning indicates awareness of prompting)"
+        ]
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "C331119398AD0",
+      "doctor_name": "Mrs. Priyanka Singh",
+      "customer_name": "Joginder",
+      "insurance_company": "Tata AIA Life Insurance Company Ltd."
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -20.21
+    },
+    "video_analysis": {
+      "attire_check": "no",
+      "attire_explanation": "The doctor is wearing a light-colored, possibly white or light grey, regular top/sweater, not a clinical apron or coat.",
+      "visibility_status": "both_visible",
+      "visibility_explanation": "Both the person on the left (customer) and the person on the right (doctor) are clearly visible in all provided frames.",
+      "privacy_maintained": true,
+      "privacy_explanation": "The doctor's background is heavily blurred in all frames, effectively preventing any identifiable information or potential privacy breaches from being visible.",
+      "screenshots": [
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_01.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_02.jpg",
+        "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed/call2/frame_03.jpg"
+      ]
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "Doctor initiated greetings in both calls.",
+        "timestamps": [
+          "00:00:04",
+          "00:07:09"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "Doctor introduced themselves, the company, and confirmed the client's name in both calls.",
+        "timestamps": {
+          "self_intro": "00:00:22, 00:07:23",
+          "client_name": "00:01:24, 00:08:54",
+          "insurer_name": "00:00:24, 00:07:23"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "Doctor asked for language preference at the beginning of both calls.",
+        "timestamp": "00:00:26, 00:07:15"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "Doctor requested and validated a government ID (PAN card in Call 1, Aadhaar card in Call 2) and asked for the number.",
+        "timestamps": [
+          "00:02:18",
+          "00:09:23"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "Doctor clearly explained the policy implications of incorrect answers and stated that the call was being recorded in both calls.",
+        "timestamp": "00:00:50, 00:01:19, 00:07:36, 00:08:48"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "Doctor maintained a polite tone throughout both calls, using 'sir/ma'am' and 'please', and expressing thanks.",
+        "timestamps": [
+          "00:03:00",
+          "00:04:00",
+          "00:05:27",
+          "00:11:12",
+          "00:17:53",
+          "00:18:25"
+        ]
+      },
+      "empathy": {
+        "value": "NA",
+        "explanation": "No serious health concerns were discussed that would require empathy.",
+        "timestamps": []
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "Doctor's instructions and questions were clear and easy to understand, despite some customer-side difficulties with camera positioning.",
+        "timestamps": {
+          "good_examples": [
+            "00:00:50",
+            "00:01:58",
+            "00:04:28",
+            "00:07:36",
+            "00:11:31",
+            "00:13:46"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "Doctor effectively probed for clarification on personal details, previous policy cancellation, and policy terms when the customer was unsure.",
+        "timestamps": [
+          "00:01:35",
+          "00:01:47",
+          "00:01:58",
+          "00:11:08",
+          "00:11:31",
+          "00:11:42",
+          "00:11:47",
+          "00:11:50",
+          "00:12:58",
+          "00:13:15",
+          "00:13:46",
+          "00:14:49"
+        ]
+      },
+      "observations": {
+        "value": "Yes",
+        "explanation": "A third party assisted the customer with ID and physical verification. In Call 2, the customer was heard telling someone 'Tell your name' before answering, indicating potential third-party prompting.",
+        "timestamps": [
+          "00:02:47",
+          "00:04:38",
+          "00:05:04",
+          "00:05:22",
+          "00:09:06"
+        ]
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "Call 2 concluded with a clear declaration and thank you, despite Call 1 ending abruptly.",
+        "timestamps": {
+          "declaration": "00:17:40",
+          "thank_you": "00:17:53"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C331119398AD0/_processed"
+}

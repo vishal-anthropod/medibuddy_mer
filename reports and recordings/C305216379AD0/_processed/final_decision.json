@@ -1,0 +1,151 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "d.1.1",
+          "text": "Is your condition caused by cancer or tumour?"
+        },
+        {
+          "id": "d.1.2",
+          "text": "As a result of this condition, have you had any of the following: heart problems, memory, concentration or psychological difficulties?"
+        },
+        {
+          "id": "e",
+          "text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders"
+        },
+        {
+          "id": "f",
+          "text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver"
+        },
+        {
+          "id": "g",
+          "text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease"
+        },
+        {
+          "id": "h",
+          "text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?"
+        },
+        {
+          "id": "i",
+          "text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+        },
+        {
+          "id": "j.1",
+          "text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?"
+        },
+        {
+          "id": "k",
+          "text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?"
+        },
+        {
+          "id": "l",
+          "text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Prashant Digambar Sathe, correct?",
+        "expected": "Prashant Digambar Sakhare"
+      }
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 2
+      }
+    },
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "customer: There's a lot. doctor: Ma'am, one moment. customer: No, one moment. customer: What is your name? customer: Please give me the phone for a minute, ma'am."
+        ],
+        "timestamps": [
+          "00:15:13",
+          "00:15:17",
+          "00:15:23"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "a.1.5",
+            "expected": "Within 5 year",
+            "corrected": "When was hypertension diagnosed"
+          },
+          {
+            "id": "c",
+            "expected": "No",
+            "corrected": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          },
+          {
+            "id": "i",
+            "expected": "No",
+            "corrected": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders"
+          },
+          {
+            "id": "j.1.1",
+            "expected": "LA HAD UNDERGO SURGERY FOR ANAL FISTULA IN 2008, AS A SYMPTOMS HE- HAD PAIN",
+            "corrected": "LA HAD UNDERGONE SURGERY FOR ANAL FISTULA IN 2008, AS SYMPTOMS HE HAD PAIN"
+          },
+          {
+            "id": "j.1.2",
+            "expected": "LA WENT UNDER SURGERY AND CUR-RENTLY NO SYMPTOMS OR COMPLICA-TIONS AND LAST FOLLOW UP WAS IN 2009",
+            "corrected": "LA WENT UNDER SURGERY AND CURRENTLY NO SYMPTOMS OR COMPLICATIONS AND LAST FOLLOW UP WAS IN 2009"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 9
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "customer: So ma'am, it's not relevant for you to call me and ask me to tell this or that. How will I tell you now?",
+          "customer: You should have informed me earlier whether I would receive a call or not.",
+          "customer: That's why I am not from your doctor's profession, I don't have good English either.",
+          "customer: One second, ma'am, my... my call is on waiting.",
+          "customer: Ma'am, one minute, I'm getting another call. One minute, one minute."
+        ],
+        "timestamps": [
+          "00:08:13",
+          "00:08:19",
+          "00:09:09",
+          "00:20:29",
+          "00:20:37"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

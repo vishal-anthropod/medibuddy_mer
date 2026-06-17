@@ -1,0 +1,118 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:02:47"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:02:48",
+        "client_name": "00:02:52",
+        "insurer_name": "00:02:50"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask for the customer's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof, read the PAN card number, and asked the customer to confirm it verbally.",
+      "timestamps": [
+        "00:04:51",
+        "00:05:01",
+        "00:05:15",
+        "00:05:23"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the purpose of the call, recording, and the implications of the information provided.",
+      "timestamp": "00:02:56"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, including 'sir', 'please', 'kindly', and 'thank you' throughout the call.",
+      "timestamps": [
+        "00:02:47",
+        "00:02:56",
+        "00:03:21",
+        "00:03:51",
+        "00:06:19",
+        "00:06:23",
+        "00:18:26"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer did not express any serious health concerns or distress requiring explicit empathy. The doctor maintained a professional and supportive tone.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor effectively handled initial audio issues, clarified information (e.g., company name spelling, PAN), and guided the customer through physical verification and medical questions.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:09",
+          "00:02:40",
+          "00:04:33",
+          "00:04:49",
+          "00:05:23",
+          "00:05:27",
+          "00:06:00",
+          "00:06:15",
+          "00:09:02",
+          "00:09:04",
+          "00:09:57",
+          "00:09:58",
+          "00:14:58",
+          "00:14:59",
+          "00:16:00",
+          "00:16:07"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding the customer's disclosed hernia and pilonidal sinus, asking specific follow-up questions about diagnosis, treatment, and recovery.",
+      "timestamps": [
+        "00:11:20",
+        "00:11:40",
+        "00:11:51",
+        "00:11:57",
+        "00:12:05",
+        "00:16:45",
+        "00:17:00",
+        "00:17:11",
+        "00:17:22",
+        "00:17:33",
+        "00:17:49",
+        "00:18:09"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal to answer, no answer, or repeated evasion) or third-party prompting as per the defined rules.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the declaration of truthfulness and provided a comprehensive thank you, wishing the customer good health.",
+      "timestamps": {
+        "declaration": "00:18:18",
+        "thank_you": "00:18:26"
+      }
+    }
+  }
+}

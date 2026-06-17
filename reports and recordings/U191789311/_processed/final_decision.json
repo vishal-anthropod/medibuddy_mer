@@ -1,0 +1,57 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Q25",
+          "text": "[For Female] Are you currently pregnant ?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 9,
+        "examples": [
+          {
+            "id": "Q17",
+            "expected": "No",
+            "corrected": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung, respiratory Disease or Urine, Kidney disease or any Liver, gastric disorders?"
+          },
+          {
+            "id": "Q19",
+            "expected": "No",
+            "corrected": "Do you or your spouse has been tested positive or is under treatment for HIV, AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?"
+          },
+          {
+            "id": "Q20",
+            "expected": "No",
+            "corrected": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury, Disability or impairment?"
+          },
+          {
+            "id": "Q22",
+            "expected": "No",
+            "corrected": "Have you undergone any investigations like blood, urine test, X-ray, ECG or any special test such as TMT, CT scan, MRI?"
+          },
+          {
+            "id": "Q23",
+            "expected": "No",
+            "corrected": "Have you ever been hospitalized for any illness, sickness, disease, injury, accident or disorder in the last 5 years?"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

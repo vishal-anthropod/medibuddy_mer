@@ -1,0 +1,86 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer with 'Hello, good evening.'",
+      "timestamps": [
+        "00:00:11"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:16",
+        "client_name": "00:00:11",
+        "insurer_name": "00:00:17"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer for their preferred language.",
+      "timestamp": "00:00:28"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof and the last four digits of the Aadhaar number.",
+      "timestamps": [
+        "00:01:52"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer about call recording, purpose, duration, and policy implications.",
+      "timestamp": "00:00:32"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor used polite phrases like 'Pardon me for asking these questions, but it's important.'",
+      "timestamps": [
+        "00:02:41"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The customer disclosed a serious health concern (ankylosing spondylitis), but the doctor did not express empathy.",
+      "timestamps": [
+        "00:05:57"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor generally communicated clearly and asked for spelling, but repeated a question about liver problems.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:20"
+        ],
+        "poor_examples": [
+          "00:04:40"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor asked extensive follow-up questions regarding the customer's ankylosing spondylitis, MRI, treatment, and current condition.",
+      "timestamps": [
+        "00:06:53",
+        "00:07:48",
+        "00:08:06",
+        "00:09:13"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation, third-party prompting, or other unusual events observed.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a declaration of truthfulness and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:10:32",
+        "thank_you": "00:10:46"
+      }
+    }
+  }
+}

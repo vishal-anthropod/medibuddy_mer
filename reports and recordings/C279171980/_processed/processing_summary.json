@@ -1,0 +1,698 @@
+{
+  "record_id": "C279171980",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/C279171980_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 666.9,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/C279171980_call1.mp3",
+      "audio_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/C279171980_call1.mp3",
+      "duration": 666.9,
+      "transcript_path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/_processed/call1/transcript.json",
+      "segments_count": 155,
+      "technical_analysis": {
+        "recording_exists": true,
+        "audibility_level": "audible",
+        "avg_dbfs": -23.87
+      },
+      "video_analysis": {
+        "attire_check": "unknown",
+        "visibility_status": "unknown",
+        "privacy_maintained": null,
+        "screenshots": []
+      }
+    }
+  ],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/_processed/merged_transcript.json",
+    "total_segments": 155,
+    "total_duration": 666.9
+  },
+  "qa_part1": {
+    "meta": {
+      "proposal_number": "C279171980",
+      "doctor_name": "Dr. Manisha Yennem",
+      "customer_name": "Jagadish Kumar Vuttala",
+      "insurance_company": "Tata AIA Life Insurance Company Ltd."
+    },
+    "personal_particulars": {
+      "name": "Jagadish Kumar Vuttala",
+      "dob": "22-Oct-1986",
+      "id_proofs": [
+        {
+          "type": "Passport",
+          "value": "Z7702701",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": true,
+        "insurer_name": "Tata AIG",
+        "timestamp": "00:00:34"
+      },
+      "language_preference": {
+        "asked": true,
+        "selected_language": "Hindi or English",
+        "timestamp": "00:00:27"
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": "Jagadish Kumar Vuttala",
+        "expected_response": "Jagadeesh Kumar Ruttala",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Jagadish Kumar Vuttala",
+        "timestamp": "00:00:24",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": "October 22nd, 1986",
+        "expected_response": "22-Oct-1986",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:15",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Passport",
+        "question_text": "ID Proof Passport",
+        "captured_response": "Z7702701",
+        "expected_response": "Passport (z7702701)",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:06",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Kindly confirm your full Name",
+        "captured_response": "Jagadish Kumar Vuttala",
+        "expected_response": "Yes Jagadeesh Kumar Ruttala",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Jagadish Kumar Vuttala",
+        "timestamp": "00:00:19",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "Your Date of birth",
+        "captured_response": "October 22nd, 1986",
+        "expected_response": "Yes 1986-10-22",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:07",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Education Qualification",
+        "captured_response": "graduation, B.Tech.",
+        "expected_response": "Yes Education - Above Graduate",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:22",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Your current Occupation",
+        "captured_response": "Salaried. Senior cybersecurity engineer.",
+        "expected_response": "Yes Occupation - Salaried Remarks - Cyber security engineer",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:01:29",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Please show your ID proof",
+        "captured_response": "Z7702701",
+        "expected_response": "Yes Passport (z7702701)",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "Kindly share your current location( City and state with country)?",
+        "captured_response": "Iselin, New Jersey, USA.",
+        "expected_response": "Yes iselin, new jersey",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Are you currently in Good Health ?",
+        "captured_response": "Yep.",
+        "expected_response": "Yes",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:48",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Are you taking any type of medication currently?",
+        "captured_response": "I am diabetic, but I am taking Metformin medicine.",
+        "expected_response": "Yes Medication - Therapeutic Medication Remarks - La takes metformin 500 (1-0-0) .",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:02:55",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Height",
+        "captured_response": "5 feet 10 inches",
+        "expected_response": "Yes 177.8",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:44",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Weight",
+        "captured_response": "88 kgs",
+        "expected_response": "Yes 88",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:51",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Did you have any loss or gain of weight of 10 kg or more in the last six months?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:03:58",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Have you ever in the past consumed or currently consume tobacco in any form like Cigarette,Bidi,Paan,Gutkha?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:04:05",
+        "typo_in_expected_response": {
+          "has_typo": true,
+          "corrected_text": "Paan"
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:42",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+        "captured_response": "Yes, from 2021. Taking Metformin 500mg once daily. Latest HBA1C is 6. No complications. Checks once in 3 months.",
+        "expected_response": "Yes Exact Diagnosis - High blood sugar/ Diabetes Date of Diagnosis or Duration of disorder - <= 10 Yrs Treatment details - Single drug/combination of 2 drugs Latest FBS/PPBS/HbA1c reading - -/-/6 Complications of High blood sugar/ Diabetes - Remarks - La has diabetes from 2021 , takes tab metformin 500 (1-0-0) , checks once in 3 months , has no complications with it for now .",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:05:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:07:53",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+        "captured_response": "No, not at all.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:02",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:09",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:18",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:33",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:47",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+        "captured_response": "Uh, nothing of the sort. Only diabetes.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:08:53",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Have you undergone any investigations like blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+        "captured_response": "Yes, a complete health check one and a half month back. It was normal.",
+        "expected_response": "Yes Reason for under going test - Annual healthcheck up/Blood donation/Routine healthcheck up(Self/Company) Results of the test - Abnormal Past Surgery - Remarks - La had a health check up in Aug 2025 , was all normal apart from diabetes.",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "Results of the test - Normal (apart from diabetes)",
+        "timestamp": "00:09:04",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury , accident or disorder in the last 5 years?",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:03",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+        "captured_response": "No.",
+        "expected_response": "No",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:10:11",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "[For Female] Are you currently pregnant ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any P ap smear , mammogram?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "27",
+        "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "28",
+        "question_text": "Is there anything else that you would like to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+        "captured_response": "I don't think so. No, I don't have any.",
+        "expected_response": "Yes- Notings Remarks - La consumes 2 pegs of hard liquor 30ml each , twice a month fr om 10 years , doctor not advised to stop alcohol .",
+        "status": "Incorrect",
+        "error_type": "Incorrect Data",
+        "suggested_correction": "No",
+        "timestamp": "00:10:20",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Alcohol.Details",
+        "question_text": "Alcohol Consumption Details (from MER Q28 Remarks)",
+        "captured_response": "Occasionally. Whiskey. two pegs of 30 ml which would be 60 ml. twice a month. almost 10 years. doctor not advised to stop alcohol.",
+        "expected_response": "La consumes 2 pegs of hard liquor 30ml each , twice a month fr om 10 years , doctor not advised to stop alcohol .",
+        "status": "Correct",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": "00:04:11",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Declaration.Reading",
+        "question_text": "Declaration Statement Reading",
+        "captured_response": "So, hereby you agree, declare that the particulars and answers to the above questions are completely true. And these responses will form a part of the policy records.",
+        "expected_response": "You Jagadeesh Kumar Ruttala , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same.",
+        "status": "Paraphrased",
+        "error_type": null,
+        "suggested_correction": "Read the full declaration as per MER.",
+        "timestamp": "00:10:34",
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "Declaration.Agreement",
+        "question_text": "Agreement to Declaration",
+        "captured_response": null,
+        "expected_response": "Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Ask for explicit agreement to the declaration.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "The customer's name 'Jagadish Kumar Vuttala' was captured differently in the MER as 'Jagadeesh Kumar Ruttala'.",
+        "The MER records 'Abnormal' for the health checkup results (Q22), which contradicts the customer's statement 'it was normal' and the MER's own remarks stating 'was all normal apart from diabetes'.",
+        "For question 28 ('Any other health condition'), the customer explicitly stated 'No, I don't have any' for *additional* information, but the MER records 'Yes' and includes previously discussed alcohol consumption details, misrepresenting the customer's answer to this specific question.",
+        "The doctor paraphrased the declaration statement and did not explicitly ask for the customer's agreement to the full declaration as specified in the MER."
+      ],
+      "recommendations": [
+        "Ensure personal particulars, especially the customer's name, are accurately captured in the MER exactly as stated by the customer during the call.",
+        "Verify consistency in MER entries, particularly when conflicting information (e.g., 'Abnormal' vs. 'normal' in remarks) is present for the same question, and correct the primary entry if it's erroneous.",
+        "Ensure the customer's response to 'any other health condition' (Q28) is accurately reflected in the MER, and avoid re-entering previously discussed details if the customer states 'No' to new information.",
+        "The doctor should read the full declaration statement verbatim and obtain explicit agreement from the customer to that specific declaration."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": true,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": [
+        "Customer is cooperative and responsive throughout the call.",
+        "Customer provides clear answers to all questions."
+      ]
+    },
+    "data_validation": {
+      "height_cm": "177.8",
+      "weight_kg": "88",
+      "dates_mentioned": [
+        "October 22nd, 1986",
+        "2021",
+        "August",
+        "06-Oct-2025",
+        "07/10/2025"
+      ],
+      "medications": [
+        "Metformin"
+      ],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "audible",
+      "avg_dbfs": -23.87
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "Yes",
+        "explanation": "The doctor initiated the call with a greeting.",
+        "timestamps": [
+          "00:00:01"
+        ]
+      },
+      "call_opening": {
+        "value": "Yes",
+        "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the customer's full name.",
+        "timestamps": {
+          "self_intro": "00:00:09",
+          "client_name": "00:00:19",
+          "insurer_name": "00:00:09"
+        }
+      },
+      "language_preference": {
+        "value": "Yes",
+        "explanation": "The doctor asked the customer about their language preference.",
+        "timestamp": "00:00:27"
+      },
+      "id_validation": {
+        "value": "Yes",
+        "explanation": "The doctor confirmed the customer's date of birth and passport number.",
+        "timestamps": [
+          "00:01:12",
+          "00:02:02"
+        ]
+      },
+      "disclaimer": {
+        "value": "Yes",
+        "explanation": "The doctor provided a comprehensive disclaimer regarding the call's purpose, information usage, and recording.",
+        "timestamp": "00:00:34"
+      },
+      "politeness": {
+        "value": "Yes",
+        "explanation": "The doctor maintained a polite tone throughout the call, using 'please', 'sir', and positive affirmations like 'perfect' and 'fine'.",
+        "timestamps": [
+          "00:00:19",
+          "00:01:04"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "The customer mentioned diabetes, but no serious health concerns (accident, operation, severe illness) were present, so empathy is marked 'Yes' by default.",
+        "timestamps": [
+          "00:02:59"
+        ]
+      },
+      "communication_skills": {
+        "value": "Yes",
+        "explanation": "The doctor's communication was clear, questions were direct, and information was confirmed effectively.",
+        "timestamps": {
+          "good_examples": [
+            "00:01:16",
+            "00:02:27",
+            "00:06:42"
+          ],
+          "poor_examples": []
+        }
+      },
+      "probing": {
+        "value": "Yes",
+        "explanation": "The doctor thoroughly probed into the customer's diabetes condition, medication, alcohol consumption, and general health check-ups.",
+        "timestamps": [
+          "00:03:15",
+          "00:04:16",
+          "00:05:47",
+          "00:06:31",
+          "00:09:17"
+        ]
+      },
+      "observations": {
+        "value": "NA",
+        "explanation": "There was no customer hesitation as per the rule, no third-party prompting, and no other unusual events observed.",
+        "timestamps": []
+      },
+      "call_closure": {
+        "value": "Yes",
+        "explanation": "The doctor obtained a declaration of truthfulness and thanked the customer for their cooperation.",
+        "timestamps": {
+          "declaration": "00:10:34",
+          "thank_you": "00:10:43"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C279171980/_processed"
+}

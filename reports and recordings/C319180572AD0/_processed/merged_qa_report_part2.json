@@ -1,0 +1,87 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a clear greeting.",
+      "timestamps": [
+        "00:00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and mentioned the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:09",
+        "client_name": "00:00:11",
+        "insurer_name": "00:00:41"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the customer's primary language.",
+      "timestamp": "00:02:32"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof (PAN card) and requested the customer to read the number.",
+      "timestamps": [
+        "00:01:41",
+        "00:01:49",
+        "00:01:53"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer about call recording, the legal nature of the answers, and potential consequences of incorrect information.",
+      "timestamp": "00:00:33"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using 'sir' and 'madam' and handling sensitive questions respectfully.",
+      "timestamps": [
+        "00:00:04",
+        "00:13:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer mentioned health concerns (cholesterol, sugar, kidney stones), but none were described as serious health concerns (accident, operation, severe illness) requiring explicit empathy as per the rule. Marked 'Yes' by default.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, explained the process well, and checked for customer understanding.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:37",
+          "00:04:45"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor consistently asked relevant follow-up questions for reported health conditions like alcohol consumption, cholesterol, sugar, kidney stones, and eye issues.",
+      "timestamps": [
+        "00:03:19",
+        "00:05:04",
+        "00:07:05",
+        "00:10:06",
+        "00:12:08"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No instances of customer hesitation (refusal, no answer, repeated evasion) or third-party prompting were observed.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the correctness of the answers, outlined the next steps for policy processing, and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:14:14",
+        "thank_you": "00:14:30"
+      }
+    }
+  }
+}

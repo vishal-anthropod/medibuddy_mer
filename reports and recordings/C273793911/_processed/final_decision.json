@@ -1,0 +1,35 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Kavita",
+        "expected": "savita"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "20th January 1992",
+        "expected": "20-June-1995"
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

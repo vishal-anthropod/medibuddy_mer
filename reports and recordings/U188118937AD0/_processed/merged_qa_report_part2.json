@@ -1,0 +1,85 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:13",
+        "client_name": "00:00:19",
+        "insurer_name": "00:00:15"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor confirmed the customer's primary language (Kannada) and later checked if English was understandable for disease names, but did not explicitly ask for the preferred language for the entire call.",
+      "timestamp": "00:02:16"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof, which type, to show it, and to confirm the last four digits.",
+      "timestamps": [
+        "00:01:48",
+        "00:01:52",
+        "00:01:54",
+        "00:01:57"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer about call recording, purpose, duration, legal nature, and consequences of providing incorrect answers.",
+      "timestamp": "00:00:38"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressed the customer respectfully, and showed consideration, including asking permission for a private question.",
+      "timestamps": [
+        "00:00:07",
+        "00:08:41",
+        "00:09:19"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were discussed that would require explicit empathy.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, explained complex medical terms, and ensured understanding by checking if English terms were comprehensible.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:38",
+          "00:03:25",
+          "00:03:45",
+          "00:05:03"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "NA",
+      "explanation": "The customer provided clear and direct 'No' answers to all health-related questions, indicating no need for further probing.",
+      "timestamps": []
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No customer hesitation, third-party prompting, or unusual events were observed during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a final declaration of correctness and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:09:02",
+        "thank_you": "00:09:19"
+      }
+    }
+  }
+}

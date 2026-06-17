@@ -1,0 +1,27 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Kolapudi Eswara Vijayakumar",
+        "expected": "Kolapudi Victor Vijaya Vara Kumar"
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 13
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

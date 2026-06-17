@@ -1,0 +1,46 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Health.i",
+            "expected": "Gastritis",
+            "corrected": "ulcerative"
+          },
+          {
+            "id": "Health.j.1",
+            "expected": "No, passed out naturally or surgically re-moved",
+            "corrected": "removed"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "swallowing"
+          },
+          {
+            "id": "Health.Other.3.a",
+            "expected": "No",
+            "corrected": "prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

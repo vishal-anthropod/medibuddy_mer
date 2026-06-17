@@ -1,0 +1,96 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "Doctor greeted the customer at the start of the call.",
+      "timestamps": [
+        "00:06:42"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "Doctor introduced herself, confirmed the client's name, and mentioned the insurer.",
+      "timestamps": {
+        "self_intro": "00:06:54",
+        "client_name": "00:07:18",
+        "insurer_name": "00:06:54"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "Doctor asked for and confirmed the language preference.",
+      "timestamp": "00:06:49"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "Doctor requested ID, guided the customer to show it, and verified the last four digits.",
+      "timestamps": [
+        "00:08:14",
+        "00:08:25",
+        "00:08:49"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "Doctor clearly stated the legal implications of the answers and that the call was recorded.",
+      "timestamp": "00:06:54"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout all calls, even when dealing with network issues and customer distractions.",
+      "timestamps": [
+        "00:01:10",
+        "00:05:08",
+        "00:10:45",
+        "00:14:08"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were reported by the customer, so empathy is marked as Yes by default.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "Doctor communicated clearly, patiently guided the customer, and effectively managed network issues and customer distractions.",
+      "timestamps": {
+        "good_examples": [
+          "00:06:54",
+          "00:08:25",
+          "00:13:20",
+          "00:05:08"
+        ],
+        "poor_examples": [
+          "NA"
+        ]
+      }
+    },
+    "probing": {
+      "value": "No",
+      "explanation": "The doctor failed to probe when the customer did not answer the question about 'lumps, tumors' and moved to the next question.",
+      "timestamps": [
+        "00:12:28"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "Customer showed hesitation by not answering a question about 'lumps, tumors'. There was also potential third-party prompting or distraction observed by the doctor and in customer's speech in Call 1.",
+      "timestamps": [
+        "00:03:40",
+        "00:08:04",
+        "00:09:51",
+        "00:12:28"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "Doctor obtained the final declaration and thanked the customer.",
+      "timestamps": {
+        "declaration": "00:13:42",
+        "thank_you": "00:14:08"
+      }
+    }
+  }
+}

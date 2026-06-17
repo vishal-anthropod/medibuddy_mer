@@ -1,0 +1,743 @@
+{
+  "meta": {
+    "proposal_number": "C321674364",
+    "doctor_name": "Dr. Vishnu Priya",
+    "customer_name": "Vanka Veerasekhar",
+    "insurance_company": "Tata AIA Life Insurance Company Ltd."
+  },
+  "personal_particulars": {
+    "name": "Vanka Veerasekhar",
+    "dob": "07-July-1985",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "35504330220",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIA Life Insurance",
+      "timestamp": "00:40"
+    },
+    "language_preference": {
+      "asked": true,
+      "selected_language": "Telugu",
+      "timestamp": "00:11"
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Vanka Veerasekhar",
+      "expected_response": "vanka veerasekhar",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "01:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Your Date of birth",
+      "captured_response": "07-July-1985",
+      "expected_response": "1985-07-07",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "Graduate",
+      "expected_response": "Education - Below Graduate",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Graduate",
+      "timestamp": "02:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "Presently working in chemicals, solo work.",
+      "expected_response": "Occupation - Salaried",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Presently working in chemicals, solo work.",
+      "timestamp": "02:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "ID Proof Aadhar",
+      "captured_response": "35504330220",
+      "expected_response": "aadhar number : 2220",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "35504330220",
+      "timestamp": "02:39",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "Nizamabad, Telangana",
+      "expected_response": "nizamabad",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:14",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "You Vanka Veerasekhar, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "captured_response": "Okay sir. So, the questions here are related to the information you provided about your health and habits. ... And if the proposal is accepted, a legal contract will be formed on behalf of the company. If you give any wrong or false information, there are chances of cancellation even after the application is submitted. Okay, sir? So please give the correct answers after thinking, sir.",
+      "expected_response": "Yes",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Doctor should ask 'Sir/Mam' are you in agreement with the declaration that I have read out to you?'",
+      "timestamp": "01:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.1",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "Four years ago, I quit.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:49",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.2",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "Yes, I do.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.3",
+      "question_text": "Please select the type of alcohol you consume. Spirit/Hard Liqour",
+      "captured_response": "Third one, third one. (implies hard liquor/spirit)",
+      "expected_response": "Spirit/Hard Liqour",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:10",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.4",
+      "question_text": "In a week,How many unit of Hard liqour/spirit do you consume ?1 unit of alcohol =  1 glass of spirits (44 ml)",
+      "captured_response": "When in a party. ... One, two. ... 90ml you take? Yes, ma'am. Only on parties, right, sir? Otherwise, okay, like on a weekly basis, there's no habit, right? No such habit.",
+      "expected_response": "1",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "1-2 pegs (90ml each) at parties, not weekly.",
+      "timestamp": "04:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.5",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "No one told me.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:04",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.6",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "No, nothing like that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:12",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.7",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "5.7 (likely feet, which is 170.18 cm)",
+      "expected_response": "5.7 cm",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "170.18 cm (assuming 5.7 feet)",
+      "timestamp": "05:21",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "5.7 feet"
+      }
+    },
+    {
+      "question_id": "Lifestyle.8",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "67",
+      "expected_response": "67 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:24",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.a",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids",
+      "captured_response": "No, not at present.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.b",
+      "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.c",
+      "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "No cancer-related issues, right sir? No, no. Precancerous ulcers, leukemia, enlarged lymph nodes. No, no. Leukoplakia, sarcoma, tumors, polyps, nodules, cysts, lumps. I am just listening to what you are saying, I don't have any of those currently.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.d",
+      "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "No diabetes or anything like that, right sir? Raised blood sugar? No. Sugar in urine, hyperthyroidism, hypothyroidism, thyroid problems, nothing like that, right sir? Endocrine disorders. No, none.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.e",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders",
+      "captured_response": "Asthma, TB, bronchitis, sinusitis, pneumonia, recurrent cough, sleep apnea, you don't have any issues like these, right sir? Emphysema. No, no. Bronchitis.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:26",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f",
+      "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "Hepatitis B.",
+      "expected_response": "Fatty liver, Hepatitis B",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Doctor should have specifically asked about 'Fatty liver'.",
+      "timestamp": "06:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f.1",
+      "question_text": "When were you diagnosed of this condition?",
+      "captured_response": "This was about three years ago. ... Yes, it's been more than three years.",
+      "expected_response": "More than 6 months ago",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f.2",
+      "question_text": "Have you had any of the following conditions: liver cirrhosis, liver cancer, hepatitis C, hepatitis D, HIV infection or positive alpha fetoprotein(AFP)?",
+      "captured_response": "None of that. There is nothing like that. No lumps or anything. Positive alpha fetoprotein, AST, nothing like that, right?",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f.3",
+      "question_text": "Have you ever been advised by your doctor to reduce or to stop drinking alcohol?",
+      "captured_response": "Nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:32",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f.4",
+      "question_text": "Have you ever had anti-viral treatment for this condition?",
+      "captured_response": "Nothing, just they told me to take an injection.",
+      "expected_response": "No, never had anti-viral treatment",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:35",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.f.5",
+      "question_text": "When did you last have a regular check up or follow up with a medical doctor due to this condition?",
+      "captured_response": "There are no regular check-ups. I go to the hospital when I have a fever, otherwise I don't go. ... So related to Hepatitis, it was about two, three years ago? Yes, that's all. So you haven't consulted recently?",
+      "expected_response": "More than 1 year ago",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.g",
+      "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "No, none.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.h",
+      "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "No, nothing. ... No neurological disorders then. Mental health disorders, nausea.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:12",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.i",
+      "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "Eight years, eight years ago, I had an ulcer. It hasn't come back since. It shouldn't come back.",
+      "expected_response": "Ulcerative Colitis, Irritable bowel syndrome, Gastric ulcer",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Doctor should have specifically asked about 'Ulcerative Colitis' and 'Irritable bowel syndrome'.",
+      "timestamp": "08:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.i.1",
+      "question_text": "Have you undergone surgery for this condition?",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.i.2",
+      "question_text": "Have you taken or are you on treatment prescribed by your doctor?",
+      "captured_response": "They gave me a tablet, and it subsided then.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:01",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.i.3",
+      "question_text": "When did you last experience symptoms?",
+      "captured_response": "Eight years ago, you had an ulcer, a stomach ulcer, sir? Yes. ... So, the last time you experienced these symptoms was also eight years ago, right? Nothing recently, right sir? Nothing.",
+      "expected_response": "more than 2 years",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "08:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.j",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems?",
+      "captured_response": "No, none of these. ... No, none of those. None of those.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:32",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.k",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine?",
+      "captured_response": "Back pain, if I sit for too long, I get back pain. ... So, not continuous, recurrent back pain, right sir? No, no. Normally, if I sit for too long, I get back pain.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.l",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes",
+      "captured_response": "No, nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:10",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Health.m",
+      "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "Ear problems, ENT problems, nothing like that, right sir? ... Deafness, hearing, speech problems, hoarseness of voice, difficulty in swallowing, ear discharge, nothing like that. ... Disorders of ear, eyes, nose, throat.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:23",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.1",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+      "captured_response": "No, nothing. That is, treatment means I took an injection. Treatment means they told me to take an injection, that's it.",
+      "expected_response": "Annual Health Checkup, Viral infection, Dengue fever, Malaria, Mouth ulcer, Hay fever, COVID-19 Positive, Others, Fever",
+      "status": "Incomplete",
+      "error_type": "Incomplete",
+      "suggested_correction": "Doctor should explicitly ask about each of the conditions listed in the MER for this section.",
+      "timestamp": "10:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.1.Fever.1",
+      "question_text": "Have you fully recovered with no further symptoms, investigations, treatment or compli-cations?",
+      "captured_response": "Yes, normal fever, if it doesn't reduce, then... Hospitalized, that was once for a fever, it was just about the fever. ... Yes, if it didn't subside, then we got admitted to the hospital. Yes. One day.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.1.Fever.2",
+      "question_text": "When you have recovered. Please confirm duration in months",
+      "captured_response": "almost five years ago, you had a general fever.",
+      "expected_response": "More than a year ago",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.2.a",
+      "question_text": "Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "No, I haven't. Treadmill, nothing like that? Endoscopy, colonoscopy. That is, when I get a normal fever, they might ask for a blood test to check if it's a viral fever or something, that's all. Normally, I don't do anything else.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:05",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.2.b",
+      "question_text": "Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "No, I haven't. I only take it once. Whether it gets better or not, I don't take it again.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:29",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.2.c",
+      "question_text": "Inability to perform your daily activities or absent from work more than two 2 consecutive weeks at a time",
+      "captured_response": "If I am unwell, I take it, but...",
+      "expected_response": "No",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:40",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.3",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "No, none.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.4",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "No, none.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Additional.5",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "No, nothing. Nothing.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:11",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Incorrect data captured for Education Qualification: MER states 'Below Graduate' but customer is 'Graduate'.",
+      "Incorrect data captured for Current Occupation: MER states 'Salaried' but customer is 'working in chemicals, solo work'.",
+      "Incorrect data captured for Aadhaar ID: MER has a partial number '2220' while customer provided '35504330220'. The partial number in MER does not match the end of the full number provided.",
+      "Incorrect data captured for Alcohol Consumption: MER states '1 unit' weekly, but customer specified '1-2 pegs (90ml each)' only at parties, not weekly.",
+      "The doctor did not explicitly ask for agreement to the declaration at the end of reading it.",
+      "The doctor did not explicitly ask about 'Fatty liver' under Health.f, although it was an expected disclosure in the MER.",
+      "The doctor did not explicitly ask about 'Ulcerative Colitis' and 'Irritable bowel syndrome' under Health.i, although they were expected disclosures in the MER.",
+      "The doctor did not explicitly ask about all specific conditions listed under the open-ended 'Is there anything else' question (Additional.1), such as 'Annual Health Checkup', 'Viral infection', 'Dengue fever', 'Malaria', 'Mouth ulcer', 'Hay fever', 'COVID-19 Positive', 'Others'."
+    ],
+    "recommendations": [
+      "Ensure all personal particulars (Education, Occupation, ID Proof) are accurately captured and match the customer's verbal responses.",
+      "Clarify and accurately record alcohol consumption frequency and quantity, ensuring it aligns with the MER's unit definition or note discrepancies.",
+      "Ensure the full declaration, including the explicit question for agreement, is read out and acknowledged by the customer.",
+      "For questions with multiple expected disclosures (e.g., Health.f, Health.i, Additional.1), the doctor should explicitly ask about each specific condition listed in the MER to ensure completeness.",
+      "Verify and correct any unit typos in the MER document, such as the height unit (5.7 cm should likely be 5.7 feet or converted to cm)."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and provides answers.",
+      "Customer clarifies information when prompted (e.g., about back pain, Hepatitis B, ulcer)."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "170.18",
+    "weight_kg": "67",
+    "dates_mentioned": [
+      "07-July-1985",
+      "Four years ago",
+      "Ten years",
+      "three years ago",
+      "Eight years ago",
+      "almost five years ago"
+    ],
+    "medications": [
+      "injection",
+      "tablet"
+    ],
+    "validation_errors": [
+      "MER's height unit 'cm' for value '5.7' is likely a typo; assuming 5.7 feet (170.18 cm).",
+      "Discrepancy in alcohol consumption: MER states '1 unit' weekly, but customer states '1-2 pegs (90ml each)' only at parties, not weekly.",
+      "MER lists 'Fatty liver' as an expected disclosure under Health.f, but it was not mentioned by the customer or explicitly asked by the doctor.",
+      "MER lists 'Ulcerative Colitis' and 'Irritable bowel syndrome' as expected disclosures under Health.i, but they were not mentioned by the customer or explicitly asked by the doctor.",
+      "MER lists several specific conditions under 'Additional.1' (Is there anything else), but these were not explicitly asked by the doctor, and the customer did not volunteer them (except for general fever)."
+    ]
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 0,
+    "typos_found": [],
+    "notes": "not evaluated in this step"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -21.91
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

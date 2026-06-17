@@ -1,0 +1,57 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Zarina Lukman Dalal",
+        "expected": "Jarina Lukman Dalal"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "Jarina Lukman Dalal",
+            "corrected": "Zarina Lukman Dalal"
+          },
+          {
+            "id": "Declaration",
+            "expected": "You Jarina Lukman Dalal , declar e that, you have fully understood the questions ask ed to you as per this call and have furnished complete, true and accurate infor mation af ter fully understanding the same. Sir/Mam' ar e you in agr eement with the declaration that I have r ead out to you.",
+            "corrected": "You Zarina Lukman Dalal, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+          },
+          {
+            "id": "H.c",
+            "expected": "No",
+            "corrected": "c. Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sarcoma, tumours, polyps, nodules, cysts, lump or other growths"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Just a minute, haan."
+        ],
+        "timestamps": [
+          "02:23"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

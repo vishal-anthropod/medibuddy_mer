@@ -1,0 +1,105 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting and followed up with a formal good morning.",
+      "timestamps": [
+        "00:00:05",
+        "00:00:27"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:27",
+        "client_name": "00:00:34",
+        "insurer_name": "00:00:32"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask about the customer's language preference.",
+      "timestamp": "00:00"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for ID proof, identified it as an Aadhar card, and verified the last four digits.",
+      "timestamps": [
+        "00:02:20",
+        "00:02:27",
+        "00:02:29"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the call's purpose, recording, duration, legal implications, and consequences of false statements.",
+      "timestamp": "00:00:36"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressing the customer as 'sir' and apologizing when making a mistake.",
+      "timestamps": [
+        "00:00:27",
+        "00:01:33",
+        "00:04:28",
+        "00:06:29",
+        "00:10:30"
+      ]
+    },
+    "empathy": {
+      "value": "No",
+      "explanation": "The customer mentioned gallbladder removal (an operation), which is a serious health concern, but the doctor's response was purely procedural, lacking explicit empathetic statements.",
+      "timestamps": [
+        "00:07:46",
+        "00:07:55",
+        "00:08:58",
+        "00:09:06"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor was generally clear and concise, but had initial audio issues, some repetitive questioning, and an abrupt closing remark.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:36",
+          "00:01:02",
+          "00:04:36",
+          "00:05:28"
+        ],
+        "poor_examples": [
+          "00:00:05",
+          "00:06:21",
+          "00:11:03",
+          "00:15:47"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding the customer's gallbladder surgery, use of specs, and current cough.",
+      "timestamps": [
+        "00:07:57",
+        "00:10:10",
+        "00:10:50",
+        "00:13:09",
+        "00:14:05"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No instances of customer hesitation (refusal to answer, no answer, or repeated evasion) or third-party prompting were observed.",
+      "timestamps": [
+        "00:00:00"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The customer provided a declaration, and both the customer and doctor exchanged thank yous.",
+      "timestamps": {
+        "declaration": "00:15:29",
+        "thank_you": "00:15:44"
+      }
+    }
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "segments": [
+    {
+      "segment_id": "call1_1",
+      "text": "One second.",
+      "speaker": "customer",
+      "start_timestamp": "0:11",
+      "end_timestamp": "0:12",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_2",
+      "text": "Tell me.",
+      "speaker": "customer",
+      "start_timestamp": "1:17",
+      "end_timestamp": "1:18",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_3",
+      "text": "One second, just one second.",
+      "speaker": "customer",
+      "start_timestamp": "1:18",
+      "end_timestamp": "1:20",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_4",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "2:20",
+      "end_timestamp": "2:21",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_5",
+      "text": "Who is it?",
+      "speaker": "customer",
+      "start_timestamp": "2:21",
+      "end_timestamp": "2:22",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_6",
+      "text": "Yes?",
+      "speaker": "customer",
+      "start_timestamp": "2:22",
+      "end_timestamp": "2:23",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_7",
+      "text": "Who else called?",
+      "speaker": "customer",
+      "start_timestamp": "2:24",
+      "end_timestamp": "2:26",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_8",
+      "text": "No, no one.",
+      "speaker": "customer",
+      "start_timestamp": "2:26",
+      "end_timestamp": "2:27",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_9",
+      "text": "Who is it?",
+      "speaker": "customer",
+      "start_timestamp": "2:50",
+      "end_timestamp": "2:51",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_10",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "2:51",
+      "end_timestamp": "2:52",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_11",
+      "text": "Yes, I am here.",
+      "speaker": "customer",
+      "start_timestamp": "2:52",
+      "end_timestamp": "2:53",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_12",
+      "text": "It's about the class, please wait.",
+      "speaker": "customer",
+      "start_timestamp": "2:53",
+      "end_timestamp": "2:55",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_13",
+      "text": "Hello.",
+      "speaker": "customer",
+      "start_timestamp": "2:55",
+      "end_timestamp": "2:56",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_14",
+      "text": "Yes, tell me.",
+      "speaker": "customer",
+      "start_timestamp": "2:58",
+      "end_timestamp": "2:59",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call1_15",
+      "text": "Yes, I am sitting here.",
+      "speaker": "customer",
+      "start_timestamp": "3:01",
+      "end_timestamp": "3:03",
+      "call_index": 1
+    },
+    {
+      "segment_id": "call2_S1",
+      "text": "Hello",
+      "speaker": "customer",
+      "start_timestamp": "4:21",
+      "end_timestamp": "4:22",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S2",
+      "text": "Hello",
+      "speaker": "customer",
+      "start_timestamp": "4:24",
+      "end_timestamp": "4:25",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S3",
+      "text": "Hello",
+      "speaker": "doctor",
+      "start_timestamp": "4:26",
+      "end_timestamp": "4:26",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S4",
+      "text": "Can you hear me?",
+      "speaker": "doctor",
+      "start_timestamp": "4:28",
+      "end_timestamp": "4:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S5",
+      "text": "Yes, I can hear you ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "4:31",
+      "end_timestamp": "4:32",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S6",
+      "text": "Yes, hello, I am Dr. Sonu speaking from Tata AIA. Which language would you like to speak in? Hindi or English?",
+      "speaker": "doctor",
+      "start_timestamp": "4:33",
+      "end_timestamp": "4:37",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S7",
+      "text": "Hindi, Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "4:39",
+      "end_timestamp": "4:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S8",
+      "text": "Okay, this is related to your policy. We have planned to proceed with your proposal, but before that, a telephonic medical verification needs to be done, in which I will ask you questions about your medical history, okay?",
+      "speaker": "doctor",
+      "start_timestamp": "4:41",
+      "end_timestamp": "4:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S9",
+      "text": "Please note, any information you provide me about your health habits is part of this insurance application. And if it is accepted, it will form a contract between you and the company, okay? If any of your answers are later found to be false or don't match, it will directly affect your policy. The policy can be cancelled before being issued and can be rejected later, so please answer thoughtfully and correctly, okay?",
+      "speaker": "doctor",
+      "start_timestamp": "4:51",
+      "end_timestamp": "5:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S10",
+      "text": "This call may be recorded for company quality assurance. Please tell me your date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "5:15",
+      "end_timestamp": "5:19",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S11",
+      "text": "3/8/87",
+      "speaker": "customer",
+      "start_timestamp": "5:22",
+      "end_timestamp": "5:23",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S12",
+      "text": "3/8/1987",
+      "speaker": "customer",
+      "start_timestamp": "5:24",
+      "end_timestamp": "5:25",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S13",
+      "text": "Yes, yes, please stand up for physical verification and show me your full height. Ask someone to show it if needed.",
+      "speaker": "doctor",
+      "start_timestamp": "5:26",
+      "end_timestamp": "5:31",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S14",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "5:32",
+      "end_timestamp": "5:33",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S15",
+      "text": "Point the camera towards their feet. Take it all the way down, the feet should be visible up to the toes.",
+      "speaker": "doctor",
+      "start_timestamp": "5:35",
+      "end_timestamp": "5:39",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S16",
+      "text": "Move it down a bit more.",
+      "speaker": "doctor",
+      "start_timestamp": "5:40",
+      "end_timestamp": "5:41",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S17",
+      "text": "Yes, okay. Come, sit down comfortably. Sit down.",
+      "speaker": "doctor",
+      "start_timestamp": "5:41",
+      "end_timestamp": "5:44",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S18",
+      "text": "What is your full name?",
+      "speaker": "doctor",
+      "start_timestamp": "5:45",
+      "end_timestamp": "5:46",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S19",
+      "text": "Kavita Nilesh Gaikwad.",
+      "speaker": "customer",
+      "start_timestamp": "5:47",
+      "end_timestamp": "5:48",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S20",
+      "text": "Yes, how educated are you?",
+      "speaker": "doctor",
+      "start_timestamp": "5:49",
+      "end_timestamp": "5:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S21",
+      "text": "Post graduation.",
+      "speaker": "customer",
+      "start_timestamp": "5:52",
+      "end_timestamp": "5:53",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S22",
+      "text": "In what did you do your post-graduation? MA, MSc, M.Com?",
+      "speaker": "doctor",
+      "start_timestamp": "5:54",
+      "end_timestamp": "5:56",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S23",
+      "text": "MA.",
+      "speaker": "customer",
+      "start_timestamp": "5:58",
+      "end_timestamp": "5:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S24",
+      "text": "What is the passing year for MA?",
+      "speaker": "doctor",
+      "start_timestamp": "6:00",
+      "end_timestamp": "6:02",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S25",
+      "text": "2011.",
+      "speaker": "customer",
+      "start_timestamp": "6:04",
+      "end_timestamp": "6:06",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S26",
+      "text": "Which university was it?",
+      "speaker": "doctor",
+      "start_timestamp": "6:07",
+      "end_timestamp": "6:08",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S27",
+      "text": "Shivaji University.",
+      "speaker": "customer",
+      "start_timestamp": "6:10",
+      "end_timestamp": "6:11",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S28",
+      "text": "Okay, what do you do now?",
+      "speaker": "doctor",
+      "start_timestamp": "6:12",
+      "end_timestamp": "6:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S29",
+      "text": "Salaried.",
+      "speaker": "customer",
+      "start_timestamp": "6:16",
+      "end_timestamp": "6:17",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S30",
+      "text": "Salaried in what post? What is your designation?",
+      "speaker": "doctor",
+      "start_timestamp": "6:18",
+      "end_timestamp": "6:20",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S31",
+      "text": "Teacher.",
+      "speaker": "customer",
+      "start_timestamp": "6:22",
+      "end_timestamp": "6:23",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S32",
+      "text": "Okay, now please show me your government ID proof. Aadhaar card or Pan card, whatever you have available.",
+      "speaker": "doctor",
+      "start_timestamp": "6:24",
+      "end_timestamp": "6:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S33",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "6:30",
+      "end_timestamp": "6:30",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S34",
+      "text": "Move it up a bit.",
+      "speaker": "doctor",
+      "start_timestamp": "6:33",
+      "end_timestamp": "6:33",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S35",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "6:35",
+      "end_timestamp": "6:35",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S36",
+      "text": "Yes, please tell me the last four digits of it.",
+      "speaker": "doctor",
+      "start_timestamp": "6:36",
+      "end_timestamp": "6:38",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S37",
+      "text": "3485.",
+      "speaker": "customer",
+      "start_timestamp": "6:40",
+      "end_timestamp": "6:42",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S38",
+      "text": "What full name did you tell me?",
+      "speaker": "doctor",
+      "start_timestamp": "6:43",
+      "end_timestamp": "6:45",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S39",
+      "text": "Kavita Nilesh Gaikwad.",
+      "speaker": "customer",
+      "start_timestamp": "6:46",
+      "end_timestamp": "6:47",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S40",
+      "text": "Kavika, Kavita Nilesh Gaikwad?",
+      "speaker": "doctor",
+      "start_timestamp": "6:49",
+      "end_timestamp": "6:51",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S41",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "6:52",
+      "end_timestamp": "6:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S42",
+      "text": "Okay, who have you made the nominee for the policy?",
+      "speaker": "doctor",
+      "start_timestamp": "6:53",
+      "end_timestamp": "6:55",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S43",
+      "text": "My daughter.",
+      "speaker": "customer",
+      "start_timestamp": "6:57",
+      "end_timestamp": "6:58",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S44",
+      "text": "What is her name?",
+      "speaker": "doctor",
+      "start_timestamp": "6:59",
+      "end_timestamp": "7:00",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S45",
+      "text": "Nikita Nilesh Gaikwad.",
+      "speaker": "customer",
+      "start_timestamp": "7:01",
+      "end_timestamp": "7:02",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S46",
+      "text": "Okay, is this your first policy or do you have any other policies running?",
+      "speaker": "doctor",
+      "start_timestamp": "7:03",
+      "end_timestamp": "7:06",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S47",
+      "text": "Yes, this is the first.",
+      "speaker": "customer",
+      "start_timestamp": "7:07",
+      "end_timestamp": "7:08",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S48",
+      "text": "It's the first policy. What is the total sum insured for this Tata policy for which I called you?",
+      "speaker": "doctor",
+      "start_timestamp": "7:08",
+      "end_timestamp": "7:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S49",
+      "text": "60.",
+      "speaker": "customer",
+      "start_timestamp": "7:15",
+      "end_timestamp": "7:16",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S50",
+      "text": "60 lakh. Before this, has any of your policies been cancelled or revoked?",
+      "speaker": "doctor",
+      "start_timestamp": "7:17",
+      "end_timestamp": "7:21",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S51",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "7:21",
+      "end_timestamp": "7:22",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S52",
+      "text": "For any of your policies, have you had any major medical tests like ultrasound, 2D echo, stress echo?",
+      "speaker": "doctor",
+      "start_timestamp": "7:23",
+      "end_timestamp": "7:27",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S53",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "7:28",
+      "end_timestamp": "7:28",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S54",
+      "text": "Has your policy's premium ever been increased, decreased, or changed?",
+      "speaker": "doctor",
+      "start_timestamp": "7:29",
+      "end_timestamp": "7:33",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S55",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "7:34",
+      "end_timestamp": "7:34",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S56",
+      "text": "May I ask if you have ever consumed tobacco in any form?",
+      "speaker": "doctor",
+      "start_timestamp": "7:35",
+      "end_timestamp": "7:38",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S57",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "7:39",
+      "end_timestamp": "7:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S58",
+      "text": "What is your height?",
+      "speaker": "doctor",
+      "start_timestamp": "7:40",
+      "end_timestamp": "7:41",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S59",
+      "text": "162 cm.",
+      "speaker": "customer",
+      "start_timestamp": "7:43",
+      "end_timestamp": "7:45",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S60",
+      "text": "Yes, what is your weight?",
+      "speaker": "doctor",
+      "start_timestamp": "7:46",
+      "end_timestamp": "7:47",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S61",
+      "text": "65.",
+      "speaker": "customer",
+      "start_timestamp": "7:48",
+      "end_timestamp": "7:49",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S62",
+      "text": "Okay. Now I will ask you questions related to illnesses.",
+      "speaker": "doctor",
+      "start_timestamp": "7:50",
+      "end_timestamp": "7:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S63",
+      "text": "Yes, go ahead.",
+      "speaker": "customer",
+      "start_timestamp": "7:52",
+      "end_timestamp": "7:53",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S64",
+      "text": "Weight, weight.",
+      "speaker": "customer",
+      "start_timestamp": "7:55",
+      "end_timestamp": "7:55",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S65",
+      "text": "It's 63, isn't it? 56, 56, sorry.",
+      "speaker": "doctor",
+      "start_timestamp": "7:56",
+      "end_timestamp": "7:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S66",
+      "text": "56.",
+      "speaker": "customer",
+      "start_timestamp": "7:59",
+      "end_timestamp": "7:59",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S67",
+      "text": "56, okay. Now I will ask you questions related to illnesses, okay?",
+      "speaker": "doctor",
+      "start_timestamp": "8:00",
+      "end_timestamp": "8:02",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S68",
+      "text": "Have you ever been diagnosed with cancer?",
+      "speaker": "doctor",
+      "start_timestamp": "8:03",
+      "end_timestamp": "8:04",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S69",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:05",
+      "end_timestamp": "8:05",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S70",
+      "text": "Any complaints of paralysis?",
+      "speaker": "doctor",
+      "start_timestamp": "8:06",
+      "end_timestamp": "8:07",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S71",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:08",
+      "end_timestamp": "8:08",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S72",
+      "text": "Any heart disease?",
+      "speaker": "doctor",
+      "start_timestamp": "8:10",
+      "end_timestamp": "8:10",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S73",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:11",
+      "end_timestamp": "8:11",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S74",
+      "text": "High BP?",
+      "speaker": "doctor",
+      "start_timestamp": "8:13",
+      "end_timestamp": "8:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S75",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:14",
+      "end_timestamp": "8:14",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S76",
+      "text": "Sugar?",
+      "speaker": "doctor",
+      "start_timestamp": "8:15",
+      "end_timestamp": "8:16",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S77",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:17",
+      "end_timestamp": "8:17",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S78",
+      "text": "Any kidney or urinary problems?",
+      "speaker": "doctor",
+      "start_timestamp": "8:18",
+      "end_timestamp": "8:19",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S79",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:20",
+      "end_timestamp": "8:20",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S80",
+      "text": "Any liver or stomach problems?",
+      "speaker": "doctor",
+      "start_timestamp": "8:21",
+      "end_timestamp": "8:22",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S81",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:23",
+      "end_timestamp": "8:23",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S82",
+      "text": "Yes, may I ask if you have ever tested HIV AIDS positive?",
+      "speaker": "doctor",
+      "start_timestamp": "8:25",
+      "end_timestamp": "8:28",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S83",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:29",
+      "end_timestamp": "8:29",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S84",
+      "text": "Any lump, tumor, or boil anywhere in the body?",
+      "speaker": "doctor",
+      "start_timestamp": "8:30",
+      "end_timestamp": "8:32",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S85",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:33",
+      "end_timestamp": "8:33",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S86",
+      "text": "Are you experiencing any symptoms, such as weight loss, chest pain, or any other discomfort for which you are considering seeing a doctor?",
+      "speaker": "doctor",
+      "start_timestamp": "8:34",
+      "end_timestamp": "8:40",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S87",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:41",
+      "end_timestamp": "8:41",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S88",
+      "text": "Have you had any medical report done whose result was not good?",
+      "speaker": "doctor",
+      "start_timestamp": "8:42",
+      "end_timestamp": "8:45",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S89",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:46",
+      "end_timestamp": "8:46",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S90",
+      "text": "In the last three years, have you had any operation for which you were admitted to the hospital for more than three days?",
+      "speaker": "doctor",
+      "start_timestamp": "8:47",
+      "end_timestamp": "8:52",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S91",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:53",
+      "end_timestamp": "8:53",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S92",
+      "text": "In the last three years, have you taken any long-term medication for more than seven days?",
+      "speaker": "doctor",
+      "start_timestamp": "8:54",
+      "end_timestamp": "8:57",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S93",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "8:58",
+      "end_timestamp": "8:58",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S94",
+      "text": "Okay, this proves that the answers you have given above are correct and complete. Do you agree with this?",
+      "speaker": "doctor",
+      "start_timestamp": "8:59",
+      "end_timestamp": "9:03",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S95",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "9:05",
+      "end_timestamp": "9:05",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S96",
+      "text": "Absolutely, this has been recorded in the policy. Thank you very much for providing the information and giving your time. May your health be good, have a good day.",
+      "speaker": "doctor",
+      "start_timestamp": "9:07",
+      "end_timestamp": "9:13",
+      "call_index": 2
+    },
+    {
+      "segment_id": "call2_S97",
+      "text": "Okay, thank you.",
+      "speaker": "customer",
+      "start_timestamp": "9:14",
+      "end_timestamp": "9:15",
+      "call_index": 2
+    }
+  ]
+}

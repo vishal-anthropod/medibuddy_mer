@@ -1,0 +1,46 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello? I was saying, why did you cut the call?",
+      "speaker": "customer",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:04"
+    },
+    {
+      "segment_id": "2",
+      "text": "Oh, I didn't cut it. I was out of a session, so I didn't get it.",
+      "speaker": "doctor",
+      "start_timestamp": "00:04",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yes, yes, no, I'm just saying, do you agree that all the information you've given is completely correct, and for policy purposes, all of this will be recorded, okay?",
+      "speaker": "customer",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:15"
+    },
+    {
+      "segment_id": "4",
+      "text": "Yes, yes, yes, yes, correct.",
+      "speaker": "doctor",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "5",
+      "text": "Okay, thank you.",
+      "speaker": "customer",
+      "start_timestamp": "00:16",
+      "end_timestamp": "00:17"
+    },
+    {
+      "segment_id": "6",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:19"
+    }
+  ]
+}

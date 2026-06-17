@@ -1,0 +1,100 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:01:20"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, confirmed the client's name, and stated the insurer's name.",
+      "timestamps": {
+        "self_intro": "00:00:08",
+        "client_name": "00:00:05",
+        "insurer_name": "00:00:09"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask for the customer's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor validated the customer's name, date of birth, last four digits of Aadhaar, and city.",
+      "timestamps": [
+        "00:00:05",
+        "00:01:40",
+        "00:01:53",
+        "00:02:02"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided disclaimers regarding the call purpose, legal contract, consequences of incorrect information, and call recording.",
+      "timestamps": [
+        "00:00:17",
+        "00:00:37",
+        "00:00:45",
+        "00:01:29"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout the call, using respectful language.",
+      "timestamps": [
+        "00:00:05",
+        "00:01:35",
+        "00:14:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The doctor showed empathy by asking about the customer's current status and well-being after mentioning recent surgery and ongoing health conditions.",
+      "timestamps": [
+        "00:08:57",
+        "00:09:20"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor provided clear instructions and maintained good clarity in communication.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:18"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor consistently asked follow-up questions to gather detailed information about the customer's medical history and conditions.",
+      "timestamps": [
+        "00:02:29",
+        "00:04:12",
+        "00:06:32",
+        "00:07:48",
+        "00:08:49",
+        "00:10:54"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The call experienced a disconnection and reconnection during the initial phase.",
+      "timestamps": [
+        "00:01:19",
+        "00:01:20"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor provided a clear declaration of the information and concluded the call politely.",
+      "timestamps": {
+        "declaration": "00:14:40",
+        "thank_you": "00:14:57"
+      }
+    }
+  }
+}

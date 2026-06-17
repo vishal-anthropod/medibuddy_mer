@@ -1,0 +1,618 @@
+{
+  "record_id": "C237065960AD0",
+  "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/C237065960AD0_MER.pdf",
+  "total_calls": 1,
+  "total_duration": 0.0,
+  "individual_calls": [],
+  "merged_transcript": {
+    "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/_processed/merged_transcript.json",
+    "total_segments": 0,
+    "total_duration": 0.0
+  },
+  "qa_part1": {
+    "personal_particulars": {
+      "name": "Saurabh Bhausaheb Sabale",
+      "dob": "16-Oct-1999",
+      "id_proofs": [
+        {
+          "type": "Aadhar",
+          "value": "AADHA AR-6728",
+          "present_in_mer": true
+        }
+      ],
+      "nominee_name": null,
+      "nominee_dob": null
+    },
+    "process_compliance": {
+      "disclaimer": {
+        "stated": false,
+        "insurer_name": null,
+        "timestamp": null
+      },
+      "language_preference": {
+        "asked": false,
+        "selected_language": null,
+        "timestamp": null
+      }
+    },
+    "qa_matrix": [
+      {
+        "question_id": "PP.Name",
+        "question_text": "Member Name",
+        "captured_response": null,
+        "expected_response": "Saurabh Bhausaheb Sabale",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.DOB",
+        "question_text": "Member Date of Birth",
+        "captured_response": null,
+        "expected_response": "16-Oct-1999",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "PP.ID.Aadhar",
+        "question_text": "ID Proof Aadhar",
+        "captured_response": null,
+        "expected_response": "AADHA AR-6728",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "1",
+        "question_text": "Kindly con\ufb01rm your full Name",
+        "captured_response": null,
+        "expected_response": "Yes Saurabh Bhausaheb Sabale",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "Your Date of birth",
+        "captured_response": null,
+        "expected_response": "Yes 1999-10-16",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Education Quali\ufb01cation",
+        "captured_response": null,
+        "expected_response": "YesEducation - Above Graduate",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "4",
+        "question_text": "Your current Occupation",
+        "captured_response": null,
+        "expected_response": "YesOccupation - Salaried Remarks - 3RD MARINE ENGINEER",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "5",
+        "question_text": "Please show your ID proof",
+        "captured_response": null,
+        "expected_response": "Yes AADHA AR-6728",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "6",
+        "question_text": "Kindly share your current location( City and state with country)?",
+        "captured_response": null,
+        "expected_response": "Yes NAVI MUMBAI,MH .",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "7",
+        "question_text": "Are you currently in Good Health ?",
+        "captured_response": null,
+        "expected_response": "Yes",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "8",
+        "question_text": "Are you taking any type of medication currently?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "9",
+        "question_text": "Height",
+        "captured_response": null,
+        "expected_response": "Yes 168",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "10",
+        "question_text": "Weight",
+        "captured_response": null,
+        "expected_response": "Yes 82",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "11",
+        "question_text": "Did you have any loss or gain of weight of 10 kg or more in the last six months?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "12",
+        "question_text": "Have you ever in the past consumed or currently consume tobacco in any form like Cigarette,Bidi,Pan,Gutkha?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "13",
+        "question_text": "Have you ever in the past or are currently consuming Narcotics?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "14",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Diabetes,high blood sugar",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "15",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for High blood pressure,Hypertension ,Elevated Cholesterol,Lipids?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "16",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Chest pain, heart attack, palpitation, any other heart disease or circulatory disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "17",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any lung,respiratory Disease or Urine,Kidney disease or any Liver ,gastric disorders?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "18",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Cancer or tumor of any kind?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "19",
+        "question_text": "Do you or your spouse has been tested positive or is under treatment for HIV , AIDS or Sexually transmitted diseases (e.g. syphilis, gonorrhea, etc.)?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "20",
+        "question_text": "Have you ever been diagnosed and treated for any of following conditions or are currently being treated or underwent surgery for Any Accidental injury ,Disability or impairment?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "21",
+        "question_text": "Do you have any other health condition or are you currently/in past were under any treatment for any health condition not covered above?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "22",
+        "question_text": "Have you undergone any investigations lik e blood ,urine test , X -ray , ECG or any special test such as TMT , CT scan, MRI?",
+        "captured_response": null,
+        "expected_response": "YesReason for under going test - Annual healthcheck up/Blood donation/Routine healthcheck up(Self/Company) Results of the test - Nor mal Past Sur gery - Any other fur nish details Remarks - last r outine health check up done in Dec 2024 by employer,r eports nor mal",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "23",
+        "question_text": "Have you ever been hospitalized for any illness, sickness, disease, injury , accident or disorder in the last 5 years?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "24",
+        "question_text": "[For Male]Have you ever been diagnosed &/OR treated for Prostate related disorder or been under follow up for the same with PSA test, USG pelvis etc.",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "25",
+        "question_text": "[For Female] Are you currently pregnant ?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "26",
+        "question_text": "[For Female] Have you undergone any gynaecological investigations for any problems of breast , uterus , cervix etc.Have you done or advised for any P ap smear , mammogram?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "27",
+        "question_text": "[For Female] Have you ever consulted a doctor because of an irregularity at the breast, vagina, uterus, ovary , fallopian tubes, menstruation, complications during pregnancy or child delivery or a sexually transmitted disease?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "NA",
+        "error_type": null,
+        "suggested_correction": null,
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      },
+      {
+        "question_id": "28",
+        "question_text": "Is there anything else that you would lik e to share with us with respect to your health,habits or anything else that you believe is important to ensure that policy is processed basis all facts & information?",
+        "captured_response": null,
+        "expected_response": "No",
+        "status": "Missing",
+        "error_type": "Missing Question",
+        "suggested_correction": "Question was not asked.",
+        "timestamp": null,
+        "typo_in_expected_response": {
+          "has_typo": false,
+          "corrected_text": null
+        }
+      }
+    ],
+    "summary": {
+      "critical_issues": [
+        "The conversation transcript is empty, indicating that no questions were asked or answered.",
+        "All mandatory questions from the Medical Examination Report are missing."
+      ],
+      "recommendations": [
+        "Ensure that the doctor conducts the full medical examination as per the MER documentation.",
+        "Verify that the audio recording of the conversation is complete and available for auditing."
+      ]
+    },
+    "sentiment_analysis": {
+      "professional_tone": false,
+      "inappropriate_language": [],
+      "customer_satisfaction_indicators": []
+    },
+    "data_validation": {
+      "height_cm": null,
+      "weight_kg": null,
+      "dates_mentioned": [],
+      "medications": [],
+      "validation_errors": []
+    },
+    "behavioral_flags": {
+      "prompting_detected": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      },
+      "customer_hesitation": {
+        "value": false,
+        "timestamps": [],
+        "examples": []
+      }
+    },
+    "documentation_quality": {
+      "spelling_errors_count": 0,
+      "typos_found": [],
+      "notes": "not evaluated in this step"
+    },
+    "meta": {
+      "proposal_number": "C237065960",
+      "doctor_name": "Dr. Nagma",
+      "customer_name": "Saurabh Bhausaheb Sabale",
+      "insurance_company": "Tata AIA Life Insurance Company Ltd."
+    },
+    "technical_status": {
+      "recording_exists": true,
+      "audibility_level": "unknown",
+      "avg_dbfs": null
+    },
+    "video_analysis": {
+      "attire_check": "NA",
+      "visibility_status": "NA",
+      "privacy_maintained": "NA",
+      "screenshots": []
+    }
+  },
+  "qa_part2": {
+    "qc_parameters": {
+      "greetings": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": [
+          "00:00"
+        ]
+      },
+      "call_opening": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": {
+          "self_intro": "00:00",
+          "client_name": "00:00",
+          "insurer_name": "00:00"
+        }
+      },
+      "language_preference": {
+        "value": "No",
+        "explanation": "",
+        "timestamp": "00:00"
+      },
+      "id_validation": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": [
+          "00:00"
+        ]
+      },
+      "disclaimer": {
+        "value": "No",
+        "explanation": "",
+        "timestamp": "00:00"
+      },
+      "politeness": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": [
+          "00:00",
+          "00:00"
+        ]
+      },
+      "empathy": {
+        "value": "Yes",
+        "explanation": "",
+        "timestamps": [
+          "00:00"
+        ]
+      },
+      "communication_skills": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": {
+          "good_examples": [
+            "00:00"
+          ],
+          "poor_examples": [
+            "00:00"
+          ]
+        }
+      },
+      "probing": {
+        "value": "NA",
+        "explanation": "",
+        "timestamps": [
+          "00:00"
+        ]
+      },
+      "observations": {
+        "value": "NA",
+        "explanation": "",
+        "timestamps": [
+          "00:00"
+        ]
+      },
+      "call_closure": {
+        "value": "No",
+        "explanation": "",
+        "timestamps": {
+          "declaration": "00:00",
+          "thank_you": "00:00"
+        }
+      }
+    }
+  },
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/_processed"
+}

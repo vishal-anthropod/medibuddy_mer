@@ -1,0 +1,50 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "Gullapalli Prashanth",
+        "expected": "Gollapelly Prashanth"
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Health.m",
+            "expected": "No",
+            "corrected": "difficulty"
+          },
+          {
+            "id": "General.1",
+            "expected": "No",
+            "corrected": "based on"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 3
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 6
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

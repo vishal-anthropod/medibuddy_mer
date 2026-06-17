@@ -1,0 +1,90 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.l",
+          "text": "l. Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes"
+        },
+        {
+          "id": "Health.m",
+          "text": "m. Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat"
+        },
+        {
+          "id": "BMI",
+          "text": "BMI"
+        }
+      ]
+    },
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 15
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "Lifestyle.Tobacco.NicotineReplacement",
+            "expected": "No",
+            "corrected": "replacement"
+          },
+          {
+            "id": "Lifestyle.Alcohol.Type",
+            "expected": "Spirit/Hard Liqour",
+            "corrected": "Liquor"
+          },
+          {
+            "id": "Lifestyle.Alcohol.Units",
+            "expected": "1",
+            "corrected": "liquor"
+          },
+          {
+            "id": "Health.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "No, I don't smoke regularly, but there and there it happens. But if you want to keep it as regular, you can look at. Like yesterday, I didn't smoke. Day before, I didn't. Now, I don't know if today I will, but tomorrow I might. So, I might as well declare it as that.",
+          "I drink once or twice. So I don't know how you want to take that.",
+          "You can mention 5'9 or 5'. I mean because I don't want to 5'9 or 5'10.",
+          "Right now I'm at 70, 71.",
+          "Uh, I know that my bad cholesterol is on the higher side. I think it was about 114 or 115 or something like that, or 214, 215.",
+          "Ma'am, I don't have it, I don't have it readily available with me but you're going to come for a physical test anyway, so you'll know then. So right now you can take it as raised cholesterol.",
+          "Ma'am, five years ago, ma'am. I'm sorry, even you wouldn't remember, I don't remember."
+        ],
+        "timestamps": [
+          "00:05:35",
+          "00:06:26",
+          "00:07:43",
+          "00:07:58",
+          "00:08:52",
+          "00:10:10",
+          "00:17:09"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

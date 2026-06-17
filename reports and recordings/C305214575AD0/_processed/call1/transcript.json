@@ -1,0 +1,81 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:00",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello, greetings, I am Dr. Meera Bhas calling from Tata AIG Insurance. Can I speak with Suman Yadav ji?",
+      "speaker": "doctor",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yes, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "4",
+      "text": "Would you prefer to speak in Hindi, or should I call you in another language?",
+      "speaker": "doctor",
+      "start_timestamp": "00:11",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "5",
+      "text": "Yes, ma'am, actually, I am outside, I'm currently on a bus.",
+      "speaker": "customer",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "6",
+      "text": "Okay, so at what time can we call you?",
+      "speaker": "doctor",
+      "start_timestamp": "00:19",
+      "end_timestamp": "00:20"
+    },
+    {
+      "segment_id": "7",
+      "text": "After 3 PM, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "8",
+      "text": "After 3 PM, okay. We will call you after 3 PM.",
+      "speaker": "doctor",
+      "start_timestamp": "00:24",
+      "end_timestamp": "00:26"
+    },
+    {
+      "segment_id": "9",
+      "text": "I'll call. Should I call on the same number?",
+      "speaker": "customer",
+      "start_timestamp": "00:26",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "10",
+      "text": "No, you cannot. This is a company-initiated call, so you will receive a call from us. Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "00:28",
+      "end_timestamp": "00:33"
+    },
+    {
+      "segment_id": "11",
+      "text": "Okay, yes.",
+      "speaker": "customer",
+      "start_timestamp": "00:34",
+      "end_timestamp": "00:35"
+    }
+  ]
+}

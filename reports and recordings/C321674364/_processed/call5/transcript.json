@@ -1,0 +1,984 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg001",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:00",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "seg002",
+      "text": "Tell me, tell me. Another call came, if you do that, cut it.",
+      "speaker": "customer",
+      "start_timestamp": "00:02",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "seg003",
+      "text": "Okay sir. Sir, do you have any high or low blood pressure, cholesterol, triglycerides?",
+      "speaker": "doctor",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "seg004",
+      "text": "No, not at present.",
+      "speaker": "customer",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:12"
+    },
+    {
+      "segment_id": "seg005",
+      "text": "Chest problems sir? Chest pain, heaviness, discomfort, heart murmur, heart attack, coronary artery disease, heart valve disorders, congenital heart diseases, palpitations, rheumatic fever, like these.",
+      "speaker": "doctor",
+      "start_timestamp": "00:12",
+      "end_timestamp": "00:24"
+    },
+    {
+      "segment_id": "seg006",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "00:24",
+      "end_timestamp": "00:25"
+    },
+    {
+      "segment_id": "seg007",
+      "text": "Shortness of breath? No cancer-related issues, right sir?",
+      "speaker": "doctor",
+      "start_timestamp": "00:25",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "seg008",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "00:28",
+      "end_timestamp": "00:29"
+    },
+    {
+      "segment_id": "seg009",
+      "text": "Precancerous ulcers, leukemia, enlarged lymph nodes.",
+      "speaker": "doctor",
+      "start_timestamp": "00:29",
+      "end_timestamp": "00:32"
+    },
+    {
+      "segment_id": "seg010",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "00:32",
+      "end_timestamp": "00:34"
+    },
+    {
+      "segment_id": "seg011",
+      "text": "Leukoplakia, sarcoma, tumors, polyps, nodules, cysts, lumps.",
+      "speaker": "doctor",
+      "start_timestamp": "00:34",
+      "end_timestamp": "00:38"
+    },
+    {
+      "segment_id": "seg012",
+      "text": "I am just listening to what you are saying, I don't have any of those currently.",
+      "speaker": "customer",
+      "start_timestamp": "00:39",
+      "end_timestamp": "00:41"
+    },
+    {
+      "segment_id": "seg013",
+      "text": "Okay. No diabetes or anything like that, right sir? Raised blood sugar?",
+      "speaker": "doctor",
+      "start_timestamp": "00:42",
+      "end_timestamp": "00:44"
+    },
+    {
+      "segment_id": "seg014",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "00:44",
+      "end_timestamp": "00:45"
+    },
+    {
+      "segment_id": "seg015",
+      "text": "Sugar in urine, hyperthyroidism, hypothyroidism, thyroid problems, nothing like that, right sir? Endocrine disorders.",
+      "speaker": "doctor",
+      "start_timestamp": "00:45",
+      "end_timestamp": "00:51"
+    },
+    {
+      "segment_id": "seg016",
+      "text": "No, none.",
+      "speaker": "customer",
+      "start_timestamp": "00:51",
+      "end_timestamp": "00:52"
+    },
+    {
+      "segment_id": "seg017",
+      "text": "Asthma, TB, bronchitis, sinusitis, pneumonia, recurrent cough, sleep apnea, you don't have any issues like these, right sir? Emphysema.",
+      "speaker": "doctor",
+      "start_timestamp": "00:52",
+      "end_timestamp": "01:00"
+    },
+    {
+      "segment_id": "seg018",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "01:00",
+      "end_timestamp": "01:01"
+    },
+    {
+      "segment_id": "seg019",
+      "text": "Bronchitis.",
+      "speaker": "doctor",
+      "start_timestamp": "01:01",
+      "end_timestamp": "01:02"
+    },
+    {
+      "segment_id": "seg020",
+      "text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcohol.",
+      "speaker": "doctor",
+      "start_timestamp": "01:02",
+      "end_timestamp": "01:08"
+    },
+    {
+      "segment_id": "seg021",
+      "text": "Hepatitis B.",
+      "speaker": "customer",
+      "start_timestamp": "01:08",
+      "end_timestamp": "01:09"
+    },
+    {
+      "segment_id": "seg022",
+      "text": "Huh?",
+      "speaker": "doctor",
+      "start_timestamp": "01:10",
+      "end_timestamp": "01:10"
+    },
+    {
+      "segment_id": "seg023",
+      "text": "Hepatitis B.",
+      "speaker": "customer",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:13"
+    },
+    {
+      "segment_id": "seg024",
+      "text": "Hepatitis, ah, Hepatitis B. Ah, okay sir.",
+      "speaker": "doctor",
+      "start_timestamp": "01:14",
+      "end_timestamp": "01:16"
+    },
+    {
+      "segment_id": "seg025",
+      "text": "For that, they said there was nothing serious, they just asked me to take an injection. This was about three years ago.",
+      "speaker": "customer",
+      "start_timestamp": "01:17",
+      "end_timestamp": "01:21"
+    },
+    {
+      "segment_id": "seg026",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:22",
+      "end_timestamp": "01:22"
+    },
+    {
+      "segment_id": "seg027",
+      "text": "Yes, it's been more than three years.",
+      "speaker": "customer",
+      "start_timestamp": "01:23",
+      "end_timestamp": "01:24"
+    },
+    {
+      "segment_id": "seg028",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:24",
+      "end_timestamp": "01:25"
+    },
+    {
+      "segment_id": "seg029",
+      "text": "I took it, and they said there was nothing even then. They just told me to take it to avoid any trouble. They told me to take it two or three times.",
+      "speaker": "customer",
+      "start_timestamp": "01:26",
+      "end_timestamp": "01:32"
+    },
+    {
+      "segment_id": "seg030",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:33",
+      "end_timestamp": "01:33"
+    },
+    {
+      "segment_id": "seg031",
+      "text": "I think I took it once, that's all.",
+      "speaker": "customer",
+      "start_timestamp": "01:34",
+      "end_timestamp": "01:36"
+    },
+    {
+      "segment_id": "seg032",
+      "text": "Okay, that is, if we do a blood test, blood...",
+      "speaker": "doctor",
+      "start_timestamp": "01:36",
+      "end_timestamp": "01:39"
+    },
+    {
+      "segment_id": "seg033",
+      "text": "...they told me after a blood test.",
+      "speaker": "customer",
+      "start_timestamp": "01:39",
+      "end_timestamp": "01:40"
+    },
+    {
+      "segment_id": "seg034",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "01:41",
+      "end_timestamp": "01:41"
+    },
+    {
+      "segment_id": "seg035",
+      "text": "They told me to take it so it wouldn't come back in the future, that's all.",
+      "speaker": "customer",
+      "start_timestamp": "01:42",
+      "end_timestamp": "01:44"
+    },
+    {
+      "segment_id": "seg036",
+      "text": "Okay. So liver cirrhosis, liver cancer, hepatitis...",
+      "speaker": "doctor",
+      "start_timestamp": "01:44",
+      "end_timestamp": "01:47"
+    },
+    {
+      "segment_id": "seg037",
+      "text": "None of that. There is nothing like that.",
+      "speaker": "customer",
+      "start_timestamp": "01:47",
+      "end_timestamp": "01:49"
+    },
+    {
+      "segment_id": "seg038",
+      "text": "No lumps or anything. Positive alpha fetoprotein, AST, nothing like that, right?",
+      "speaker": "doctor",
+      "start_timestamp": "01:49",
+      "end_timestamp": "01:53"
+    },
+    {
+      "segment_id": "seg039",
+      "text": "Did the doctor advise you anything, sir? Like to stop alcohol or supply (other things)?",
+      "speaker": "doctor",
+      "start_timestamp": "01:53",
+      "end_timestamp": "01:58"
+    },
+    {
+      "segment_id": "seg040",
+      "text": "Nothing.",
+      "speaker": "customer",
+      "start_timestamp": "01:59",
+      "end_timestamp": "02:00"
+    },
+    {
+      "segment_id": "seg041",
+      "text": "Did you take any antiviral treatment for this condition?",
+      "speaker": "doctor",
+      "start_timestamp": "02:01",
+      "end_timestamp": "02:04"
+    },
+    {
+      "segment_id": "seg042",
+      "text": "What is it?",
+      "speaker": "customer",
+      "start_timestamp": "02:05",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "seg043",
+      "text": "For this Hepatitis condition?",
+      "speaker": "doctor",
+      "start_timestamp": "02:06",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "seg044",
+      "text": "Nothing, just they told me to take an injection.",
+      "speaker": "customer",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:11"
+    },
+    {
+      "segment_id": "seg045",
+      "text": "Okay. Regular follow-up check-ups, when was the last time you did all these? Was it one year back, two years back sir?",
+      "speaker": "doctor",
+      "start_timestamp": "02:12",
+      "end_timestamp": "02:17"
+    },
+    {
+      "segment_id": "seg046",
+      "text": "There are no regular check-ups. I go to the hospital when I have a fever, otherwise I don't go.",
+      "speaker": "customer",
+      "start_timestamp": "02:17",
+      "end_timestamp": "02:21"
+    },
+    {
+      "segment_id": "seg047",
+      "text": "So related to Hepatitis, it was about two, three years ago?",
+      "speaker": "doctor",
+      "start_timestamp": "02:22",
+      "end_timestamp": "02:25"
+    },
+    {
+      "segment_id": "seg048",
+      "text": "Yes, that's all.",
+      "speaker": "customer",
+      "start_timestamp": "02:25",
+      "end_timestamp": "02:26"
+    },
+    {
+      "segment_id": "seg049",
+      "text": "So you haven't consulted recently?",
+      "speaker": "doctor",
+      "start_timestamp": "02:26",
+      "end_timestamp": "02:28"
+    },
+    {
+      "segment_id": "seg050",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "02:29",
+      "end_timestamp": "02:29"
+    },
+    {
+      "segment_id": "seg051",
+      "text": "So anemia, thalassemia, systemic lupus erythematosus, or immune disorders related to blood, you don't have any issues like that, right sir? Blood disorders.",
+      "speaker": "doctor",
+      "start_timestamp": "02:29",
+      "end_timestamp": "02:37"
+    },
+    {
+      "segment_id": "seg052",
+      "text": "No, none.",
+      "speaker": "customer",
+      "start_timestamp": "02:37",
+      "end_timestamp": "02:38"
+    },
+    {
+      "segment_id": "seg053",
+      "text": "Anxiety, depression, epilepsy, paralysis, sleeplessness, slurred speech, limbs, anything like that?",
+      "speaker": "doctor",
+      "start_timestamp": "02:38",
+      "end_timestamp": "02:43"
+    },
+    {
+      "segment_id": "seg054",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "02:44",
+      "end_timestamp": "02:45"
+    },
+    {
+      "segment_id": "seg055",
+      "text": "Okay. Multiple sclerosis, Parkinson's disease, dementia, Alzheimer's, no neurological disorders then. Mental health disorders, nausea.",
+      "speaker": "doctor",
+      "start_timestamp": "02:46",
+      "end_timestamp": "02:55"
+    },
+    {
+      "segment_id": "seg056",
+      "text": "Gastric problems sir? Gastritis, gastroesophageal reflux, stomach ulcers, recurrent indigestion, irritable bowel syndrome, any problems in the stomach like that?",
+      "speaker": "doctor",
+      "start_timestamp": "02:55",
+      "end_timestamp": "03:06"
+    },
+    {
+      "segment_id": "seg057",
+      "text": "Eight years, eight years ago, I had an ulcer. It hasn't come back since.",
+      "speaker": "customer",
+      "start_timestamp": "03:06",
+      "end_timestamp": "03:10"
+    },
+    {
+      "segment_id": "seg058",
+      "text": "It shouldn't come back.",
+      "speaker": "customer",
+      "start_timestamp": "03:11",
+      "end_timestamp": "03:12"
+    },
+    {
+      "segment_id": "seg059",
+      "text": "Okay. Gastritis, hemorrhoids, ulcerative (colitis), none of those?",
+      "speaker": "doctor",
+      "start_timestamp": "03:13",
+      "end_timestamp": "03:17"
+    },
+    {
+      "segment_id": "seg060",
+      "text": "Pancreatitis disorders, gastrointestinal.",
+      "speaker": "doctor",
+      "start_timestamp": "03:17",
+      "end_timestamp": "03:20"
+    },
+    {
+      "segment_id": "seg061",
+      "text": "Eight years ago, you had an ulcer, a stomach ulcer, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "03:20",
+      "end_timestamp": "03:23"
+    },
+    {
+      "segment_id": "seg062",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "03:23",
+      "end_timestamp": "03:24"
+    },
+    {
+      "segment_id": "seg063",
+      "text": "And for that, did you take any tablets?",
+      "speaker": "doctor",
+      "start_timestamp": "03:24",
+      "end_timestamp": "03:26"
+    },
+    {
+      "segment_id": "seg064",
+      "text": "It got better.",
+      "speaker": "customer",
+      "start_timestamp": "03:26",
+      "end_timestamp": "03:26"
+    },
+    {
+      "segment_id": "seg065",
+      "text": "Okay. Did you take any treatment for that, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "03:27",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "seg066",
+      "text": "They gave me a tablet, and it subsided then.",
+      "speaker": "customer",
+      "start_timestamp": "03:30",
+      "end_timestamp": "03:32"
+    },
+    {
+      "segment_id": "seg067",
+      "text": "Gastric ulcer? Or what kind was it, sir? Stomach ulcer?",
+      "speaker": "doctor",
+      "start_timestamp": "03:34",
+      "end_timestamp": "03:38"
+    },
+    {
+      "segment_id": "seg068",
+      "text": "That is, if I don't eat on time, I get an ulcer.",
+      "speaker": "customer",
+      "start_timestamp": "03:38",
+      "end_timestamp": "03:40"
+    },
+    {
+      "segment_id": "seg069",
+      "text": "Gastric ulcer, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "03:41",
+      "end_timestamp": "03:42"
+    },
+    {
+      "segment_id": "seg070",
+      "text": "Okay. No surgery was done, you said.",
+      "speaker": "doctor",
+      "start_timestamp": "03:43",
+      "end_timestamp": "03:45"
+    },
+    {
+      "segment_id": "seg071",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "03:46",
+      "end_timestamp": "03:46"
+    },
+    {
+      "segment_id": "seg072",
+      "text": "You said you took treatment, just medicines.",
+      "speaker": "doctor",
+      "start_timestamp": "03:47",
+      "end_timestamp": "03:50"
+    },
+    {
+      "segment_id": "seg073",
+      "text": "So, the last time you experienced these symptoms was also eight years ago, right? Nothing recently, right sir?",
+      "speaker": "doctor",
+      "start_timestamp": "03:50",
+      "end_timestamp": "03:56"
+    },
+    {
+      "segment_id": "seg074",
+      "text": "Nothing.",
+      "speaker": "customer",
+      "start_timestamp": "03:56",
+      "end_timestamp": "03:57"
+    },
+    {
+      "segment_id": "seg075",
+      "text": "Okay. Kidney stones, gallbladder stones, kidney or urine infection, blood protein infection, anything like that?",
+      "speaker": "doctor",
+      "start_timestamp": "03:58",
+      "end_timestamp": "04:04"
+    },
+    {
+      "segment_id": "seg076",
+      "text": "No, none of these.",
+      "speaker": "customer",
+      "start_timestamp": "04:04",
+      "end_timestamp": "04:05"
+    },
+    {
+      "segment_id": "seg077",
+      "text": "Kidney failure, chronic kidney.",
+      "speaker": "doctor",
+      "start_timestamp": "04:06",
+      "end_timestamp": "04:07"
+    },
+    {
+      "segment_id": "seg078",
+      "text": "Piles, fissure, hemorrhoids, like they say, are there any issues like that?",
+      "speaker": "doctor",
+      "start_timestamp": "04:08",
+      "end_timestamp": "04:10"
+    },
+    {
+      "segment_id": "seg079",
+      "text": "No, none of those. None of those.",
+      "speaker": "customer",
+      "start_timestamp": "04:10",
+      "end_timestamp": "04:12"
+    },
+    {
+      "segment_id": "seg080",
+      "text": "None of those. Kidney, bladder, genital, prostate, urinary.",
+      "speaker": "doctor",
+      "start_timestamp": "04:12",
+      "end_timestamp": "04:15"
+    },
+    {
+      "segment_id": "seg081",
+      "text": "Okay. Back pain, arthritis, gout, slip disk, muscular dystrophy, deformity, back pain.",
+      "speaker": "doctor",
+      "start_timestamp": "04:16",
+      "end_timestamp": "04:21"
+    },
+    {
+      "segment_id": "seg082",
+      "text": "Back pain, if I sit for too long, I get back pain.",
+      "speaker": "customer",
+      "start_timestamp": "04:21",
+      "end_timestamp": "04:23"
+    },
+    {
+      "segment_id": "seg083",
+      "text": "Okay. So, not continuous, recurrent back pain, right sir?",
+      "speaker": "doctor",
+      "start_timestamp": "04:24",
+      "end_timestamp": "04:27"
+    },
+    {
+      "segment_id": "seg084",
+      "text": "No, no. Normally, if I sit for too long, I get back pain.",
+      "speaker": "customer",
+      "start_timestamp": "04:27",
+      "end_timestamp": "04:30"
+    },
+    {
+      "segment_id": "seg085",
+      "text": "Okay. Muscles, bones, joints, limbs, spine, any problems with those?",
+      "speaker": "doctor",
+      "start_timestamp": "04:31",
+      "end_timestamp": "04:35"
+    },
+    {
+      "segment_id": "seg086",
+      "text": "Blindness, cataract, glaucoma, impaired sight, double vision, do you have any eye disorders, sir? Related to eyes.",
+      "speaker": "doctor",
+      "start_timestamp": "04:36",
+      "end_timestamp": "04:42"
+    },
+    {
+      "segment_id": "seg087",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "04:46",
+      "end_timestamp": "04:46"
+    },
+    {
+      "segment_id": "seg088",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "04:47",
+      "end_timestamp": "04:48"
+    },
+    {
+      "segment_id": "seg089",
+      "text": "Ear problems, ENT problems, nothing like that, right sir?",
+      "speaker": "doctor",
+      "start_timestamp": "04:49",
+      "end_timestamp": "04:51"
+    },
+    {
+      "segment_id": "seg090",
+      "text": "Deafness, hearing, speech problems, hoarseness of voice, difficulty in swallowing, ear discharge, nothing like that.",
+      "speaker": "doctor",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:58"
+    },
+    {
+      "segment_id": "seg091",
+      "text": "Disorders of ear, eyes, nose, throat.",
+      "speaker": "doctor",
+      "start_timestamp": "04:59",
+      "end_timestamp": "05:01"
+    },
+    {
+      "segment_id": "seg092",
+      "text": "So, besides the questions I asked, is there anything else you would like to tell that is compulsorily important for the policy? Meaning, anything related to health?",
+      "speaker": "doctor",
+      "start_timestamp": "05:02",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "seg093",
+      "text": "One thing you mentioned was a gastric ulcer. That was almost eight years ago, you said.",
+      "speaker": "doctor",
+      "start_timestamp": "05:10",
+      "end_timestamp": "05:15"
+    },
+    {
+      "segment_id": "seg094",
+      "text": "And then, you said you took treatment for Hepatitis B.",
+      "speaker": "doctor",
+      "start_timestamp": "05:15",
+      "end_timestamp": "05:18"
+    },
+    {
+      "segment_id": "seg095",
+      "text": "Besides these two, is there anything else you can tell?",
+      "speaker": "doctor",
+      "start_timestamp": "05:18",
+      "end_timestamp": "05:20"
+    },
+    {
+      "segment_id": "seg096",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "05:22",
+      "end_timestamp": "05:22"
+    },
+    {
+      "segment_id": "seg097",
+      "text": "That is, treatment means I took an injection.",
+      "speaker": "customer",
+      "start_timestamp": "05:23",
+      "end_timestamp": "05:25"
+    },
+    {
+      "segment_id": "seg098",
+      "text": "Treatment means they told me to take an injection, that's it.",
+      "speaker": "customer",
+      "start_timestamp": "05:26",
+      "end_timestamp": "05:28"
+    },
+    {
+      "segment_id": "seg099",
+      "text": "Okay, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "05:29",
+      "end_timestamp": "05:30"
+    },
+    {
+      "segment_id": "seg100",
+      "text": "So sir, have you identified any abnormal findings recently or ever, like in blood tests, X-rays, CT, MRI scans, or when you had ultrasounds?",
+      "speaker": "doctor",
+      "start_timestamp": "05:31",
+      "end_timestamp": "05:40"
+    },
+    {
+      "segment_id": "seg101",
+      "text": "No, I haven't.",
+      "speaker": "customer",
+      "start_timestamp": "05:40",
+      "end_timestamp": "05:41"
+    },
+    {
+      "segment_id": "seg102",
+      "text": "Treadmill, nothing like that?",
+      "speaker": "doctor",
+      "start_timestamp": "05:42",
+      "end_timestamp": "05:43"
+    },
+    {
+      "segment_id": "seg103",
+      "text": "Endoscopy, colonoscopy.",
+      "speaker": "doctor",
+      "start_timestamp": "05:43",
+      "end_timestamp": "05:44"
+    },
+    {
+      "segment_id": "seg104",
+      "text": "That is, when I get a normal fever, they might ask for a blood test to check if it's a viral fever or something, that's all.",
+      "speaker": "customer",
+      "start_timestamp": "05:45",
+      "end_timestamp": "05:51"
+    },
+    {
+      "segment_id": "seg105",
+      "text": "Normally, I don't do anything else.",
+      "speaker": "customer",
+      "start_timestamp": "05:53",
+      "end_timestamp": "05:54"
+    },
+    {
+      "segment_id": "seg106",
+      "text": "Okay. Have you ever taken medicine or treatment for more than two weeks, as per doctor's advice?",
+      "speaker": "doctor",
+      "start_timestamp": "05:55",
+      "end_timestamp": "06:00"
+    },
+    {
+      "segment_id": "seg107",
+      "text": "No, I haven't. I only take it once. Whether it gets better or not, I don't take it again.",
+      "speaker": "customer",
+      "start_timestamp": "06:00",
+      "end_timestamp": "06:05"
+    },
+    {
+      "segment_id": "seg108",
+      "text": "Okay. So you have never applied for more than two consecutive weeks of leave from your work due to health issues, right sir?",
+      "speaker": "doctor",
+      "start_timestamp": "06:06",
+      "end_timestamp": "06:13"
+    },
+    {
+      "segment_id": "seg109",
+      "text": "If I am unwell, I take it, but...",
+      "speaker": "customer",
+      "start_timestamp": "06:13",
+      "end_timestamp": "06:15"
+    },
+    {
+      "segment_id": "seg110",
+      "text": "Okay. Congenital defects, disorders, hereditary diseases, nothing like that, right sir? Cerebral palsy, Down syndrome, polio.",
+      "speaker": "doctor",
+      "start_timestamp": "06:17",
+      "end_timestamp": "06:24"
+    },
+    {
+      "segment_id": "seg111",
+      "text": "And have you or your partner ever undergone tests related to HIV/AIDS as per doctor's advice?",
+      "speaker": "doctor",
+      "start_timestamp": "06:24",
+      "end_timestamp": "06:34"
+    },
+    {
+      "segment_id": "seg112",
+      "text": "No, none.",
+      "speaker": "customer",
+      "start_timestamp": "06:35",
+      "end_timestamp": "06:36"
+    },
+    {
+      "segment_id": "seg113",
+      "text": "Nothing like that. So sir, apart from what you disclosed, have you ever identified heavy weight loss, or weight gain, anything like that?",
+      "speaker": "doctor",
+      "start_timestamp": "06:37",
+      "end_timestamp": "06:44"
+    },
+    {
+      "segment_id": "seg114",
+      "text": "No, nothing.",
+      "speaker": "customer",
+      "start_timestamp": "06:44",
+      "end_timestamp": "06:45"
+    },
+    {
+      "segment_id": "seg115",
+      "text": "Nothing.",
+      "speaker": "customer",
+      "start_timestamp": "06:45",
+      "end_timestamp": "06:46"
+    },
+    {
+      "segment_id": "seg116",
+      "text": "And sir, you mentioned fever, right? Was that just a general fever, sir? Like a viral fever? Nothing else?",
+      "speaker": "doctor",
+      "start_timestamp": "06:46",
+      "end_timestamp": "06:52"
+    },
+    {
+      "segment_id": "seg117",
+      "text": "Yes, normal fever, if it doesn't reduce, then...",
+      "speaker": "customer",
+      "start_timestamp": "06:53",
+      "end_timestamp": "06:56"
+    },
+    {
+      "segment_id": "seg118",
+      "text": "Normal fever.",
+      "speaker": "doctor",
+      "start_timestamp": "06:56",
+      "end_timestamp": "06:57"
+    },
+    {
+      "segment_id": "seg119",
+      "text": "But have you ever been hospitalized for that, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "06:57",
+      "end_timestamp": "07:01"
+    },
+    {
+      "segment_id": "seg120",
+      "text": "Hospitalized, that was once for a fever, it was just about the fever.",
+      "speaker": "customer",
+      "start_timestamp": "07:04",
+      "end_timestamp": "07:10"
+    },
+    {
+      "segment_id": "seg121",
+      "text": "Hmm, hmm, hmm, hmm, hmm.",
+      "speaker": "doctor",
+      "start_timestamp": "07:11",
+      "end_timestamp": "07:12"
+    },
+    {
+      "segment_id": "seg122",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "07:12",
+      "end_timestamp": "07:12"
+    },
+    {
+      "segment_id": "seg123",
+      "text": "Did you get Covid, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "07:13",
+      "end_timestamp": "07:14"
+    },
+    {
+      "segment_id": "seg124",
+      "text": "No, none.",
+      "speaker": "customer",
+      "start_timestamp": "07:15",
+      "end_timestamp": "07:16"
+    },
+    {
+      "segment_id": "seg125",
+      "text": "You didn't get Covid. So, almost five years ago, you had a general fever.",
+      "speaker": "doctor",
+      "start_timestamp": "07:16",
+      "end_timestamp": "07:22"
+    },
+    {
+      "segment_id": "seg126",
+      "text": "Yes, if it didn't subside, then we got admitted to the hospital.",
+      "speaker": "customer",
+      "start_timestamp": "07:23",
+      "end_timestamp": "07:27"
+    },
+    {
+      "segment_id": "seg127",
+      "text": "So you were admitted to the hospital for the fever?",
+      "speaker": "doctor",
+      "start_timestamp": "07:28",
+      "end_timestamp": "07:31"
+    },
+    {
+      "segment_id": "seg128",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "07:31",
+      "end_timestamp": "07:31"
+    },
+    {
+      "segment_id": "seg129",
+      "text": "How many days were you there, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "07:32",
+      "end_timestamp": "07:32"
+    },
+    {
+      "segment_id": "seg130",
+      "text": "One day.",
+      "speaker": "customer",
+      "start_timestamp": "07:34",
+      "end_timestamp": "07:35"
+    },
+    {
+      "segment_id": "seg131",
+      "text": "Okay. Only one day, right? Hmm, hmm, hmm, hmm, hmm, okay.",
+      "speaker": "doctor",
+      "start_timestamp": "07:36",
+      "end_timestamp": "07:40"
+    },
+    {
+      "segment_id": "seg132",
+      "text": "So, one fever, stomach ulcer, and then you said you took an injection once for Hepatitis B, that's all.",
+      "speaker": "doctor",
+      "start_timestamp": "07:41",
+      "end_timestamp": "07:48"
+    },
+    {
+      "segment_id": "seg133",
+      "text": "Besides these, you don't have any other health issues or troubles.",
+      "speaker": "doctor",
+      "start_timestamp": "07:48",
+      "end_timestamp": "07:52"
+    },
+    {
+      "segment_id": "seg134",
+      "text": "And you said you take (medication) hardly once in a while. Is that right, sir?",
+      "speaker": "doctor",
+      "start_timestamp": "07:52",
+      "end_timestamp": "07:56"
+    },
+    {
+      "segment_id": "seg135",
+      "text": "Yes, yes.",
+      "speaker": "customer",
+      "start_timestamp": "07:57",
+      "end_timestamp": "07:57"
+    },
+    {
+      "segment_id": "seg136",
+      "text": "Nothing regularly.",
+      "speaker": "doctor",
+      "start_timestamp": "07:58",
+      "end_timestamp": "07:59"
+    },
+    {
+      "segment_id": "seg137",
+      "text": "Okay. Okay sir, thank you so much for giving all the information, sir. Thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "08:00",
+      "end_timestamp": "08:03"
+    },
+    {
+      "segment_id": "seg138",
+      "text": "Thank you.",
+      "speaker": "customer",
+      "start_timestamp": "08:04",
+      "end_timestamp": "08:04"
+    },
+    {
+      "segment_id": "seg139",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "08:06",
+      "end_timestamp": "08:06"
+    },
+    {
+      "segment_id": "seg140",
+      "text": "Okay sir, thank you.",
+      "speaker": "doctor",
+      "start_timestamp": "08:07",
+      "end_timestamp": "08:08"
+    }
+  ]
+}

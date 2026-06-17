@@ -1,0 +1,56 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Health.i.OnTreatment",
+          "text": "Are you on any treatment?"
+        },
+        {
+          "id": "Health.i.FullyRecovered",
+          "text": "Have you fully recovered with no further symptoms?"
+        },
+        {
+          "id": "Health.i.LastSymptoms",
+          "text": "When did you last experience symptoms?"
+        },
+        {
+          "id": "Health.i.SymptomsPerYear",
+          "text": "On average, how many times do you experience symptoms in a year?"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Oh, I'm standing on the road. Just tell me.",
+          "Why do you keep calling repeatedly?"
+        ],
+        "timestamps": [
+          "00:13:42",
+          "00:14:13"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

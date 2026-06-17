@@ -1,0 +1,76 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Other.CongenitalHereditary",
+          "text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis"
+        }
+      ]
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 6,
+        "examples": [
+          {
+            "id": "PP.ID.PAN",
+            "expected": "BNJPS9558J",
+            "corrected": "PAN Card BNJPS9558J"
+          },
+          {
+            "id": "c.Cancer",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "i.Gastrointestinal",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          },
+          {
+            "id": "m.EarsNoseThroat",
+            "expected": "No",
+            "corrected": "swallowing"
+          },
+          {
+            "id": "Other.TestsAbnormalities",
+            "expected": "No",
+            "corrected": "prescribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endoscopy/Colonoscopy, PAP Smear, blood or urine test"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 14
+      }
+    },
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "12-10-1994",
+        "expected": "14-Aug-1985"
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

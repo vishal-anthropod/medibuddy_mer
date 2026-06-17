@@ -1,0 +1,32 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "Doctor: 'Sir, whoever was speaking from behind you, they will have to show their Aadhaar card later, okay? And it's not allowed for them to speak, sir.' (S48)",
+          "Doctor: 'The person who was with you, please ask them to come in front of the camera once.' (S107)"
+        ],
+        "timestamps": [
+          "03:51",
+          "08:30"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer: 'Everything is fine, sir. Why are you making me sick?' (S66)"
+        ],
+        "timestamps": [
+          "04:52"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

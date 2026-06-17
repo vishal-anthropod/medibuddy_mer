@@ -1,0 +1,89 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:11"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's full name.",
+      "timestamps": {
+        "self_intro": "00:00:58",
+        "client_name": "00:01:11",
+        "insurer_name": "00:01:01"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their preferred language for the conversation.",
+      "timestamp": "00:01:16"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the customer's full name, date of birth, and passport number.",
+      "timestamps": [
+        "00:01:11",
+        "00:01:55",
+        "00:02:34"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated the purpose of the call, its legal implications, and that it was being recorded.",
+      "timestamp": "00:01:22"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, including 'please', 'thank you', and a respectful closing.",
+      "timestamps": [
+        "00:01:11",
+        "00:12:29"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer's health concerns (childbirth, breast lump due to breastfeeding) do not fall under the serious health concerns requiring explicit empathy as per the guidelines.",
+      "timestamps": [
+        "00:08:56",
+        "00:10:56"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor clarified questions, confirmed information, handled a communication breakdown, and asked for spelling to ensure accuracy.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:07",
+          "00:04:00",
+          "00:04:22"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for details regarding childbirth-related tests and the breast lump, ensuring all necessary information was gathered.",
+      "timestamps": [
+        "00:09:14",
+        "00:10:51",
+        "00:11:13"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "No instances of customer hesitation or third-party prompting were observed in the transcript.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a declaration of truthfulness and provided a polite closing with a thank you.",
+      "timestamps": {
+        "declaration": "00:11:50",
+        "thank_you": "00:12:26"
+      }
+    }
+  }
+}

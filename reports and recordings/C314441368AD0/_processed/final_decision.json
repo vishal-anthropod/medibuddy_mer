@@ -1,0 +1,48 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "Doctor: Are you reading from somewhere? (00:08:04)",
+          "Doctor: Are you reading from below? (00:08:09)",
+          "Doctor: What are you looking at above? (00:09:51)",
+          "Doctor: I'm asking, what are you looking at above? What are you looking at above? (00:09:55)",
+          "Doctor: Okay, look at the camera. Look at the camera. You don't have to look anywhere else, just look at the camera. Okay? Don't look anywhere else. (00:10:45)"
+        ],
+        "timestamps": [
+          "00:08:04",
+          "00:08:09",
+          "00:09:51",
+          "00:09:55",
+          "00:10:45"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "01-07-1962",
+        "expected": "11-Jul-1962"
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer: Height. (00:11:11) - followed by a long pause before providing the actual height.",
+          "Doctor: Any lumps, tumors? (00:12:28) - followed by a 6-second pause with no customer response before the doctor moves to the next question."
+        ],
+        "timestamps": [
+          "00:11:11",
+          "00:12:28"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": []
+}

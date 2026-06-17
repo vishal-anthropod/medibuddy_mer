@@ -1,0 +1,60 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "2+ clubbed questions",
+      "details": {
+        "count": 2
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 9,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "BEERLA CHANDRASHEKHAR",
+            "corrected": "BIRLA CHANDRASHEKHAR"
+          },
+          {
+            "id": "PP.ID.Aadhar",
+            "expected": "ADHAR CARD 9253",
+            "corrected": "AADHAAR CARD 9253"
+          },
+          {
+            "id": "MER.MH.c",
+            "expected": "No",
+            "corrected": "sarcoma, tumors"
+          },
+          {
+            "id": "MER.MH.i",
+            "expected": "No",
+            "corrected": "ulcerative colitis"
+          },
+          {
+            "id": "MER.MH.m",
+            "expected": "No",
+            "corrected": "difficulty in swallowing"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

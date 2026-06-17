@@ -1,0 +1,51 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Major doctor-led prompting detected",
+      "details": {
+        "examples": [
+          "Customer asks someone to 'Bring my Aadhaar card' (00:04:38).",
+          "Customer says 'Oh, give it to them, give it to them.' (00:04:47), implying a third party is involved.",
+          "Doctor explicitly tells customer 'Don't ask them, okay? No. You read it, you read it. Don't tell them.' (00:04:51, 00:04:56), indicating a third party was attempting to assist.",
+          "Customer mentions 'Babu' was on the phone (00:05:21) and 'Mohin Baba' (00:05:27).",
+          "Doctor instructs 'Okay, now hand it over to him.' (00:06:01), confirming a third party was holding the phone.",
+          "Customer says 'Yes, madam. Here, take it.' (00:07:12), implying handing the phone to someone else.",
+          "A third party directly provides the answer for weight: 'No, father is 68, so write 68. It's 68.' (00:07:39)."
+        ],
+        "timestamps": [
+          "00:04:38",
+          "00:04:47",
+          "00:04:51",
+          "00:05:21",
+          "00:06:01",
+          "00:07:12",
+          "00:07:39"
+        ]
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Incorrect date of birth",
+      "details": {
+        "captured": "31/05/1957",
+        "expected": "31-May-1958"
+      }
+    },
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 4
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

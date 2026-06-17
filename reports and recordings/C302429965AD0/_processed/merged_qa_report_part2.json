@@ -1,0 +1,95 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a clear greeting.",
+      "timestamps": [
+        "00:00:09"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:19",
+        "client_name": "00:00:24",
+        "insurer_name": "00:00:21"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer about their first language.",
+      "timestamp": "00:04:06"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested the customer to show their ID, provided clear instructions for display, and confirmed the PAN card number.",
+      "timestamps": [
+        "00:01:30",
+        "00:02:53"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided an initial legal disclaimer about the call's purpose and the importance of correct answers, and obtained a final disclaimer from the customer.",
+      "timestamp": "00:00:36"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor used polite language throughout the call, including 'please' and 'kindly'.",
+      "timestamps": [
+        "00:00:52",
+        "00:01:40",
+        "00:02:06",
+        "00:02:53",
+        "00:04:44"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "No serious health concerns were discussed, so empathy is marked as Yes by default as per the guidelines.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, repeated questions when needed due to audibility issues, and effectively guided the customer through ID verification and spelling a city name.",
+      "timestamps": {
+        "good_examples": [
+          "00:01:30",
+          "00:03:15",
+          "00:04:58",
+          "00:08:10"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor probed when the customer gave contradictory answers regarding wearing specs.",
+      "timestamps": [
+        "00:08:14",
+        "00:08:22"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer showed hesitation and gave contradictory answers when asked about wearing specs (initially 'No', then 'Yes', then 'No', finally 'I don't have specs').",
+      "timestamps": [
+        "00:08:12",
+        "00:08:14",
+        "00:08:16",
+        "00:08:26"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated the next steps and thanked the customer for their time.",
+      "timestamps": {
+        "declaration": "00:10:24",
+        "thank_you": "00:10:29"
+      }
+    }
+  }
+}

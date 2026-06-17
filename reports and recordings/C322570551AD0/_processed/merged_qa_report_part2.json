@@ -1,0 +1,99 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:12",
+        "client_name": "00:00:15",
+        "insurer_name": "00:00:14"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask for the customer's language preference.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested ID proof, guided the customer on how to show it, and confirmed the PAN card number.",
+      "timestamps": [
+        "00:01:53",
+        "00:02:01",
+        "00:02:36",
+        "00:03:06"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor informed the customer about call recording and the legal implications of the provided information.",
+      "timestamps": [
+        "00:00:33",
+        "00:00:45"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressing the customer as 'sir' and using 'please' and 'kindly'.",
+      "timestamps": [
+        "00:00:04",
+        "00:01:13",
+        "00:01:53",
+        "00:04:02",
+        "00:12:54"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer disclosed diabetes, which is a health concern, but not a serious health concern (accident, operation, severe illness) requiring explicit empathy as per the rule. Therefore, marked Yes by default.",
+      "timestamps": [
+        "00:05:42"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, provided detailed explanations, and effectively guided the customer through the process, including visual verification.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:20",
+          "00:00:45",
+          "00:02:01",
+          "00:03:57"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed into the customer's disclosed diabetes, asking relevant follow-up questions about treatment, duration, follow-ups, and complications.",
+      "timestamps": [
+        "00:06:46",
+        "00:06:56",
+        "00:07:05",
+        "00:07:16",
+        "00:07:25",
+        "00:07:38"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no customer hesitation (refusal, no answer, repeated evasion) or third-party prompting observed as per the defined rules.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the customer's declaration of truthfulness and thanked the customer before ending the call.",
+      "timestamps": {
+        "declaration": "00:12:36",
+        "thank_you": "00:12:50"
+      }
+    }
+  }
+}

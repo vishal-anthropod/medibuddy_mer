@@ -1,0 +1,1089 @@
+{
+  "segments": [
+    {
+      "segment_id": "1",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:07"
+    },
+    {
+      "segment_id": "2",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:07",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "3",
+      "text": "Yes, can you hear me? Am I audible?",
+      "speaker": "doctor",
+      "start_timestamp": "00:08",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "4",
+      "text": "Yes, speak.",
+      "speaker": "customer",
+      "start_timestamp": "00:14",
+      "end_timestamp": "00:14"
+    },
+    {
+      "segment_id": "5",
+      "text": "Language?",
+      "speaker": "doctor",
+      "start_timestamp": "00:15",
+      "end_timestamp": "00:16"
+    },
+    {
+      "segment_id": "6",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "00:17",
+      "end_timestamp": "00:17"
+    },
+    {
+      "segment_id": "7",
+      "text": "Which language will it be? English, Hindi, any other?",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:21"
+    },
+    {
+      "segment_id": "8",
+      "text": "Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "00:23",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "9",
+      "text": "Okay sir, Namaste, I am Dr. Kamini. I will do your medical verification. Medical verification-related questions will be asked. A legal contract will be formed between you and Tata AIA Life Insurance based on your answers. Wrong answers can lead to policy cancellation after issue and rejection for claims. You need to answer carefully and correctly.",
+      "speaker": "doctor",
+      "start_timestamp": "00:26",
+      "end_timestamp": "00:44"
+    },
+    {
+      "segment_id": "10",
+      "text": "The call is being recorded for quality and audit purposes. For verification, please tell me your full name.",
+      "speaker": "doctor",
+      "start_timestamp": "00:45",
+      "end_timestamp": "00:49"
+    },
+    {
+      "segment_id": "11",
+      "text": "Bhavya Deepak Kumar Solanki.",
+      "speaker": "customer",
+      "start_timestamp": "00:50",
+      "end_timestamp": "00:52"
+    },
+    {
+      "segment_id": "12",
+      "text": "Tell me your date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "00:53",
+      "end_timestamp": "00:54"
+    },
+    {
+      "segment_id": "13",
+      "text": "26-1999.",
+      "speaker": "customer",
+      "start_timestamp": "00:55",
+      "end_timestamp": "00:58"
+    },
+    {
+      "segment_id": "14",
+      "text": "Education?",
+      "speaker": "doctor",
+      "start_timestamp": "01:00",
+      "end_timestamp": "01:00"
+    },
+    {
+      "segment_id": "15",
+      "text": "Yes?",
+      "speaker": "customer",
+      "start_timestamp": "01:01",
+      "end_timestamp": "01:01"
+    },
+    {
+      "segment_id": "16",
+      "text": "How much have you studied?",
+      "speaker": "doctor",
+      "start_timestamp": "01:03",
+      "end_timestamp": "01:04"
+    },
+    {
+      "segment_id": "17",
+      "text": "Graduate.",
+      "speaker": "customer",
+      "start_timestamp": "01:05",
+      "end_timestamp": "01:05"
+    },
+    {
+      "segment_id": "18",
+      "text": "Degree name?",
+      "speaker": "doctor",
+      "start_timestamp": "01:06",
+      "end_timestamp": "01:07"
+    },
+    {
+      "segment_id": "19",
+      "text": "Mechanical Engineer, B.Tech.",
+      "speaker": "customer",
+      "start_timestamp": "01:08",
+      "end_timestamp": "01:10"
+    },
+    {
+      "segment_id": "20",
+      "text": "B.Tech.",
+      "speaker": "doctor",
+      "start_timestamp": "01:11",
+      "end_timestamp": "01:11"
+    },
+    {
+      "segment_id": "21",
+      "text": "What do you do? Job or business?",
+      "speaker": "doctor",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:13"
+    },
+    {
+      "segment_id": "22",
+      "text": "Business.",
+      "speaker": "customer",
+      "start_timestamp": "01:14",
+      "end_timestamp": "01:14"
+    },
+    {
+      "segment_id": "23",
+      "text": "Show your Aadhaar card, PAN card. Show any one.",
+      "speaker": "doctor",
+      "start_timestamp": "01:20",
+      "end_timestamp": "01:22"
+    },
+    {
+      "segment_id": "24",
+      "text": "It won't have a back camera, right? I'll do it from here.",
+      "speaker": "customer",
+      "start_timestamp": "01:23",
+      "end_timestamp": "01:25"
+    },
+    {
+      "segment_id": "25",
+      "text": "From the front, show it from the front.",
+      "speaker": "doctor",
+      "start_timestamp": "01:26",
+      "end_timestamp": "01:27"
+    },
+    {
+      "segment_id": "26",
+      "text": "I can show it from the front.",
+      "speaker": "customer",
+      "start_timestamp": "01:28",
+      "end_timestamp": "01:29"
+    },
+    {
+      "segment_id": "27",
+      "text": "What are you showing? Driving license?",
+      "speaker": "doctor",
+      "start_timestamp": "01:32",
+      "end_timestamp": "01:33"
+    },
+    {
+      "segment_id": "28",
+      "text": "Driving license.",
+      "speaker": "customer",
+      "start_timestamp": "01:33",
+      "end_timestamp": "01:34"
+    },
+    {
+      "segment_id": "29",
+      "text": "Hold it a little further back. A little further back.",
+      "speaker": "doctor",
+      "start_timestamp": "01:35",
+      "end_timestamp": "01:37"
+    },
+    {
+      "segment_id": "30",
+      "text": "Now hold it a little to the left.",
+      "speaker": "doctor",
+      "start_timestamp": "01:38",
+      "end_timestamp": "01:39"
+    },
+    {
+      "segment_id": "31",
+      "text": "Hold it a little further to the left.",
+      "speaker": "doctor",
+      "start_timestamp": "01:44",
+      "end_timestamp": "01:45"
+    },
+    {
+      "segment_id": "32",
+      "text": "Please read your driving license number.",
+      "speaker": "doctor",
+      "start_timestamp": "01:48",
+      "end_timestamp": "01:50"
+    },
+    {
+      "segment_id": "33",
+      "text": "GJ20.",
+      "speaker": "customer",
+      "start_timestamp": "01:52",
+      "end_timestamp": "01:53"
+    },
+    {
+      "segment_id": "34",
+      "text": "GJ20.",
+      "speaker": "doctor",
+      "start_timestamp": "01:54",
+      "end_timestamp": "01:56"
+    },
+    {
+      "segment_id": "35",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "01:56",
+      "end_timestamp": "01:57"
+    },
+    {
+      "segment_id": "36",
+      "text": "2017.",
+      "speaker": "customer",
+      "start_timestamp": "01:58",
+      "end_timestamp": "01:59"
+    },
+    {
+      "segment_id": "37",
+      "text": "2017.",
+      "speaker": "doctor",
+      "start_timestamp": "02:00",
+      "end_timestamp": "02:01"
+    },
+    {
+      "segment_id": "38",
+      "text": "000.",
+      "speaker": "customer",
+      "start_timestamp": "02:02",
+      "end_timestamp": "02:03"
+    },
+    {
+      "segment_id": "39",
+      "text": "000.",
+      "speaker": "doctor",
+      "start_timestamp": "02:04",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "40",
+      "text": "5791.",
+      "speaker": "customer",
+      "start_timestamp": "02:06",
+      "end_timestamp": "02:07"
+    },
+    {
+      "segment_id": "41",
+      "text": "5791.",
+      "speaker": "doctor",
+      "start_timestamp": "02:08",
+      "end_timestamp": "02:09"
+    },
+    {
+      "segment_id": "42",
+      "text": "I'm repeating, please check.",
+      "speaker": "doctor",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:10"
+    },
+    {
+      "segment_id": "43",
+      "text": "GJ 2020170005.",
+      "speaker": "doctor",
+      "start_timestamp": "02:11",
+      "end_timestamp": "02:15"
+    },
+    {
+      "segment_id": "44",
+      "text": "Last is 5791.",
+      "speaker": "customer",
+      "start_timestamp": "02:18",
+      "end_timestamp": "02:19"
+    },
+    {
+      "segment_id": "45",
+      "text": "Right.",
+      "speaker": "customer",
+      "start_timestamp": "02:21",
+      "end_timestamp": "02:22"
+    },
+    {
+      "segment_id": "46",
+      "text": "Tell me your current location. Name of the city, name of the state where you are now.",
+      "speaker": "doctor",
+      "start_timestamp": "02:22",
+      "end_timestamp": "02:26"
+    },
+    {
+      "segment_id": "47",
+      "text": "Dahod, Gujarat.",
+      "speaker": "customer",
+      "start_timestamp": "02:27",
+      "end_timestamp": "02:28"
+    },
+    {
+      "segment_id": "48",
+      "text": "What is it inside Gujarat?",
+      "speaker": "doctor",
+      "start_timestamp": "02:30",
+      "end_timestamp": "02:32"
+    },
+    {
+      "segment_id": "49",
+      "text": "Dahod.",
+      "speaker": "customer",
+      "start_timestamp": "02:32",
+      "end_timestamp": "02:32"
+    },
+    {
+      "segment_id": "50",
+      "text": "Dahod?",
+      "speaker": "doctor",
+      "start_timestamp": "02:35",
+      "end_timestamp": "02:35"
+    },
+    {
+      "segment_id": "51",
+      "text": "Yes, Dahod, D A H O D.",
+      "speaker": "customer",
+      "start_timestamp": "02:36",
+      "end_timestamp": "02:37"
+    },
+    {
+      "segment_id": "52",
+      "text": "Okay, I'm starting the medical. First, show yourself fully in the camera once, standing up.",
+      "speaker": "doctor",
+      "start_timestamp": "02:49",
+      "end_timestamp": "02:53"
+    },
+    {
+      "segment_id": "53",
+      "text": "Hold the phone up, towards the front.",
+      "speaker": "doctor",
+      "start_timestamp": "02:55",
+      "end_timestamp": "02:57"
+    },
+    {
+      "segment_id": "54",
+      "text": "I, one minute.",
+      "speaker": "customer",
+      "start_timestamp": "02:59",
+      "end_timestamp": "03:00"
+    },
+    {
+      "segment_id": "55",
+      "text": "Dheeraj, hold the phone.",
+      "speaker": "customer",
+      "start_timestamp": "03:02",
+      "end_timestamp": "03:04"
+    },
+    {
+      "segment_id": "56",
+      "text": "Show it all the way down.",
+      "speaker": "doctor",
+      "start_timestamp": "03:15",
+      "end_timestamp": "03:16"
+    },
+    {
+      "segment_id": "57",
+      "text": "Bring the camera down towards your feet.",
+      "speaker": "doctor",
+      "start_timestamp": "03:21",
+      "end_timestamp": "03:23"
+    },
+    {
+      "segment_id": "58",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "03:29",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "59",
+      "text": "Correct?",
+      "speaker": "customer",
+      "start_timestamp": "03:37",
+      "end_timestamp": "03:37"
+    },
+    {
+      "segment_id": "60",
+      "text": "One minute, wait.",
+      "speaker": "doctor",
+      "start_timestamp": "03:42",
+      "end_timestamp": "03:43"
+    },
+    {
+      "segment_id": "61",
+      "text": "Show your feet.",
+      "speaker": "doctor",
+      "start_timestamp": "03:48",
+      "end_timestamp": "03:50"
+    },
+    {
+      "segment_id": "62",
+      "text": "Now you hold it.",
+      "speaker": "customer",
+      "start_timestamp": "03:52",
+      "end_timestamp": "03:54"
+    },
+    {
+      "segment_id": "63",
+      "text": "Yes?",
+      "speaker": "customer",
+      "start_timestamp": "03:55",
+      "end_timestamp": "03:56"
+    },
+    {
+      "segment_id": "64",
+      "text": "The shoe area should be visible. More down, more down.",
+      "speaker": "doctor",
+      "start_timestamp": "03:58",
+      "end_timestamp": "04:00"
+    },
+    {
+      "segment_id": "65",
+      "text": "Don't go close, don't go close.",
+      "speaker": "doctor",
+      "start_timestamp": "04:01",
+      "end_timestamp": "04:02"
+    },
+    {
+      "segment_id": "66",
+      "text": "Stay back, stay back.",
+      "speaker": "doctor",
+      "start_timestamp": "04:04",
+      "end_timestamp": "04:05"
+    },
+    {
+      "segment_id": "67",
+      "text": "Whoever is holding it, stay a little back.",
+      "speaker": "doctor",
+      "start_timestamp": "04:06",
+      "end_timestamp": "04:08"
+    },
+    {
+      "segment_id": "68",
+      "text": "Move back, move back from the client.",
+      "speaker": "doctor",
+      "start_timestamp": "04:08",
+      "end_timestamp": "04:10"
+    },
+    {
+      "segment_id": "69",
+      "text": "Yes, just lower the phone like this, the feet will be visible.",
+      "speaker": "doctor",
+      "start_timestamp": "04:11",
+      "end_timestamp": "04:14"
+    },
+    {
+      "segment_id": "70",
+      "text": "Lower the phone.",
+      "speaker": "doctor",
+      "start_timestamp": "04:14",
+      "end_timestamp": "04:15"
+    },
+    {
+      "segment_id": "71",
+      "text": "And more down, that's it.",
+      "speaker": "doctor",
+      "start_timestamp": "04:17",
+      "end_timestamp": "04:17"
+    },
+    {
+      "segment_id": "72",
+      "text": "Done.",
+      "speaker": "doctor",
+      "start_timestamp": "04:18",
+      "end_timestamp": "04:18"
+    },
+    {
+      "segment_id": "73",
+      "text": "Give it to them, the phone.",
+      "speaker": "doctor",
+      "start_timestamp": "04:19",
+      "end_timestamp": "04:20"
+    },
+    {
+      "segment_id": "74",
+      "text": "Take it.",
+      "speaker": "doctor",
+      "start_timestamp": "04:22",
+      "end_timestamp": "04:22"
+    },
+    {
+      "segment_id": "75",
+      "text": "",
+      "speaker": "customer",
+      "start_timestamp": "04:23",
+      "end_timestamp": "04:23"
+    },
+    {
+      "segment_id": "76",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "04:26",
+      "end_timestamp": "04:26"
+    },
+    {
+      "segment_id": "77",
+      "text": "You can sit now and face the light.",
+      "speaker": "doctor",
+      "start_timestamp": "04:27",
+      "end_timestamp": "04:29"
+    },
+    {
+      "segment_id": "78",
+      "text": "Face towards the light, face it in the light.",
+      "speaker": "doctor",
+      "start_timestamp": "04:37",
+      "end_timestamp": "04:39"
+    },
+    {
+      "segment_id": "79",
+      "text": "It's important for the face to be clearly visible.",
+      "speaker": "doctor",
+      "start_timestamp": "04:40",
+      "end_timestamp": "04:41"
+    },
+    {
+      "segment_id": "80",
+      "text": "Is it correct now or more?",
+      "speaker": "customer",
+      "start_timestamp": "04:43",
+      "end_timestamp": "04:44"
+    },
+    {
+      "segment_id": "81",
+      "text": "Yes, now it's fine.",
+      "speaker": "doctor",
+      "start_timestamp": "04:45",
+      "end_timestamp": "04:46"
+    },
+    {
+      "segment_id": "82",
+      "text": "In the last 24 months, have you used smoking, tobacco, drugs, etc.?",
+      "speaker": "doctor",
+      "start_timestamp": "04:46",
+      "end_timestamp": "04:51"
+    },
+    {
+      "segment_id": "83",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:52"
+    },
+    {
+      "segment_id": "84",
+      "text": "Alcohol use?",
+      "speaker": "doctor",
+      "start_timestamp": "04:54",
+      "end_timestamp": "04:54"
+    },
+    {
+      "segment_id": "85",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "04:55",
+      "end_timestamp": "04:56"
+    },
+    {
+      "segment_id": "86",
+      "text": "Has a doctor advised you to quit smoking or alcohol?",
+      "speaker": "doctor",
+      "start_timestamp": "04:59",
+      "end_timestamp": "05:02"
+    },
+    {
+      "segment_id": "87",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:04",
+      "end_timestamp": "05:04"
+    },
+    {
+      "segment_id": "88",
+      "text": "No?",
+      "speaker": "doctor",
+      "start_timestamp": "05:10",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "89",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "05:12",
+      "end_timestamp": "05:12"
+    },
+    {
+      "segment_id": "90",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "05:13",
+      "end_timestamp": "05:13"
+    },
+    {
+      "segment_id": "91",
+      "text": "Tell me your height.",
+      "speaker": "doctor",
+      "start_timestamp": "05:15",
+      "end_timestamp": "05:15"
+    },
+    {
+      "segment_id": "92",
+      "text": "5'6\".",
+      "speaker": "customer",
+      "start_timestamp": "05:18",
+      "end_timestamp": "05:19"
+    },
+    {
+      "segment_id": "93",
+      "text": "Tell me your weight.",
+      "speaker": "doctor",
+      "start_timestamp": "05:22",
+      "end_timestamp": "05:22"
+    },
+    {
+      "segment_id": "94",
+      "text": "90.",
+      "speaker": "customer",
+      "start_timestamp": "05:24",
+      "end_timestamp": "05:24"
+    },
+    {
+      "segment_id": "95",
+      "text": "90 kg?",
+      "speaker": "doctor",
+      "start_timestamp": "05:26",
+      "end_timestamp": "05:26"
+    },
+    {
+      "segment_id": "96",
+      "text": "Hello?",
+      "speaker": "customer",
+      "start_timestamp": "05:28",
+      "end_timestamp": "05:28"
+    },
+    {
+      "segment_id": "97",
+      "text": "90 kg?",
+      "speaker": "doctor",
+      "start_timestamp": "05:29",
+      "end_timestamp": "05:30"
+    },
+    {
+      "segment_id": "98",
+      "text": "Voice will come.",
+      "speaker": "doctor",
+      "start_timestamp": "05:34",
+      "end_timestamp": "05:35"
+    },
+    {
+      "segment_id": "99",
+      "text": "Your voice is cutting.",
+      "speaker": "customer",
+      "start_timestamp": "05:36",
+      "end_timestamp": "05:36"
+    },
+    {
+      "segment_id": "100",
+      "text": "Hello, is my voice audible?",
+      "speaker": "doctor",
+      "start_timestamp": "05:37",
+      "end_timestamp": "05:39"
+    },
+    {
+      "segment_id": "101",
+      "text": "Your voice is cutting.",
+      "speaker": "customer",
+      "start_timestamp": "05:40",
+      "end_timestamp": "05:41"
+    },
+    {
+      "segment_id": "102",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:48",
+      "end_timestamp": "06:48"
+    },
+    {
+      "segment_id": "103",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "06:49",
+      "end_timestamp": "06:49"
+    },
+    {
+      "segment_id": "104",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "06:52",
+      "end_timestamp": "06:52"
+    },
+    {
+      "segment_id": "105",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "06:53",
+      "end_timestamp": "06:53"
+    },
+    {
+      "segment_id": "106",
+      "text": "Sir, can you hear me now?",
+      "speaker": "doctor",
+      "start_timestamp": "06:55",
+      "end_timestamp": "06:56"
+    },
+    {
+      "segment_id": "107",
+      "text": "Yes, I can hear you.",
+      "speaker": "customer",
+      "start_timestamp": "06:57",
+      "end_timestamp": "06:57"
+    },
+    {
+      "segment_id": "108",
+      "text": "I was asking, problems like high blood pressure, high cholesterol, triglycerides, lipid issues?",
+      "speaker": "doctor",
+      "start_timestamp": "06:59",
+      "end_timestamp": "07:03"
+    },
+    {
+      "segment_id": "109",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "07:04",
+      "end_timestamp": "07:04"
+    },
+    {
+      "segment_id": "110",
+      "text": "Heart disease, chest pain, heaviness, discomfort, heart murmur, heart attack, coronary artery disease, heart valve disorder, congenital heart disease, palpitations, rheumatic fever, shortness of breath, any heart disease?",
+      "speaker": "doctor",
+      "start_timestamp": "07:05",
+      "end_timestamp": "07:15"
+    },
+    {
+      "segment_id": "111",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "07:16",
+      "end_timestamp": "07:16"
+    },
+    {
+      "segment_id": "112",
+      "text": "Any cancerous condition, leukemia, enlarged nodes, skin cancer, dysplasia, leukoplakia, sarcoma, tumor, polyp, nodule, cyst, lump, any growth?",
+      "speaker": "doctor",
+      "start_timestamp": "07:18",
+      "end_timestamp": "07:25"
+    },
+    {
+      "segment_id": "113",
+      "text": "No. No.",
+      "speaker": "customer",
+      "start_timestamp": "07:26",
+      "end_timestamp": "07:27"
+    },
+    {
+      "segment_id": "114",
+      "text": "Diabetes, thyroid, hyper/hypo endocrine disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "07:28",
+      "end_timestamp": "07:30"
+    },
+    {
+      "segment_id": "115",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "07:31",
+      "end_timestamp": "07:31"
+    },
+    {
+      "segment_id": "116",
+      "text": "Respiratory illness, asthma, bronchitis, sinusitis, tuberculosis, pneumonia, frequent coughing, chronic sleep apnea, emphysema, chronic lung disease, any respiratory illness?",
+      "speaker": "doctor",
+      "start_timestamp": "07:33",
+      "end_timestamp": "07:40"
+    },
+    {
+      "segment_id": "117",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "07:41",
+      "end_timestamp": "07:41"
+    },
+    {
+      "segment_id": "118",
+      "text": "Liver disease, hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease, any liver disease?",
+      "speaker": "doctor",
+      "start_timestamp": "07:43",
+      "end_timestamp": "07:48"
+    },
+    {
+      "segment_id": "119",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "07:49",
+      "end_timestamp": "07:49"
+    },
+    {
+      "segment_id": "120",
+      "text": "Blood disease, anemia, thalassemia, systemic lupus erythematosus, any blood disease, autoimmune disease?",
+      "speaker": "doctor",
+      "start_timestamp": "07:50",
+      "end_timestamp": "07:55"
+    },
+    {
+      "segment_id": "121",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "07:56",
+      "end_timestamp": "07:56"
+    },
+    {
+      "segment_id": "122",
+      "text": "Mental illness, anxiety, depression, nerve-related, epilepsy, paralysis, weakness in hands and feet, stroke, transient ischemic attack, multiple sclerosis, Parkinson's, dementia, Alzheimer's, any neurological, nervous, mental health disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "07:58",
+      "end_timestamp": "08:08"
+    },
+    {
+      "segment_id": "123",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:09",
+      "end_timestamp": "08:09"
+    },
+    {
+      "segment_id": "124",
+      "text": "Stomach disease, gastritis, gastroesophageal reflux disease, stomach ulcer, frequent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcerative colitis, pancreatitis, any stomach disease?",
+      "speaker": "doctor",
+      "start_timestamp": "08:11",
+      "end_timestamp": "08:21"
+    },
+    {
+      "segment_id": "125",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:22",
+      "end_timestamp": "08:22"
+    },
+    {
+      "segment_id": "126",
+      "text": "Kidney stones, gallstones, kidney disease, blood in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele, any kidney, bladder, genital, prostate, urinary system related disease?",
+      "speaker": "doctor",
+      "start_timestamp": "08:24",
+      "end_timestamp": "08:34"
+    },
+    {
+      "segment_id": "127",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:35",
+      "end_timestamp": "08:35"
+    },
+    {
+      "segment_id": "128",
+      "text": "Frequent back pain, arthritis, gout, slipped disc, muscular dystrophy, deformity, any disability, muscle, bone, joint, limb, spinal cord related disease?",
+      "speaker": "doctor",
+      "start_timestamp": "08:37",
+      "end_timestamp": "08:43"
+    },
+    {
+      "segment_id": "129",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:44",
+      "end_timestamp": "08:44"
+    },
+    {
+      "segment_id": "130",
+      "text": "Eye diseases, blindness, cataract, glaucoma, difficulty seeing, double vision?",
+      "speaker": "doctor",
+      "start_timestamp": "08:46",
+      "end_timestamp": "08:49"
+    },
+    {
+      "segment_id": "131",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:50",
+      "end_timestamp": "08:50"
+    },
+    {
+      "segment_id": "132",
+      "text": "Ear, nose, throat related diseases, deafness, difficulty hearing, speech problems, voice changes, swallowing difficulties, ear discharge?",
+      "speaker": "doctor",
+      "start_timestamp": "08:52",
+      "end_timestamp": "08:58"
+    },
+    {
+      "segment_id": "133",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "08:58",
+      "end_timestamp": "08:59"
+    },
+    {
+      "segment_id": "134",
+      "text": "Anything else related to poor health, bad habits?",
+      "speaker": "doctor",
+      "start_timestamp": "09:00",
+      "end_timestamp": "09:02"
+    },
+    {
+      "segment_id": "135",
+      "text": "No, nothing so far.",
+      "speaker": "customer",
+      "start_timestamp": "09:03",
+      "end_timestamp": "09:04"
+    },
+    {
+      "segment_id": "136",
+      "text": "In the last five years, have any tests ever been abnormal or pending? X-ray, ultrasound, MRI, PET CT, biopsy, ECG, treadmill, endoscopy, colonoscopy, blood, urine?",
+      "speaker": "doctor",
+      "start_timestamp": "09:05",
+      "end_timestamp": "09:12"
+    },
+    {
+      "segment_id": "137",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:13",
+      "end_timestamp": "09:13"
+    },
+    {
+      "segment_id": "138",
+      "text": "In the last five years, have you taken medication for more than two weeks, seen a specialized doctor due to a medical issue?",
+      "speaker": "doctor",
+      "start_timestamp": "09:14",
+      "end_timestamp": "09:19"
+    },
+    {
+      "segment_id": "139",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:19",
+      "end_timestamp": "09:19"
+    },
+    {
+      "segment_id": "140",
+      "text": "In five years, have you been on leave for more than two weeks, or have your daily activities been disrupted due to a medical issue?",
+      "speaker": "doctor",
+      "start_timestamp": "09:21",
+      "end_timestamp": "09:25"
+    },
+    {
+      "segment_id": "141",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:26",
+      "end_timestamp": "09:26"
+    },
+    {
+      "segment_id": "142",
+      "text": "Any birth disease, genetic disease, cerebral palsy, Down syndrome, polio?",
+      "speaker": "doctor",
+      "start_timestamp": "09:27",
+      "end_timestamp": "09:31"
+    },
+    {
+      "segment_id": "143",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:31",
+      "end_timestamp": "09:31"
+    },
+    {
+      "segment_id": "144",
+      "text": "Are you married?",
+      "speaker": "doctor",
+      "start_timestamp": "09:33",
+      "end_timestamp": "09:33"
+    },
+    {
+      "segment_id": "145",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:34",
+      "end_timestamp": "09:34"
+    },
+    {
+      "segment_id": "146",
+      "text": "The question will be a little sensitive. Are you undergoing treatment for HIV AIDS, sexually transmitted diseases?",
+      "speaker": "doctor",
+      "start_timestamp": "09:35",
+      "end_timestamp": "09:39"
+    },
+    {
+      "segment_id": "147",
+      "text": "No, no.",
+      "speaker": "customer",
+      "start_timestamp": "09:39",
+      "end_timestamp": "09:40"
+    },
+    {
+      "segment_id": "148",
+      "text": "Unexplained weight gain or loss, considering surgery or taking medication?",
+      "speaker": "doctor",
+      "start_timestamp": "09:41",
+      "end_timestamp": "09:44"
+    },
+    {
+      "segment_id": "149",
+      "text": "No.",
+      "speaker": "customer",
+      "start_timestamp": "09:45",
+      "end_timestamp": "09:45"
+    },
+    {
+      "segment_id": "150",
+      "text": "All questions have been completed. Lastly, there's a declaration.",
+      "speaker": "doctor",
+      "start_timestamp": "09:46",
+      "end_timestamp": "09:48"
+    },
+    {
+      "segment_id": "151",
+      "text": "Do you agree that all the answers you have given to the questions are true and complete?",
+      "speaker": "doctor",
+      "start_timestamp": "09:49",
+      "end_timestamp": "09:52"
+    },
+    {
+      "segment_id": "152",
+      "text": "Yes, I agree.",
+      "speaker": "customer",
+      "start_timestamp": "09:53",
+      "end_timestamp": "09:53"
+    },
+    {
+      "segment_id": "153",
+      "text": "These answers will be part of the policy. Thank you for cooperating.",
+      "speaker": "doctor",
+      "start_timestamp": "09:54",
+      "end_timestamp": "09:56"
+    },
+    {
+      "segment_id": "154",
+      "text": "Thank you so much, sir. Have a good day.",
+      "speaker": "doctor",
+      "start_timestamp": "09:57",
+      "end_timestamp": "09:59"
+    },
+    {
+      "segment_id": "155",
+      "text": "Thank you.",
+      "speaker": "customer",
+      "start_timestamp": "10:00",
+      "end_timestamp": "10:00"
+    }
+  ]
+}

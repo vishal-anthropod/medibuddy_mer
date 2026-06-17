@@ -1,0 +1,46 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "4-7 incorrect documentation entries",
+      "details": {
+        "count": 5
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Oh. Hmm, that's somewhere else. One minute, please. One minute, please stay on the line, will you wait?",
+          "What, what?",
+          "Hmm?",
+          "What?",
+          "Hmm?",
+          "Ah?",
+          "Hmm, sleep. Ah?",
+          "Hmm."
+        ],
+        "timestamps": [
+          "00:02:30",
+          "00:03:11",
+          "00:03:41",
+          "00:03:57",
+          "00:04:42",
+          "00:08:14",
+          "00:08:48",
+          "00:09:56"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated greetings at the beginning of both calls.",
+      "timestamps": [
+        "00:00:05",
+        "00:00:36"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the company name, and confirmed the client's name at the start of the call.",
+      "timestamps": {
+        "self_intro": "00:00:39",
+        "client_name": "00:00:39",
+        "insurer_name": "00:00:39"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked for the customer's language preference early in the call.",
+      "timestamp": "00:00:47"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested the customer's Aadhaar or PAN card number for identification.",
+      "timestamps": [
+        "00:02:26"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated that the call would be recorded and that the answers would form a legal contract.",
+      "timestamp": "00:01:24"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language, addressing the customer as 'madam' and offering to wait when needed.",
+      "timestamps": [
+        "00:00:54",
+        "00:02:36",
+        "00:10:15",
+        "00:10:27"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer mentioned pregnancy, which the doctor acknowledged and followed up with relevant medical questions. No serious health concerns requiring specific empathy were present.",
+      "timestamps": [
+        "00:04:28",
+        "00:08:00",
+        "00:09:27"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor effectively clarified questions and rephrased when needed, but also repeated some questions unnecessarily, indicating slight redundancy.",
+      "timestamps": {
+        "good_examples": [
+          "00:03:58",
+          "00:04:13",
+          "00:04:48"
+        ],
+        "poor_examples": [
+          "00:03:05",
+          "00:09:07",
+          "00:09:50"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed for more specific details when the customer's answers were vague or required further clarification, especially regarding health conditions and pregnancy.",
+      "timestamps": [
+        "00:03:01",
+        "00:04:13",
+        "00:08:04",
+        "00:08:35",
+        "00:09:27"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There were no instances of customer hesitation (refusal, no answer, or repeated evasion) or third-party prompting observed in the transcript.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor provided a clear declaration about the truthfulness of the answers and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:10:07",
+        "thank_you": "00:10:15"
+      }
+    }
+  }
+}

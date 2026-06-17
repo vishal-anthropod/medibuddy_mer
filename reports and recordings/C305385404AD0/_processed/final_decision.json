@@ -1,0 +1,36 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "6",
+            "expected": "malapuaram,kerala",
+            "corrected": "Malappuram, Kerala"
+          },
+          {
+            "id": "Medical.c",
+            "expected": "No",
+            "corrected": "sarcoma"
+          },
+          {
+            "id": "Medical.m",
+            "expected": "No",
+            "corrected": "difficulty in swallowing"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 3
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

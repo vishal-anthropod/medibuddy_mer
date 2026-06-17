@@ -1,0 +1,58 @@
+{
+  "ASSIGNBACK": [
+    {
+      "issue": "Questions missing",
+      "details": [
+        {
+          "id": "Other.InabilityDailyActivities",
+          "text": "Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time"
+        }
+      ]
+    },
+    {
+      "issue": "Customer name incorrect (PP.Name)",
+      "details": {
+        "captured": "T. Mahesha",
+        "expected": "T Mhahesha"
+      }
+    },
+    {
+      "issue": "Many incorrect documentation entries",
+      "details": {
+        "count": 11
+      }
+    }
+  ],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "T Mhahesha",
+            "corrected": "T Mahesha"
+          },
+          {
+            "id": "PP.ID.PAN",
+            "expected": "AIZ PM4291L",
+            "corrected": "AIZ PM4291NL"
+          },
+          {
+            "id": "1",
+            "expected": "T Mhahesha",
+            "corrected": "T Mahesha"
+          },
+          {
+            "id": "5",
+            "expected": "pancard-AIZ PM4291L",
+            "corrected": "pancard-AIZ PM4291NL"
+          }
+        ]
+      }
+    }
+  ],
+  "FLAGS": [],
+  "TECH_ISSUES": []
+}

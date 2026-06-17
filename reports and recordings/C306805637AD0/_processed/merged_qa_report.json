@@ -1,0 +1,1258 @@
+{
+  "personal_particulars": {
+    "name": "Kolapudi Eswara Vijayakumar",
+    "dob": "15/9/1955",
+    "id_proofs": [
+      {
+        "type": "Aadhar",
+        "value": "3380",
+        "present_in_mer": true
+      }
+    ],
+    "nominee_name": null,
+    "nominee_dob": null
+  },
+  "process_compliance": {
+    "disclaimer": {
+      "stated": true,
+      "insurer_name": "Tata AIG insurance",
+      "timestamp": "00:11"
+    },
+    "language_preference": {
+      "asked": false,
+      "selected_language": null,
+      "timestamp": null
+    }
+  },
+  "qa_matrix": [
+    {
+      "question_id": "PP.Name",
+      "question_text": "Member Name",
+      "captured_response": "Kolapudi Eswara Vijayakumar",
+      "expected_response": "Kolapudi Victor Vijaya Vara Kumar",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Kolapudi Eswara Vijayakumar",
+      "timestamp": "00:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.DOB",
+      "question_text": "Member Date of Birth",
+      "captured_response": "15/9/1955",
+      "expected_response": "1955-09-15",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "PP.ID.Aadhar",
+      "question_text": "ID Proof Aadhar",
+      "captured_response": "3380",
+      "expected_response": "AADHARNUMBER -3380",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "1",
+      "question_text": "Kindly confirm your full Name",
+      "captured_response": "Kolapudi Eswara Vijayakumar",
+      "expected_response": "Kolapudi Victor Vijaya Vara Kumar",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Kolapudi Eswara Vijayakumar",
+      "timestamp": "00:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "Your Date of birth",
+      "captured_response": "15/9/1955",
+      "expected_response": "1955-09-15",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "Education Qualification",
+      "captured_response": "M.Com, B.Ed. I have many qualifications. M.Com, M.Phil, M.Ed...",
+      "expected_response": "Above Graduate",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:49",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "Your current Occupation",
+      "captured_response": "I am retired. Sometimes I do magic tricks... I'm a pensioner... I worked as a lecturer in Tirupati and then retired.",
+      "expected_response": "Retired",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "00:59",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "Please show your ID proof",
+      "captured_response": "Aadhar card... 3380",
+      "expected_response": "AADHARNUMBER -3380",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "6",
+      "question_text": "Kindly share your current location( City and state with country)?",
+      "captured_response": "I live in Kurnool, ma'am.",
+      "expected_response": "KHAMAM,TELANGANA,INDIA",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Kurnool, Andhra Pradesh, India",
+      "timestamp": "02:20",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Declaration",
+      "question_text": "You Kolapudi Victor Vijaya Vara Kumar , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "captured_response": "All the questions are done. So, are you declaring that all the answers you gave to all the questions are completely true, that you spoke the truth? -> Absolutely, madam. There is no need to lie.",
+      "expected_response": "You Kolapudi Victor Vijaya Vara Kumar , declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+      "status": "Paraphrased",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "25:48",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.1",
+      "question_text": "In the last 24 months, have you smoked or used any tobacco or nicotine products?",
+      "captured_response": "Last two years... Tobacco was in 1995, around that time. It's been 30 years since I quit that.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:43",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.2",
+      "question_text": "Do you consume alcohol ?",
+      "captured_response": "Alcohol, I drink sometimes.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "02:54",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.3",
+      "question_text": "Please select the type of alcohol you consume. Spirit/Hard Liqour",
+      "captured_response": "Brandy, I drink.",
+      "expected_response": "Spirit/Hard Liqour",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:00",
+      "typo_in_expected_response": {
+        "has_typo": true,
+        "corrected_text": "Spirit/Hard Liquor"
+      }
+    },
+    {
+      "question_id": "Lifestyle.4",
+      "question_text": "In a week,How many unit of Hard liqour/spirit do you consume ?1 unit of alcohol = 1 glass of spirits (44 ml)",
+      "captured_response": "Not once a week. It's been 45 days, 50 days since I drank. Sometimes once in 45 days, sometimes once in a month, or twice in a month. Sometimes two to three times a month.",
+      "expected_response": "1",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer consumes 1-3 times a month, not 1 unit per week.",
+      "timestamp": "03:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.5",
+      "question_text": "Have you ever been advised by a doctor to reduce or stop alcohol consumption ?",
+      "captured_response": "No one has advised me. I have never been to a doctor.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:27",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.6",
+      "question_text": "Have you ever used recreational drugs or Narcotics that was not prescribed by a Licensed physician ?",
+      "captured_response": "No, no, ma'am. Not me. I just take alcohol sometimes, but nothing else. I am not in touch with all those things.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:45",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.7",
+      "question_text": "What is Proposed insured height (cm)?",
+      "captured_response": "5'6\", ma'am.",
+      "expected_response": "167.64 cm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "03:58",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Lifestyle.8",
+      "question_text": "What is Proposed Insured weight (kg)?",
+      "captured_response": "83. It varies, from 82 to 84. It changes by 83, 83.5, something like that. Ah, 83 can be confirmed. As of now.",
+      "expected_response": "83 kg",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "04:04",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.1",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids - High Blood Pressure",
+      "captured_response": "If triglycerides are tested, they will be around 190, 180 sometimes. Mild. Ah, I asked seriously, but they said it's normal. A little careful, they say, right?",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, mild triglycerides (180-190)",
+      "timestamp": "04:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.2",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids - Raised Cholesterol",
+      "captured_response": "If triglycerides are tested, they will be around 190, 180 sometimes. Mild. Ah, I asked seriously, but they said it's normal. A little careful, they say, right?",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, mild triglycerides (180-190)",
+      "timestamp": "04:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.3",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids - Raised lipids",
+      "captured_response": "If triglycerides are tested, they will be around 190, 180 sometimes. Mild. Ah, I asked seriously, but they said it's normal. A little careful, they say, right?",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, mild triglycerides (180-190)",
+      "timestamp": "04:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.4",
+      "question_text": "High/Low blood pressure, raised cholesterol or triglycerides or lipids - Raised Cholesterol",
+      "captured_response": "If triglycerides are tested, they will be around 190, 180 sometimes. Mild. Ah, I asked seriously, but they said it's normal. A little careful, they say, right?",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, mild triglycerides (180-190)",
+      "timestamp": "04:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.5",
+      "question_text": "When was your last cholesterol test done?",
+      "captured_response": "It's been three months since the last cholesterol test, ma'am.",
+      "expected_response": "Within the last 12 months",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:17",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.6",
+      "question_text": "Apart from your regular follow ups for this condition, are you awaiting further medical tests or investigations, test results or referral to hospital or surgery?",
+      "captured_response": "No, ma'am, I haven't had any operations or anything done.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "05:38",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "a.7",
+      "question_text": "Have you had any of the following complications: heart problems, circulatory problems, nerve or sensory damage, kidney problems, blood or protein in the urine, eye problem, etc.?",
+      "captured_response": "No problems, but the left eye sees a little blurry.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, left eye blurry",
+      "timestamp": "06:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "b",
+      "question_text": "Chest pain or heaviness or discomfort, heart murmur, heart attack, coronary artery disease, Heart valve disorder, congenital heart disease, palpitation, rheumatic fever, shortness of breath or any other heart conditions",
+      "captured_response": "No, no, ma'am, none of those.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "06:46",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "c",
+      "question_text": "Cancer or carcinoma-in-situ, pre-cancerous condition, leukaemia, enlarged nodes, unusual skin lesions, dysplasia, leukoplakia, sacroma, tumours, polyps, nodules, cysts, lump or other growths",
+      "captured_response": "No, nothing, ma'am.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "07:32",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "d",
+      "question_text": "Diabetes, raised blood sugar or sugar in urine,Hyperthyroidism, Hypothyroidism , other thyroid disorders, or any other endocrine disorders",
+      "captured_response": "No, I don't have diabetes, ma'am. Thyroidism, it's about six, six and a half for me, ma'am. It should be five.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, mild thyroidism (6-6.5)",
+      "timestamp": "07:36",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.1",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Asthma",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.2",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Bronchitis",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.3",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Lung Pneumonia",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.4",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Sinusitis",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.5",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Tuberculosis",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.6",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Sleep apnoea",
+      "captured_response": "No, nothing, ma'am. Only a little phlegm, in the morning, a little phlegm is felt, that's it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.7",
+      "question_text": "Asthma, bronchitis, sinusitis, tuberculosis, pneumonia, chronic or recurrent cough, sleep apnea, emphysema, chronic pulmonary disease (COPD) or any other respiratory disorders - Any other respiratory disorders",
+      "captured_response": "Only a little phlegm, in the morning, a little phlegm is felt, that's it. Vata, Pitta, Kapha, in Kapha, there is Kapha, that's it. Whenever I eat, phlegm comes, right? Before, like old people who smoked, there's no severe cough, but there's phlegm.",
+      "expected_response": "phlegm",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.8",
+      "question_text": "Please provide details including type of condition, the age at diagnosis and symptoms.",
+      "captured_response": "Only a little phlegm, in the morning, a little phlegm is felt, that's it. Whenever I eat, phlegm comes, right?",
+      "expected_response": "occurs morning time,or after food",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "09:42",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "e.9",
+      "question_text": "Please provide details of treatment and/or medication advice received or sought, type of investigation(s) done, and last follow-up date.",
+      "captured_response": "They didn't say anything, I haven't shown it to anyone, ma'am.",
+      "expected_response": "no medication taking",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "19:06",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "f",
+      "question_text": "Hepatitis, hepatitis carrier, fatty liver, liver cirrhosis, jaundice, alcoholic liver disease or any other diseases or disorders of the liver",
+      "captured_response": "No, there are no liver-related issues.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:03",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "g",
+      "question_text": "Anemia, thalassemia, systemic lupus erythematosus or any other diseases or disorders of the blood or autoimmune disease",
+      "captured_response": "No.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:13",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "h",
+      "question_text": "Anxiety, depression, epilepsy, paralysis, weakness of limb, stroke, transient ischemic attack (TIA), multiple sclerosis, Parkinson's disease, Dementia, Alzheimer's or any other neurological, nervous, mental health disorders?",
+      "captured_response": "Nothing, sister, I don't get scared of anything. Nothing will happen to me. No, madam. No, madam. No nerve-related problems.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "10:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "i",
+      "question_text": "Gastritis, gastroesophageal reflux disease (GERD), stomach ulcer, recurrent indigestion, irritable bowel syndrome, Barrett's esophagus, atrophic gastritis, Crohn's disease, ulcera-tive colitis, Pancreatitis/Pancreatic disorder or any gastrointestinal diseases or disorders",
+      "captured_response": "No, madam, nothing related to the stomach.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:10",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.1",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Gall Stones",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.2",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Hernia",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.3",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Kidney stones",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.4",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Urinary tract infection",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.5",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Haematuria",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.6",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Proteinuria",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.7",
+      "question_text": "Kidney stones, gall stones, kidney or urinary tract infection, blood or protein in urine, chronic kidney disease, kidney failure, piles, fistula, hydrocele or any other disorders of the kidney, bladder, genital, prostate or urinary systems? - Any other disorders of the kidney, bladder, genital, prostate or urinary systems",
+      "captured_response": "No, madam. There was a cyst-like growth under the skin once. private practitioners do something for fistula, piles, they tie ropes and make cuts.",
+      "expected_response": "Anal Fistula",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:28",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.8",
+      "question_text": "Have you fully recovered with no further symptoms, investigations, treatment or compli-cations?",
+      "captured_response": "Now there's nothing, madam. I am quite alright. No problem after that.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "j.9",
+      "question_text": "When you have recovered. Please confirm duration in months",
+      "captured_response": "Yes, madam, 20 years back. Even more than 20 years.",
+      "expected_response": "More than a year ago",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "11:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.1",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Back pain",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.2",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Ligament tear",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.3",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Slipped disc",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.4",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Fracture",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.5",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Gout",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.6",
+      "question_text": "Recurrent Back pain, arthritis, gout, slipped disc, muscular dystrophies, deformity, physical disability or any other disorders of muscle, bones, joints, limbs or spine? - Any other disorders of muscle, joints, limbs or spine?",
+      "captured_response": "I have knee pains, but not severe, I do have them.",
+      "expected_response": "knee joint pain",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "12:56",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.7",
+      "question_text": "Please provide details including type of condition, the age at diagnosis and symptoms.",
+      "captured_response": "Actually, they've been there since the time of Corona, around 2020, 2021.",
+      "expected_response": "in 2020 got knee pains",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "13:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "k.8",
+      "question_text": "Please provide details of treatment and/or medication advice received or sought, type of investigation(s) done, and last follow-up date.",
+      "captured_response": "I didn't take any treatment, madam. I didn't take anything from the government. Only when I feel very unwell and can't do anything, I take some kind of health supplement and that's it. Medicines means, I'm taking one Ayurvedic medicine. Madam, they give something from Srisailam. It's not Ayurveda, they give it as food. They give two small tablets, one in the morning and one in the evening. That's fine for me, I felt that it works well too. Because of that, I am able to manage my daily affairs.",
+      "expected_response": "ayurvedic medicines taking for knee pains",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "14:22",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.1",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes - Blindness",
+      "captured_response": "Yes, everything else is fine, but my left eye is a bit blurry, ma'am. Cataract, cataract is there.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "15:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.2",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes - Cataract",
+      "captured_response": "Yes, everything else is fine, but my left eye is a bit blurry, ma'am. Cataract, cataract is there.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "15:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.3",
+      "question_text": "Blindness,cataracts, glaucoma, impaired sight, double vision or any other diseases or disorders of eyes - Any other eye related disorder ?",
+      "captured_response": "Yes, everything else is fine, but my left eye is a bit blurry, ma'am. Cataract, cataract is there.",
+      "expected_response": "No disclosures entered",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "15:19",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.4",
+      "question_text": "Are you awaiting any investigations or tests for this condition?",
+      "captured_response": "I did, ma'am. I told you I got it done two years ago, right? I got it done two years ago. On the day I planned to get it done, I had a cough, a cold and cough, over there, cold and cough. They said they wouldn't do it if I had a cough. After that, I neglected it.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "17:25",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.5",
+      "question_text": "Have you undergone surgery for this condition?",
+      "captured_response": "I got it done a long time ago, ma'am. They said an operation would be good. When I planned to get the operation, I got a cough locally. They said they wouldn't do it if I had a cough. After that, I neglected it because I thought there wasn't a big problem. Even now, there isn't a big problem, but I'm thinking of getting it done.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "16:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "l.6",
+      "question_text": "Have you been advised by your doctor for surgery?",
+      "captured_response": "They said an operation would be good.",
+      "expected_response": "Yes",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "16:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "m",
+      "question_text": "Deafness, Impaired hearing, speech problem, hoarseness of voice, difficult in swal-lowing, ear discharge or any other diseases or disorders of ears, nose or throat",
+      "captured_response": "Nothing, ma'am. My ears are fine, but for my nose, as I told you, there are no breathing problems. The problem I have, specifically in this area, is a lot of phlegm. Even if it's something cold, it's a bit problematic, that's all.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "18:16",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.1",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Annual Health Checkup",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "Yes",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Customer states no other problems, but later mentions self-initiated annual health checkups.",
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.2",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Viral infection",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.3",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Dengue fever",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.4",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Malaria",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.5",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Mouth ulcer",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.6",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Hay fever",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.7",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - COVID-19 Positive",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.8",
+      "question_text": "Is there anything else that you would like to share with us with respect to your health/ habits or anything else that you believe is important to ensure that policy is processed basis all facts & information? - Others",
+      "captured_response": "I don't have any problems other than what you've mentioned.",
+      "expected_response": "No disclosures entered",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "20:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.9",
+      "question_text": "Reason for undergoing the health checkup/Blood test",
+      "captured_response": "I do them myself, ma'am. I get them done myself, I monitor myself.",
+      "expected_response": "Self",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "23:00",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.10",
+      "question_text": "Was there any abnormal finding in Reports/Blood tests?",
+      "captured_response": "There's no difference in these tests, ma'am. I told you, there are slight variations, as I said earlier. It should be 150, but it might be 160, 170. They generally say 150. Around 160, 170, 180, then they decrease and increase, ma'am. There are no abnormalities, I told you. Due to my existing problem, triglycerides, which should be 150, go up to 160, 170, 180. They don't go beyond that.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, slight variations in triglycerides (160-180)",
+      "timestamp": "22:44",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.a",
+      "question_text": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years a)Any abnormal medical findings or pending test results, scheduled or planned or pre-scribed medical tests such as imaging scan reports (e.g. x-ray, ultrasound, MRI, PET scan, CT scan etc.), biopsy, electrocardiogram (ECG), treadmill, Mammography, Endo-scopy/Colonoscopy, PAP Smear, blood or urine test",
+      "captured_response": "Nothing, ma'am. I get tests done every six months or five months. I get lipid profile done. Okay. Then I get liver functioning tests done. Okay. I get urine tests done, blood in urine, I mean, I usually get sugar tests done. Then, I get our renal functioning tests done. There's no difference in these tests, ma'am. I told you, there are slight variations, as I said earlier. It should be 150, but it might be 160, 170. They generally say 150. Around 160, 170, 180, then they decrease and increase, ma'am. There are no abnormalities, I told you. Due to my existing problem, triglycerides, which should be 150, go up to 160, 170, 180. They don't go beyond that.",
+      "expected_response": "No",
+      "status": "Incorrect",
+      "error_type": "Incorrect Data",
+      "suggested_correction": "Yes, slight variations in triglycerides (160-180)",
+      "timestamp": "21:18",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.b",
+      "question_text": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years b) Medication or treatment that lasted more than 2 weeks or had been referred to a specialist doctor or hospital for any treatment/consultation and/or investigations (eg: Blood, ECG, MRI, Xray etc)",
+      "captured_response": "No, ma'am. No, no.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "23:51",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Other.c",
+      "question_text": "Other than what you have already told us, have you had a medical condition that has required any of the following within the last 5 years c) Inability to perform your daily activities or absent from work more than two 2 consec-utive weeks at a time",
+      "captured_response": "No, ma'am, nothing like that. I daily, normally, I never had problems that required me to take two weeks of rest.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "24:02",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "Hereditary",
+      "question_text": "Have you suffered from any congenital defect or disorder or hereditary disease such as cerebral palsy, Down's syndrome, poliomyelitis",
+      "captured_response": "No, ma'am, there are no hereditary diseases.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "24:21",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "STD",
+      "question_text": "Have you or your spouse or partner been told to undergo tests or treatment, or received any medical advice or counselling in connection with sexually transmitted diseases, including HIV and AIDS?",
+      "captured_response": "As far as I know, my wife passed away at 85.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "24:50",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    },
+    {
+      "question_id": "WeightChange",
+      "question_text": "Apart from what you have disclosed, are you experiencing any unexplained weight loss/gain or any sign/symptoms that you are likely to seek medical advice or treatment for or awaiting any surgical procedure.",
+      "captured_response": "Nothing at all, madam. I am still trying to lose weight; I'll lose one kg maximum. I'm not losing more than that. I want to reduce my weight. But it's not.",
+      "expected_response": "No",
+      "status": "Correct",
+      "error_type": null,
+      "suggested_correction": null,
+      "timestamp": "25:34",
+      "typo_in_expected_response": {
+        "has_typo": false,
+        "corrected_text": null
+      }
+    }
+  ],
+  "summary": {
+    "critical_issues": [
+      "Discrepancy in customer's name between transcript and MER.",
+      "Discrepancy in customer's current location between transcript and MER.",
+      "MER incorrectly records 'No' for triglycerides despite customer disclosing 'mild' and elevated levels.",
+      "MER incorrectly records 'No' for eye problems despite customer disclosing 'left eye sees a little blurry' (later confirmed as cataract).",
+      "MER incorrectly records 'No' for thyroid disorders despite customer disclosing 'Thyroidism, it's about six, six and a half'.",
+      "MER incorrectly records 'No' for abnormal findings in recent tests despite customer disclosing 'slight variations' in triglycerides."
+    ],
+    "recommendations": [
+      "Doctor should confirm and accurately record the customer's full name as per policy documents.",
+      "Doctor should confirm and accurately record the customer's current location.",
+      "Doctor should ensure all disclosed medical conditions, even if mild or self-managed, are accurately reflected in the MER.",
+      "Doctor should clarify the frequency and units of alcohol consumption to ensure accurate recording in MER.",
+      "Doctor should explicitly ask about annual health checkups and their findings, rather than inferring or marking 'Yes' when the customer states 'no other problems' for general health questions."
+    ]
+  },
+  "sentiment_analysis": {
+    "professional_tone": true,
+    "inappropriate_language": [],
+    "customer_satisfaction_indicators": [
+      "Customer is cooperative and provides detailed answers.",
+      "Customer expresses trust in the doctor's understanding ('You also would have understood. Whether I'm telling the truth or lying, it is clearly understood.').",
+      "Customer is patient during pauses ('Just a minute, sir, you take your own time.')."
+    ]
+  },
+  "data_validation": {
+    "height_cm": "167.64",
+    "weight_kg": "83",
+    "dates_mentioned": [
+      "15/9/1955",
+      "1995",
+      "45 days",
+      "50 days",
+      "3 months",
+      "20 years back",
+      "2020",
+      "2021",
+      "2022",
+      "one year",
+      "one and a half years",
+      "two months",
+      "two years ago",
+      "20-25 years ago",
+      "2018",
+      "six months",
+      "five months",
+      "two weeks"
+    ],
+    "medications": [
+      "health supplement",
+      "Ayurvedic medicine",
+      "two small tablets (from Srisailam)"
+    ],
+    "validation_errors": [
+      "Customer's name in transcript (Kolapudi Eswara Vijayakumar) differs from MER (Kolapudi Victor Vijaya Vara Kumar).",
+      "Customer's location in transcript (Kurnool) differs from MER (KHAMAM,TELANGANA,INDIA).",
+      "Alcohol consumption frequency in transcript (1-3 times a month) differs from MER (1 unit per week).",
+      "Customer disclosed mild triglycerides (180-190) and thyroidism (6-6.5), but MER recorded 'No' for these conditions and 'No' for abnormal findings in tests."
+    ]
+  },
+  "behavioral_flags": {
+    "prompting_detected": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    },
+    "customer_hesitation": {
+      "value": false,
+      "timestamps": [],
+      "examples": []
+    }
+  },
+  "documentation_quality": {
+    "spelling_errors_count": 1,
+    "typos_found": [
+      {
+        "field": "Lifestyle.3",
+        "original_text": "Liqour",
+        "corrected_text": "Liquor"
+      }
+    ],
+    "notes": "not evaluated in this step"
+  },
+  "technical_status": {
+    "recording_exists": true,
+    "audibility_level": "audible",
+    "avg_dbfs": -21.27
+  },
+  "video_analysis": {
+    "attire_check": "NA",
+    "visibility_status": "NA",
+    "privacy_maintained": "NA",
+    "screenshots": []
+  }
+}

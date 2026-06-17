@@ -1,0 +1,102 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of both calls.",
+      "timestamps": [
+        "00:00:05",
+        "00:06:14"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced themselves, stated the company name, and confirmed the client's name in both calls.",
+      "timestamps": {
+        "self_intro": "00:00:15",
+        "client_name": "00:01:48",
+        "insurer_name": "00:00:16"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not explicitly ask for the customer's language preference in either call.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested and verified the customer's ID proof and Aadhaar number in both calls.",
+      "timestamps": [
+        "00:02:25",
+        "00:03:01",
+        "00:07:15",
+        "00:07:59"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly explained the call recording, purpose, and implications of false statements in both calls.",
+      "timestamp": "00:00:30"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout both calls, using respectful language and apologies when necessary.",
+      "timestamps": [
+        "00:00:05",
+        "00:05:55",
+        "00:06:14",
+        "00:20:41"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The doctor apologized for the technical inconvenience in Call 1. The customer's asthma was controlled, not requiring explicit empathy per guidelines.",
+      "timestamps": [
+        "00:05:55",
+        "00:05:57"
+      ]
+    },
+    "communication_skills": {
+      "value": "Partial",
+      "explanation": "The doctor was generally clear but gave a blunt warning about movement (00:09:10) and had to repeat instructions for camera adjustment multiple times in Call 2.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:15",
+          "00:06:31",
+          "00:10:09"
+        ],
+        "poor_examples": [
+          "00:08:17",
+          "00:09:10"
+        ]
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor thoroughly probed the customer's asthma history, symptoms, and medication usage in Call 2.",
+      "timestamps": [
+        "00:11:30",
+        "00:12:00",
+        "00:12:41",
+        "00:13:18",
+        "00:13:45"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "Call 1 ended due to a technical issue. In Call 2, the customer struggled to provide a full body view and was warned about walking around.",
+      "timestamps": [
+        "00:05:55",
+        "00:08:17",
+        "00:09:10"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor provided a clear declaration and thanked the customer at the end of the successful verification call (Call 2).",
+      "timestamps": {
+        "declaration": "00:20:40",
+        "thank_you": "00:20:41"
+      }
+    }
+  }
+}

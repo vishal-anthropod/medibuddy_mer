@@ -1,0 +1,94 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer with 'Namaste'.",
+      "timestamps": [
+        "00:00:42"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the purpose of the call, mentioned the insurer's name, and asked for the client's full name.",
+      "timestamps": {
+        "self_intro": "00:00:42",
+        "client_name": "00:01:02",
+        "insurer_name": "00:00:53"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor confirmed the language preference multiple times with the customer.",
+      "timestamp": "00:00:35"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for the customer's full name, date of birth, husband's Aadhar number, and asked the customer to show and read the last four digits of their own Aadhar card.",
+      "timestamps": [
+        "00:01:02",
+        "00:01:33",
+        "00:02:17",
+        "00:04:23",
+        "00:04:46"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated that answers form a legal contract, wrong answers can lead to policy cancellation, and the call is being recorded.",
+      "timestamp": "00:00:42"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite and professional tone throughout the call, even when guiding the customer or addressing issues like prompting.",
+      "timestamps": [
+        "00:01:09",
+        "00:03:09"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were reported by the customer during the call.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor communicated clearly, rephrased questions when the customer misunderstood, and directly addressed instances of potential third-party prompting.",
+      "timestamps": {
+        "good_examples": [
+          "00:01:56",
+          "00:03:54",
+          "00:08:46"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor probed for clarification on the customer's weight, re-confirmed medication status, and patiently clarified questions about previous insurance applications.",
+      "timestamps": [
+        "00:06:05",
+        "00:06:14",
+        "00:08:31"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "There were multiple instances of potential third-party prompting, which the doctor actively identified and addressed, including a direct warning and asking the customer to have someone else hold the phone.",
+      "timestamps": [
+        "00:01:56",
+        "00:02:20",
+        "00:03:43",
+        "00:03:54",
+        "00:05:17"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor concluded the call by asking for a declaration of truthfulness and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:09:42",
+        "thank_you": "00:09:54"
+      }
+    }
+  }
+}

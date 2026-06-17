@@ -1,0 +1,75 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [
+    {
+      "issue": "Multiple typos in MER entries",
+      "details": {
+        "count": 10,
+        "examples": [
+          {
+            "id": "PP.Name",
+            "expected": "Karipe Kiran Kumar",
+            "corrected": "Karipa Kiran Kumar"
+          },
+          {
+            "id": "1",
+            "expected": "Karipe Kiran Kumar",
+            "corrected": "Karipa Kiran Kumar"
+          },
+          {
+            "id": "Declaration",
+            "expected": "You Karipe Kiran Kumar, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you.",
+            "corrected": "You Karipa Kiran Kumar, declare that, you have fully understood the questions asked to you as per this call and have furnished complete, true and accurate information after fully understanding the same. Sir/Mam' are you in agreement with the declaration that I have read out to you."
+          },
+          {
+            "id": "Lifestyle.3",
+            "expected": "Spirit/Hard Liqour",
+            "corrected": "Spirit/Hard Liquor"
+          },
+          {
+            "id": "Lifestyle.4",
+            "expected": "1",
+            "corrected": "In a week, How many unit of Hard liquor/spirit do you consume ? 1 unit of alcohol = 1 glass of spirits (44 ml)"
+          }
+        ]
+      }
+    },
+    {
+      "issue": "3+ spelling errors in MER",
+      "details": {
+        "count": 7
+      }
+    }
+  ],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer gives a long explanation about recent medical visit instead of a direct 'yes/no' answer for disease questions (00:06:21).",
+          "Customer misunderstands 'amount' for alcohol consumption, thinking it refers to cost (00:04:39).",
+          "Customer frequently asks the doctor to repeat questions ('Sorry?', 'Come again?') for disease-related questions and other complex queries."
+        ],
+        "timestamps": [
+          "00:01:18",
+          "00:06:11",
+          "00:06:21",
+          "00:08:12",
+          "00:08:47",
+          "00:09:11",
+          "00:11:40",
+          "00:12:48",
+          "00:18:29"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

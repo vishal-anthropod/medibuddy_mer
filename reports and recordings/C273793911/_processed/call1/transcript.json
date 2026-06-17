@@ -1,0 +1,886 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg001",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "00:00",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "seg002",
+      "text": "Hello.",
+      "speaker": "doctor",
+      "start_timestamp": "00:01",
+      "end_timestamp": "00:01"
+    },
+    {
+      "segment_id": "seg003",
+      "text": "Hello. Am I speaking to Kavita?",
+      "speaker": "doctor",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:05"
+    },
+    {
+      "segment_id": "seg004",
+      "text": "Yes, I am.",
+      "speaker": "customer",
+      "start_timestamp": "00:05",
+      "end_timestamp": "00:06"
+    },
+    {
+      "segment_id": "seg005",
+      "text": "Hello, am I speaking to Kavita?",
+      "speaker": "doctor",
+      "start_timestamp": "00:06",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "seg006",
+      "text": "Yes, I am speaking.",
+      "speaker": "customer",
+      "start_timestamp": "00:09",
+      "end_timestamp": "00:10"
+    },
+    {
+      "segment_id": "seg007",
+      "text": "Ma'am, Dr. Govind is calling. I'm calling on behalf of Tata AIA. This is with reference to your insurance policy, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "00:10",
+      "end_timestamp": "00:18"
+    },
+    {
+      "segment_id": "seg008",
+      "text": "Ma'am, should I continue this in English or Hindi?",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:20"
+    },
+    {
+      "segment_id": "seg009",
+      "text": "No, you can continue in Hindi.",
+      "speaker": "customer",
+      "start_timestamp": "00:21",
+      "end_timestamp": "00:23"
+    },
+    {
+      "segment_id": "seg010",
+      "text": "Okay. So ma'am, to proceed with this proposal, we need to conduct a telephonic medical verification. In this, I will ask you some verification and medical history questions.",
+      "speaker": "doctor",
+      "start_timestamp": "00:24",
+      "end_timestamp": "00:33"
+    },
+    {
+      "segment_id": "seg011",
+      "text": "Please note that whatever reply or information you provide during this call will be recorded.",
+      "speaker": "doctor",
+      "start_timestamp": "00:34",
+      "end_timestamp": "00:41"
+    },
+    {
+      "segment_id": "seg012",
+      "text": "Whatever information you provide during this call will remain confidential between you and Tata AIA.",
+      "speaker": "doctor",
+      "start_timestamp": "00:43",
+      "end_timestamp": "00:49"
+    },
+    {
+      "segment_id": "seg013",
+      "text": "If any wrong or false statement or reply is given, it will impact the contract, and due to that, the policy can be canceled before or after its issuance, even claims can be rejected.",
+      "speaker": "doctor",
+      "start_timestamp": "00:50",
+      "end_timestamp": "01:00"
+    },
+    {
+      "segment_id": "seg014",
+      "text": "So you are requested to think carefully and answer truthfully whatever you say.",
+      "speaker": "doctor",
+      "start_timestamp": "01:00",
+      "end_timestamp": "01:04"
+    },
+    {
+      "segment_id": "seg015",
+      "text": "This telephonic conversation is being recorded for quality and audit purposes. For verification, all your details are available in the system in front of me.",
+      "speaker": "doctor",
+      "start_timestamp": "01:04",
+      "end_timestamp": "01:11"
+    },
+    {
+      "segment_id": "seg016",
+      "text": "So let's start, may I know your full name, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:14"
+    },
+    {
+      "segment_id": "seg017",
+      "text": "Yes, ma'am, my full name is Kavita.",
+      "speaker": "customer",
+      "start_timestamp": "01:15",
+      "end_timestamp": "01:17"
+    },
+    {
+      "segment_id": "seg018",
+      "text": "Okay. Your date of birth?",
+      "speaker": "doctor",
+      "start_timestamp": "01:18",
+      "end_timestamp": "01:20"
+    },
+    {
+      "segment_id": "seg019",
+      "text": "20th January 1992.",
+      "speaker": "customer",
+      "start_timestamp": "01:20",
+      "end_timestamp": "01:22"
+    },
+    {
+      "segment_id": "seg020",
+      "text": "Okay, ma'am, your educational qualification?",
+      "speaker": "doctor",
+      "start_timestamp": "01:23",
+      "end_timestamp": "01:25"
+    },
+    {
+      "segment_id": "seg021",
+      "text": "BSc B.Ed.",
+      "speaker": "customer",
+      "start_timestamp": "01:26",
+      "end_timestamp": "01:27"
+    },
+    {
+      "segment_id": "seg022",
+      "text": "Okay. Ma'am, what do you do now?",
+      "speaker": "doctor",
+      "start_timestamp": "01:29",
+      "end_timestamp": "01:32"
+    },
+    {
+      "segment_id": "seg023",
+      "text": "I am a teacher, a government teacher.",
+      "speaker": "customer",
+      "start_timestamp": "01:32",
+      "end_timestamp": "01:34"
+    },
+    {
+      "segment_id": "seg024",
+      "text": "Oh, so you are a salaried employee, and you have a government job?",
+      "speaker": "doctor",
+      "start_timestamp": "01:34",
+      "end_timestamp": "01:37"
+    },
+    {
+      "segment_id": "seg025",
+      "text": "Yes, a government job.",
+      "speaker": "customer",
+      "start_timestamp": "01:38",
+      "end_timestamp": "01:40"
+    },
+    {
+      "segment_id": "seg026",
+      "text": "Ma'am, any ID proof, Aadhaar, PAN, passport, anything will do.",
+      "speaker": "doctor",
+      "start_timestamp": "01:41",
+      "end_timestamp": "01:44"
+    },
+    {
+      "segment_id": "seg027",
+      "text": "I have everything, Aadhaar, PAN.",
+      "speaker": "customer",
+      "start_timestamp": "01:46",
+      "end_timestamp": "01:48"
+    },
+    {
+      "segment_id": "seg028",
+      "text": "Okay, ma'am, please tell me the number of any one.",
+      "speaker": "doctor",
+      "start_timestamp": "01:48",
+      "end_timestamp": "01:51"
+    },
+    {
+      "segment_id": "seg029",
+      "text": "Aadhaar card number is...",
+      "speaker": "customer",
+      "start_timestamp": "01:52",
+      "end_timestamp": "01:53"
+    },
+    {
+      "segment_id": "seg030",
+      "text": "Yes, please tell.",
+      "speaker": "doctor",
+      "start_timestamp": "01:53",
+      "end_timestamp": "01:54"
+    },
+    {
+      "segment_id": "seg031",
+      "text": "9432",
+      "speaker": "customer",
+      "start_timestamp": "01:55",
+      "end_timestamp": "01:56"
+    },
+    {
+      "segment_id": "seg032",
+      "text": "One moment. 9432?",
+      "speaker": "doctor",
+      "start_timestamp": "01:57",
+      "end_timestamp": "01:59"
+    },
+    {
+      "segment_id": "seg033",
+      "text": "Yes, 8535.",
+      "speaker": "customer",
+      "start_timestamp": "01:59",
+      "end_timestamp": "02:01"
+    },
+    {
+      "segment_id": "seg034",
+      "text": "8535?",
+      "speaker": "doctor",
+      "start_timestamp": "02:03",
+      "end_timestamp": "02:05"
+    },
+    {
+      "segment_id": "seg035",
+      "text": "Yes, 54.",
+      "speaker": "customer",
+      "start_timestamp": "02:05",
+      "end_timestamp": "02:07"
+    },
+    {
+      "segment_id": "seg036",
+      "text": "Hmm.",
+      "speaker": "doctor",
+      "start_timestamp": "02:08",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "seg037",
+      "text": "39.",
+      "speaker": "customer",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:10"
+    },
+    {
+      "segment_id": "seg038",
+      "text": "Okay, ma'am. Ma'am, your current location, where are you talking from now? Please tell the name of the city and state.",
+      "speaker": "doctor",
+      "start_timestamp": "02:12",
+      "end_timestamp": "02:17"
+    },
+    {
+      "segment_id": "seg039",
+      "text": "I am speaking from District Chamba, Himachal Pradesh.",
+      "speaker": "customer",
+      "start_timestamp": "02:18",
+      "end_timestamp": "02:20"
+    },
+    {
+      "segment_id": "seg040",
+      "text": "Okay, ma'am, the state is Himachal Pradesh, and what is the city name?",
+      "speaker": "doctor",
+      "start_timestamp": "02:21",
+      "end_timestamp": "02:24"
+    },
+    {
+      "segment_id": "seg041",
+      "text": "District Chamba.",
+      "speaker": "customer",
+      "start_timestamp": "02:25",
+      "end_timestamp": "02:26"
+    },
+    {
+      "segment_id": "seg042",
+      "text": "District. Okay, what city should I mention, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "02:30",
+      "end_timestamp": "02:32"
+    },
+    {
+      "segment_id": "seg043",
+      "text": "The city is Salooni. Salooni.",
+      "speaker": "customer",
+      "start_timestamp": "02:33",
+      "end_timestamp": "02:35"
+    },
+    {
+      "segment_id": "seg044",
+      "text": "Okay, can you spell Salooni, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "02:35",
+      "end_timestamp": "02:37"
+    },
+    {
+      "segment_id": "seg045",
+      "text": "S. A. L. O. O. N. I.",
+      "speaker": "customer",
+      "start_timestamp": "02:37",
+      "end_timestamp": "02:40"
+    },
+    {
+      "segment_id": "seg046",
+      "text": "Salooni, Himachal Pradesh.",
+      "speaker": "doctor",
+      "start_timestamp": "02:42",
+      "end_timestamp": "02:43"
+    },
+    {
+      "segment_id": "seg047",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "02:44",
+      "end_timestamp": "02:44"
+    },
+    {
+      "segment_id": "seg048",
+      "text": "Okay, ma'am, now I will ask you health-related questions. Please answer in yes or no.",
+      "speaker": "doctor",
+      "start_timestamp": "02:49",
+      "end_timestamp": "02:54"
+    },
+    {
+      "segment_id": "seg049",
+      "text": "Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "02:55",
+      "end_timestamp": "02:56"
+    },
+    {
+      "segment_id": "seg050",
+      "text": "Okay, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "02:56",
+      "end_timestamp": "02:57"
+    },
+    {
+      "segment_id": "seg051",
+      "text": "Ma'am, is your health fine now?",
+      "speaker": "doctor",
+      "start_timestamp": "02:57",
+      "end_timestamp": "02:59"
+    },
+    {
+      "segment_id": "seg052",
+      "text": "Yes, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:00",
+      "end_timestamp": "03:01"
+    },
+    {
+      "segment_id": "seg053",
+      "text": "Are you currently taking any kind of medicine?",
+      "speaker": "doctor",
+      "start_timestamp": "03:01",
+      "end_timestamp": "03:03"
+    },
+    {
+      "segment_id": "seg054",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:04",
+      "end_timestamp": "03:04"
+    },
+    {
+      "segment_id": "seg055",
+      "text": "What is your height?",
+      "speaker": "doctor",
+      "start_timestamp": "03:05",
+      "end_timestamp": "03:06"
+    },
+    {
+      "segment_id": "seg056",
+      "text": "5'3\".",
+      "speaker": "customer",
+      "start_timestamp": "03:07",
+      "end_timestamp": "03:08"
+    },
+    {
+      "segment_id": "seg057",
+      "text": "5 feet 3 inches.",
+      "speaker": "doctor",
+      "start_timestamp": "03:09",
+      "end_timestamp": "03:10"
+    },
+    {
+      "segment_id": "seg058",
+      "text": "Yes.",
+      "speaker": "customer",
+      "start_timestamp": "03:11",
+      "end_timestamp": "03:11"
+    },
+    {
+      "segment_id": "seg059",
+      "text": "One moment.",
+      "speaker": "doctor",
+      "start_timestamp": "03:16",
+      "end_timestamp": "03:16"
+    },
+    {
+      "segment_id": "seg060",
+      "text": "Your weight is?",
+      "speaker": "doctor",
+      "start_timestamp": "03:19",
+      "end_timestamp": "03:20"
+    },
+    {
+      "segment_id": "seg061",
+      "text": "Weight 52.",
+      "speaker": "customer",
+      "start_timestamp": "03:21",
+      "end_timestamp": "03:22"
+    },
+    {
+      "segment_id": "seg062",
+      "text": "52 kg.",
+      "speaker": "doctor",
+      "start_timestamp": "03:23",
+      "end_timestamp": "03:24"
+    },
+    {
+      "segment_id": "seg063",
+      "text": "Ma'am, in the last six months, has your weight increased or decreased by more than 10 kg?",
+      "speaker": "doctor",
+      "start_timestamp": "03:24",
+      "end_timestamp": "03:28"
+    },
+    {
+      "segment_id": "seg064",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:29",
+      "end_timestamp": "03:29"
+    },
+    {
+      "segment_id": "seg065",
+      "text": "Do you consume tobacco, like cigarettes, beedi, paan, gutka, now or before?",
+      "speaker": "doctor",
+      "start_timestamp": "03:30",
+      "end_timestamp": "03:35"
+    },
+    {
+      "segment_id": "seg066",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:36",
+      "end_timestamp": "03:36"
+    },
+    {
+      "segment_id": "seg067",
+      "text": "Do you consume narcotics or drugs?",
+      "speaker": "doctor",
+      "start_timestamp": "03:37",
+      "end_timestamp": "03:39"
+    },
+    {
+      "segment_id": "seg068",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:39",
+      "end_timestamp": "03:40"
+    },
+    {
+      "segment_id": "seg069",
+      "text": "Have you been diagnosed or treated, or is treatment ongoing, or have you had surgery for diabetes, high blood sugar?",
+      "speaker": "doctor",
+      "start_timestamp": "03:41",
+      "end_timestamp": "03:45"
+    },
+    {
+      "segment_id": "seg070",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:46",
+      "end_timestamp": "03:46"
+    },
+    {
+      "segment_id": "seg071",
+      "text": "High blood pressure, hypertension, elevated cholesterol, lipids?",
+      "speaker": "doctor",
+      "start_timestamp": "03:47",
+      "end_timestamp": "03:51"
+    },
+    {
+      "segment_id": "seg072",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:51",
+      "end_timestamp": "03:52"
+    },
+    {
+      "segment_id": "seg073",
+      "text": "Chest pain, heart attack, any heart disease?",
+      "speaker": "doctor",
+      "start_timestamp": "03:53",
+      "end_timestamp": "03:55"
+    },
+    {
+      "segment_id": "seg074",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "03:55",
+      "end_timestamp": "03:56"
+    },
+    {
+      "segment_id": "seg075",
+      "text": "Any lung respiratory disease, urine kidney disease, liver gastric disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "03:56",
+      "end_timestamp": "04:00"
+    },
+    {
+      "segment_id": "seg076",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:01",
+      "end_timestamp": "04:01"
+    },
+    {
+      "segment_id": "seg077",
+      "text": "Cancer, tumor of any kind?",
+      "speaker": "doctor",
+      "start_timestamp": "04:02",
+      "end_timestamp": "04:03"
+    },
+    {
+      "segment_id": "seg078",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:04",
+      "end_timestamp": "04:04"
+    },
+    {
+      "segment_id": "seg079",
+      "text": "Are you married?",
+      "speaker": "doctor",
+      "start_timestamp": "04:05",
+      "end_timestamp": "04:06"
+    },
+    {
+      "segment_id": "seg080",
+      "text": "Yes, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:07",
+      "end_timestamp": "04:07"
+    },
+    {
+      "segment_id": "seg081",
+      "text": "So, ma'am, have you or your husband ever tested positive or received treatment for HIV, AIDS, or sexually transmitted diseases?",
+      "speaker": "doctor",
+      "start_timestamp": "04:08",
+      "end_timestamp": "04:15"
+    },
+    {
+      "segment_id": "seg082",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:16",
+      "end_timestamp": "04:16"
+    },
+    {
+      "segment_id": "seg083",
+      "text": "Have you been diagnosed or treated, or is treatment ongoing, or have you had surgery for any accidental injury, disability, or impairment?",
+      "speaker": "doctor",
+      "start_timestamp": "04:17",
+      "end_timestamp": "04:23"
+    },
+    {
+      "segment_id": "seg084",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:24",
+      "end_timestamp": "04:24"
+    },
+    {
+      "segment_id": "seg085",
+      "text": "Do you have or have you had any other health condition or received treatment for which I haven't asked yet?",
+      "speaker": "doctor",
+      "start_timestamp": "04:25",
+      "end_timestamp": "04:31"
+    },
+    {
+      "segment_id": "seg086",
+      "text": "No, ma'am, nothing so far.",
+      "speaker": "customer",
+      "start_timestamp": "04:32",
+      "end_timestamp": "04:33"
+    },
+    {
+      "segment_id": "seg087",
+      "text": "Okay. Have you undergone any investigations recently, like blood tests, urine tests, X-rays, ECG, CT scans, or MRI?",
+      "speaker": "doctor",
+      "start_timestamp": "04:34",
+      "end_timestamp": "04:40"
+    },
+    {
+      "segment_id": "seg088",
+      "text": "No, ma'am, it's been a long time, haven't had any.",
+      "speaker": "customer",
+      "start_timestamp": "04:41",
+      "end_timestamp": "04:43"
+    },
+    {
+      "segment_id": "seg089",
+      "text": "Okay. Ma'am, in the last five years, have you ever been admitted to the hospital for any illness, sickness, disease, injury, accident, or disorder?",
+      "speaker": "doctor",
+      "start_timestamp": "04:44",
+      "end_timestamp": "04:51"
+    },
+    {
+      "segment_id": "seg090",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:52",
+      "end_timestamp": "04:52"
+    },
+    {
+      "segment_id": "seg091",
+      "text": "Okay. Ma'am, are you currently pregnant?",
+      "speaker": "doctor",
+      "start_timestamp": "04:53",
+      "end_timestamp": "04:57"
+    },
+    {
+      "segment_id": "seg092",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "04:58",
+      "end_timestamp": "04:58"
+    },
+    {
+      "segment_id": "seg093",
+      "text": "I have a daughter.",
+      "speaker": "customer",
+      "start_timestamp": "04:59",
+      "end_timestamp": "05:00"
+    },
+    {
+      "segment_id": "seg094",
+      "text": "Okay. Ma'am, how old is your daughter?",
+      "speaker": "doctor",
+      "start_timestamp": "05:01",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "seg095",
+      "text": "How old is your daughter?",
+      "speaker": "doctor",
+      "start_timestamp": "05:06",
+      "end_timestamp": "05:07"
+    },
+    {
+      "segment_id": "seg096",
+      "text": "Two years old.",
+      "speaker": "customer",
+      "start_timestamp": "05:08",
+      "end_timestamp": "05:08"
+    },
+    {
+      "segment_id": "seg097",
+      "text": "Two years old.",
+      "speaker": "doctor",
+      "start_timestamp": "05:09",
+      "end_timestamp": "05:10"
+    },
+    {
+      "segment_id": "seg098",
+      "text": "That means, ma'am, two years ago, was it a C-section or a normal delivery?",
+      "speaker": "doctor",
+      "start_timestamp": "05:10",
+      "end_timestamp": "05:16"
+    },
+    {
+      "segment_id": "seg099",
+      "text": "Normal, normal delivery.",
+      "speaker": "customer",
+      "start_timestamp": "05:16",
+      "end_timestamp": "05:18"
+    },
+    {
+      "segment_id": "seg100",
+      "text": "Okay, it was in the hospital?",
+      "speaker": "doctor",
+      "start_timestamp": "05:18",
+      "end_timestamp": "05:20"
+    },
+    {
+      "segment_id": "seg101",
+      "text": "Yes, it was in the hospital.",
+      "speaker": "customer",
+      "start_timestamp": "05:20",
+      "end_timestamp": "05:22"
+    },
+    {
+      "segment_id": "seg102",
+      "text": "Okay, so you were hospitalized then?",
+      "speaker": "doctor",
+      "start_timestamp": "05:22",
+      "end_timestamp": "05:24"
+    },
+    {
+      "segment_id": "seg103",
+      "text": "For how many days were you hospitalized, ma'am?",
+      "speaker": "doctor",
+      "start_timestamp": "05:25",
+      "end_timestamp": "05:27"
+    },
+    {
+      "segment_id": "seg104",
+      "text": "Perhaps two days, two or three days.",
+      "speaker": "customer",
+      "start_timestamp": "05:28",
+      "end_timestamp": "05:30"
+    },
+    {
+      "segment_id": "seg105",
+      "text": "Okay. Can you tell me the exact date when your daughter's birthday is?",
+      "speaker": "doctor",
+      "start_timestamp": "05:31",
+      "end_timestamp": "05:36"
+    },
+    {
+      "segment_id": "seg106",
+      "text": "9th August, 9th August.",
+      "speaker": "customer",
+      "start_timestamp": "05:37",
+      "end_timestamp": "05:38"
+    },
+    {
+      "segment_id": "seg107",
+      "text": "Okay, 9th August.",
+      "speaker": "doctor",
+      "start_timestamp": "05:38",
+      "end_timestamp": "05:41"
+    },
+    {
+      "segment_id": "seg108",
+      "text": "Yes. 9th August, two years ago, meaning 2023?",
+      "speaker": "customer",
+      "start_timestamp": "05:41",
+      "end_timestamp": "05:45"
+    },
+    {
+      "segment_id": "seg109",
+      "text": "23.",
+      "speaker": "customer",
+      "start_timestamp": "05:45",
+      "end_timestamp": "05:46"
+    },
+    {
+      "segment_id": "seg110",
+      "text": "Okay. Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "05:46",
+      "end_timestamp": "05:48"
+    },
+    {
+      "segment_id": "seg111",
+      "text": "After that, there were no complications, right?",
+      "speaker": "doctor",
+      "start_timestamp": "06:16",
+      "end_timestamp": "06:18"
+    },
+    {
+      "segment_id": "seg112",
+      "text": "No, ma'am. No.",
+      "speaker": "customer",
+      "start_timestamp": "06:19",
+      "end_timestamp": "06:20"
+    },
+    {
+      "segment_id": "seg113",
+      "text": "Okay. Ma'am, have you undergone any gynecological investigations recently, such as for problems in the breasts, uterus, cervix, or have you been advised for a Pap smear or mammogram?",
+      "speaker": "doctor",
+      "start_timestamp": "06:39",
+      "end_timestamp": "06:49"
+    },
+    {
+      "segment_id": "seg114",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "06:50",
+      "end_timestamp": "06:50"
+    },
+    {
+      "segment_id": "seg115",
+      "text": "Okay. Have you ever consulted a doctor because you felt there was irregularity in your breast, vagina, uterus, ovary, fallopian tube, menstruation, or complications during pregnancy, childbirth, or sexually transmitted diseases?",
+      "speaker": "doctor",
+      "start_timestamp": "06:51",
+      "end_timestamp": "07:04"
+    },
+    {
+      "segment_id": "seg116",
+      "text": "No, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "07:05",
+      "end_timestamp": "07:05"
+    },
+    {
+      "segment_id": "seg117",
+      "text": "Okay. Do you want to share anything else about your health habits or anything?",
+      "speaker": "doctor",
+      "start_timestamp": "07:06",
+      "end_timestamp": "07:09"
+    },
+    {
+      "segment_id": "seg118",
+      "text": "No, ma'am, my health is completely fine so far.",
+      "speaker": "customer",
+      "start_timestamp": "07:10",
+      "end_timestamp": "07:12"
+    },
+    {
+      "segment_id": "seg119",
+      "text": "Okay, ma'am. So, ma'am, do you declare and agree that all the answers you have given to these questions are complete and true?",
+      "speaker": "doctor",
+      "start_timestamp": "07:12",
+      "end_timestamp": "07:18"
+    },
+    {
+      "segment_id": "seg120",
+      "text": "Yes, ma'am.",
+      "speaker": "customer",
+      "start_timestamp": "07:19",
+      "end_timestamp": "07:19"
+    },
+    {
+      "segment_id": "seg121",
+      "text": "Then all these responses will become a part of your policy record. Thank you, ma'am, for the information and cooperation.",
+      "speaker": "doctor",
+      "start_timestamp": "07:20",
+      "end_timestamp": "07:25"
+    },
+    {
+      "segment_id": "seg122",
+      "text": "Ma'am, you will receive a feedback mail. Kindly fill it and submit it, ma'am.",
+      "speaker": "doctor",
+      "start_timestamp": "07:25",
+      "end_timestamp": "07:29"
+    },
+    {
+      "segment_id": "seg123",
+      "text": "Okay.",
+      "speaker": "customer",
+      "start_timestamp": "07:30",
+      "end_timestamp": "07:30"
+    },
+    {
+      "segment_id": "seg124",
+      "text": "Thank you.",
+      "speaker": "customer",
+      "start_timestamp": "07:30",
+      "end_timestamp": "07:31"
+    },
+    {
+      "segment_id": "seg125",
+      "text": "Okay, ma'am. Thank you for your time. Namaste.",
+      "speaker": "doctor",
+      "start_timestamp": "07:31",
+      "end_timestamp": "07:33"
+    },
+    {
+      "segment_id": "seg126",
+      "text": "Thank you.",
+      "speaker": "customer",
+      "start_timestamp": "07:34",
+      "end_timestamp": "07:35"
+    }
+  ]
+}

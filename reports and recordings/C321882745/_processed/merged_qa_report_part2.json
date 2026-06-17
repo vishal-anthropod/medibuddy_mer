@@ -1,0 +1,94 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor greeted the customer at the beginning of the call.",
+      "timestamps": [
+        "00:00:04"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:08",
+        "client_name": "00:00:14",
+        "insurer_name": "00:00:09"
+      }
+    },
+    "language_preference": {
+      "value": "Yes",
+      "explanation": "The doctor asked the customer if they were comfortable in English.",
+      "timestamp": "00:00:11"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor asked for a government ID proof and requested the customer to read out their PAN number for verification.",
+      "timestamps": [
+        "00:01:40",
+        "00:01:46"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor clearly stated that the call was recorded and explained the implications of providing incorrect information.",
+      "timestamp": "00:00:28"
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor maintained a polite tone throughout the call, using 'sir' and 'ma'am' appropriately.",
+      "timestamps": [
+        "00:00:04",
+        "00:12:36"
+      ]
+    },
+    "empathy": {
+      "value": "Yes",
+      "explanation": "The customer disclosed bronchial asthma and a Lasik operation, neither of which were presented as serious health concerns requiring explicit empathy. The doctor maintained a professional and supportive tone.",
+      "timestamps": []
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor's communication was clear, articulate, and easy to understand. She actively listened and confirmed information.",
+      "timestamps": {
+        "good_examples": [
+          "00:00:08",
+          "00:00:28",
+          "00:00:50",
+          "00:05:06",
+          "00:05:51",
+          "00:09:39"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor thoroughly probed the customer's disclosed conditions (bronchial asthma and Lasik operation) by asking detailed follow-up questions.",
+      "timestamps": [
+        "00:04:10",
+        "00:04:54",
+        "00:05:14",
+        "00:05:36",
+        "00:06:14",
+        "00:08:54",
+        "00:09:08",
+        "00:09:22",
+        "00:09:39"
+      ]
+    },
+    "observations": {
+      "value": "NA",
+      "explanation": "There was no evidence of customer hesitation (refusal to answer, no answer, or repeated evasion) or third-party prompting during the call.",
+      "timestamps": []
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained a declaration from the customer regarding the truthfulness of their answers and thanked them for their cooperation.",
+      "timestamps": {
+        "declaration": "00:12:25",
+        "thank_you": "00:12:36"
+      }
+    }
+  }
+}

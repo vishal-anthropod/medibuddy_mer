@@ -1,402 +1,1889 @@
 {
   "bucket": "anthropod",
-  "key_prefix": "temp/medibuddy",
-  "total_files": 49,
-  "total_bytes": 338427113,
-  "elapsed_seconds": 24.65,
+  "key_prefix": "temp/tata_aia",
+  "total_files": 235,
+  "total_bytes": 9691792816,
+  "elapsed_seconds": 910.92,
   "items": [
     {
-      "local_path": "medibuddy_sample_call_1 (2) (1).wav",
+      "local_path": "reports and recordings/U215147046AD0/U215147046AD0_call2.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/medibuddy_sample_call_1 (2) (1).wav",
-      "content_type": "audio/x-wav",
-      "size_bytes": 826391,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/medibuddy_sample_call_1%20%282%29%20%281%29.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b4296ef2c51f4038d43a05d10be927486afb63b40f6c2666e295541e8d585035"
+      "key": "temp/tata_aia/reports and recordings/U215147046AD0/U215147046AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 138719,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215147046AD0/U215147046AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091733Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=679e3042f6746ce11b71e355972c1964ae0e99001929a016687291d6c45aaebd"
     },
     {
-      "local_path": "mer_document.pdf",
+      "local_path": "reports and recordings/U215147046AD0/U215147046AD0_call1.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/mer_document.pdf",
+      "key": "temp/tata_aia/reports and recordings/U215147046AD0/U215147046AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 722567,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215147046AD0/U215147046AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091733Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=24cb6584772cc5f14be129969257d3ae384965625fb8cfd94ab8da6e0b27b90f"
+    },
+    {
+      "local_path": "reports and recordings/U215147046AD0/U215147046AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U215147046AD0/U215147046AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 161563,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/mer_document.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f9e851f7bbf73c7f15d9d7c09d09e4530e84af2ad4b2ed3d9881c437a65538a8"
+      "size_bytes": 79215,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215147046AD0/U215147046AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091733Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f17a26ead9444ef825bdba3c54e7aeb8e68e16aa137979e7f2f08adb98bfe345"
     },
     {
-      "local_path": "POC Requirement.pdf",
+      "local_path": "reports and recordings/C307730581/C307730581_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/POC Requirement.pdf",
+      "key": "temp/tata_aia/reports and recordings/C307730581/C307730581_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 571929,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/POC%20Requirement.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d64bd574af5cfa71839924c9c5f44dcaea901d1bebc1ef835f34be967cfa116a"
+      "size_bytes": 77156,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307730581/C307730581_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091734Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=287761f75873642c2dcc6beea863ff3efb3e1c118e3a2f14dd2f731f0f0a045b"
     },
     {
-      "local_path": "reports and recordings/MOCK30704_MER.pdf",
+      "local_path": "reports and recordings/C307730581/C307730581_call1.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK30704_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 140794,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e3849ece587a55f0681dc62e5822a5307f9f8f2b58c780a249638aaaa5e0431d"
+      "key": "temp/tata_aia/reports and recordings/C307730581/C307730581_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 513911,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307730581/C307730581_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091734Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1836e0ae8754d18770b84ac21519efba7d4d6e99ab228f5aac6403f8e46619ad"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "local_path": "reports and recordings/U190672089AD0/U190672089AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "key": "temp/tata_aia/reports and recordings/U190672089AD0/U190672089AD0_call1.mp4",
       "content_type": "video/mp4",
-      "size_bytes": 6383631,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f8b61a7bc9771e1a1b1433e07580d92a8105dd374405f2a2839a229a6c8725e"
+      "size_bytes": 87691446,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U190672089AD0/U190672089AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091742Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d6a81be417941003a942189215a0d2a790c2473777d7809160607ebaee6e8896"
     },
     {
-      "local_path": "reports and recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
+      "local_path": "reports and recordings/U190672089AD0/U190672089AD0_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 628895,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=26a677e36a621da31559bcb074a28cf639da2c0a9e9bd8cb4fb57f304b39573b"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX41003_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/U190672089AD0/U190672089AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 198624,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=96aa3895619ab28e5a10e3f780e2d97d96d7101dbce5ec98b80d89626a1389b0"
+      "size_bytes": 468230,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U190672089AD0/U190672089AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091743Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=510fcb1bb259b4a18d09d124c4ac5f7731afd5d72a4f5f2b452c612a958d95b9"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "local_path": "reports and recordings/C330956756/C330956756_call2.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "key": "temp/tata_aia/reports and recordings/C330956756/C330956756_call2.mp3",
       "content_type": "audio/mpeg",
-      "size_bytes": 30646,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=20579f1fa68e07f6c9f98d32e39a447d94693cd7d1ed6e76fccc2b0d925e2150"
+      "size_bytes": 977879,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C330956756/C330956756_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091743Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b303bf8de1d8deea29b492b099b2be2227da6797c5a0c80b6bf504f11ba89e8"
     },
     {
-      "local_path": "reports and recordings/MOCK2KOTAK40937_MER.pdf",
+      "local_path": "reports and recordings/C330956756/C330956756_call1.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C330956756/C330956756_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 229870,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C330956756/C330956756_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091743Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1f1a6cedad5293dccb3762077a58a6cbd124c554c4fb29e7272b2ce8ad4cae4"
+    },
+    {
+      "local_path": "reports and recordings/C330956756/C330956756_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C330956756/C330956756_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 88662,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=50eb34a6c8ce2e7a76e83b399ff2916d5bb42c80affc9e248bf4038cc02eeb02"
+      "size_bytes": 139787,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C330956756/C330956756_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091743Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=adff4750b662c0b0c555e4840dac1f5741e42702d439250b2b834c16dd9a6027"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX34152_MER.pdf",
+      "local_path": "reports and recordings/C288061939AD0/C288061939AD0_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C288061939AD0/C288061939AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 182402,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=64ae27130a52595c97dd369d256ddb02de1ea3491180ad98c6b168ee7874b090"
+      "size_bytes": 362123,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C288061939AD0/C288061939AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091743Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=461e18c89392055e5715be22a1fda2c8c5c62340d281b51f5a5af237486d3c52"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
+      "local_path": "reports and recordings/C288061939AD0/C288061939AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1041312,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4ce0d7a864e1dab6d0fb05d91670f3c9441c2afc85951d66f247cec5d7bfa72"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 10,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=40928c777aca42489271872244acf3527398cacfb45ac014ee2c89c960f52339"
-    },
-    {
-      "local_path": "reports and recordings/Mock123Tata_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 679261,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=373daeb62b096d4b33f6e590646190b6ead0493c50ffa755381a3734bffd6aa3"
-    },
-    {
-      "local_path": "reports and recordings/MOCK29001_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK29001_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 176192,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=715523061c378e3ee0dae1594d1c495d3b757da744b2b2d8ff4e5b8bfa3f3cee"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1845120,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f424307b98863e7014087c14bd37d4e8a2ae4e017670e4422d64ac7ac58bc0ca"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 671879,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f218a6a3dc1e8640c7e6cf411775bc1b61917af6b877724ee195713db666b5d8"
-    },
-    {
-      "local_path": "reports and recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1135344,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704_922f03321def6821840bd0138974192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=68c3552d2f4a7ee8bcdc28a5b1c7f1c67fd08f8f3055554e886c028aae272208"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2KOTAK40976_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 83650,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a0b3d9ef002178f84fdb973e6785bd82f83abf390c8f7179692488c9550cd28e"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2BAJAJ40933_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 166403,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=16540a1950526dd9af752d9aff9706ea7c3ecec4585b699bb70da2bffa79d930"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 27334,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a76e73c0a4326fba736c4cb7f28800d433acb296c75940270211cb088674a21f"
-    },
-    {
-      "local_path": "reports and recordings/Mock123Tata.mp4",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata.mp4",
+      "key": "temp/tata_aia/reports and recordings/C288061939AD0/C288061939AD0_call1.mp4",
       "content_type": "video/mp4",
-      "size_bytes": 142356145,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6281088cd6dc0804e254870e209606cebc523770b2bb390bcb1c5414d2576804"
+      "size_bytes": 274450530,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C288061939AD0/C288061939AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091807Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=708e76818113213a53e68f4e2aefb04e5da77ff92bab1c573ef70e197959fab5"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX40980_MER.pdf",
+      "local_path": "reports and recordings/C278817274/C278817274_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 158752,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a62c440c3d3f9ab6fe6ab4f94d50cdf8613f05dbc4f491fe28a598c155b6d5c5"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 880031,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ebc9a13523f5b62337c9aadf1368806f787dbe9bd2df2330202f090e2d841e6c"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX38781_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 147797,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ca5c28bd4cb83e7a0d9fa093f6f852df581e231b631ab145611582a8a03bb6d5"
-    },
-    {
-      "local_path": "reports and recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 28342,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a39141fb88b350e200d08d602d2e7cd6534dcc90441e470dc3d509d787040fcd"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 27334,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781/MOCK2MAX38781_01e0ebcb47f8c665a64f711ba190192o.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e538e4ec9c0e72d19050db7a1b524af3371a1fb982fe73f84a9011528089da31"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 147797,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX38781/MOCK2MAX38781_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4a0da15365f42721a53f4b523a0f986aaf197ea77f56934e4cd52baa20778006"
-    },
-    {
-      "local_path": "reports and recordings/MOCK30704/MOCK30704_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK30704/MOCK30704_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 140794,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704/MOCK30704_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dcdbb9dffab0f6d3d76d9458aff360fff8aca72997ae50d765ddf5c5604e1ca4"
-    },
-    {
-      "local_path": "reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1135344,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK30704/MOCK30704_922f03321def6821840bd0138974192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4c97cfff531888e0cd87b65317e8e7aef99a26bf808aecd94ae4eb0d2d9ebdfa"
-    },
-    {
-      "local_path": "reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 628895,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001/MOCK29001_5adeb8df06e87bbd54f28d82073c192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b508749fe2839f304cc68b8f27ad27568d87c2e8ddbc29e3e70f20e04a28c08"
-    },
-    {
-      "local_path": "reports and recordings/MOCK29001/MOCK29001_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK29001/MOCK29001_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 176192,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK29001/MOCK29001_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f570817d3dfdead1211a704c5f1bbac4c315239401f4c9839564aa4ed8c9562e"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 671879,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_c15bdf1003e61971b49f2d1cef22192k.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c2b9f8b73d5b1b5c94c327cea118c89462a383f22b10c8ef2df16190979fae40"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf",
-      "content_type": "application/pdf",
-      "size_bytes": 166403,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2BAJAJ40933/MOCK2BAJAJ40933_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1284020e12e162feaf41cad6215d7fe82f73d75b05a7289838360f61a05349c8"
-    },
-    {
-      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4",
+      "key": "temp/tata_aia/reports and recordings/C278817274/C278817274_call1.mp4",
       "content_type": "video/mp4",
-      "size_bytes": 6383631,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_j0h1q56mrfw9nnwnzi8yn.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=91e9ff9b1131b8a9b2b23dcf79ff7a7d53819c7a6f6303adf70116d0808ab395"
+      "size_bytes": 352036021,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C278817274/C278817274_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091839Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1cc07bee60fdadb6549420068b2fc7500c6b916688a2980fd471c35941d1a830"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_MER.pdf",
+      "local_path": "reports and recordings/C278817274/C278817274_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C278817274/C278817274_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 679261,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c67ed5db214051bb0cf765b2273136ce5561d463386bf388e846b9bb53752de2"
+      "size_bytes": 997804,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C278817274/C278817274_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091839Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=38c5c6463fe7d18b3899dbb24a4f73394fd5adbce4cd527c73aa7071c3da3dcc"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata/Mock123Tata.mp4",
+      "local_path": "reports and recordings/U185030377AD0/U185030377AD0_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata.mp4",
+      "key": "temp/tata_aia/reports and recordings/U185030377AD0/U185030377AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 211321,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U185030377AD0/U185030377AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091839Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ffbcc3936267d4b03f8b244816ec8d3a3666d963dcc120cad9511d8907fd7b10"
+    },
+    {
+      "local_path": "reports and recordings/U185030377AD0/U185030377AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U185030377AD0/U185030377AD0_call2.mp4",
       "content_type": "video/mp4",
-      "size_bytes": 142356145,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5db029c5ab8348f933c98e9e14da8fffef47c9b91832b750c207c45728c723ea"
+      "size_bytes": 188669259,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U185030377AD0/U185030377AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091856Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c5020df8d1a4bfb2e94125c046dcfd8c5e865f2a30613ec05e75bdd905d973d8"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "local_path": "reports and recordings/U185030377AD0/U185030377AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3",
+      "key": "temp/tata_aia/reports and recordings/U185030377AD0/U185030377AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 170945518,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U185030377AD0/U185030377AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091911Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3a2ffde46f552506c4327cba9fed41abe67b2c30a3bcc603c56cecc480e85138"
+    },
+    {
+      "local_path": "reports and recordings/C322289884AD0/C322289884AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C322289884AD0/C322289884AD0_call1.mp3",
       "content_type": "audio/mpeg",
-      "size_bytes": 28342,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/Mock123Tata_bb8c671518cf800c058169b0fb321918.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4e9cca4fe3f2d94b90d7a99454cf1fc82d63ae870eb94f543ea25d03fc2794f3"
+      "size_bytes": 9837,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289884AD0/C322289884AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091911Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c8abf382a40a2402a7e940fb30a604ca835557f8d8dddd19ab093e1f551613e4"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata/_processed/call1/audio.mp3",
+      "local_path": "reports and recordings/C322289884AD0/C322289884AD0_call2.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/_processed/call1/audio.mp3",
+      "key": "temp/tata_aia/reports and recordings/C322289884AD0/C322289884AD0_call2.mp3",
       "content_type": "audio/mpeg",
-      "size_bytes": 21759521,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/_processed/call1/audio.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=101116d620564ade44c3d073b21b7adf4a3a8d186b841845140bbc5de8bf06c2"
+      "size_bytes": 76510,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289884AD0/C322289884AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091911Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a1056d101ab929504d469b47ccb2343f161ed684740ddb18935a433b7846361a"
     },
     {
-      "local_path": "reports and recordings/Mock123Tata/_processed/call3/audio.mp3",
+      "local_path": "reports and recordings/C322289884AD0/C322289884AD0_call3.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/Mock123Tata/_processed/call3/audio.mp3",
+      "key": "temp/tata_aia/reports and recordings/C322289884AD0/C322289884AD0_call3.mp3",
       "content_type": "audio/mpeg",
-      "size_bytes": 1005257,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/Mock123Tata/_processed/call3/audio.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19ea5cffb413d2fc11f002cce88cd26b0386540b9f2290a5ce351969ce636fee"
+      "size_bytes": 1641432,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289884AD0/C322289884AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=28e433fd3e807727571e3d36e42339f4a94fc5e478d0abece7b513c9969770ca"
     },
     {
-      "local_path": "reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf",
+      "local_path": "reports and recordings/C322289884AD0/C322289884AD0_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C322289884AD0/C322289884AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 88662,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d843466854f9bee18663c9ae4a459fda75f0ebcd8b9bd14e2edc424c547d2f1e"
+      "size_bytes": 86346,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289884AD0/C322289884AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e279ca80d818b5529719286d253ae51e64ab95b42ff6fa0d6d04cf3a8a073de"
     },
     {
-      "local_path": "reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
+      "local_path": "reports and recordings/C322289402AD0/C322289402AD0_MER.pdf",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 10,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40937/MOCK2KOTAK40937_fb4335dc3ff1d78005e5999827a6192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5307316dc06e11b80c294c6b0bc8f029c14b4ae73dcb0c25da2f8351fbd6b41"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1041312,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980/MOCK2MAX40980_ebd8c0f48bd50b67d9b0d368d8b8192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d138a78b7ccb81fa2ef3054674b776ce6ffbfc9564cb661d1de689f94998d826"
-    },
-    {
-      "local_path": "reports and recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf",
-      "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C322289402AD0/C322289402AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 158752,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX40980/MOCK2MAX40980_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=72156f4b9cdce36b8297f8b732bb5574fd0137a91e679fa91f29284fafd2aa54"
+      "size_bytes": 810295,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289402AD0/C322289402AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0c4fde2266e8deaaa7a982f24953c6101ab57b148674246afae1e9ed89fbb086"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf",
+      "local_path": "reports and recordings/C322289402AD0/C322289402AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C322289402AD0/C322289402AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 133703135,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322289402AD0/C322289402AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091924Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=25d953d39128976a4046175f520ed827f6e427c67e5765f090224e675f3a1403"
+    },
+    {
+      "local_path": "reports and recordings/U169713403AD0/U169713403AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U169713403AD0/U169713403AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 198624,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003/MOCK2MAX41003_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4850eea06a64e4213924286f7edbbb8e24b8258a08911546c65dc59a29c9714"
+      "size_bytes": 167575,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U169713403AD0/U169713403AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091924Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a8013f6a3772e25bdbae71b8e5303fe50cc2b471c31caa0c23de7ea0f47ffb42"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
+      "local_path": "reports and recordings/U169713403AD0/U169713403AD0_call2.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 30646,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX41003/MOCK2MAX41003_78f20f5969496b83a9b8ad7d716e192r.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b7ffc1db48bf0d4ae7462ba916ef46c24a027753fec74358bf8d7808562fbfc9"
+      "key": "temp/tata_aia/reports and recordings/U169713403AD0/U169713403AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 131968841,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U169713403AD0/U169713403AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091936Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=286c8921c53f0dd8527c5a353833bc03ef139d102b9f960c7b498d89a046fc4b"
     },
     {
-      "local_path": "reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
+      "local_path": "reports and recordings/U169713403AD0/U169713403AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3",
-      "content_type": "audio/mpeg",
-      "size_bytes": 1845120,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_87b6af551cbc9de97878b14aeba1192m.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbe6c589f06d065185352332c6fa5e36df4d4b9e4408fab80133f46427326219"
+      "key": "temp/tata_aia/reports and recordings/U169713403AD0/U169713403AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 11868503,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U169713403AD0/U169713403AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T091938Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3c712f0194a2dc59f3e4b70bdabe6372496e34cf7bab75430a899ca9eb896c8e"
     },
     {
-      "local_path": "reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf",
+      "local_path": "reports and recordings/U169739830AD0/U169739830AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/U169739830AD0/U169739830AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 422896651,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U169739830AD0/U169739830AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092014Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b61eae956b9d8b4b45fc8083d23a9aca09f845a8ba48f11f468c56ed54e18b65"
+    },
+    {
+      "local_path": "reports and recordings/U169739830AD0/U169739830AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U169739830AD0/U169739830AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 83650,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2KOTAK40976/MOCK2KOTAK40976_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4056f47322d9014e6e28ef13534d1eebd1ddd2049fe087deeabe6047165cb4d6"
+      "size_bytes": 176283,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U169739830AD0/U169739830AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092015Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1fa4a4063a43b6dcecded699efe16cd4ee41880dc4f66f66277bbac7d5bbfb13"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf",
+      "local_path": "reports and recordings/C280084244AD0/C280084244AD0_call1.mp4",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf",
+      "key": "temp/tata_aia/reports and recordings/C280084244AD0/C280084244AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 709550891,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C280084244AD0/C280084244AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092115Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3733c8f196b6dfb0aa8948c8f7bce24a1a67b084c9b9bac1613cdc5fa1adda77"
+    },
+    {
+      "local_path": "reports and recordings/C280084244AD0/C280084244AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C280084244AD0/C280084244AD0_MER.pdf",
       "content_type": "application/pdf",
-      "size_bytes": 182402,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152/MOCK2MAX34152_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d0c766058fe9ce3a2ba03390ebf48c7edfeb4bb93d59546419a7d8c37e1152c4"
+      "size_bytes": 124928,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C280084244AD0/C280084244AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092116Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4f01900ba4250749d20e61946167481f02f7f70e86e9acdb9eb8d4e2e369dce"
     },
     {
-      "local_path": "reports and recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "local_path": "reports and recordings/U179370962/U179370962_call1.mp3",
       "bucket": "anthropod",
-      "key": "temp/medibuddy/reports and recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3",
+      "key": "temp/tata_aia/reports and recordings/U179370962/U179370962_call1.mp3",
       "content_type": "audio/mpeg",
-      "size_bytes": 880031,
-      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/medibuddy/reports%20and%20recordings/MOCK2MAX34152/MOCK2MAX34152_a87aa62e2afd4a22e1a85ab27498192l.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T095546Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=81c1ce1f66fbbd76d721417f42cb4b398184d322a7b8375cf236eee038eea49b"
+      "size_bytes": 18772524,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U179370962/U179370962_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbf480415db3bca6a8f42278e9807020531b3962ad3ae1531dfbd7a8f0ca99f8"
+    },
+    {
+      "local_path": "reports and recordings/U179370962/U179370962_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U179370962/U179370962_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 78213,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U179370962/U179370962_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=14b60eaaf538538114ad727b5622b9ad82723e5532db0eef1bd7a4a9260e5bd3"
+    },
+    {
+      "local_path": "reports and recordings/C319180572AD0/C319180572AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C319180572AD0/C319180572AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 190459376,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C319180572AD0/C319180572AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092135Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=281392af8ad44ba7fd2bb23bde2b10e4acffb1aa885cfc5b10eeb4e117ef9f05"
+    },
+    {
+      "local_path": "reports and recordings/C319180572AD0/C319180572AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C319180572AD0/C319180572AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 1298536,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C319180572AD0/C319180572AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092136Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eb20553edae79c1b30045834a05be8c0ae90f3c441eb8917e11efaf1036ba41a"
+    },
+    {
+      "local_path": "reports and recordings/U033600752/U033600752_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U033600752/U033600752_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 127948570,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U033600752/U033600752_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092147Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=22f5dbadd2d27d018fde153fc1e36ebeb5b7e417982dcc9224d35a1fcc5afda8"
+    },
+    {
+      "local_path": "reports and recordings/U033600752/U033600752_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U033600752/U033600752_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 238882,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U033600752/U033600752_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=80627b83fe4e6636e63c1d8a672a1604c5b7a5b9bec7808598f46a79565629c8"
+    },
+    {
+      "local_path": "reports and recordings/C304305223/C304305223_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304305223/C304305223_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 387263,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304305223/C304305223_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bb10356284d917f86bf72e46d0d684557cfdadb0b476d25e372f226bdf7c0e40"
+    },
+    {
+      "local_path": "reports and recordings/C304305223/C304305223_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304305223/C304305223_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 117835,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304305223/C304305223_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=712d9e8741fd0633c7175dd86b253f96d566ef4b31077bb15fbc23287faa665d"
+    },
+    {
+      "local_path": "reports and recordings/U038996461AD0/U038996461AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U038996461AD0/U038996461AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 77367,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U038996461AD0/U038996461AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c2d135e77e9d59e7bfef50195bf537c6e0377205d255725952acda1cc444b6d9"
+    },
+    {
+      "local_path": "reports and recordings/U038996461AD0/U038996461AD0_call4.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U038996461AD0/U038996461AD0_call4.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 164855,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U038996461AD0/U038996461AD0_call4.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b73ed2b58692a6e648d4143e2ce48d4e87d4ebd15e06844e0e0dfa14590d9323"
+    },
+    {
+      "local_path": "reports and recordings/U038996461AD0/U038996461AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U038996461AD0/U038996461AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 20278,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U038996461AD0/U038996461AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a810c5501c032ac92ed2cdf40f569d645a0e1d5960427cfcc3406775bcfef6d"
+    },
+    {
+      "local_path": "reports and recordings/U038996461AD0/U038996461AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U038996461AD0/U038996461AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 881543,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U038996461AD0/U038996461AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cd0ea235ed7ca5ddbfe8c8edead283e5c6c2c1954dea3718753bd3124e85b125"
+    },
+    {
+      "local_path": "reports and recordings/U038996461AD0/U038996461AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U038996461AD0/U038996461AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 35830,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U038996461AD0/U038996461AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092148Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b8bd3a61fecca7d67aeccfc245843e04a835143893c795a6fc55d155832959f0"
+    },
+    {
+      "local_path": "reports and recordings/C317614163AD0/C317614163AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C317614163AD0/C317614163AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 81692,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C317614163AD0/C317614163AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7ccc0fb7164fff0caac5bd3b9cb3c2efa94e0d64148ef1538934904c4f842de4"
+    },
+    {
+      "local_path": "reports and recordings/C317614163AD0/C317614163AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C317614163AD0/C317614163AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 54190,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C317614163AD0/C317614163AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e8d406892c610920052acd2d2ee63dec6c71de9992055befa0d981018beec406"
+    },
+    {
+      "local_path": "reports and recordings/C317614163AD0/C317614163AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C317614163AD0/C317614163AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 659639,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C317614163AD0/C317614163AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2a9de07c6fe5faa7439d53abe5df611ffa4c8ac95c08ac166321ffaded02a89"
+    },
+    {
+      "local_path": "reports and recordings/C315496406AD0/C315496406AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315496406AD0/C315496406AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 119809,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315496406AD0/C315496406AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092149Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d949da9cb4a5c511d8a70499cbc6d5d319f2b7c678689c72c9b2d64b3e57bd51"
+    },
+    {
+      "local_path": "reports and recordings/C315496406AD0/C315496406AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315496406AD0/C315496406AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 152775103,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315496406AD0/C315496406AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092202Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2fc8ef62386e7de16ef3cd618a9dcfdff43dfe17877d2ca0dbc6da37cbf83981"
+    },
+    {
+      "local_path": "reports and recordings/U215163172AD0/U215163172AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U215163172AD0/U215163172AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 880176,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215163172AD0/U215163172AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092203Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=53ef97b3dc061ddfc399f63a2180f87b1030110ea240ff1f173d898b4399eb8b"
+    },
+    {
+      "local_path": "reports and recordings/U215163172AD0/U215163172AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U215163172AD0/U215163172AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 112293234,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215163172AD0/U215163172AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092213Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=94ebc411590b4370bf23ea17ce3cf6f98a4fccdb4d1fc38cb8d2c298f4221389"
+    },
+    {
+      "local_path": "reports and recordings/U191016550AD0/U191016550AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191016550AD0/U191016550AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 20718517,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191016550AD0/U191016550AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092215Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=28e084e7500411251ab8f2e471d1d2aebcb5dac8772e2fe4905a06fde3b8fc25"
+    },
+    {
+      "local_path": "reports and recordings/U191016550AD0/U191016550AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191016550AD0/U191016550AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 99104973,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191016550AD0/U191016550AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092224Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1e2e1efcc9a3dba4f6143af1a7f34fa1844c69fcddba444e127339d3a4967c3c"
+    },
+    {
+      "local_path": "reports and recordings/U191016550AD0/U191016550AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191016550AD0/U191016550AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 939055,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191016550AD0/U191016550AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092224Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=18921f1ea5c6155dd48ca90a9931a6747e05151b9bd3a184e70de1cc98050b64"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call5.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call5.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 391223,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call5.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=35e3ec045d93ce3b18850aa58023379f8d43b7d5ce5b8b224c91618b74456049"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call4.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call4.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 44830,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call4.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=41f13381e072754970a6abd0ceae7240bc311e1716aab3acb1c9117547e1c2b9"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call6.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call6.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 43318,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call6.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=28eec256d495ec8992172cecd712bcd29a010c84d15670b599fbd07ff452f700"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call7.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call7.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 680519,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call7.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bbb1ad3414d27946d150d6c92f659b18702c083d416d6a776889e8cc4a695ec0"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 58870,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=69cc3841484b306608ce6cc880a608bc33291a5280ca4a6b0af288b9ba7c962a"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 97606,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=007b8917b2b962589774747d55637b23bdb70209e4cd3921fc43ff86a1d51751"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 87670,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=72201866bef902858b12157455ab5047e891707fd0a7e67dcee067e9c996d1a7"
+    },
+    {
+      "local_path": "reports and recordings/C316879954AD0/C316879954AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C316879954AD0/C316879954AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 76955,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C316879954AD0/C316879954AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eb661b065dc629600626086db5813f50363bca8b66214ca53776820ebf6ae710"
+    },
+    {
+      "local_path": "reports and recordings/C680043937/C680043937_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C680043937/C680043937_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 334487,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C680043937/C680043937_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=26871022cb532a0973487ed5ad53946af620b633c1085bfad9e65d1aa7f6b767"
+    },
+    {
+      "local_path": "reports and recordings/C680043937/C680043937_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C680043937/C680043937_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 139356,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C680043937/C680043937_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5b51b59adede46f8f23ba3dc38f53ed70e7efc0f0709af2bc4b67146810403f0"
+    },
+    {
+      "local_path": "reports and recordings/C305214575AD0/C305214575AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305214575AD0/C305214575AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 37846,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305214575AD0/C305214575AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=181ed8b6e73b578af652bb561e05868c97c5cfd737a4b81fa8a346b5f3646228"
+    },
+    {
+      "local_path": "reports and recordings/C305214575AD0/C305214575AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305214575AD0/C305214575AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 641207,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305214575AD0/C305214575AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092226Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b4144234daf1bcd38b406067ff3cf1289138f5b8c530052fb990122b507fdd4a"
+    },
+    {
+      "local_path": "reports and recordings/C305214575AD0/C305214575AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305214575AD0/C305214575AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 80635,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305214575AD0/C305214575AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092226Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8ba85349817af98c0687190db1229ea786d703f11d370a5f049d29e2a1c508d5"
+    },
+    {
+      "local_path": "reports and recordings/C305248619/C305248619_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305248619/C305248619_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8224044,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305248619/C305248619_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092227Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3a25b9d00db236aecdb5c2bdef80ca1eacf04babeaaf6190e1c67ed3b7b862fc"
+    },
+    {
+      "local_path": "reports and recordings/C305248619/C305248619_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305248619/C305248619_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 73846,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305248619/C305248619_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092227Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b467c2f1020a8ecd47a577fe3fe44f652bbffafb24f3e55c9eadbbe613d3e6ab"
+    },
+    {
+      "local_path": "reports and recordings/C321169251AD0/C321169251AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321169251AD0/C321169251AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 297848,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321169251AD0/C321169251AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092227Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=82af26dd96fffa003db59e615cc745ac22faa8b26cbed77b36437c441118e886"
+    },
+    {
+      "local_path": "reports and recordings/C321169251AD0/C321169251AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321169251AD0/C321169251AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 92920010,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321169251AD0/C321169251AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092237Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=061ece365745e39f65a76c8c2b97b260da1319aedc4f44ea57b703bb5c07e7ea"
+    },
+    {
+      "local_path": "reports and recordings/C321914901AD0/C321914901AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321914901AD0/C321914901AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 833196,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321914901AD0/C321914901AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092237Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=327282244864fb69e0873a6d02b2d2bdb7f23cbe810ef562519e45d500ae1742"
+    },
+    {
+      "local_path": "reports and recordings/C321914901AD0/C321914901AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321914901AD0/C321914901AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 81364332,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321914901AD0/C321914901AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092245Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1636dbad64bbe66ae6cd62d6183aa18c23c5025e2d8aa2b74187e19c5d629ca9"
+    },
+    {
+      "local_path": "reports and recordings/C321159601AD0/C321159601AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321159601AD0/C321159601AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 660287,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321159601AD0/C321159601AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092245Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2269529a100845ff3d752693a1a42c700c5bbf8205e42b2da6366e4662aad61"
+    },
+    {
+      "local_path": "reports and recordings/C321159601AD0/C321159601AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321159601AD0/C321159601AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 72841,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321159601AD0/C321159601AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092245Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=86a1a21e8206dcda93fb83399e0ec9307e152b62497f900357eeb5e149cca119"
+    },
+    {
+      "local_path": "reports and recordings/C530098540AD0/C530098540AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C530098540AD0/C530098540AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 87810809,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C530098540AD0/C530098540AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092254Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8b709a6b0479d811717c5dfbb4df4a991bb735028986213a13efb4d81cf3123e"
+    },
+    {
+      "local_path": "reports and recordings/C530098540AD0/C530098540AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C530098540AD0/C530098540AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 243424,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C530098540AD0/C530098540AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092254Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=449ac02aa5c5385f572c4a1a71fe89dfc66b0ad92b3412a3d4fb57b00905ee4f"
+    },
+    {
+      "local_path": "reports and recordings/U164129636AD0/U164129636AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U164129636AD0/U164129636AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 106707,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U164129636AD0/U164129636AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092254Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d20663f01c8e04e1d9db18e914a75b62bb9fdbe8d3852b0076d32454a1af84c0"
+    },
+    {
+      "local_path": "reports and recordings/U164129636AD0/U164129636AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U164129636AD0/U164129636AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 184079,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U164129636AD0/U164129636AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092254Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc09c208a1812896e59e3d0360b95444f3d1e860c99fcfd18d9bb0675fd1d9e9"
+    },
+    {
+      "local_path": "reports and recordings/U164129636AD0/U164129636AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U164129636AD0/U164129636AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 978959,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U164129636AD0/U164129636AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092255Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b82ed7df7680ea1d5574c483d3680c818f190e232917bc4e5323dee30422f8a"
+    },
+    {
+      "local_path": "reports and recordings/C306884289AD0/C306884289AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C306884289AD0/C306884289AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 70286,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C306884289AD0/C306884289AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092255Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1659194495d4181ee91da67289575aadcb23a445f201425670ec7cb92385e164"
+    },
+    {
+      "local_path": "reports and recordings/C306884289AD0/C306884289AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C306884289AD0/C306884289AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 439031,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C306884289AD0/C306884289AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092255Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5dfb6d61ac97cbfd16ff6ad617dd8ee4518bbbb9f23bb955c0368e9be66f2048"
+    },
+    {
+      "local_path": "reports and recordings/C312768412AD0/C312768412AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312768412AD0/C312768412AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 362875858,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312768412AD0/C312768412AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6ac442af85ca7a7e57c75a73e4625955ddc5cd091df4e571e555a1012b49fe3e"
+    },
+    {
+      "local_path": "reports and recordings/C312768412AD0/C312768412AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312768412AD0/C312768412AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 198513,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312768412AD0/C312768412AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0a746ac3e4cfb6eb3dc3b0f8dec39aecb2040723ee871fe5d313888dcec3017f"
+    },
+    {
+      "local_path": "reports and recordings/U159773712AD0/U159773712AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U159773712AD0/U159773712AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 784775,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U159773712AD0/U159773712AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d1aba5c7cbbd7a8b028ee432ac9daafc9d6abc217d23bdc14f1ef47a3d1874c"
+    },
+    {
+      "local_path": "reports and recordings/U159773712AD0/U159773712AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U159773712AD0/U159773712AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 76658,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U159773712AD0/U159773712AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=41550c0877391afa86a81678f01661df8e8bdccf59da80f137aee87692a845b2"
+    },
+    {
+      "local_path": "reports and recordings/C315871694/C315871694_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315871694/C315871694_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 117607,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315871694/C315871694_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b55824dbccbabac6cee59eb44a0ffc18655802a9f8457c1f959ff887bc1ea0e4"
+    },
+    {
+      "local_path": "reports and recordings/C315871694/C315871694_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315871694/C315871694_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10783724,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315871694/C315871694_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f96c6aa40893b1051be23522850c06a951ac484332b399040b978b92f1445308"
+    },
+    {
+      "local_path": "reports and recordings/U160062399AD0/U160062399AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U160062399AD0/U160062399AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 83245,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U160062399AD0/U160062399AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dc28db0a5489163637e2839c052ae73c06dad1e6638a721c6554e554280d7d83"
+    },
+    {
+      "local_path": "reports and recordings/U160062399AD0/U160062399AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U160062399AD0/U160062399AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1175520,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U160062399AD0/U160062399AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=90b0d1e9d92a390f95b2158ff77dd90a4bad0bff86bb0162c811243fbd448564"
+    },
+    {
+      "local_path": "reports and recordings/C323997065AD0/C323997065AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C323997065AD0/C323997065AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 599807,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C323997065AD0/C323997065AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a0f8ac5af1e21f98d003f34fe4ba92486cca6ea8ebcf6370411c9fbae6002c93"
+    },
+    {
+      "local_path": "reports and recordings/C323997065AD0/C323997065AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C323997065AD0/C323997065AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 35110,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C323997065AD0/C323997065AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=86c680268d2ad876bba57af3740eb4425428de0ef82764e670ef7eaa2562ec3a"
+    },
+    {
+      "local_path": "reports and recordings/C323997065AD0/C323997065AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C323997065AD0/C323997065AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 72988,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C323997065AD0/C323997065AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ff810475108080a19282679a84ea12cadb92f81c1f908abd709606a53cd7f86"
+    },
+    {
+      "local_path": "reports and recordings/C237065960AD0/C237065960AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C237065960AD0/C237065960AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 72718124,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C237065960AD0/C237065960AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092336Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9545c86211ef3cbc28131f7d442585e07e4a3b8bea8229b25293fe4b2e3bc48a"
+    },
+    {
+      "local_path": "reports and recordings/C237065960AD0/C237065960AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C237065960AD0/C237065960AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 523654,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C237065960AD0/C237065960AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092336Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=56db4877bef20eaa09ee3cb8536b869b7e816d25e4782d81bcda8b7b123ffa03"
+    },
+    {
+      "local_path": "reports and recordings/C321932420AD0/C321932420AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321932420AD0/C321932420AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 656184,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321932420AD0/C321932420AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092337Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6d81681e8c06731c898aab88c74201ec9f12f0f8294ff2a1b8bba034184eb9dd"
+    },
+    {
+      "local_path": "reports and recordings/C321932420AD0/C321932420AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321932420AD0/C321932420AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 337853108,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321932420AD0/C321932420AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092406Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7413101d1ad359fef0593d8699c2e5a61dbb4c2039e7e560b0b737027e471a44"
+    },
+    {
+      "local_path": "reports and recordings/C322570551AD0/C322570551AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C322570551AD0/C322570551AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 668640,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322570551AD0/C322570551AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092407Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a49dfa22fe6dc49140d6a9eddf6d5327ab5d4deb30f02b845fd8eb9a306d9f23"
+    },
+    {
+      "local_path": "reports and recordings/C322570551AD0/C322570551AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C322570551AD0/C322570551AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 183503785,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C322570551AD0/C322570551AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092423Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5aeeee6cac68fd882175e9702fa94285ee2b46a922d0704521a1f7ff99c9101d"
+    },
+    {
+      "local_path": "reports and recordings/C688753355AD0/C688753355AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753355AD0/C688753355AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 901513,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753355AD0/C688753355AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092424Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf7f091147fb750a6c772911eb6fae0caff19eb97493f08a7d4249e5c781964e"
+    },
+    {
+      "local_path": "reports and recordings/C688753355AD0/C688753355AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753355AD0/C688753355AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 198117652,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753355AD0/C688753355AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092441Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=80e53c0ce26c5dece0439205c7a910d54ee57be3a4bbeb0b536e921bfd7c9b95"
+    },
+    {
+      "local_path": "reports and recordings/C688753355AD0/C688753355AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753355AD0/C688753355AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 73847580,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753355AD0/C688753355AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092448Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2d5d8ccecffbf34ad6f7de25d567d5b9aff4af46f659533c781dc5f8df4f856c"
+    },
+    {
+      "local_path": "reports and recordings/C680202105AD0/C680202105AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C680202105AD0/C680202105AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 196577899,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C680202105AD0/C680202105AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092506Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1678d43b14476898d917ed0f924660191cca7f7018120997a2ac86ddc90045fd"
+    },
+    {
+      "local_path": "reports and recordings/C680202105AD0/C680202105AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C680202105AD0/C680202105AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 169513,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C680202105AD0/C680202105AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092506Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=907b02099e1efd5e9b541bb2d353bf4a634e6f5aad1e42e0daa45542acef9a66"
+    },
+    {
+      "local_path": "reports and recordings/C279689647AD0/C279689647AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C279689647AD0/C279689647AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 138218623,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C279689647AD0/C279689647AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092518Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ea351500673e951e4ef73e14479e5fc64cdc824f9094ae06fbf724e9b45bcf8"
+    },
+    {
+      "local_path": "reports and recordings/C279689647AD0/C279689647AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C279689647AD0/C279689647AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 301849,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C279689647AD0/C279689647AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092518Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=17438ccba1c23c5ba6d3aacffcc8edeb6fa8b362643a318bdb25a742846b50da"
+    },
+    {
+      "local_path": "reports and recordings/C306805637AD0/C306805637AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C306805637AD0/C306805637AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1588872,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C306805637AD0/C306805637AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092519Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=335682f6847e216d19ed21a726960dd195f5773c2a31e4a026371274f1bbc283"
+    },
+    {
+      "local_path": "reports and recordings/C306805637AD0/C306805637AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C306805637AD0/C306805637AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 85166,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C306805637AD0/C306805637AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092519Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6fee07e5e3361d954f9eae777fc25fb046a4c2d43715f844623f8f2de9a73df0"
+    },
+    {
+      "local_path": "reports and recordings/C321882745/C321882745_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321882745/C321882745_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 145871018,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321882745/C321882745_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092532Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8189d8d08e6a4ed1d755f50d6684af5e2e2185c239130cbaae33d9fb3ad605d9"
+    },
+    {
+      "local_path": "reports and recordings/C321882745/C321882745_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321882745/C321882745_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 687885,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321882745/C321882745_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092532Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19e738e6e1691432c85e405cc5d0dafa3b081566bc7bbcb09cf988dd76d18867"
+    },
+    {
+      "local_path": "reports and recordings/C324116641AD0/C324116641AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C324116641AD0/C324116641AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 75186,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C324116641AD0/C324116641AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092532Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d573221f55decaa713300998fafe1002195dd59cfc0cf646439cf1c1af270c40"
+    },
+    {
+      "local_path": "reports and recordings/C324116641AD0/C324116641AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C324116641AD0/C324116641AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 31510,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C324116641AD0/C324116641AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092532Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=15d6360a88a5e896286b733664d9990a5d75f66b1e09c4f1f54bd7c942f6411a"
+    },
+    {
+      "local_path": "reports and recordings/C324116641AD0/C324116641AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C324116641AD0/C324116641AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 442127,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C324116641AD0/C324116641AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=670f24c019882046f57e09307f895019354f23f04dfc597011c0ae397317d713"
+    },
+    {
+      "local_path": "reports and recordings/C324116641AD0/C324116641AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C324116641AD0/C324116641AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 36550,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C324116641AD0/C324116641AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f081972db89842767344dbf66516656fbabde8396967b1dc17240c77c775ad66"
+    },
+    {
+      "local_path": "reports and recordings/C273793911/C273793911_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C273793911/C273793911_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 120167,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C273793911/C273793911_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bc6049de4baf14183873063bdc538e89dcfefa36fac235694a4f1ef71cfb32d9"
+    },
+    {
+      "local_path": "reports and recordings/C273793911/C273793911_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C273793911/C273793911_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 455591,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C273793911/C273793911_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=56ed4a4751677b2c96ece9acfdffd4b4ffaaee5401eef584d7ad3bfac97b6515"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_call5.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_call5.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 488855,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_call5.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1d6bd9f09d00c16aa053101cc464aea5adbdc3e024e1f19d8426fb2d663e2715"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_call4.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_call4.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 311951,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_call4.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=adfc4429b7c00b61388f2b5a47236da500fe6f23a1740f2a698b823f49b91ead"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 16534,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e875819ae08508ced953b57bfb40e38feeaf4c692b750c5a219c99cdc22bf370"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 3285,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=59aff44b3e9c0f6499857bdffcdaf54d166cd9a5dceb8383740b7519c34525ae"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 3285,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b4129e642170e4ada96f6c8bbe1c7267540981ddb3b5cc43d454ed96390953cd"
+    },
+    {
+      "local_path": "reports and recordings/C321674364/C321674364_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321674364/C321674364_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 81252,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321674364/C321674364_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092533Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f9d63236af26fc0548658c562bdac5f1aa5c6e3a54fb17e9a3655c3c2e4b1f53"
+    },
+    {
+      "local_path": "reports and recordings/C246575603AD0/C246575603AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C246575603AD0/C246575603AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 149119294,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C246575603AD0/C246575603AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092547Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cab3b61f5d810b59aa516dafe1b0b3ef9a28bc0bc37e3a0b0b3dcecbdec001c9"
+    },
+    {
+      "local_path": "reports and recordings/C246575603AD0/C246575603AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C246575603AD0/C246575603AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 249137,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C246575603AD0/C246575603AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092547Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5b8dedc4168afca6ed501a5c236f0e40d1e8ed497572f1d9ea751ac7ef800170"
+    },
+    {
+      "local_path": "reports and recordings/C321938974AD0/C321938974AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321938974AD0/C321938974AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 113522,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321938974AD0/C321938974AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092547Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1f1a011614696cda92307a2ed5d0fabaf188ec452bda872ceced8ee618b15843"
+    },
+    {
+      "local_path": "reports and recordings/C321938974AD0/C321938974AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321938974AD0/C321938974AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 851735,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321938974AD0/C321938974AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092547Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a85696f403c868642f09a9cfd88630005ebbed2f400ffdd16edd715ecf6b8939"
+    },
+    {
+      "local_path": "reports and recordings/C321996699AD0/C321996699AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321996699AD0/C321996699AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 959841,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321996699AD0/C321996699AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092547Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8bbb01425f2d7cbd66c657ee32ee368a22baefb684e7b0269b45a8baffeadb45"
+    },
+    {
+      "local_path": "reports and recordings/C321996699AD0/C321996699AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321996699AD0/C321996699AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 143840918,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321996699AD0/C321996699AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092600Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a05782b4506c84862c306ae3629a89f932efa6db9f4554a0c29c7936a36a105d"
+    },
+    {
+      "local_path": "reports and recordings/C305216379AD0/C305216379AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305216379AD0/C305216379AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 87043,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305216379AD0/C305216379AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092600Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8d2617ed7d8d7434c3c00f973ec2ff7f5566942fab7b2c799005fd032396ea0d"
+    },
+    {
+      "local_path": "reports and recordings/C305216379AD0/C305216379AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305216379AD0/C305216379AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 24814,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305216379AD0/C305216379AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092600Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d5a85e549e23372572101b9264a018c1923166badda5788a9fd44a24fc41052e"
+    },
+    {
+      "local_path": "reports and recordings/C305216379AD0/C305216379AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305216379AD0/C305216379AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1301880,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305216379AD0/C305216379AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092601Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=033ea5d2eeab52807c190e87c9916491bfc07ff848a3d086552649bc1b02404d"
+    },
+    {
+      "local_path": "reports and recordings/C315886702/C315886702_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315886702/C315886702_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 100141,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315886702/C315886702_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092601Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a3994763e5f82410b7601b7d01849c942c4f1e1ca3399c570c6cf269d643e630"
+    },
+    {
+      "local_path": "reports and recordings/C315886702/C315886702_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315886702/C315886702_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 742223,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315886702/C315886702_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092601Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=536e34f597dcd5b567b59446a4e6435a13ea1042060a72f6272fd0fcec3e3177"
+    },
+    {
+      "local_path": "reports and recordings/C315886702/C315886702_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C315886702/C315886702_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10486,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C315886702/C315886702_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092601Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5af4fd37f62d8729a6c5d36aab7ac66946c82c68dbac9c56af9c4fe76e5d785"
+    },
+    {
+      "local_path": "reports and recordings/C321459576AD0/C321459576AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321459576AD0/C321459576AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 154334,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321459576AD0/C321459576AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092601Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=35ac1d53bf5ce7a1fdbb31d725ee520e0fcebf2d92b618ddcb4f3a7da9bd3645"
+    },
+    {
+      "local_path": "reports and recordings/C321459576AD0/C321459576AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321459576AD0/C321459576AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 116178306,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321459576AD0/C321459576AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092612Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=56f2010f685af1287b4b9a801c5e1dcb3214feab27f41dc9227b7515c7d034d2"
+    },
+    {
+      "local_path": "reports and recordings/C302429965AD0/C302429965AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C302429965AD0/C302429965AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 105384822,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C302429965AD0/C302429965AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092622Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8833e6664f5129c78b44c020746c84289a18f131960b92b4073d5d2b3aedeb54"
+    },
+    {
+      "local_path": "reports and recordings/C302429965AD0/C302429965AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C302429965AD0/C302429965AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 1454278,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C302429965AD0/C302429965AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092622Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=731533a6dd636bc59c8c08d7dc7cab6a87ca86f78eb4197f5f0f279fa63f221f"
+    },
+    {
+      "local_path": "reports and recordings/C305224293/C305224293_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305224293/C305224293_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 73756,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305224293/C305224293_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092622Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cb7dbbb76bff3aa4a1ad5fcd8b45cf6ecf3e1b3a12f29a326d0f2b015fa28357"
+    },
+    {
+      "local_path": "reports and recordings/C305224293/C305224293_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305224293/C305224293_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8630764,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305224293/C305224293_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092624Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=130d942885ed17ed85b50640327b8b60478bc79437518e1541a765904877928a"
+    },
+    {
+      "local_path": "reports and recordings/C321162892AD0/C321162892AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321162892AD0/C321162892AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 87390,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321162892AD0/C321162892AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092624Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=db0cbb9737eadcdada87ef454d36cf2e5d16047e158f0ae94c5f982a4a1e3007"
+    },
+    {
+      "local_path": "reports and recordings/C321162892AD0/C321162892AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321162892AD0/C321162892AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 823223,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321162892AD0/C321162892AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092624Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b75ac459602cbca3685f652d97cfb95385e03cb5465fb020a2f3514d47f62c2b"
+    },
+    {
+      "local_path": "reports and recordings/C321162892AD0/C321162892AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321162892AD0/C321162892AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 78742,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321162892AD0/C321162892AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092624Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=12c9d3d29e142daf3ca3bfe84238aa3fa12496f23eff553aa2c7cf37a800832a"
+    },
+    {
+      "local_path": "reports and recordings/C314473637AD0/C314473637AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314473637AD0/C314473637AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 134928473,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314473637AD0/C314473637AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092636Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f0ab5f4293a0f6add324bec5b857d6dd59e5c981819e05ac75a336e0fb183f19"
+    },
+    {
+      "local_path": "reports and recordings/C314473637AD0/C314473637AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314473637AD0/C314473637AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 245592,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314473637AD0/C314473637AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092637Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=479bff31236e93bad9634fedd953b90ea22af62fd8e3e7227193f7cff563141a"
+    },
+    {
+      "local_path": "reports and recordings/C308944554/C308944554_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C308944554/C308944554_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 237829,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C308944554/C308944554_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092637Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8456a63524630509deecc2ccd3d5ea1894a49bbf413b999fa8cd09a215196d74"
+    },
+    {
+      "local_path": "reports and recordings/C308944554/C308944554_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C308944554/C308944554_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 1440808,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C308944554/C308944554_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092637Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=43d27af8315dfdaa7d25d0caaf5c76800879272a5aca47f8681dc58b033c1f96"
+    },
+    {
+      "local_path": "reports and recordings/C308944554/C308944554_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C308944554/C308944554_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 166801409,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C308944554/C308944554_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092652Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee57874e5cf6c302aded764fd105b878f722a4cd194fc75cf595021e207530a0"
+    },
+    {
+      "local_path": "reports and recordings/C330718334/C330718334_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C330718334/C330718334_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 162544,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C330718334/C330718334_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092652Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3890078152cf363d28d0d6666cb41a1d62dba633f86e4ea33989059daa688384"
+    },
+    {
+      "local_path": "reports and recordings/C331119398AD0/C331119398AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C331119398AD0/C331119398AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 93292055,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C331119398AD0/C331119398AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092701Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d0c4bc7c1c987bb6c3a19361c68c2b7daec19c768eba8b4252b8cac4a181ede5"
+    },
+    {
+      "local_path": "reports and recordings/C331119398AD0/C331119398AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C331119398AD0/C331119398AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 106260684,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C331119398AD0/C331119398AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092711Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1694d29a99f191679091cac33de3480f83e6d19d82347cd11253f06b78d2cfa"
+    },
+    {
+      "local_path": "reports and recordings/C331119398AD0/C331119398AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C331119398AD0/C331119398AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 298835,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C331119398AD0/C331119398AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092711Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6cc3501e0ae734cc0ea5e92989f9a03255cee4d57f5431743e0ac8a1448e3d9b"
+    },
+    {
+      "local_path": "reports and recordings/C286832225AD0/C286832225AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C286832225AD0/C286832225AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 502175,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C286832225AD0/C286832225AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092711Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=df16dd93de5731b6e5e96754b701c4ef32c185a062e114e746d93a9b6ca3d33a"
+    },
+    {
+      "local_path": "reports and recordings/C286832225AD0/C286832225AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C286832225AD0/C286832225AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 87826765,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C286832225AD0/C286832225AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092719Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a692728780e1fcbcb2ac9738cc5c45a13a628bc6580a469e62e4d2059d214262"
+    },
+    {
+      "local_path": "reports and recordings/U160137224AD0/U160137224AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U160137224AD0/U160137224AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 644621,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U160137224AD0/U160137224AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092720Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5de2e265b201416c25599a074cee21868a5b8e600feb53c10a49abb13cb4b9e0"
+    },
+    {
+      "local_path": "reports and recordings/U160137224AD0/U160137224AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U160137224AD0/U160137224AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 96516799,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U160137224AD0/U160137224AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092729Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4dcb47ac2140ccb22a9ac2a146bbfb772eb032b8e953c236f9f6f0201cd6ab07"
+    },
+    {
+      "local_path": "reports and recordings/C321834654AD0/C321834654AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321834654AD0/C321834654AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 168816579,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321834654AD0/C321834654AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092745Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=60dd0a8ef30cf545a9ad5060a682ad757a0666c1ab50e0d250a25d87062db31c"
+    },
+    {
+      "local_path": "reports and recordings/C321834654AD0/C321834654AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321834654AD0/C321834654AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 116554,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321834654AD0/C321834654AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092745Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=01146affdeb83223ed2c8390b953d89855e603fc09b2a278b036edbce9d869c7"
+    },
+    {
+      "local_path": "reports and recordings/C298634165/C298634165_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C298634165/C298634165_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 865271,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C298634165/C298634165_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=73ba2694346005a5e5c9b1c181bdd0010cadfb699cd518b011a65c41f74cbb27"
+    },
+    {
+      "local_path": "reports and recordings/C298634165/C298634165_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C298634165/C298634165_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 98495,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C298634165/C298634165_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=97af2b0a916853aa3e16d6be71feda1dc8eac770595b616c8aca23fd9c6cac2c"
+    },
+    {
+      "local_path": "reports and recordings/C286758189/C286758189_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C286758189/C286758189_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 76944,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C286758189/C286758189_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5d8b619207553127ff64b6da9e69a64269b3a2090a686b1350923de8c7b724a9"
+    },
+    {
+      "local_path": "reports and recordings/C286758189/C286758189_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C286758189/C286758189_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 9294124,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C286758189/C286758189_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092748Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=220ad839e1fbbdc499512e1ea5489f0e4c2294f89a39fee3c65cc50f80b533e3"
+    },
+    {
+      "local_path": "reports and recordings/C246140685/C246140685_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C246140685/C246140685_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 120867,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C246140685/C246140685_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092748Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4a01a6b6cd54adf494ddc3c819de881c7caa979e94d62c1ef5558865c7c4538d"
+    },
+    {
+      "local_path": "reports and recordings/C246140685/C246140685_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C246140685/C246140685_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 21286,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C246140685/C246140685_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092748Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7868e392fcea4a304f7cfcbe3de82529cc042945517fdf793d86fe39cfa0b6ad"
+    },
+    {
+      "local_path": "reports and recordings/C246140685/C246140685_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C246140685/C246140685_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 1130160,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C246140685/C246140685_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092748Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b62e0aa617aabd6f118ec681fc28f79249c3382d38bc2735ed7b7b8bb4e594a8"
+    },
+    {
+      "local_path": "reports and recordings/C299375779/C299375779_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299375779/C299375779_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 118415,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299375779/C299375779_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092748Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a617ae1deac0935f113c0d0bc75042e0c82b9bf4cdb427cd3b1d1753de06fa74"
+    },
+    {
+      "local_path": "reports and recordings/C299375779/C299375779_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299375779/C299375779_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 9573484,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299375779/C299375779_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092750Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=076a54f1cf411edb6e911fb5e7d314283cf7559d2d0c31ef1ddf0f0a7df2fbae"
+    },
+    {
+      "local_path": "reports and recordings/C312692300AD0/C312692300AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312692300AD0/C312692300AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 308407,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312692300AD0/C312692300AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092750Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7587c6b8a4d1e94709c9c3540d715f9d36187c3ab774969a237bfa2fec1963a9"
+    },
+    {
+      "local_path": "reports and recordings/C312692300AD0/C312692300AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312692300AD0/C312692300AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 79240015,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312692300AD0/C312692300AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092758Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9770381de5c08bc3596ab0961778019454ec0e18f21dc5bb66f7c98079a2ab2e"
+    },
+    {
+      "local_path": "reports and recordings/C312692300AD0/C312692300AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312692300AD0/C312692300AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 285085887,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312692300AD0/C312692300AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092823Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e94e967c281dee3e978e4c8ca4055a1b1dca03a229eaa9b168344c55ca17727a"
+    },
+    {
+      "local_path": "reports and recordings/C307268370AD0/C307268370AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C307268370AD0/C307268370AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 327835773,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307268370AD0/C307268370AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092853Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=be6943b9ca35cb80145c8a0e86d729a36a0cf13eae90f3e5768b7ff078db541b"
+    },
+    {
+      "local_path": "reports and recordings/C307268370AD0/C307268370AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C307268370AD0/C307268370AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 211128,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307268370AD0/C307268370AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092853Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b26a36310fae2bc057c2d3ac137cebe660c384f2e05d482f933e3fb5c8764296"
+    },
+    {
+      "local_path": "reports and recordings/C314991902AD0/C314991902AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314991902AD0/C314991902AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 67797255,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314991902AD0/C314991902AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092859Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0c66fc153a914c3d9a0e2faf1a4b6724997db7ca63ebdc724755b1223ebee3c8"
+    },
+    {
+      "local_path": "reports and recordings/C314991902AD0/C314991902AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314991902AD0/C314991902AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 428206,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314991902AD0/C314991902AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092900Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bbd50b57ee58e9d0c8aef5b3cf18f3c0adfe9fcb9b3ffbafcfa85367ae9d75c6"
+    },
+    {
+      "local_path": "reports and recordings/C309799601AD0/C309799601AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C309799601AD0/C309799601AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 129000,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C309799601AD0/C309799601AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092900Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ed35fb22ba36775623aa7e51fc6a3d4e5c0d42ba6ba632f4cab525778b326746"
+    },
+    {
+      "local_path": "reports and recordings/C309799601AD0/C309799601AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C309799601AD0/C309799601AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 236255483,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C309799601AD0/C309799601AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092921Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f3826510b5bef77b80ff013ee63ea9166cedc0cc6d75e4d60151df7558591b2a"
+    },
+    {
+      "local_path": "reports and recordings/C312371317AD0/C312371317AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312371317AD0/C312371317AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 193784,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312371317AD0/C312371317AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092921Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=236a0866770059fbc94d203ce6f68c70df61a80c133e8d5a2e0129ccb3713945"
+    },
+    {
+      "local_path": "reports and recordings/C312371317AD0/C312371317AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C312371317AD0/C312371317AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 400872011,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C312371317AD0/C312371317AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T092956Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ebcdbdb640c7f1b7da5aa556d73c39bbbbd7b8266be783d0f8634c71b80e1750"
+    },
+    {
+      "local_path": "reports and recordings/C302552049AD0/C302552049AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C302552049AD0/C302552049AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 89756002,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C302552049AD0/C302552049AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9510729eb12655f616035736cc45b7f8593b61c33ba8643ba12f3d6b3494519"
+    },
+    {
+      "local_path": "reports and recordings/C302552049AD0/C302552049AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C302552049AD0/C302552049AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 175655,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C302552049AD0/C302552049AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d2de370f5f0302a97e27e69f7759d3976b078e25a8f7b9e1ec044db19926b830"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_call5.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_call5.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 448895,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_call5.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4bc807d18b3cdecc1912a9e4bd71f4571d8389fa2e6e7b650a5f82281bf4366"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_call4.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_call4.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10702,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_call4.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093005Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ff1c54504455d0b365d447b6accf1234626466f73bbca55d6187d20af19d343"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 31006,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0d839decac8ff07a039916fa1bfa2cf3143f56fbfded93519f469780a8dc6e84"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 6669,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=478e2ad81760d8c7de1b7d93f2718a4c000f04d593149579aa3ca83518b28ea4"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8253,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d4df6475970d59321f70ad345e261186e843cb96d9481053dae5e448096fa86"
+    },
+    {
+      "local_path": "reports and recordings/C305789974AD0/C305789974AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305789974AD0/C305789974AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 97122,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305789974AD0/C305789974AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093006Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=497e48bf71b55a9424963b1fd4774d8d3d780c66b074cd1a11430d80fae3e163"
+    },
+    {
+      "local_path": "reports and recordings/U188118937AD0/U188118937AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U188118937AD0/U188118937AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 183040527,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U188118937AD0/U188118937AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093022Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ca0a7d8d00d063651a9626affa781c4db3ffff65c27464f8f763dcecdb8d164c"
+    },
+    {
+      "local_path": "reports and recordings/U188118937AD0/U188118937AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U188118937AD0/U188118937AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 946612,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U188118937AD0/U188118937AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=264266d5b0df91bae2eba84b644d3ba7f8785cf3ff6b787615f6b93172ffa064"
+    },
+    {
+      "local_path": "reports and recordings/C307384319AD0/C307384319AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C307384319AD0/C307384319AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 1095567,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307384319AD0/C307384319AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093023Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=89bc934dc1b504c99ba0c68aa9ba1c24ec48389ba39a43744e7941b5c1f502ce"
+    },
+    {
+      "local_path": "reports and recordings/C307384319AD0/C307384319AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C307384319AD0/C307384319AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 136122112,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C307384319AD0/C307384319AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093035Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5ee1422b1572868885992d1559b992bcd0d5b33ccca293580635937d90fd5194"
+    },
+    {
+      "local_path": "reports and recordings/C299989547AD0/C299989547AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299989547AD0/C299989547AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 108248494,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299989547AD0/C299989547AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093045Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8465a5a9a77c5847dd13b70e08433c6b92dc2d41bec72ecdfc75bcc312984efe"
+    },
+    {
+      "local_path": "reports and recordings/C299989547AD0/C299989547AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299989547AD0/C299989547AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 442648,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299989547AD0/C299989547AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093046Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=44ac2d9ff2adc691579b5289ec321c2943e3b8ddc5291148f21bdcfa077ed4a8"
+    },
+    {
+      "local_path": "reports and recordings/C304329432/C304329432_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304329432/C304329432_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 73517,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304329432/C304329432_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093046Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fc890ae9dbf05236871fc2e6a88e7707716ef8f79d4c76cf36da75277ad37686"
+    },
+    {
+      "local_path": "reports and recordings/C304329432/C304329432_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304329432/C304329432_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10313004,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304329432/C304329432_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093048Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6c6cba0826fa7f6222432be424239a1fd88d177f026038b91945dd6483c2b5be"
+    },
+    {
+      "local_path": "reports and recordings/C279171980/C279171980_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C279171980/C279171980_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10670444,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C279171980/C279171980_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=94fdd11a152057ceff0ce06392631d30cc1ed07719db4cf16d4dd54c26ea50ac"
+    },
+    {
+      "local_path": "reports and recordings/C279171980/C279171980_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C279171980/C279171980_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 153039,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C279171980/C279171980_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=841678501df698d35f2863cd0b3222717511008964bb4e1a72082b4ec643a766"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call6.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call6.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8685,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call6.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b53582e2f468671a618130762f53dd5e699e6ff7911d203c8752572bd24be3ff"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call7.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call7.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 376607,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call7.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eb965cafaae44103d3dfd8a36ebc38e2578438442a0d3958106089d015c9ca73"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call5.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call5.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 11422,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call5.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c1c12b0312b642c2316f7c7791247baebca61206a3d9a7bf46eff70835d91801"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call4.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call4.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 3789,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call4.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0bd3faf1f898b3f4f49f2f8e02c902aeba6746fb430c2c86dc09c9b53e07e497"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 4581,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dbfe6f35028150ae3c7c9d8f3b3f9f6975fd6680009481c9a26582d5d86ec666"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8685,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=35dc22aa4dc86c4af53363875da9fb5ad05a9a8fae7ee499532d232d546b22c5"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8685,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b168470f409d293bf8b0265a212ef70e276b2e38f676f7e75ae0219ecf93be6d"
+    },
+    {
+      "local_path": "reports and recordings/C304348808AD0/C304348808AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C304348808AD0/C304348808AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 72097,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C304348808AD0/C304348808AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093050Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d86e35441940301bf996360bf9c0338f90ce8c534a1572ed1b5165990c8abdd8"
+    },
+    {
+      "local_path": "reports and recordings/C688753782AD0/C688753782AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753782AD0/C688753782AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 133213191,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753782AD0/C688753782AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9e9b586942d5d23d8d956728bf6beac29cce5e08071384d7384e601137bff2dd"
+    },
+    {
+      "local_path": "reports and recordings/C688753782AD0/C688753782AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753782AD0/C688753782AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 156729,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753782AD0/C688753782AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093102Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1873c6207c7183e6c5237690d21627bdc4633209f65ca777a61a5bb5881abfd7"
+    },
+    {
+      "local_path": "reports and recordings/C688753782AD0/C688753782AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C688753782AD0/C688753782AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 22343828,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C688753782AD0/C688753782AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f3dc93b0049aee1ebb7be46f59e2964f13aaad8ddd3df0853b60b27b2069a1c9"
+    },
+    {
+      "local_path": "reports and recordings/C321219156AD0/C321219156AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321219156AD0/C321219156AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 70484,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321219156AD0/C321219156AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ac340f4207c25af2d7d94df2171c6af0bddffec9cac954832ad2382e0fae6599"
+    },
+    {
+      "local_path": "reports and recordings/C321219156AD0/C321219156AD0_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321219156AD0/C321219156AD0_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 104159,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321219156AD0/C321219156AD0_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5cab9790d0d568b87e1fec31786b063f0cfbd8bb9e3442ec5857a1943a36f9fd"
+    },
+    {
+      "local_path": "reports and recordings/C321219156AD0/C321219156AD0_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321219156AD0/C321219156AD0_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 326207,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321219156AD0/C321219156AD0_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dc71d51e6cf3a6de04d6d161f732eb35ef47f0273334f0f457a754457be3ca45"
+    },
+    {
+      "local_path": "reports and recordings/C321219156AD0/C321219156AD0_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321219156AD0/C321219156AD0_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 380495,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321219156AD0/C321219156AD0_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=af5406c2ca1d98271112d4f63a97971fa476d332f6f2b317966e915052b7315b"
+    },
+    {
+      "local_path": "reports and recordings/C321887915AD0/C321887915AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321887915AD0/C321887915AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 138047,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321887915AD0/C321887915AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6e53141f4a9177227fb7bb4cd60f18f30adbecd79abb73e98db48ca7fb23184c"
+    },
+    {
+      "local_path": "reports and recordings/C321887915AD0/C321887915AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321887915AD0/C321887915AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 23708473,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321887915AD0/C321887915AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093108Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=825c49ccaaac32ea6719d66d07ac8c84b3d52416647403f654b010315e40b63d"
+    },
+    {
+      "local_path": "reports and recordings/C321887915AD0/C321887915AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321887915AD0/C321887915AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 176332272,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321887915AD0/C321887915AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093124Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a5bd76fbf06b2808b9527dd117eeebe8a58a811648b8a1656821123c0d73b27d"
+    },
+    {
+      "local_path": "reports and recordings/C169095176/C169095176_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C169095176/C169095176_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 121449,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C169095176/C169095176_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093124Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b2bfb4d280ced97f91c19ae77ec895a3c79b2225160c7d782ecfc2120405fc98"
+    },
+    {
+      "local_path": "reports and recordings/C169095176/C169095176_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C169095176/C169095176_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 4675884,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C169095176/C169095176_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093126Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e26c4c424e6fc7a1155d9fe1a614a7aa7415c083edf3665eb36854cce31e3e35"
+    },
+    {
+      "local_path": "reports and recordings/U191789311/U191789311_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191789311/U191789311_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 125945,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191789311/U191789311_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093126Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8c2052998e7949ac08f2cb082daecdf8fe473f14799155da266793315faa58e6"
+    },
+    {
+      "local_path": "reports and recordings/U191789311/U191789311_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191789311/U191789311_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 5888044,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191789311/U191789311_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093127Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=71eb03421ed6a45fa154a42d5ad2e7494ff455a55a8fba1e67230fcb61a39e04"
+    },
+    {
+      "local_path": "reports and recordings/U191789311/U191789311_call2.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191789311/U191789311_call2.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 7605,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191789311/U191789311_call2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093127Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a435164c6cc32f5c9d41c1816260208044b673f5e3b5c4a388187ae13d6b83cd"
+    },
+    {
+      "local_path": "reports and recordings/U191789311/U191789311_call3.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U191789311/U191789311_call3.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 11278,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U191789311/U191789311_call3.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093127Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=925638b25f9ac7de0c381080f70a89be5238b7f7fa377f559f6924bd0f8a47e6"
+    },
+    {
+      "local_path": "reports and recordings/C314441368AD0/C314441368AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314441368AD0/C314441368AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 23612539,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314441368AD0/C314441368AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093130Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7cde6e0679b1938abd521256a4bccb0b15f71ab5e11cac22d7cac8a4a960a12e"
+    },
+    {
+      "local_path": "reports and recordings/C314441368AD0/C314441368AD0_call2.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314441368AD0/C314441368AD0_call2.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 5541207,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314441368AD0/C314441368AD0_call2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093132Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a641aabf0678d2b197095b4001e43ec2f766b606b37c5666aabe10049f993256"
+    },
+    {
+      "local_path": "reports and recordings/C314441368AD0/C314441368AD0_call3.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314441368AD0/C314441368AD0_call3.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 62520010,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314441368AD0/C314441368AD0_call3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093138Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5d045a37502c162d693fdc02910d95b52dd2e2a6a0541595e8e8c2a905b641a3"
+    },
+    {
+      "local_path": "reports and recordings/C314441368AD0/C314441368AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C314441368AD0/C314441368AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 185273,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C314441368AD0/C314441368AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093138Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e679d0e541c8ecda0431b50d37fb28b52da958215f2a6df6f3a46d974c589fef"
+    },
+    {
+      "local_path": "reports and recordings/C305188876/C305188876_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305188876/C305188876_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 72043,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305188876/C305188876_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093138Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c92e60bd9365850acc3192244406302a28e1b5e25aa49477a30a1045ad02c959"
+    },
+    {
+      "local_path": "reports and recordings/C305188876/C305188876_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305188876/C305188876_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 8341484,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305188876/C305188876_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093140Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=44aeb69256d72ac935a35622c960c1ef8fb47d1fb57c80c14e3d32a7ba225e1a"
+    },
+    {
+      "local_path": "reports and recordings/C321980728AD0/C321980728AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321980728AD0/C321980728AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 220674,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321980728AD0/C321980728AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093140Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9e56cb07e0d241b78cfa5c8faea8b7913a6149f4fe17f9e0cbb782884e66240"
+    },
+    {
+      "local_path": "reports and recordings/C321980728AD0/C321980728AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C321980728AD0/C321980728AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 227635587,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C321980728AD0/C321980728AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093200Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6d5e66ed84b65325e483a58a9b407010dbd8839de0a5297538e0c1ec2a8cd8f3"
+    },
+    {
+      "local_path": "reports and recordings/U215165196AD0/U215165196AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U215165196AD0/U215165196AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 851005,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215165196AD0/U215165196AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093200Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e51a913ad68a52d5cc213c1a33effc46d4f07912f2f49e123e9553470a655cb8"
+    },
+    {
+      "local_path": "reports and recordings/U215165196AD0/U215165196AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U215165196AD0/U215165196AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 163804641,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U215165196AD0/U215165196AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093215Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=03dd8acb55e93b55b9f0ca751709851bf8503b7ef17caafa53746462fbcb65ff"
+    },
+    {
+      "local_path": "reports and recordings/C305385404AD0/C305385404AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305385404AD0/C305385404AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 533811,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305385404AD0/C305385404AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093215Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea0a08120e6c77abddda94a005ac079cdaf0045271c89578f2d72509ceffed89"
+    },
+    {
+      "local_path": "reports and recordings/C305385404AD0/C305385404AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C305385404AD0/C305385404AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 109839324,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C305385404AD0/C305385404AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093225Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=21e056db203f86d809540c4a65902cd5cc2730b3281bee0a1d2919154ed170f2"
+    },
+    {
+      "local_path": "reports and recordings/C299763983/C299763983_call1.mp3",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299763983/C299763983_call1.mp3",
+      "content_type": "audio/mpeg",
+      "size_bytes": 10421164,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299763983/C299763983_call1.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093227Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fb5a3f443c586bcd230d64cc69bdceab77f328900cf06b6a6d33f26a5ae747fa"
+    },
+    {
+      "local_path": "reports and recordings/C299763983/C299763983_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/C299763983/C299763983_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 76562,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/C299763983/C299763983_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093227Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=492e8d5ee87d2b58e238a1c7930115bc10d810f5d1aa6fed46858ccc00024613"
+    },
+    {
+      "local_path": "reports and recordings/U224201245AD0/U224201245AD0_MER.pdf",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U224201245AD0/U224201245AD0_MER.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 70266,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U224201245AD0/U224201245AD0_MER.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093228Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7d9b7e8f6706dde94588abdfe33c216a5e95378fa53b4b2cbd16a7d5e1520c43"
+    },
+    {
+      "local_path": "reports and recordings/U224201245AD0/U224201245AD0_call1.mp4",
+      "bucket": "anthropod",
+      "key": "temp/tata_aia/reports and recordings/U224201245AD0/U224201245AD0_call1.mp4",
+      "content_type": "video/mp4",
+      "size_bytes": 132258524,
+      "presigned_url": "https://anthropod.s3.amazonaws.com/temp/tata_aia/reports%20and%20recordings/U224201245AD0/U224201245AD0_call1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATCKAS2OVAYBQ55L3%2F20260617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260617T093244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2f39b409f7e3ab2b09593684648f4811ea37ca39cb63433c7020dcbaa1404d29"
     }
-  ],
-  "refreshed_at": "2025-12-15T09:55:47.164563+00:00"
+  ]
 }

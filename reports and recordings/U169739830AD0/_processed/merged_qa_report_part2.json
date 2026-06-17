@@ -1,0 +1,96 @@
+{
+  "qc_parameters": {
+    "greetings": {
+      "value": "Yes",
+      "explanation": "The doctor initiated the call with a greeting.",
+      "timestamps": [
+        "00:00:05"
+      ]
+    },
+    "call_opening": {
+      "value": "Yes",
+      "explanation": "The doctor introduced herself, stated the insurer's name, and confirmed the client's name.",
+      "timestamps": {
+        "self_intro": "00:00:13",
+        "client_name": "00:00:17",
+        "insurer_name": "00:00:16"
+      }
+    },
+    "language_preference": {
+      "value": "No",
+      "explanation": "The doctor did not ask for the customer's preferred language at the beginning of the call.",
+      "timestamp": "NA"
+    },
+    "id_validation": {
+      "value": "Yes",
+      "explanation": "The doctor requested ID proof and the last four digits of the Aadhaar number.",
+      "timestamps": [
+        "00:01:47",
+        "00:02:01"
+      ]
+    },
+    "disclaimer": {
+      "value": "Yes",
+      "explanation": "The doctor provided both the call recording and legal disclaimers.",
+      "timestamps": [
+        "00:00:34",
+        "00:00:46"
+      ]
+    },
+    "politeness": {
+      "value": "Yes",
+      "explanation": "The doctor consistently used polite language and addressed the customer respectfully throughout the call.",
+      "timestamps": [
+        "00:00:05",
+        "00:01:14",
+        "00:18:20"
+      ]
+    },
+    "empathy": {
+      "value": "NA",
+      "explanation": "No serious health concerns (accident, operation, severe illness) were disclosed by the customer that would require specific empathy.",
+      "timestamps": [
+        "NA"
+      ]
+    },
+    "communication_skills": {
+      "value": "Yes",
+      "explanation": "The doctor's communication was clear, patient, and provided good guidance, especially during the video verification process.",
+      "timestamps": {
+        "good_examples": [
+          "00:02:33",
+          "00:02:56",
+          "00:05:22"
+        ],
+        "poor_examples": []
+      }
+    },
+    "probing": {
+      "value": "Yes",
+      "explanation": "The doctor effectively probed into all disclosed medical conditions (triglycerides, diabetes, fatty liver) and lifestyle habits.",
+      "timestamps": [
+        "00:06:22",
+        "00:08:40",
+        "00:12:52",
+        "00:15:21"
+      ]
+    },
+    "observations": {
+      "value": "Yes",
+      "explanation": "The customer struggled to provide a full body view for verification, requiring multiple instructions and attempts from the doctor.",
+      "timestamps": [
+        "00:02:11",
+        "00:02:56",
+        "00:03:32"
+      ]
+    },
+    "call_closure": {
+      "value": "Yes",
+      "explanation": "The doctor obtained the final declaration and thanked the customer for their cooperation.",
+      "timestamps": {
+        "declaration": "00:18:13",
+        "thank_you": "00:18:20"
+      }
+    }
+  }
+}

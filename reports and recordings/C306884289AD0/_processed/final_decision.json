@@ -1,0 +1,26 @@
+{
+  "ASSIGNBACK": [],
+  "OPS_ATTENTION": [],
+  "FLAGS": [
+    {
+      "issue": "Customer hesitation detected",
+      "details": {
+        "examples": [
+          "Customer says 'Excuse me?' and 'Wait a second' when asked a sensitive question about STDs/HIV/AIDS, requiring the doctor to repeat the question."
+        ],
+        "timestamps": [
+          "06:27",
+          "06:29"
+        ]
+      }
+    }
+  ],
+  "TECH_ISSUES": [
+    {
+      "issue": "Not both participants visible",
+      "details": {
+        "visibility_status": "NA"
+      }
+    }
+  ]
+}

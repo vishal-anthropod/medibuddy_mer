@@ -1,0 +1,487 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_0",
+      "text": "Hello? Yes, just a moment.",
+      "speaker": "customer",
+      "start_timestamp": "00:03",
+      "end_timestamp": "00:08"
+    },
+    {
+      "segment_id": "seg_1",
+      "text": "Can she answer all the questions? We'll make her listen, right?",
+      "speaker": "doctor",
+      "start_timestamp": "00:18",
+      "end_timestamp": "00:22"
+    },
+    {
+      "segment_id": "seg_2",
+      "text": "Gujarati, if you speak Gujarati, then I can give you a complete answer.",
+      "speaker": "customer",
+      "start_timestamp": "00:22",
+      "end_timestamp": "00:28"
+    },
+    {
+      "segment_id": "seg_3",
+      "text": "Yes, I'll speak Gujarati. You give the phone to her.",
+      "speaker": "doctor",
+      "start_timestamp": "00:28",
+      "end_timestamp": "00:30"
+    },
+    {
+      "segment_id": "seg_4",
+      "text": "Hey, wait.",
+      "speaker": "customer",
+      "start_timestamp": "00:31",
+      "end_timestamp": "00:32"
+    },
+    {
+      "segment_id": "seg_5",
+      "text": "And sir, let her answer all the questions. It's her policy, so it's mandatory that she answers all the questions.",
+      "speaker": "doctor",
+      "start_timestamp": "00:40",
+      "end_timestamp": "00:47"
+    },
+    {
+      "segment_id": "seg_6",
+      "text": "Of course, definitely.",
+      "speaker": "customer",
+      "start_timestamp": "00:47",
+      "end_timestamp": "00:48"
+    },
+    {
+      "segment_id": "seg_7",
+      "text": "Okay, give her the phone, no problem.",
+      "speaker": "doctor",
+      "start_timestamp": "00:49",
+      "end_timestamp": "00:50"
+    },
+    {
+      "segment_id": "seg_8",
+      "text": "Phone, give the phone.",
+      "speaker": "customer",
+      "start_timestamp": "00:51",
+      "end_timestamp": "00:52"
+    },
+    {
+      "segment_id": "seg_9",
+      "text": "She will answer this.",
+      "speaker": "customer",
+      "start_timestamp": "00:55",
+      "end_timestamp": "00:56"
+    },
+    {
+      "segment_id": "seg_10",
+      "text": "Hello?",
+      "speaker": "doctor",
+      "start_timestamp": "01:05",
+      "end_timestamp": "01:05"
+    },
+    {
+      "segment_id": "seg_11",
+      "text": "Hello, speak.",
+      "speaker": "customer",
+      "start_timestamp": "01:06",
+      "end_timestamp": "01:06"
+    },
+    {
+      "segment_id": "seg_12",
+      "text": "Are you Vimlaben Patel?",
+      "speaker": "doctor",
+      "start_timestamp": "01:07",
+      "end_timestamp": "01:09"
+    },
+    {
+      "segment_id": "seg_13",
+      "text": "Yes, Vimlaben Patel.",
+      "speaker": "customer",
+      "start_timestamp": "01:10",
+      "end_timestamp": "01:11"
+    },
+    {
+      "segment_id": "seg_14",
+      "text": "Good evening, madam. I am Dr. Parita speaking from Tata AIA Life Insurance.",
+      "speaker": "doctor",
+      "start_timestamp": "01:12",
+      "end_timestamp": "01:16"
+    },
+    {
+      "segment_id": "seg_15",
+      "text": "Which language are you comfortable in? Gujarati, Hindi, or English?",
+      "speaker": "doctor",
+      "start_timestamp": "01:18",
+      "end_timestamp": "01:21"
+    },
+    {
+      "segment_id": "seg_16",
+      "text": "Gujarati.",
+      "speaker": "customer",
+      "start_timestamp": "01:22",
+      "end_timestamp": "01:22"
+    },
+    {
+      "segment_id": "seg_17",
+      "text": "Okay. To proceed with the policy you've taken, this is a telephonic medical verification call, where I will ask you some verification and health-related questions.",
+      "speaker": "doctor",
+      "start_timestamp": "01:23",
+      "end_timestamp": "01:32"
+    },
+    {
+      "segment_id": "seg_18",
+      "text": "So, can we continue the call now? It will take 10 to 12 minutes.",
+      "speaker": "doctor",
+      "start_timestamp": "01:32",
+      "end_timestamp": "01:36"
+    },
+    {
+      "segment_id": "seg_19",
+      "text": "Hmm.",
+      "speaker": "customer",
+      "start_timestamp": "01:37",
+      "end_timestamp": "01:37"
+    },
+    {
+      "segment_id": "seg_20",
+      "text": "Okay. For your information, I want to tell you that this call is being recorded for the audit and quality purposes of the company. The answers you give related to your health and lifestyle become a part of your insurance application, and if your proposal is accepted, a legal contract is formed between you and Tata. If your answers are incorrect or incomplete, it will affect your contract, and there is a possibility that your claim may be rejected or your policy canceled. Therefore, I request that all the answers you give are correct. Understood?",
+      "speaker": "doctor",
+      "start_timestamp": "01:38",
+      "end_timestamp": "02:08"
+    },
+    {
+      "segment_id": "seg_21",
+      "text": "Hmm.",
+      "speaker": "customer",
+      "start_timestamp": "02:09",
+      "end_timestamp": "02:09"
+    },
+    {
+      "segment_id": "seg_22",
+      "text": "For verification, I have some details in my system. I am looking at it. Your full name given in the application is Vimlaben Patel. Is that correct?",
+      "speaker": "doctor",
+      "start_timestamp": "02:10",
+      "end_timestamp": "02:18"
+    },
+    {
+      "segment_id": "seg_23",
+      "text": "Yes, correct.",
+      "speaker": "customer",
+      "start_timestamp": "02:19",
+      "end_timestamp": "02:20"
+    },
+    {
+      "segment_id": "seg_24",
+      "text": "Please state your date of birth as per the application.",
+      "speaker": "doctor",
+      "start_timestamp": "02:20",
+      "end_timestamp": "02:22"
+    },
+    {
+      "segment_id": "seg_25",
+      "text": "Date of birth.",
+      "speaker": "customer",
+      "start_timestamp": "02:24",
+      "end_timestamp": "02:25"
+    },
+    {
+      "segment_id": "seg_26",
+      "text": "You have to say it yourself.",
+      "speaker": "doctor",
+      "start_timestamp": "02:26",
+      "end_timestamp": "02:27"
+    },
+    {
+      "segment_id": "seg_27",
+      "text": "Yes, I will say it myself.",
+      "speaker": "customer",
+      "start_timestamp": "02:28",
+      "end_timestamp": "02:29"
+    },
+    {
+      "segment_id": "seg_28",
+      "text": "Yes, then say it.",
+      "speaker": "doctor",
+      "start_timestamp": "02:31",
+      "end_timestamp": "02:31"
+    },
+    {
+      "segment_id": "seg_29",
+      "text": "Yes, I'm saying it. One, nine, six, one.",
+      "speaker": "customer",
+      "start_timestamp": "02:32",
+      "end_timestamp": "02:37"
+    },
+    {
+      "segment_id": "seg_30",
+      "text": "First, state the date.",
+      "speaker": "doctor",
+      "start_timestamp": "02:38",
+      "end_timestamp": "02:39"
+    },
+    {
+      "segment_id": "seg_31",
+      "text": "Date.",
+      "speaker": "customer",
+      "start_timestamp": "02:41",
+      "end_timestamp": "02:41"
+    },
+    {
+      "segment_id": "seg_32",
+      "text": "The date will be the first of the month, because that's what's entered in the birth date column.",
+      "speaker": "customer",
+      "start_timestamp": "02:42",
+      "end_timestamp": "02:48"
+    },
+    {
+      "segment_id": "seg_33",
+      "text": "Look at your document and say it.",
+      "speaker": "doctor",
+      "start_timestamp": "02:49",
+      "end_timestamp": "02:51"
+    },
+    {
+      "segment_id": "seg_34",
+      "text": "Yes, Aadhar card.",
+      "speaker": "customer",
+      "start_timestamp": "02:52",
+      "end_timestamp": "02:54"
+    },
+    {
+      "segment_id": "seg_35",
+      "text": "Look at it and say your date of birth.",
+      "speaker": "doctor",
+      "start_timestamp": "02:55",
+      "end_timestamp": "02:57"
+    },
+    {
+      "segment_id": "seg_36",
+      "text": "Our date of birth, it's the one written in the Aadhar card.",
+      "speaker": "customer",
+      "start_timestamp": "02:58",
+      "end_timestamp": "03:02"
+    },
+    {
+      "segment_id": "seg_37",
+      "text": "1961.",
+      "speaker": "customer",
+      "start_timestamp": "03:04",
+      "end_timestamp": "03:05"
+    },
+    {
+      "segment_id": "seg_38",
+      "text": "You have to state the date, month, and year in that order.",
+      "speaker": "doctor",
+      "start_timestamp": "03:06",
+      "end_timestamp": "03:08"
+    },
+    {
+      "segment_id": "seg_39",
+      "text": "Date.",
+      "speaker": "customer",
+      "start_timestamp": "03:09",
+      "end_timestamp": "03:10"
+    },
+    {
+      "segment_id": "seg_40",
+      "text": "Sir, on their Aadhar card, the date is not written, madam.",
+      "speaker": "customer",
+      "start_timestamp": "03:11",
+      "end_timestamp": "03:15"
+    },
+    {
+      "segment_id": "seg_41",
+      "text": "So sir, after her date of birth, how will she say it without looking?",
+      "speaker": "doctor",
+      "start_timestamp": "03:18",
+      "end_timestamp": "03:21"
+    },
+    {
+      "segment_id": "seg_42",
+      "text": "We only write '1-6-1961' like that.",
+      "speaker": "customer",
+      "start_timestamp": "03:22",
+      "end_timestamp": "03:25"
+    },
+    {
+      "segment_id": "seg_43",
+      "text": "And on her Aadhar card, there is no date of birth written.",
+      "speaker": "customer",
+      "start_timestamp": "03:26",
+      "end_timestamp": "03:30"
+    },
+    {
+      "segment_id": "seg_44",
+      "text": "No problem, sir. So, if our date of birth is given incorrectly, it will first be corrected, then the verification will proceed. Right?",
+      "speaker": "doctor",
+      "start_timestamp": "03:31",
+      "end_timestamp": "03:38"
+    },
+    {
+      "segment_id": "seg_45",
+      "text": "So, what have you given us?",
+      "speaker": "customer",
+      "start_timestamp": "03:42",
+      "end_timestamp": "03:44"
+    },
+    {
+      "segment_id": "seg_46",
+      "text": "Sir, it's not like that, but it's given incorrectly here. You say it's 1-6-61, right? That's not here.",
+      "speaker": "doctor",
+      "start_timestamp": "03:46",
+      "end_timestamp": "03:51"
+    },
+    {
+      "segment_id": "seg_47",
+      "text": "Yes.",
+      "speaker": "doctor",
+      "start_timestamp": "03:52",
+      "end_timestamp": "03:52"
+    },
+    {
+      "segment_id": "seg_48",
+      "text": "So we gave the Aadhar card document itself.",
+      "speaker": "customer",
+      "start_timestamp": "03:54",
+      "end_timestamp": "03:57"
+    },
+    {
+      "segment_id": "seg_49",
+      "text": "Yes, but you said that there is no date of birth on the Aadhar card, so how would it have been written?",
+      "speaker": "doctor",
+      "start_timestamp": "03:58",
+      "end_timestamp": "04:03"
+    },
+    {
+      "segment_id": "seg_50",
+      "text": "You told us 1961, then you ask for the date of birth?",
+      "speaker": "customer",
+      "start_timestamp": "04:03",
+      "end_timestamp": "04:06"
+    },
+    {
+      "segment_id": "seg_51",
+      "text": "No, sir, the date is given incorrectly, so this continuation will not happen right now. First, her date of birth will be corrected, then verification will happen.",
+      "speaker": "doctor",
+      "start_timestamp": "04:07",
+      "end_timestamp": "04:15"
+    },
+    {
+      "segment_id": "seg_52",
+      "text": "Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "04:18",
+      "end_timestamp": "04:19"
+    },
+    {
+      "segment_id": "seg_53",
+      "text": "Yes, keep it running, keep it running, keep it running. Take a photo and send it. Keep it running.",
+      "speaker": "customer",
+      "start_timestamp": "04:20",
+      "end_timestamp": "04:26"
+    },
+    {
+      "segment_id": "seg_54",
+      "text": "1-1-1961. 1-1-1961.",
+      "speaker": "customer",
+      "start_timestamp": "04:44",
+      "end_timestamp": "04:47"
+    },
+    {
+      "segment_id": "seg_55",
+      "text": "Sir, but anyway, helping with the date of birth is not allowed, and the verification has to be done continuously.",
+      "speaker": "doctor",
+      "start_timestamp": "04:48",
+      "end_timestamp": "04:55"
+    },
+    {
+      "segment_id": "seg_56",
+      "text": "Madam, actually, the words are written in English, and she understands Gujarati.",
+      "speaker": "customer",
+      "start_timestamp": "04:55",
+      "end_timestamp": "05:01"
+    },
+    {
+      "segment_id": "seg_57",
+      "text": "I was asking in Gujarati, but it's not allowed to help in this way.",
+      "speaker": "doctor",
+      "start_timestamp": "05:02",
+      "end_timestamp": "05:05"
+    },
+    {
+      "segment_id": "seg_58",
+      "text": "On the Aadhar card, on the Aadhar card, English words are written. The numbers are written in English. Gujarati is not written.",
+      "speaker": "customer",
+      "start_timestamp": "05:06",
+      "end_timestamp": "05:12"
+    },
+    {
+      "segment_id": "seg_59",
+      "text": "All your points are valid, but where someone helps with the date of birth, that is not allowed. And she said it wrong first, right? So the process won't proceed further.",
+      "speaker": "doctor",
+      "start_timestamp": "05:13",
+      "end_timestamp": "05:22"
+    },
+    {
+      "segment_id": "seg_60",
+      "text": "Actually, their Aadhar card, it says 1961 only. And what our agent, meaning here, it's 1961 written on the Aadhar card.",
+      "speaker": "customer",
+      "start_timestamp": "05:22",
+      "end_timestamp": "05:37"
+    },
+    {
+      "segment_id": "seg_61",
+      "text": "Your point is valid, but according to company rules, if the date of birth is incorrect or not in the documents, then the verification will not proceed. That's what I'm saying, sir. Please understand my point.",
+      "speaker": "doctor",
+      "start_timestamp": "05:42",
+      "end_timestamp": "05:54"
+    },
+    {
+      "segment_id": "seg_62",
+      "text": "If you don't want to give, then say no, then we have other documents.",
+      "speaker": "customer",
+      "start_timestamp": "05:57",
+      "end_timestamp": "06:02"
+    },
+    {
+      "segment_id": "seg_63",
+      "text": "It's not like that, sir. If it were in my hands, I would do it, but I cannot.",
+      "speaker": "doctor",
+      "start_timestamp": "06:03",
+      "end_timestamp": "06:06"
+    },
+    {
+      "segment_id": "seg_64",
+      "text": "Gujarati language, understand that this Aadhar card has English words written. So, an uneducated person, understand, a sixth-grade pass, how would they know English words?",
+      "speaker": "customer",
+      "start_timestamp": "06:07",
+      "end_timestamp": "06:18"
+    },
+    {
+      "segment_id": "seg_65",
+      "text": "No problem, sir. I will check with the team tomorrow and call you back. Okay?",
+      "speaker": "doctor",
+      "start_timestamp": "06:19",
+      "end_timestamp": "06:22"
+    },
+    {
+      "segment_id": "seg_66",
+      "text": "Nobody is here now, it's 9 o'clock, that's why.",
+      "speaker": "doctor",
+      "start_timestamp": "06:23",
+      "end_timestamp": "06:25"
+    },
+    {
+      "segment_id": "seg_67",
+      "text": "Okay, okay.",
+      "speaker": "customer",
+      "start_timestamp": "06:26",
+      "end_timestamp": "06:27"
+    },
+    {
+      "segment_id": "seg_68",
+      "text": "Okay.",
+      "speaker": "doctor",
+      "start_timestamp": "06:29",
+      "end_timestamp": "06:29"
+    }
+  ]
+}
