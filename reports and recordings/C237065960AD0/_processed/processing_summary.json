@@ -2,8 +2,17 @@
   "record_id": "C237065960AD0",
   "mer_pdf": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/C237065960AD0_MER.pdf",
   "total_calls": 1,
-  "total_duration": 0.0,
-  "individual_calls": [],
+  "total_duration": 438.168,
+  "individual_calls": [
+    {
+      "call_index": 1,
+      "media_file": "reports and recordings/C237065960AD0/C237065960AD0_call1.mp4",
+      "audio_path": "reports and recordings/C237065960AD0/_processed/call1/audio.mp3",
+      "duration": 438.168,
+      "transcript_path": "reports and recordings/C237065960AD0/_processed/call1/transcript.json",
+      "segments_count": 99
+    }
+  ],
   "merged_transcript": {
     "path": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/_processed/merged_transcript.json",
     "total_segments": 0,
@@ -614,5 +623,6 @@
       }
     }
   },
-  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/_processed"
+  "output_directory": "/Users/vishalsharma/Documents/Medibuddy/medibuddy_mer/reports and recordings/C237065960AD0/_processed",
+  "merged_segments_count": 99
 }
