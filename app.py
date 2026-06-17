@@ -43,6 +43,7 @@ app = Flask(__name__)
 
 # Cache-busting for static assets; change per deployment unless overridden
 ASSET_VERSION = os.environ.get("ASSET_VERSION", datetime.utcnow().strftime('%Y%m%d%H%M%S'))
+INSURER_NAME = "Tata AIA Life Insurance Company Ltd."
 
 @app.context_processor
 def inject_asset_version():
@@ -114,12 +115,22 @@ def scan_records() -> Dict[str, Dict[str, Any]]:
 
     entries = list(base.iterdir())
 
-    # 1) Discover records by presence of per-record directories with _processed outputs
+    # 1) Discover records by presence of per-record directories. A directory may be
+    # raw/staged with <rid>_MER.pdf + media, or already processed with _processed.
     for d in entries:
-        if d.is_dir() and (d / "_processed").exists():
-            rid = d.name
-            mer_candidate = base / f"{rid}_MER.pdf"
-            records.setdefault(rid, {"mer_pdf": str(mer_candidate) if mer_candidate.exists() else None, "calls": []})
+        if not d.is_dir():
+            continue
+        rid = d.name
+        mer_candidate = d / f"{rid}_MER.pdf"
+        root_mer_candidate = base / f"{rid}_MER.pdf"
+        if (d / "_processed").exists() or mer_candidate.exists() or root_mer_candidate.exists():
+            records.setdefault(
+                rid,
+                {
+                    "mer_pdf": str(mer_candidate if mer_candidate.exists() else root_mer_candidate) if (mer_candidate.exists() or root_mer_candidate.exists()) else None,
+                    "calls": [],
+                },
+            )
 
     # 2) Also index MER PDFs at the root if present (locally they may exist; in Vercel they are ignored)
     for f in entries:
@@ -134,6 +145,15 @@ def scan_records() -> Dict[str, Dict[str, Any]]:
             for rid in list(records.keys()):
                 if f.name.startswith(rid):
                     records[rid]["calls"].append({"path": str(f), "name": f.name})
+
+    # 4) Attach media files inside per-record directories (current local staging layout)
+    for rid, rec in records.items():
+        rec_dir = base / rid
+        if not rec_dir.is_dir():
+            continue
+        for f in rec_dir.iterdir():
+            if f.is_file() and _is_audio(f):
+                rec["calls"].append({"path": str(f), "name": f.name})
 
     # Normalize call indices
     for rid, rec in records.items():
@@ -725,6 +745,10 @@ def load_json_safe(path: Path) -> Dict[str, Any]:
         return {}
 
 
+def as_dict(value: Any) -> Dict[str, Any]:
+    return value if isinstance(value, dict) else {}
+
+
 def load_transcript_from_path(path: Path) -> Dict[str, Any]:
     """Load a transcript JSON and normalize shape to {segments:[...]},
     supporting the code-fenced JSON stored under raw_text."""
@@ -973,6 +997,9 @@ def compute_speaker_distribution(transcript: Dict[str, Any], total_duration: Opt
 
 
 def compute_qc_score(qa_report: Dict[str, Any], qc2: Dict[str, Any], duration_sec: Optional[float]) -> Dict[str, Any]:
+    qa_report = as_dict(qa_report)
+    qc2 = as_dict(qc2)
+
     def pct_to_score(p: float) -> int:
         # Only full marks at 100%; otherwise banded as per guide
         if p >= 100: return 100
@@ -993,6 +1020,22 @@ def compute_qc_score(qa_report: Dict[str, Any], qc2: Dict[str, Any], duration_se
     def contextual(val: str) -> int:
         v = (val or '').strip().lower()
         return 100 if v in ('yes', 'na') else 0
+
+    def observations_score(obj: Dict[str, Any]) -> int:
+        v = str((obj or {}).get('value') or '').strip().lower()
+        explanation = str((obj or {}).get('explanation') or '').strip().lower()
+        if v in ('yes', 'na'):
+            return 100
+        if v == 'no' and any(phrase in explanation for phrase in (
+            'no instances',
+            'no customer hesitation',
+            'no third-party prompting',
+            'no third party prompting',
+            'were observed',
+            'was observed',
+        )):
+            return 100
+        return 0
 
     qc = (qc2 or {}).get('qc_parameters', {})
 
@@ -1042,7 +1085,7 @@ def compute_qc_score(qa_report: Dict[str, Any], qc2: Dict[str, Any], duration_se
         'empathy': contextual(qc.get('empathy', {}).get('value')),
         'communication_skills': graded(qc.get('communication_skills', {}).get('value')),
         'probing': contextual(qc.get('probing', {}).get('value')),
-        'observations': contextual(qc.get('observations', {}).get('value')),
+        'observations': observations_score(qc.get('observations', {})),
         'call_closure': graded(qc.get('call_closure', {}).get('value')),
         'complete_mer_questions': pct_to_score(complete_mer_pct),
         'correct_documentation': pct_to_score(correct_doc_pct),
@@ -1110,6 +1153,8 @@ def _normalize_status(value: Optional[str]) -> str:
     s = (value or '').strip().lower()
     if 'incorrect' in s:
         return 'incorrect'
+    if 'incomplete' in s:
+        return 'incorrect'
     if 'missing' in s:
         return 'missing'
     if 'clubbed' in s:
@@ -1122,6 +1167,7 @@ def _normalize_status(value: Optional[str]) -> str:
 
 
 def compute_ui_summary(report: Dict[str, Any]) -> Dict[str, Any]:
+    report = as_dict(report)
     qa_items: List[Dict[str, Any]] = report.get('qa_matrix', []) or []
     total = 0
     asked = 0
@@ -1130,14 +1176,20 @@ def compute_ui_summary(report: Dict[str, Any]) -> Dict[str, Any]:
     paraphrased = 0
     clubbed = 0
     correct = 0
+    excluded_na = 0
+    accepted = 0
 
     for item in qa_items:
         qid = str(item.get('question_id', '')).strip()
         status = _normalize_status(item.get('status'))
         expected = str(item.get('expected_response', '') or '').strip().lower()
 
-        # Exclude non-applicable Personal Particulars from scoring
-        if qid.startswith('PP.') and (expected in {'', 'na', 'n/a', 'not applicable', 'null', 'none'}):
+        # Exclude non-applicable rows from scoring. This includes explicit NA
+        # model output and PP rows with empty/not-applicable expected values.
+        if status in {'na', 'n/a', 'not applicable'} or (
+            qid.startswith('PP.') and (expected in {'', 'na', 'n/a', 'not applicable', 'null', 'none'})
+        ):
+            excluded_na += 1
             continue
 
         total += 1
@@ -1155,7 +1207,10 @@ def compute_ui_summary(report: Dict[str, Any]) -> Dict[str, Any]:
         elif status == 'correct':
             correct += 1
 
-    accuracy = round((correct / total) * 100, 2) if total > 0 else 0.0
+    # Paraphrased means the doctor asked/documented the same information in
+    # different wording, so it counts as acceptable for accuracy.
+    accepted = correct + paraphrased
+    accuracy = round((accepted / total) * 100, 2) if total > 0 else 0.0
     return {
         'overall_compliance_score': accuracy,
         'total_questions': total,
@@ -1164,11 +1219,27 @@ def compute_ui_summary(report: Dict[str, Any]) -> Dict[str, Any]:
         'incorrect_responses': incorrect,
         'paraphrased_responses': paraphrased,
         'clubbed_questions': clubbed,
+        'correct_responses': correct,
+        'accepted_responses': accepted,
+        'excluded_na': excluded_na,
+        'raw_total_questions': len(qa_items),
+        'accuracy_breakdown': {
+            'accepted': accepted,
+            'correct': correct,
+            'paraphrased_accepted': paraphrased,
+            'denominator': total,
+            'excluded_na': excluded_na,
+            'incorrect': incorrect,
+            'missing': missed,
+            'clubbed': clubbed,
+            'formula': '(Correct + Paraphrased) / (Total QA rows - NA rows) * 100',
+        },
         'critical_errors': len((report.get('summary') or {}).get('critical_issues', []) or []),
     }
 
 
 def derive_top_metrics(report: Dict[str, Any], audio_duration: Optional[float]) -> Dict[str, Any]:
+    report = as_dict(report)
     # Prefer our computed metrics derived from qa_matrix with PP rules
     computed = compute_ui_summary(report)
 
@@ -1190,6 +1261,11 @@ def derive_top_metrics(report: Dict[str, Any], audio_duration: Optional[float]) 
         "questions_missed": computed['questions_missed'],
         "paraphrased_responses": computed['paraphrased_responses'],
         "clubbed_questions": computed['clubbed_questions'],
+        "correct_responses": computed['correct_responses'],
+        "accepted_responses": computed['accepted_responses'],
+        "excluded_na": computed['excluded_na'],
+        "raw_total_questions": computed['raw_total_questions'],
+        "accuracy_breakdown": computed['accuracy_breakdown'],
         "critical_errors": computed['critical_errors'],
         "id": meta_id,
         "employee": employee,
@@ -1216,6 +1292,38 @@ def records_page():
     return render_template('records_react.html')
 
 
+@app.route('/logic')
+def logic_page():
+    doc_path = BASE_DIR / "docs" / "qa_scoring_and_decision_logic.md"
+    try:
+        content = doc_path.read_text(encoding="utf-8")
+    except Exception:
+        content = "Logic document not found."
+    return render_template_string("""
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MER Logic Documentation</title>
+  <link rel="stylesheet" href="/static/styles.css?v={{ asset_v|default('0') }}">
+  <style>
+    body{background:#f8fafc}
+    .doc{max-width:1040px;margin:20px auto;padding:0 20px}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:20px;line-height:1.5;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="topbar" style="justify-content:space-between;padding:12px 24px">
+    <div style="font-weight:700">MER Logic Documentation</div>
+    <a class="btn" href="/records">Back to Records</a>
+  </div>
+  <main class="doc"><pre>{{ content }}</pre></main>
+</body>
+</html>
+""", content=content)
+
+
 @app.route('/record/<rid>')
 def record_page(rid: str):
     # Simple per-record UI with call tabs
@@ -1236,34 +1344,32 @@ def record_page(rid: str):
           var j = await r.json();
           if(j.error){ root.textContent = 'Not processed yet. Use API to process.'; return; }
           var calls = j.calls||[];
-          var tabs = calls.map(function(c){ return '<button class="tab" data-idx="'+c.index+'">Call '+c.index+'</button>'; }).join('') + '<button class="tab" data-idx="agg">Aggregated</button>';
+          if(j.status === 'staged'){
+            var rows = calls.map(function(c){
+              var mediaUrl = '/api/records/' + encodeURIComponent(RID) + '/calls/' + encodeURIComponent(c.index) + '/audio';
+              var isVideo = String(c.media_type||'').toLowerCase() === 'mp4';
+              var media = isVideo
+                ? '<a class="btn" href="'+mediaUrl+'" target="_blank" rel="noopener">Open recording</a>'
+                : '<audio controls preload="metadata" src="'+mediaUrl+'" style="width:100%;max-width:520px"></audio>';
+              return '<div class="question-card" style="display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px;align-items:center">'+
+                '<div><b>Call '+c.index+'</b><div style="font-size:12px;color:#6B7280">'+(c.media_type||'media').toUpperCase()+'</div></div>'+
+                '<div><div style="font-weight:600;margin-bottom:6px;word-break:break-word">'+(c.name||'-')+'</div>'+media+'</div>'+
+              '</div>';
+            }).join('');
+            root.innerHTML = '<div class="card">'+
+              '<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap">'+
+                '<div><h2 style="margin:0 0 6px 0">Staged for Processing</h2><div style="color:#6B7280">MER and recordings are available. QA extraction will appear after processing succeeds.</div></div>'+
+                '<a class="btn" href="/api/records/'+encodeURIComponent(RID)+'/mer" target="_blank" rel="noopener">Open MER PDF</a>'+
+              '</div>'+
+              '<div style="margin-top:16px">'+rows+'</div>'+
+            '</div>';
+            return;
+          }
+          var tabs = calls.map(function(c){ return '<button class="tab" data-idx="'+c.index+'">Call '+c.index+'</button>'; }).join('');
           var shell = '<div class="tabs">'+tabs+'</div><div id="view" class="card"></div>';
           root.innerHTML = shell;
           var view = document.getElementById('view');
           function render(idx){
-            if(idx==='agg'){
-              var a=j.aggregate||{}; var br=a.breakdown||{}; var fd=j.final_decision||{};
-              var header = '<div style="display:flex;gap:12px;flex-wrap:wrap;color:#374151"><div><b>'+(a.total_score||0)+' / '+(a.max_score||1600)+'</b> Total</div><div><b>'+(a.percentage||0)+'%</b> Score</div><div><b>'+(a.category||'-')+'</b></div></div>'+
-                '<div style="margin-top:12px">'+Object.keys(br).sort().map(function(k){return '<div>'+k+': <b>'+br[k]+'</b></div>';}).join('')+'</div>';
-              function renderIssues(cat, list){
-                list = Array.isArray(list)? list : [];
-                if(!list.length) return '';
-                var items = list.map(function(it){
-                  var d = it.details;
-                  var det = (typeof d==='string')? d : (d? JSON.stringify(d) : '');
-                  return '<li style="margin-left:16px">'+it.issue+(det? ' — <span style="color:#6B7280">'+det+'</span>':'')+'</li>';
-                }).join('');
-                return '<div class="question-card"><div style="display:flex;justify-content:space-between;align-items:center"><b>'+cat+'</b><span class="badge">'+list.length+'</span></div><ul style="margin:8px 0 0 0;padding:0;list-style:disc">'+items+'</ul></div>';
-              }
-              var fdHtml = ''+
-                '<h3 style="margin:16px 0 8px 0">Final Decision</h3>'+
-                renderIssues('ASSIGNBACK', fd.ASSIGNBACK) +
-                renderIssues('OPS_ATTENTION', fd.OPS_ATTENTION) +
-                renderIssues('FLAGS', fd.FLAGS) +
-                renderIssues('TECH_ISSUES', fd.TECH_ISSUES);
-              view.innerHTML = header + fdHtml;
-              return;
-            }
             var c = calls.find(function(x){ return String(x.index)===String(idx); });
             if(!c){ view.textContent='Missing call'; return; }
             // Render the full dashboard UI in this page by loading index.html with endpoints set via query params
@@ -1365,8 +1471,9 @@ def api_records_dashboard():
     out = []
     for rid, rec in recs.items():
         base = Path(RECORDS_DIR) / rid / '_processed'
-        qa = load_json_safe(base / 'merged_qa_report.json')
-        qc2 = load_json_safe(base / 'merged_qa_report_part2.json')
+        qa = as_dict(load_json_safe(base / 'merged_qa_report.json'))
+        qc2 = as_dict(load_json_safe(base / 'merged_qa_report_part2.json'))
+        is_processed = bool(qa or qc2 or load_json_safe(base / 'processing_summary.json'))
         # compute metrics
         duration = None
         try:
@@ -1387,7 +1494,9 @@ def api_records_dashboard():
         top = derive_top_metrics(qa, duration)
         # categorize based on final_decision.json if exists
         decision = load_json_safe(base / 'final_decision.json')
-        category = 'pass'
+        category = 'staged'
+        if is_processed:
+            category = 'pass'
         if decision:
             if (decision.get('ASSIGNBACK') or []):
                 category = 'assignback'
@@ -1397,18 +1506,38 @@ def api_records_dashboard():
                 category = 'tech_issues'
             elif (decision.get('FLAGS') or []):
                 category = 'flags'
+        media_types = sorted({
+            Path(c.get("name", "")).suffix.lower().lstrip(".") or "media"
+            for c in (rec.get("calls") or [])
+        })
+        media_links = [
+            {
+                "index": c.get("index"),
+                "name": c.get("name"),
+                "url": f"/api/records/{rid}/calls/{c.get('index')}/audio",
+                "type": Path(c.get("name", "")).suffix.lower().lstrip(".") or "media",
+            }
+            for c in (rec.get("calls") or [])
+        ]
         out.append({
             'id': rid,
             'customerName': qa.get('personal_particulars', {}).get('name') or '-',
             'doctorName': (qa.get('meta', {}) or {}).get('doctor_name') or '-',
-            'insurerName': (qa.get('meta', {}) or {}).get('insurance_company') or '-',
+            'insurerName': INSURER_NAME,
             'date': (qa.get('meta', {}) or {}).get('date') or '-',
             'duration': top.get('duration') or '-',
-            'accuracy': top.get('accuracy') or 0,
-            'questionsAsked': f"{top.get('questions_asked') or 0}/{top.get('total_questions') or 0}",
+            'accuracy': top.get('accuracy') if is_processed else None,
+            'questionsAsked': f"{top.get('questions_asked') or 0}/{top.get('total_questions') or 0}" if is_processed else '-',
             'category': category,
+            'status': 'processed' if is_processed else 'staged',
+            'numCalls': len(rec.get('calls', [])),
+            'mediaTypes': media_types,
+            'merAvailable': bool(rec.get('mer_pdf')),
+            'merUrl': f"/api/records/{rid}/mer" if rec.get('mer_pdf') else None,
+            'mediaLinks': media_links,
+            'storage': 'local_routes',
             'issues': (qa.get('summary') or {}).get('critical_issues') or [],
-            'qcScore': (compute_qc_score(qa, qc2, duration) or {}).get('total_score', 0)
+            'qcScore': (compute_qc_score(qa, qc2, duration) or {}).get('total_score', 0) if is_processed else None
         })
     return jsonify({'records': out})
 
@@ -1428,12 +1557,30 @@ def api_process_record(rid: str):
 def api_record_details(rid: str):
     base = Path(RECORDS_DIR) / rid / "_processed"
     if not base.exists():
-        return jsonify({"error": "not_processed"}), 404
+        rec = scan_records().get(rid)
+        if not rec:
+            return jsonify({"error": "not_found"}), 404
+        return jsonify({
+            "id": rid,
+            "status": "staged",
+            "mer_pdf": rec.get("mer_pdf"),
+            "calls": [
+                {
+                    "index": c.get("index"),
+                    "name": c.get("name"),
+                    "media_type": Path(c.get("name", "")).suffix.lower().lstrip("."),
+                }
+                for c in rec.get("calls", [])
+            ],
+            "aggregate": {},
+            "merged": {},
+            "final_decision": {},
+        })
 
     # Check if we have medb.py generated summary
     summary_path = base / 'processing_summary.json'
     if summary_path.exists():
-        summary = load_json_safe(summary_path)
+        summary = as_dict(load_json_safe(summary_path))
         if summary:
             # Convert medb.py format to expected format
             calls = []
@@ -1446,10 +1593,13 @@ def api_record_details(rid: str):
                     "duration_sec": call_data.get('duration', 0),
                 })
             
-            # Use merged results from medb.py
+            # Use merged artifacts from medb.py. Some summaries do not embed QA/QC,
+            # so fall back to the canonical merged JSON files.
+            merged_qa = as_dict(summary.get('qa_part1')) or as_dict(load_json_safe(base / 'merged_qa_report.json'))
+            merged_qc = as_dict(summary.get('qa_part2')) or as_dict(load_json_safe(base / 'merged_qa_report_part2.json'))
             merged = {
-                "qa": summary.get('qa_part1', {}),
-                "qc": summary.get('qa_part2', {}),
+                "qa": merged_qa,
+                "qc": merged_qc,
                 "transcript": load_json_safe(base / 'merged_transcript.json'),
             }
             
@@ -1457,7 +1607,7 @@ def api_record_details(rid: str):
             aggregate = {"breakdown": {}, "total_score": 0, "max_score": 1600, "percentage": 0.0, "category": "Unknown"}
             
             final_decision = load_json_safe(base / 'final_decision.json')
-            return jsonify({"id": rid, "calls": calls, "aggregate": aggregate, "merged": merged, "final_decision": final_decision})
+            return jsonify({"id": rid, "status": "processed", "calls": calls, "aggregate": aggregate, "merged": merged, "final_decision": final_decision})
 
     # Fallback to old format for backwards compatibility
     calls = []
@@ -1485,13 +1635,13 @@ def api_record_details(rid: str):
     mtr = base / 'merged_transcript.json'
     if mqa.exists() or mqc.exists() or mtr.exists():
         merged = {
-            "qa": load_json_safe(mqa) if mqa.exists() else {},
-            "qc": load_json_safe(mqc) if mqc.exists() else {},
+            "qa": as_dict(load_json_safe(mqa)) if mqa.exists() else {},
+            "qc": as_dict(load_json_safe(mqc)) if mqc.exists() else {},
             "transcript": load_json_safe(mtr) if mtr.exists() else {},
         }
 
     final_decision = load_json_safe(base / 'final_decision.json')
-    return jsonify({"id": rid, "calls": sorted(calls, key=lambda x: x["index"]), "aggregate": {}, "merged": merged, "final_decision": final_decision})
+    return jsonify({"id": rid, "status": "processed", "calls": sorted(calls, key=lambda x: x["index"]), "aggregate": {}, "merged": merged, "final_decision": final_decision})
 
 
 @app.route('/api/records/<rid>/final_decision')
@@ -1500,6 +1650,18 @@ def api_record_final_decision(rid: str):
     if not base.exists():
         return jsonify({})
     return jsonify(load_json_safe(base / 'final_decision.json'))
+
+
+@app.route('/api/records/<rid>/mer')
+def api_record_mer(rid: str):
+    rec = scan_records().get(rid, {})
+    mer_path = rec.get('mer_pdf') or str(Path(RECORDS_DIR) / rid / f"{rid}_MER.pdf")
+    if not mer_path or not os.path.exists(mer_path):
+        return Response("MER PDF not found", status=404)
+    url = _read_url_pointer_if_any(mer_path)
+    if url:
+        return redirect(url, code=302)
+    return send_file(mer_path)
 
 
 # Per-call API proxies to reuse dashboard UI
@@ -1590,6 +1752,8 @@ def api_record_call_metadata(rid: str, idx: int):
                             break
                 except Exception:
                     pass
+        if (not mer_url) and rec.get('mer_pdf'):
+            mer_url = f"/api/records/{rid}/mer"
     except Exception:
         mer_url = None
 
@@ -1717,5 +1881,3 @@ if __name__ == '__main__':
     host = os.environ.get('HOST', '127.0.0.1')
     port = int(os.environ.get('PORT', '5000'))
     app.run(host=host, port=port, debug=True, threaded=True)
-
-

@@ -286,7 +286,7 @@ def build_merged_transcript_text(merged: Dict[str, Any]) -> str:
             st = mmss_to_hhmmss(seg.get('start_timestamp') or '0:00')
             en = mmss_to_hhmmss(seg.get('end_timestamp') or '0:00')
             spk_raw = str(seg.get('speaker') or '').lower()
-            speaker = 'agent' if spk_raw in ('doctor','agent') else ('customer' if spk_raw=='customer' else spk_raw or 'agent')
+            speaker = 'doctor' if spk_raw in ('doctor','agent') else ('customer' if spk_raw=='customer' else spk_raw or 'doctor')
             text = (seg.get('text') or '').strip()
             parts.append(f"[Segment ID - {sid}] [Start Timestamp - {st}] [End Timestamp - {en}] [Speaker - {speaker}] {text} ")
         if parts:
@@ -553,6 +553,7 @@ Additionally, extract and include the following (keep remaining instructions unc
 - Process Compliance (not part of MER but mandatory): Disclaimer reading at the start (capture whether stated, insurer name, and timestamp) and Language Preference asked at the start (capture whether asked, selected language, and timestamp).
 - Behavioral Flags: detect rare customer-side prompting/coaching where a third party speaks for or guides the customer, and the customer merely repeats or reads out statements. Look for patterns like background voice feeding answers, customer repeating phrasing verbatim after a pause, or side confirmations. Do not mark normal clarifications. Also detect customer hesitation (only explicit refusal/evasion). Provide brief explanations and timestamps.
 - Do NOT perform documentation spelling/typo checks here. That will be evaluated separately from the MER text only and merged later.
+- Use the word "doctor" for the person conducting the call in every explanation, summary, recommendation, and issue. Do not call the doctor "agent".
 
 Represent these as top-level objects personal_particulars and process_compliance in the JSON output.
 
@@ -622,6 +623,9 @@ IMPORTANT RULES:
 - Mark as "Paraphrased" if question was asked differently but captured same info
 - Mark as "Clubbed" if multiple questions were combined
 - Calculate compliance score as: (correctly_captured_questions / total_questions) * 100
+- Mark status "NA" when a MER question is not applicable to this customer based on gender, relationship, family details, or context. Examples: female-only pregnancy/gynaecology questions for a male customer; extra sibling questions beyond the number of siblings mentioned. For NA rows, set captured_response=null when not asked, keep expected_response from MER if present, and do not treat it as Missing or Incorrect.
+- Accuracy denominators used by the UI exclude NA rows. Paraphrased rows count as acceptable because the same information was captured in different wording.
+- When generating summary/recommendations/critical issues, do not criticize the doctor for not asking NA questions.
 - For Personal Particulars: cross-verify with MER; if a particular is not present in MER, mark "present_in_mer": false and keep value from transcript if stated, else null. Include alphanumeric IDs, allow full or partial numbers.
 - For Process Compliance: identify whether the disclaimer (with insurer name) and language preference were performed at the start, and capture timestamps.
 
@@ -630,11 +634,16 @@ DO NOT penalize purely formatting/spacing/case differences in documentation when
 For the key "typo_in_expected_response":
 - Evaluate ONLY the expected_response (MER/doctor-entered text) for true spelling mistakes.
 - Ignore ALL spacing differences and ALL capitalization/case differences; grammar is out of scope.
+- Do NOT flag OCR/PDF extraction spacing artifacts where a valid word is split by spaces. Examples that must NOT count as typos: "declar e" -> "declare", "ask ed" -> "asked", "fur nished" -> "furnished", "infor mation" -> "information", "af ter" -> "after", "r ead" -> "read", "ar e" -> "are", "agr eement" -> "agreement".
+- Do NOT flag names, colleges, cities, addresses, declarations, or long free-text fields merely because letters/words are separated by extra spaces during PDF extraction, such as "MAHAR ANA PR ATAP", "K ANPUR", or "RAIBAREILL Y".
+- Before setting has_typo=true, mentally remove extra spaces within words and compare again. If the text becomes a valid word/phrase after only removing spaces, set has_typo=false.
 - Set has_typo=true only if the word(s) are genuinely misspelled (wrong letters/order), otherwise false.
 - If has_typo=true, provide corrected_text with your best normalized correction; else null.
 For hesitation, only mark when the customer refuses to answer, does not answer, or repeatedly evades a question; do NOT mark normal uncertainty phrases (e.g., "maybe", "I think") as hesitation by themselves.
 
 Sibling applicability: infer number of siblings mentioned in the transcript (e.g., 0/1/2/3...). Only those many sibling sub-questions are applicable. For any additional sibling entries that do not exist for this customer, set expected_response = "NA" and status = "NA" (not applicable), and do not penalize.
+
+Gender applicability: infer customer gender from the MER, title/name, and transcript. Mark female-only questions (pregnancy, Pap smear, mammogram, breast/uterus/cervix/ovary/menstruation/pregnancy/childbirth questions) as status="NA" for male customers, and do not penalize.
 
 Prompting: this is a rare event and refers to customer-side third-party coaching. Flag only when a third party appears to be speaking to/for the customer (background voice feeding answers, customer echoing dictated text). Do NOT flag general doctor guidance or rephrasing.
 
@@ -785,6 +794,8 @@ Hesitation rule: Only mark hesitation if the customer refuses to answer, gives n
 
 Prompting rule: This is a rare, customer-side third-party coaching situation. Flag only when a third party appears to feed answers to the customer (background voice dictating, customer repeating phrases verbatim). Do NOT flag normal doctor guidance.
 
+Observations rule: Use observations.value="NA" when there are no special customer-side observations to report (for example, no hesitation, no third-party prompting, no unusual event). Use observations.value="Yes" only when a relevant observation is present and captured. Use observations.value="No" only when a required observation was missed.
+
 TRANSCRIPT JSON:
 {json.dumps(transcript, indent=2)}
 
@@ -846,6 +857,8 @@ You are checking only the MER (Medical Examination Report) text for spelling mis
 Rules (strict):
 - Consider ONLY fields/lines that are clearly doctor-entered values (names, addresses, free-text notes, medications typed, comments). Ignore template headers, labels, option lists and system-generated placeholders.
 - Ignore ALL spacing differences and ALL capitalization/case differences. Grammar is out of scope. Only report genuine misspellings (wrong letters/order).
+- Do NOT report OCR/PDF extraction spacing artifacts where a valid word is split by spaces. Examples that must NOT count as spelling mistakes: "declar e", "ask ed", "fur nished", "infor mation", "af ter", "r ead", "ar e", "agr eement", "MAHAR ANA PR ATAP", "K ANPUR", "RAIBAREILL Y".
+- If a field becomes correct by only removing extra spaces inside words, it is not a spelling mistake.
 - When in doubt whether a token is a template label vs filled value, default to not flagging it.
 
 MER TEXT:

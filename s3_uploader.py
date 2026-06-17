@@ -29,8 +29,8 @@ def human_size(num_bytes: int) -> str:
 
 
 def build_s3_client() -> boto3.client:
-    aws_access_key = os.environ.get("AWS_ACCESS_KEY_ID")
-    aws_secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    aws_access_key = os.environ.get("AWS_ACCESS_KEY_ID") or os.environ.get("AWS_ACCESS_KEY")
+    aws_secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY") or os.environ.get("AWS_SECRET_KEY")
     aws_region = os.environ.get("AWS_REGION", "ap-south-1")
 
     # If explicit env vars are provided, use them; otherwise rely on default provider chain (profile/SSO/IMDS)
@@ -63,12 +63,9 @@ def iter_media_files(base_dir: Path):
     exclude_dirs = {"node_modules", ".git", "__pycache__"}
 
     for root, dirs, files in os.walk(base_dir):
-        # Prune excluded directories and heavy processed artifacts
-        dirs[:] = [d for d in dirs if d not in exclude_dirs]
-
-        # Prefer to skip deep processed chunks to avoid noise
-        if "_processed" in root and "/chunks" in root:
-            continue
+        # Prune excluded directories and generated artifacts. Upload only original MER PDFs
+        # and original call/video recordings; processed audio is derived locally.
+        dirs[:] = [d for d in dirs if d not in exclude_dirs and d != "_processed"]
 
         for fname in files:
             fpath = Path(root) / fname
@@ -171,8 +168,8 @@ def refresh_presigned_urls(
     ymd = server_dt.strftime("%Y%m%d")
     amz_date = server_dt.strftime("%Y%m%dT%H%M%SZ")
     region = os.environ.get("AWS_REGION", "ap-south-1")
-    access_key = os.environ.get("AWS_ACCESS_KEY_ID")
-    secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    access_key = os.environ.get("AWS_ACCESS_KEY_ID") or os.environ.get("AWS_ACCESS_KEY")
+    secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY") or os.environ.get("AWS_SECRET_KEY")
 
     items = manifest.get("items", [])
     refreshed = 0
@@ -302,13 +299,11 @@ def _manual_presign_s3_get(*, bucket: str, key: str, region: str, access_key: st
 
 def main():
     bucket = os.environ.get("S3_BUCKET_NAME", "anthropod")
-    key_prefix = os.environ.get("S3_KEY_PREFIX", "temp/medibuddy")
+    key_prefix = os.environ.get("S3_KEY_PREFIX") or os.environ.get("S3_FOLDER") or "temp/medibuddy"
 
-    # Scope: root and "reports and recordings" if it exists
-    scan_dirs = [WORKSPACE_ROOT]
+    # Scope to current record inputs. Avoid uploading root-level old sample files.
     rr_dir = WORKSPACE_ROOT / "reports and recordings"
-    if rr_dir.exists():
-        scan_dirs.append(rr_dir)
+    scan_dirs = [rr_dir] if rr_dir.exists() else [WORKSPACE_ROOT]
 
     # Collect files (unique paths)
     files = []
@@ -382,5 +377,3 @@ def cli_main():
 
 if __name__ == "__main__":
     sys.exit(cli_main())
-
-

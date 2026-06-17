@@ -21,6 +21,7 @@
     <div class="tabs">
       <button class="tab active" data-tab="part1">QA Part 1</button>
       <button class="tab" data-tab="part2">QA Part 2</button>
+      <button class="tab" data-tab="aggregated">Aggregated</button>
     </div>
 
     <main class="layout" data-view="part1">
@@ -39,12 +40,16 @@
 
       <!-- Right Panel -->
       <aside class="right-panel">
+        <div class="media-tabs">
+          <button class="media-tab active" data-media-view="recording" data-target="part1">Recording</button>
+          <button class="media-tab" data-media-view="mer" data-target="part1">MER PDF</button>
+        </div>
         <div class="player card">
           <div class="player-header">
             <div>Call Recording</div>
             <div id="time-display">0:00 / 0:00</div>
           </div>
-          <audio id="audio" controls preload="metadata" src="/audio"></audio>
+          <audio id="audio" controls preload="metadata"></audio>
           <div class="speaker-stats" id="speaker-stats"></div>
           <div class="controls">
             <button id="back10">⏮ -10s</button>
@@ -54,6 +59,9 @@
           </div>
         </div>
         <div class="transcript card" id="transcript"></div>
+        <div class="mer-viewer card" id="mer-viewer" style="display:none">
+          <iframe id="mer-frame" title="MER PDF"></iframe>
+        </div>
       </aside>
     </main>
 
@@ -63,12 +71,16 @@
         <div id="qc2" class="card"></div>
       </section>
       <aside class="right-panel">
+        <div class="media-tabs">
+          <button class="media-tab active" data-media-view="recording" data-target="part2">Recording</button>
+          <button class="media-tab" data-media-view="mer" data-target="part2">MER PDF</button>
+        </div>
         <div class="player card">
           <div class="player-header">
             <div>Call Recording</div>
             <div id="time-display-2">0:00 / 0:00</div>
           </div>
-          <audio id="audio2" controls preload="metadata" src="/audio"></audio>
+          <audio id="audio2" controls preload="metadata"></audio>
           <div class="speaker-stats" id="speaker-stats-2"></div>
           <div class="controls">
             <button id="back10-2">⏮ -10s</button>
@@ -78,7 +90,17 @@
           </div>
         </div>
         <div class="transcript card" id="transcript2"></div>
+        <div class="mer-viewer card" id="mer-viewer-2" style="display:none">
+          <iframe id="mer-frame-2" title="MER PDF"></iframe>
+        </div>
       </aside>
+    </main>
+
+    <!-- Aggregated View -->
+    <main class="aggregate-layout" data-view="aggregated" style="display:none">
+      <section class="aggregate-panel">
+        <div id="aggregate" class="card"></div>
+      </section>
     </main>
   </div>
 
@@ -95,5 +117,3 @@
 body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
 </style>
 </html>
-
-

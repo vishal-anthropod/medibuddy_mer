@@ -43,6 +43,7 @@ function renderTop(metrics){
   const errs = metrics.top?.documentation_errors ?? 0;
   const crit = metrics.top?.critical_errors ?? 0;
   const dur = metrics.top?.duration ?? '0:00';
+  const br = metrics.top?.accuracy_breakdown || {};
 
   const accColor = (n)=> n>=85? 'style="color:#10B981"': (n>=70? 'style="color:#F59E0B"': 'style="color:#EF4444"');
   const accVal = typeof acc==='number'? `<span class="value" ${accColor(acc)}>${acc}%</span>`: `<span class="value">${acc}</span>`;
@@ -79,6 +80,29 @@ function renderTop(metrics){
       }
     }
   }catch{}
+}
+
+function renderAccuracyBreakdown(top){
+  const br = top?.accuracy_breakdown || {};
+  const rawTotal = top?.raw_total_questions ?? '-';
+  const excluded = br.excluded_na ?? top?.excluded_na ?? 0;
+  const denominator = br.denominator ?? top?.total_questions ?? '-';
+  const correct = br.correct ?? top?.correct_responses ?? '-';
+  const paraphrased = br.paraphrased_accepted ?? top?.paraphrased_responses ?? 0;
+  const accepted = br.accepted ?? top?.accepted_responses ?? '-';
+  const failed = Number(br.incorrect || 0) + Number(br.missing || 0) + Number(br.clubbed || 0);
+  const accuracy = top?.accuracy ?? '-';
+  return `
+    <div class="accuracy-table" aria-label="Accuracy calculation">
+      <div><span>Total MER questions</span><b>${rawTotal}</b></div>
+      <div><span>Not applicable</span><b>${excluded}</b></div>
+      <div><span>Scored questions</span><b>${denominator}</b></div>
+      <div><span>Correct</span><b>${correct}</b></div>
+      <div><span>Paraphrased accepted</span><b>${paraphrased}</b></div>
+      <div><span>Incorrect / incomplete</span><b>${failed}</b></div>
+      <div class="formula"><span>Accuracy</span><b>${accepted} / ${denominator} = ${accuracy}%</b></div>
+    </div>
+  `;
 }
 
 function renderSpeakerStats(stats){
@@ -236,28 +260,89 @@ function bindAudioControls(){
 
 function parseTS(ts){
   if(!ts) return 0;
-  const p = ts.split(':');
-  if(p.length!==2) return 0;
-  return (+p[0])*60 + (+p[1]);
+  const clean = String(ts).trim();
+  const p = clean.split(':').map(x=>parseInt(x, 10));
+  if(p.length===3) return (p[0]||0)*3600 + (p[1]||0)*60 + (p[2]||0);
+  if(p.length===2) return (p[0]||0)*60 + (p[1]||0);
+  return p[0] || 0;
+}
+
+function visibleAudio(){
+  const part2Visible = document.querySelector('main[data-view="part2"]')?.style.display !== 'none';
+  return (part2Visible ? document.getElementById('audio2') : document.getElementById('audio')) || document.getElementById('audio');
+}
+
+function showMediaView(target, view){
+  const suffix = target === 'part2' ? '-2' : '';
+  const right = document.querySelector(`.media-tab[data-target="${target}"]`)?.closest('.right-panel');
+  if(!right) return;
+  right.querySelectorAll('.media-tab').forEach(btn => btn.classList.toggle('active', btn.dataset.mediaView === view));
+  const player = right.querySelector('.player');
+  const transcript = target === 'part2' ? document.getElementById('transcript2') : document.getElementById('transcript');
+  const mer = document.getElementById(`mer-viewer${suffix}`);
+  if(player) player.style.display = view === 'recording' ? '' : 'none';
+  if(transcript) transcript.style.display = view === 'recording' ? '' : 'none';
+  if(mer) mer.style.display = view === 'mer' ? '' : 'none';
+}
+
+function findTranscriptTarget(container, sec){
+  const entries = Array.from(container.querySelectorAll('.entry'));
+  if(!entries.length) return null;
+  return entries.find(x => {
+    const start = Number(x.dataset.startSec || 0);
+    const end = Number(x.dataset.endSec || start);
+    return sec >= start && sec <= end;
+  }) || entries.reduce((best, item) => {
+    const dist = Math.abs(Number(item.dataset.startSec || 0) - sec);
+    return !best || dist < best.dist ? {item, dist} : best;
+  }, null)?.item || null;
+}
+
+function seekToTimestamp(ts, part='part1'){
+  const sec = parseTS(ts);
+  showMediaView(part, 'recording');
+  const audio = part === 'part2' ? document.getElementById('audio2') : visibleAudio();
+  if(audio){
+    audio.currentTime = sec;
+    audio.play().catch(()=>{});
+  }
+  const transcript = part === 'part2' ? document.getElementById('transcript2') : document.getElementById('transcript');
+  if(!transcript) return;
+  const tEntries = transcript.querySelectorAll('.entry');
+  tEntries.forEach(x=> x.classList.remove('active'));
+  const target = findTranscriptTarget(transcript, sec);
+  if(target){
+    target.classList.add('active');
+    target.scrollIntoView({behavior:'smooth', block:'center'});
+    setTimeout(()=> target.classList.remove('active'), (window.DASHBOARD_CONFIG?.highlightDuration)||2000);
+  }
+}
+
+function bindMediaTabs(meta){
+  const merUrl = meta?.mer_pdf_url;
+  if(merUrl){
+    const frame = document.getElementById('mer-frame');
+    const frame2 = document.getElementById('mer-frame-2');
+    if(frame) frame.src = merUrl;
+    if(frame2) frame2.src = merUrl;
+  } else {
+    document.querySelectorAll('.media-tab[data-media-view="mer"]').forEach(btn => {
+      btn.disabled = true;
+      btn.title = 'MER PDF unavailable';
+    });
+  }
+  document.querySelectorAll('.media-tab').forEach(btn => {
+    btn.addEventListener('click', () => showMediaView(btn.dataset.target, btn.dataset.mediaView));
+  });
 }
 
 function bindTimestampClicks(){
-  const audio = document.getElementById('audio');
-  document.getElementById('matrix').addEventListener('click', (e)=>{
+  const matrix = document.getElementById('matrix');
+  if(!matrix) return;
+  matrix.addEventListener('click', (e)=>{
     const btn = e.target.closest('button.timestamp');
     if(!btn) return;
-    const ts = btn.dataset.ts;
-    const sec = parseTS(ts);
-    audio.currentTime = sec;
-    audio.play();
-    const tEntries = document.querySelectorAll('#transcript .entry');
-    tEntries.forEach(x=> x.classList.remove('active'));
-    const target = Array.from(tEntries).find(x=> x.dataset.start === ts);
-    if(target){
-      target.classList.add('active');
-      target.scrollIntoView({behavior:'smooth', block:'center'});
-      setTimeout(()=> target.classList.remove('active'), (window.DASHBOARD_CONFIG?.highlightDuration)||2000);
-    }
+    seekToTimestamp(btn.dataset.ts, 'part1');
   });
 }
 
@@ -289,10 +374,12 @@ function renderTranscript(data){
   segs.forEach(s=>{
     const div = document.createElement('div');
     const rawSpk = (s.speaker||'').toLowerCase();
-    const cssSpk = rawSpk === 'doctor' ? 'agent' : rawSpk;
+    const cssSpk = rawSpk === 'doctor' ? 'doctor' : rawSpk;
     const label = rawSpk ? rawSpk.charAt(0).toUpperCase() + rawSpk.slice(1) : 'Speaker';
     div.className = `entry ${cssSpk}`;
     div.dataset.start = s.start_timestamp || '';
+    div.dataset.startSec = parseTS(s.start_timestamp || '');
+    div.dataset.endSec = parseTS(s.end_timestamp || s.start_timestamp || '');
     const time = s.start_timestamp || '';
     div.innerHTML = `
       <div class="meta">
@@ -315,10 +402,12 @@ function renderTranscript2(data){
   segs.forEach(s=>{
     const div = document.createElement('div');
     const rawSpk = (s.speaker||'').toLowerCase();
-    const cssSpk = rawSpk === 'doctor' ? 'agent' : rawSpk;
+    const cssSpk = rawSpk === 'doctor' ? 'doctor' : rawSpk;
     const label = rawSpk ? rawSpk.charAt(0).toUpperCase() + rawSpk.slice(1) : 'Speaker';
     div.className = `entry ${cssSpk}`;
     div.dataset.start = s.start_timestamp || '';
+    div.dataset.startSec = parseTS(s.start_timestamp || '');
+    div.dataset.endSec = parseTS(s.end_timestamp || s.start_timestamp || '');
     const time = s.start_timestamp || '';
     div.innerHTML = `
       <div class="meta">
@@ -352,6 +441,8 @@ async function init(){
   ]);
   // Load Part 2 report using rid/call-specific endpoint first
   let report2 = {};
+  let recordDetails = {};
+  let qcScore = {};
   try{
     const url = new URL(window.location.href);
     const rid = url.searchParams.get('rid');
@@ -360,6 +451,14 @@ async function init(){
       report2 = await fetchJSON(`/api/records/${encodeURIComponent(rid)}/calls/${encodeURIComponent(call)}/report2`);
     } else {
       report2 = await fetchJSON(getEP('report2','/api/report2'));
+    }
+  }catch{}
+  try{
+    const u = new URL(window.location.href);
+    const rid = u.searchParams.get('rid');
+    if(rid){
+      recordDetails = await fetchJSON(`/api/records/${encodeURIComponent(rid)}`);
+      qcScore = await fetchJSON(`/api/records/${encodeURIComponent(rid)}/qcscore`);
     }
   }catch{}
   // Fallback: if Part 2 missing, pull from merged record endpoint
@@ -377,6 +476,7 @@ async function init(){
   }catch{}
 
   renderTop(meta);
+  bindMediaTabs(meta);
   renderSpeakerStats(meta.speaker||{});
   renderOverview(meta, report);
   renderCritical(report);
@@ -384,6 +484,7 @@ async function init(){
   renderPersonal(report); // Section 2
   renderMatrix(report); // Section 3
   renderRecs(report);
+  renderAggregate(meta, report, recordDetails, qcScore);
   renderTranscript(transcript);
   renderTranscript2(transcript);
   bindAudioControls();
@@ -481,63 +582,23 @@ function renderQCPart2(qc){
       row("Observations", p.observations),
       row("Call Closure", p.call_closure)
     ].join('');
-  // Append QC overall fixed score + inline badges + derived parameter rows
-  (async () => {
-    let sc = {};
-    try{
-      const u = new URL(window.location.href);
-      const rid = u.searchParams.get('rid');
-      if(rid){
-        sc = await fetchJSON(`/api/records/${encodeURIComponent(rid)}/qcscore`);
-      } else {
-        sc = await fetchJSON('/api/qcscore'); // fallback for local preview
-      }
-    }catch{}
-    sc = sc || {};
-    const br = sc.breakdown || {};
-    const dv = sc.derived || {};
-    const cmPct = (dv.complete_mer_pct ?? 0).toFixed(1);
-    const cdPct = (dv.correct_documentation_pct ?? 0).toFixed(1);
-    const durMin = (dv.call_duration_min ?? 0).toFixed(1);
-    const doctorWpm = dv.doctor_wpm ?? null;
-
-    const card = document.createElement('div');
-    card.className = 'question-card';
-    card.innerHTML = `
-      <div style="display:flex;gap:12px;flex-wrap:wrap;color:#374151;align-items:baseline">
-        <div><b>${sc.total_score} / ${sc.max_score}</b> Total</div>
-        <div><b>${sc.percentage}%</b> Score</div>
-        <div><b>${sc.category}</b></div>
-      </div>
-      <div class="qc-badges" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
-        <span class="badge" title="Derived from QA report">Complete MER: ${cmPct}%</span>
-        <span class="badge" title="Derived from QA report">Correct Documentation: ${cdPct}%</span>
-        <span class="badge" title="Derived from duration">Call Duration: ${durMin} min</span>
-        <span class="badge" title="Derived from WPM">Rate of Speech: ${br.rate_of_speech ?? 0}/100${doctorWpm? ` (${doctorWpm} WPM)`:''}</span>
-        <span class="badge" title="Defaulted">Visual Presentation: 100</span>
-      </div>`;
-    el.insertAdjacentElement('afterbegin', card);
-
-    const derivedRows = [
-      row('Complete MER Questions (Derived)', {value: `${br.complete_mer_questions ?? 0}/100`, explanation: `MER questions asked: ${cmPct}% (derived from QA report)`, timestamps: []}),
-      row('Correct Documentation (Derived)', {value: `${br.correct_documentation ?? 0}/100`, explanation: `Documentation accuracy: ${cdPct}% (derived from QA report)`, timestamps: []}),
-      row('Call Duration (Derived)', {value: `${br.call_duration ?? 0}/100`, explanation: `Call duration: ${durMin} minutes`, timestamps: []}),
-      row('Rate of Speech', {value: `${br.rate_of_speech ?? 0}/100`, explanation: doctorWpm? `Derived from doctor WPM: ${doctorWpm}` : `Derived from WPM`, timestamps: []}),
-      row('Visual Presentation', {value: `${br.visual_presentation ?? 100}/100`, explanation: `Can't be obtained, marking 100 by default`, timestamps: []})
-    ].join('');
-    card.insertAdjacentHTML('afterend', derivedRows);
-  })().catch(()=>{});
 }
 
 function setupTabs(report2){
   const tabs = document.querySelectorAll('.tab');
-  const views = document.querySelectorAll('main.layout');
+  const views = document.querySelectorAll('main[data-view]');
   renderQCPart2(report2);
   tabs.forEach(t=> t.addEventListener('click', ()=>{
     tabs.forEach(x=> x.classList.remove('active'));
     t.classList.add('active');
     const name = t.dataset.tab;
-    views.forEach(v=> v.style.display = (v.dataset.view === name? 'grid' : 'none'));
+    views.forEach(v=> {
+      if(v.dataset.view !== name){
+        v.style.display = 'none';
+      } else {
+        v.style.display = v.classList.contains('layout') ? 'grid' : 'block';
+      }
+    });
     // When switching to Part 2 tab, refresh QC2 from per-record endpoint
     if(name === 'part2'){
       try{
@@ -561,12 +622,7 @@ function setupTabs(report2){
     if(!a) return;
     e.preventDefault();
     const ts = a.dataset.ts;
-    const audio = document.getElementById('audio2') || document.getElementById('audio');
-    if(!audio) return;
-    const [m,s] = (ts||'0:00').split(':');
-    const sec = (parseInt(m||'0')||0)*60 + (parseInt(s||'0')||0);
-    audio.currentTime = sec;
-    audio.play();
+    seekToTimestamp(ts, 'part2');
   });
 }
 
@@ -582,6 +638,80 @@ function renderOverview(meta, report){
       <div><b>${t.documentation_errors ?? 0}</b> Errors</div>
       <div><b>${t.critical_errors ?? 0}</b> Critical</div>
     </div>
+    ${renderAccuracyBreakdown(t)}
+  `;
+}
+
+function escHtml(value){
+  return String(value ?? '').replace(/[&<>"']/g, (ch) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[ch]));
+}
+
+function renderFinalDecision(decision){
+  const cats = [
+    ['ASSIGNBACK', 'Assignback'],
+    ['OPS_ATTENTION', 'Ops Attention'],
+    ['FLAGS', 'Flags'],
+    ['TECH_ISSUES', 'Tech Issues'],
+  ];
+  return cats.map(([key, label]) => {
+    const items = Array.isArray(decision?.[key]) ? decision[key] : [];
+    const body = items.length
+      ? `<ul>${items.map((it) => {
+          const details = it?.details;
+          const detailText = details ? (typeof details === 'string' ? details : JSON.stringify(details)) : '';
+          return `<li><b>${escHtml(it?.issue || '-')}</b>${detailText ? `<div class="subtext">${escHtml(detailText)}</div>` : ''}</li>`;
+        }).join('')}</ul>`
+      : '<div class="subtext">No issues in this category.</div>';
+    return `<div class="decision-card"><h4>${label} <span class="pill">${items.length}</span></h4>${body}</div>`;
+  }).join('');
+}
+
+function renderScoreBreakdown(score){
+  const br = score?.breakdown || {};
+  const rows = Object.keys(br).sort().map((key) => `
+    <tr>
+      <td>${escHtml(key.replaceAll('_', ' '))}</td>
+      <td><b>${escHtml(br[key])}</b> / 100</td>
+    </tr>
+  `).join('');
+  return `
+    <table class="score-table">
+      <thead><tr><th>Scoring Parameter</th><th>Score</th></tr></thead>
+      <tbody>${rows || '<tr><td colspan="2">No score breakdown available.</td></tr>'}</tbody>
+    </table>
+  `;
+}
+
+function renderAggregate(meta, report, recordDetails, qcScore){
+  const el = document.getElementById('aggregate');
+  if(!el) return;
+  const top = meta.top || {};
+  const decision = recordDetails?.final_decision || {};
+  const score = qcScore || {};
+  const decisionCategory = (decision.ASSIGNBACK || []).length ? 'Assignback'
+    : (decision.OPS_ATTENTION || []).length ? 'Ops Attention'
+    : (decision.TECH_ISSUES || []).length ? 'Tech Issues'
+    : (decision.FLAGS || []).length ? 'Flags'
+    : 'Pass';
+  el.innerHTML = `
+    <h2 style="margin:0 0 12px 0">Aggregated</h2>
+    <div class="score-grid">
+      <div class="score-tile"><div class="value">${escHtml(score.total_score ?? '-')} / ${escHtml(score.max_score ?? '-')}</div><div class="label">QC Score</div></div>
+      <div class="score-tile"><div class="value">${escHtml(score.percentage ?? '-')}%</div><div class="label">QC Percentage</div></div>
+      <div class="score-tile"><div class="value">${escHtml(score.category ?? '-')}</div><div class="label">QC Category</div></div>
+      <div class="score-tile"><div class="value">${escHtml(decisionCategory)}</div><div class="label">Final Decision</div></div>
+    </div>
+
+    <h3 style="margin:18px 0 8px">Accuracy Calculation</h3>
+    ${renderAccuracyBreakdown(top)}
+
+    <h3 style="margin:18px 0 8px">QC Scoring Table</h3>
+    ${renderScoreBreakdown(score)}
+
+    <h3 style="margin:18px 0 8px">Final Decision Details</h3>
+    <div class="decision-grid">${renderFinalDecision(decision)}</div>
   `;
 }
 
@@ -600,4 +730,3 @@ function renderOverviewPart2(meta){
     </div>`;
   el.insertAdjacentHTML('afterbegin', header);
 }
-

@@ -16,6 +16,8 @@ body{background:var(--gray50)}
 .metric .label{font-size:12px}
 .topbar .meta{color:var(--gray600);font-size:14px}
 .layout{display:grid;grid-template-columns:minmax(360px, 1fr) 6px minmax(360px, 1fr);gap:0;align-items:stretch}
+.aggregate-layout{display:block}
+.aggregate-panel{padding:24px;max-width:1200px;margin:0 auto}
 .left-panel{padding:24px;overflow:auto;max-height:calc(100vh - 60px)}
 .right-panel{min-width:360px;border-left:1px solid var(--gray200);background:#fff;display:flex;flex-direction:column;max-height:calc(100vh - 60px)}
 .divider{width:6px;cursor:col-resize;background:transparent;position:relative}
@@ -23,6 +25,11 @@ body{background:var(--gray50)}
 .divider:hover::before{background:var(--gray400)}
 .right-panel .player{flex:0 0 auto}
 .right-panel .transcript{flex:1 1 auto;overflow:auto}
+.right-panel .mer-viewer{flex:1 1 auto;overflow:hidden}
+.right-panel .mer-viewer iframe{width:100%;height:100%;min-height:70vh;border:0;border-radius:6px;background:#fff}
+.media-tabs{display:flex;gap:8px;padding:12px 16px 0;background:#fff}
+.media-tab{background:#f3f4f6;border:1px solid var(--gray200);padding:6px 10px;border-radius:6px;cursor:pointer}
+.media-tab.active{background:#e0e7ff;border-color:#c7d2fe}
 .card{background:#fff;border:1px solid var(--gray200);border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:16px;margin-bottom:16px}
 .critical{background:#fee2e2;border-color:#fecaca}
 .recs{background:#dbeafe;border-color:#bfdbfe}
@@ -51,6 +58,7 @@ body{background:var(--gray50)}
 .speaker-bar .dead{background:var(--yellow)}
 .transcript .entry{padding:12px;border-radius:12px;margin-bottom:12px;border:1px solid var(--gray200);background:#fff}
 .transcript .agent{background:#eef2ff;border-color:#c7d2fe}
+.transcript .doctor{background:#eef2ff;border-color:#c7d2fe}
 .transcript .customer{background:#f3f4f6;border-color:#e5e7eb}
 .transcript .active{background:#fef3c7;outline:2px solid #f59e0b}
 .transcript .meta{display:flex;justify-content:space-between;color:#6B7280;font-size:12px;margin-bottom:6px}
@@ -88,4 +96,23 @@ body{background:var(--gray50)}
 
 /* QA Part 2 compact badges */
 .qc-badges .badge{background:#eef2ff;color:#1e40af}
-
+.accuracy-breakdown{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;color:#374151}
+.accuracy-breakdown .pill{background:#f8fafc;border:1px solid var(--gray200);border-radius:999px;padding:3px 8px;font-size:12px}
+.accuracy-table{margin-top:12px;display:grid;grid-template-columns:minmax(180px, 260px) minmax(80px, 1fr);max-width:520px;border:1px solid var(--gray200);border-radius:8px;overflow:hidden;background:#fff}
+.accuracy-table div{display:contents}
+.accuracy-table span,.accuracy-table b{padding:8px 10px;border-bottom:1px solid var(--gray200);font-size:13px}
+.accuracy-table span{color:#6B7280;background:#f9fafb;font-weight:500}
+.accuracy-table b{color:#111827;font-weight:700;text-align:right}
+.accuracy-table .formula span,.accuracy-table .formula b{border-bottom:0;background:#eef2ff;color:#1e3a8a}
+.score-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:12px 0}
+.score-tile{border:1px solid var(--gray200);border-radius:8px;padding:12px;background:#f9fafb}
+.score-tile .value{font-size:22px;font-weight:800;color:#111827}
+.score-tile .label{font-size:12px;color:#6B7280;margin-top:2px}
+.decision-grid{display:grid;gap:12px;margin-top:12px}
+.decision-card{border:1px solid var(--gray200);border-radius:8px;padding:12px;background:#fff}
+.decision-card h4{margin:0 0 8px 0}
+.decision-card ul{margin:0;padding-left:18px}
+.decision-card li{margin:6px 0}
+.score-table{width:100%;border-collapse:separate;border-spacing:0;margin-top:12px}
+.score-table th,.score-table td{padding:8px 10px;border-bottom:1px solid var(--gray200);text-align:left}
+.score-table th{font-size:12px;text-transform:uppercase;color:#6B7280;background:#f9fafb}

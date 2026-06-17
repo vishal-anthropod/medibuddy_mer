@@ -4,7 +4,10 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-BASE_DIR = "/Users/vishalsharma/Downloads/medibuddy/reports and recordings"
+BASE_DIR = os.environ.get(
+    "RECORDS_DIR",
+    str(Path(__file__).resolve().parent / "reports and recordings"),
+)
 
 
 def load_json(path: Path) -> Dict[str, Any]:
@@ -118,7 +121,7 @@ def summarize_record(rec_dir: Path) -> Dict[str, Any]:
         examples = pr.get('examples') or []
         ts = pr.get('timestamps') or []
         if (isinstance(examples, list) and len(examples) >= 2) or (isinstance(ts, list) and len(ts) >= 2):
-            add('ASSIGNBACK', 'Major agent-led prompting detected', {'examples': examples, 'timestamps': ts})
+            add('ASSIGNBACK', 'Major doctor-led prompting detected', {'examples': examples, 'timestamps': ts})
 
     # Doctor not wearing apron
     attire = str((video.get('attire_check') or '')).strip().lower()
@@ -148,7 +151,7 @@ def summarize_record(rec_dir: Path) -> Dict[str, Any]:
             break
 
     # FLAGS
-    if to_bool(pr.get('value')) and not any(x['issue']=='Major agent-led prompting detected' for x in issues['ASSIGNBACK']):
+    if to_bool(pr.get('value')) and not any(x['issue']=='Major doctor-led prompting detected' for x in issues['ASSIGNBACK']):
         add('FLAGS', 'Minor prompting detected', {'examples': pr.get('examples'), 'timestamps': pr.get('timestamps')})
 
     ch = beh.get('customer_hesitation') or {}
@@ -222,5 +225,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
